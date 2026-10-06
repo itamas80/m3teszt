@@ -131,7 +131,7 @@ Object.keys(PRESETS).forEach(name=>{
 // betűméret gomb
 let fsStep=parseInt(store("quiz:fs"))||0;if(!(fsStep>=0&&fsStep<=FS_STEPS))fsStep=0;
 const fsBtn=h("button","btn sec");
-function applyFs(){document.documentElement.style.fontSize=(BASE_FS+fsStep)+"px";fsBtn.textContent="Aa "+(BASE_FS+fsStep)+"px"}
+function applyFs(){document.documentElement.style.fontSize=(BASE_FS+fsStep)+"px";fsBtn.textContent="Betű "+(BASE_FS+fsStep)+"px"}
 fsBtn.onclick=()=>{fsStep=(fsStep+1)%(FS_STEPS+1);store("quiz:fs",String(fsStep));applyFs()};
 $("pre").appendChild(fsBtn);applyFs();
 
@@ -141,7 +141,7 @@ function refresh(){
   const l=left(t).length,tot=Q.filter(x=>x.t===t).length;
   cnt[t]=Math.min(cnt[t]||0,l);
   const row=h("div","row"),nm=h("div","nm",t);
-  nm.appendChild(h("small","",`${l} új / ${tot} kérdés`));
+  nm.appendChild(h("small","",`${l} / ${tot}`));
   const inp=h("input");inp.type="number";inp.min=0;inp.max=l;inp.value=cnt[t];inp.inputMode="numeric";
   const set=v=>{v=Math.max(0,Math.min(l,v||0));cnt[t]=v;inp.value=v};
   inp.onchange=()=>set(parseInt(inp.value));

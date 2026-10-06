@@ -1,0 +1,144 @@
+﻿? Mekkora az M2 vonalra engedélyezett legnagyobb sebesség?
+- 90 km/h
++ 70 km/h
+- 80 km/h
+
+? Hol található a K-NY-i KFM szolgálati helye?
+- Örs vezér tere
+- Deák tér
++ Szabó Ervin tér
+
+? Mely állomásokon van forgalmi szolgálattevői szolgálati hely?
++ Nincs olyan K-Ny-i metró állomás, ahol jelenleg lenne forgalmi szolgálattevői szolgálati hely
+- Puskás Ferenc Stadion, Déli pályaudvar
+- A vágánykapcsolatos állomásokon van
+
+? Mi a K-Ny-i járműtelepi forgalmi szolgálattevő rádiótelefon hívószáma?
+- Metró 69
++ Metró 66
+- Metró 63
+
+? Milyen alapállású főjelzőket alkalmaznak a vonalon?
+- „Szabad a továbbhaladás!” alapállásúakat
++ „Megállj!” alapállásúakat.
+- „Megállj!” alapállásúakat és „Szabad a továbbhaladás!” alapállásúakat egyaránt alkalmaznak.
+
+? Hol van a vonal kezdőpontja, melyik a jobb ill. bal vágány?
+- A vonal kezdőpontja Örs Vezér tere. Örs Vezér tere felől Déli pályaudvar felé tekintve a jobb kéz felőli vágány a jobb vágány, a bal kéz felőli vágány a bal vágány.
++ A vonal kezdőpontja Déli pályaudvar. Déli pályaudvar felől Örs Vezér tere felé tekintve a jobb kéz felőli vágány a jobb vágány, a bal kéz felőli vágány a bal vágány.
+- A vonal kezdőpontja Pillangó utca állomás. Pillangó utca állomás felől Déli pályaudvar állomás felé tekintve a jobb kéz felőli vágány a jobb vágány, a bal kéz felőli vágány a bal vágány.
+
+? Hány állomása van a K-Ny-i metróvonalnak?
+-14
+11
+-10
+
+? Melyek a vágánykapcsolatos állomások a K-Ny-i vonalon?
+- Örs vezér tere, Pillangó utca, Deák tér, Déli pályaudvar
++ Örs vezér tere, Pillangó utca, Puskás Ferenc Stadion, Deák tér, Déli pályaudvar
+- Örs vezér tere, Puskás Ferenc Stadion, Deák tér, Déli pályaudvar
+
+? Déli pályaudvar állomás jellemzői:
++ Mélyvezetésű állomás, 2 fordító vágánnyal
+- Felszín alatti fejállomás, 3 fordító vágánnyal.
+- Mélyvezetésű fejállomás, végállomás, 3 fordító vágánnyal
+
+? A Deák tér állomás jellemzői:
++ 3 vágányos, mélyvezetésű fordító állomás, mely egyben üzemi kapcsolatot is teremt az É-D-i vonallal.
+- 2 vágányos, felszín alatti fordító állomás.
+- 2 vágányos, mélyvezetésű fordító állomás, mely egyben üzemi kapcsolatot is teremt az É-D-i vonallal.
+
+? Melyek a Puskás Ferenc Stadion állomás jellemzői?
++ Felszín alatti, fordító állomás, 2 fordító vágánnyal
+- Mélyvezetésű, fordító állomás, 3 fordító vágánnyal
+- Felszín alatti fordító állomás 4 fordító vágánnyal
+
+? Hol van „átadó szakasz” a K-NY-i vonalon?
++ A Deák téren az Észak–déli–K–Ny-i vonal közötti összekötő vágányon, valamint a Járműtelep és a forgalmi vágányok közötti csatlakozó vágányokon.
+- A Deák téren az Észak–déli–K–Ny-i vonal közötti összekötő vágányon.
+- Minden idegen vasúti összekötő vágányon. (pld. Törökőr iparvágány ), valamint a Járműtelep és a forgalmi vágányok közötti csatlakozó vágányokon.
+
+? Milyen kialakítású az V.- ös számú kocsiszíni vágány és mi a rendeltetése?
+- Lengőkábeles felső áramvezető sínnel ellátott vágány, a motorkocsik tárolására, műszaki vizsgálatok tartására szolgál, vizsgáló aknával van ellátva.
++ Lengőkábeles felső áramvezető sínnel ellátott vágány, a kocsik mosására szolgál.
+- Lengőkábeles felső áramvezető sínnel ellátott vágány, a járművek részére körüljárási, átjárási lehetőséget biztosít.
+
+? Az alábbiak közül melyik állomáson van vonali tárolóhely?
+- Széll Kálmán tér
+- Deák tér
++ Puskás Ferenc Stadion
+
+? Mely jelzők jelölése történik sárga alapú táblával?
+- A menetengedély-határ jelzőké
++ Az ismétlő jelzőké
+- A főjelzőké
+
+? Milyen betűjellel jelölik Örs Vezér tere állomás fényjelzőit?
+- „ŐVt” betűkkel
++ „O” betűvel
+- „FEH” betűkkel
+
+? Mely jelzőktől kell bejelentkezni a KFM-hez és rádiópróbát tartani a járműtelepről történő üzemszerű forgalomba álláskor?
+- JtC és JtD
+- JtE és JtF
++ JtA és JtB
+
+? A járműtelepet fedező fényjelzők betűjele (Örs vezér tere felől a járműtelep felé haladva):
+- JtA és JtB
++ JtE és JtF
+- JtC és JtD
+
+? Melyik állomás következik a Kossuth tér után, ha a bal forgalmi vágányon, helyes irányban közlekedünk?
+- Széll Kálmán tér
+- Deák tér
++ Batthyány tér
+
+? A bal vágányon, helyes irányban közlekedve, a Széll Kálmán tér után a …állomás következik.
++ Déli pályaudvar
+- Batthyány tér
+- Kossuth tér
+
+? Melyik állomás következik Astoria után a jobb vágányon, helyes irányban közlekedve?
+- Kossuth tér
+- Deák tér
++ Blaha Lujza tér
+
+? A jobb vágányon, helyes irányban közlekedve melyik állomás következik a Blaha Lujza tér után?
+- Astoria
++ Keleti pályaudvar
+- Puskás Ferenc Stadion
+
+? Mi a két szomszédos állomása Puskás Ferenc Stadion állomásnak?
+- Pillangó utca, Blaha Lujza tér
++ Keleti pályaudvar, Pillangó utca
+- Keleti pályaudvar, Örs vezér tere
+
+? A végpont felől a kezdőpont felé haladva, hányadik állomás a Puskás Ferenc Stadion?
+3
+-4
+-2
+
+? Hol kell szabályozni az M2/M3 összekötő vágány használatát?
+- Az összekötő vágány használatát az F.2. Forgalmi Utasításban kell szabályozni
+- Az összekötő vágány használatát a Szolgálati Vonat Végrehajtási Utasításban kell szabályozni
++ Az összekötő vágány használatát az igazgatóság végrehajtási utasításban köteles szabályozni
+
+? Ki gyakorolja a rendelkezési jogot az üzemi összekötő vágány felett?
+- Az összekötő vágány forgalma felett a K-NY-i vonal Központi Forgalmi Menetirányítója gyakorolja a rendelkezési jogot.
++ Az összekötő vágány forgalma felett a két vonal ( K-NY, É-D) Központi Forgalmi Menetirányítója rendelkezési jogát közösen gyakorolja.
+- Az összekötő vágány forgalma felett a vágányra vonatot indító vonal Központi Forgalmi Menetirányítója gyakorolja a rendelkezési jogot.
+
+? Az M2/M3 üzemi összekötő vágányon alkalmazható legnagyobb sebesség:
+- 15 km/h
+- 40 km/h
++ 25 km/h
+
+? Hogyan történik a vonatok közlekedése az M2/M3 összekötő vágányon?
++ Az összekötő vágányon a vonatforgalom mindkét irányban jelzőüzemre történik. A vonatközlekedés idején az alagúti világításnak bekapcsolt állapotban kell lennie
+- Az összekötő vágányon a vonatforgalom mindkét irányban állomás távolságban történik. A vonatközlekedés idején az alagúti világításnak bekapcsolt állapotban kell lennie
+- Az összekötő vágányon a vonatforgalom M2-ről M3 felé haladva jelzőüzemre, ellenkező irányban állomás távolságban történik. A vonatközlekedés idején az alagúti világításnak bekapcsolt állapotban kell lennie
+
+? Az M2-es vonalról az M3-as vonalra áthaladva, mely jelzőnél kell felvenni a rádiótelefon hírkapcsolatot az M3-as vonal Központi Forgalmi Menetirányítójával?
+- A „DePs” jelű jelzőnél
+- A „T” jelű jelzőnél
++ Az „O” jelű jelzőnél

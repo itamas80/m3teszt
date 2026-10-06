@@ -1,0 +1,454 @@
+﻿? Hol érvényes a Kelet–nyugati (továbbiakban: K–Ny-i) metróvonal F.1. Jelzési Utasítása?
+- A BKV Zrt. által üzemeltetett K-Ny-i (M2) és a DBR (M4) metróvonalon és járműtelepükön.
+- A BKV Zrt. által üzemeltetett K-Ny-i (M2) és a DBR (M4) metróvonalon és járműtelepükön, valamint az M2/M3 üzemi összekötő vágány K-Ny-i vonalhoz tartozó szakaszán.
++ A BKV Zrt. által üzemeltetett K–Ny-i metróvonalon és járműtelepen, valamint az K–Ny-i – Észak–déli üzemi összekötő vágány K–Ny-i metróvonalhoz tartozó szakaszán.
+
+? Kikre kötelező érvényűek a K–Ny-i metróvonal F.1. Jelzési Utasításának előírásai?
+- Az utasítás előírásai kötelező érvényüek a BKV Zrt. által üzemeltetett K-Ny-i (M2) és DBR (M4) metróvonal valamennyi szakterületére, ezen kívül a tervező és kivitelező szervekre és ezek munkavállalóira.
++ A K–Ny-i metróvonal valamennyi szakterületére, ezen kívül a tervező és kivitelező szervekre és ezek munkavállalóira.
+- A forgalmi végrehajtó dolgozókra, valamint a tervező és kivitelező szervekre is.
+
+? Mit nevezünk jelzőnek a K–Ny-i metróvonalon?
++ Jelzőknek nevezzük a K-Ny-i metróvonalon, a pályán levő olyan helyhez kötött szerkezeteket, melyek egy, vagy több folyamatos vagy villogó fénnyel, vagy geometriai ábrával jelzést adnak.
+- Az olyan szerkezeteket, melyek fénnyel, vagy geometriai ábrával, az F.1. Jelzési Utasításban foglaltak szerint jelzést adnak.
+- A pályán lévő olyan szerkezeteket, melyek egy, vagy több fénnyel, vagy geometriai ábrával jelzést adnak.
+
+? Milyenek lehetnek forgalmi szempontból a jelzők a K–Ny-i metróvonalon?
+- Főjelzők, menetengedély-határ jelzők, különleges jelzők, egyéb jelzők, ismétlő jelzők és figyelmeztető jelek.
++ Főjelzők, ismétlő jelzők, tolatásjelzők, menetengedély-határ jelzők, egyéb jelzők.
+- Főjelzők, tolatási jelzők, különleges jelzők, menetengedély-határ jelzők és egyéb jelzők.
+
+? Melyek a jelzésadásra használható jelzőeszközök?
++ Hordozható, vagy Járművekre felszerelt tárgyak, melyekkel az F.1. Jelzési Utasításban meghatározott módon kell jelzést adni. A jelzőeszközök lehetnek kézi jelzőeszközök és járművekre felszerelt jelzőeszközök.
+- Hordozható tárgyak, melyekkel az F.1. Jelzési Utasításban meghatározott módon kell jelzést adni. A jelzőeszközök lehetnek kézi, pályán elhelyezett és járműre felszerelt jelzőeszközök.
+- Hordozható tárgyak, melyekkel az F.1. Jelzési Utasításban meghatározott módon kell jelzést adni. A jelzőeszközök lehetnek kézi és pályán elhelyezett jelzőeszközök.
+
+? Hogyan kell a jelzéseket figyelembe venni? Mi a jelzés parancs elve?
++ A jelzések parancsot adnak a jelzések megfigyelésére kötelezett dolgozók részére, valamilyen forgalmi feladat végrehajtására, azokat mindenkor az utasításban meghatározott módon és értelemben kell figyelembe venni.
+- Parancs, mely azonnali és feltétlen végrehajtást követel az üzemeltető Társaság minden dolgozójától.
+- A jelzés parancs, mely azonnali és feltétlen végrehajtást követel a járművezetőktől. A jelzéseket mindenkor az utasításban meghatározott értelemben kell figyelembe venni.
+
+? Az egyes jelzők és jelzőeszközök jelzésének parancsait hogyan kell végrehajtani az automatikus vonattovábbítási rendszerben?
+- A jelzéseinek parancsait a vonaton alkalmazott üzemmódoktól függetlenül kell végrehajtani, illetve a jelzések parancsa alapján valamely ténykedést végezni.
++ A jelzéseinek parancsait a vonaton alkalmazott üzemmódoktól függően kell végrehajtani, illetve a jelzések parancsa alapján valamely ténykedést végezni.
+- A jelzések parancsait minden esetben az automatikus vonattovábbítási rendszer hajtja végre.
+
+? Milyenek lehetnek a jelzések?
++ Hallható és látható jelzések.
+- Világosságnál, vagy sötétben alkalmazandók.
+- Alagútban alkalmazandók, vagy felszínen alkalmazandók.
+
+? Mikor korlátozott a távolbalátás?
+- A távolbalátás akkor korlátozott, ha a napszaknak megfelelő jelzéseket terepviszonyok (épület, erős ív stb.) miatt nem lehet legalább 200 m –ről biztosan felismerni.
++ A távolbalátás akkor korlátozott, ha a napszaknak megfelelő jelzéseket valamilyen időjárási ok, vagy egyéb levegőszennyeződés miatt nem lehet legalább 200 m-ről biztosan felismerni.
+- A távolbalátás akkor korlátozott, ha a napszaknak megfelelő jelzéseket valamilyen időjárási ok, vagy egyéb levegőszennyeződés miatt nem lehet üzemi fékúttávolságról látni, vagy biztosan felismerni.
+
+? A szabadlátás akkor korlátozott, ha..
++ …a jelzők jelzéseit terepviszonyok (épület, erős ív stb.) miatt nem lehet üzemi fékút távolságról látni, vagy biztosan felismerni.
+- …a napszaknak megfelelő jelzéseket valamilyen időjárási ok, vagy egyéb levegőszennyeződés miatt nem lehet legalább 200 m-ről biztosan felismerni.
+- …a napszaknak megfelelő jelzéseket valamilyen időjárási ok, vagy egyéb levegőszennyeződés miatt nem lehet üzemi fékúttávolságról látni vagy biztosan felismerni.
+
+? Hogyan használható jelzésadásra a jelzősíp és a jelzőkürt?
+- A jelzősíppal önálló, míg a jelzőkürttel csak kiegészítő hangjelzések adhatók.
++ A jelzőkürttel önálló, míg a jelzősíppal csak kiegészítő hangjelzések adhatók.
+- Velük csak kiegészítő hangjelzések adhatók.
+
+? Hol vannak elhelyezve a jelzők?
++ A jelzők általában a menetirány jobb oldalán vannak elhelyezve, ama vágány mellett, amelyikre érvényesek. Ettől eltérni az utasításban szabályozott esetben a láthatóság érdekében, a Társaság vezetési rendszerében meghatározott szakterület engedélyével szabad.
+- Mind az alagútban, mind a felszínen a menetirány bal oldalán vannak elhelyezve, úgy hogy teljes üzemi fékúttávolságról folyamatosan láthatók legyenek a 2 másodperc észlelési időt is figyelembe véve.
+- Mind az alagútban, mind a felszínen a menetirány jobb oldalán vannak elhelyezve, úgy hogy vészfékút távolságról folyamatosan láthatók legyenek a 2 másodperc észlelési időt is figyelembe véve.
+
+? Meddig kell figyelni az adott jelzéseket?
+- Az adott jelzést a jelzési parancs végrehajtásáig állandóan figyelni kell, mert a jelzés rendkívüli ok, főleg veszélyelhárítás miatt megváltozhat.
++ Az adott jelzést a jelzésadás helyéig állandóan figyelni kell, mert a jelzés rendkívüli ok, főleg veszélyelhárítás miatt megváltozhat.
+- Az adott jelzéseket az észlelésig állandóan figyelni kell, mert a jelzés rendkívüli ok, főleg veszélyelhárítás miatt megváltozhat.
+
+? Hogyan kell értelmezni az egyidőben adott eltérő értelmű jelzéseket?
+- Aggályosnak kell minősíteni és nem kell figyelembe venni.
++ Aggályosnak kell minősíteni és a forgalombiztonsága szempontjából fontosabbat kell figyelembe venni, illetve a helyzettisztázásáig meg kell állni.
+- Kétesnek, azaz „Megállj!” jelzésnek kell minősíteni.
+
+? Mikor kell használhatatlannak minősíteni a jelzőt?
+- A jelző használhatatlan, ha a jelzőre sárga- fekete sávos ferde keresztet helyeztek el.
++ A jelző használhatatlan, ha bármely ok miatt nem kezelhető.
+- A jelző használhatatlan, ha optikái elé sárga- fekete sávos takaró lemezt helyeztek.
+
+? Mire kell ügyelni kézi jelzőeszközökkel történő jelzésadás közben?
+- Ügyelni kell arra, hogy a jelzést valamennyi szolgálatban lévő dolgozó kétséget kizáró módon láthassa.
++ Ügyelni kell arra, hogy a teljes jelzés egy része ne váljék láthatatlanná, mert a jelzés más értelmet kaphat.
+- Ügyelni kell arra, hogy a jelzésadás gyorsan az előírt módon történjen.
+
+? Hogyan történik a jelzésadás kézi jelzőeszközökkel?
++ A jelzést adónak a test elejével és arccal a jármű vezetője felé fordulva kell jelzést adnia. Ettől eltérni, csak tolatások alkalmával és közúti átjáró fedezésekor a közúti járművek részére történő „Megállj” jelzés adásakor szabad.
+- A jelzést adónak a test elejével a jármű felé fordulva kell jelzést adnia. Ettől csak tolatások alkalmával mozgó járművön történő jelzésadáskor szabad eltérni.
+- A jelzést adónak a test elejével és arccal a motorkocsi-vezető felé fordulva kell jelzést adnia. Ettől csak tolatások alkalmával mozgó járművön történő jelzésadáskor szabad eltérni.
+
+? Milyenek lehetnek rendeltetésük szerint a főjelzők?
+- Kijárati, bejárati, térköz, fedező, vágányzáró, ismétlő és tolatási főjelző.
+- Kijárati, bejárati, térköz, fedező, ismétlő, vágányzáró és különleges főjelző.
++ Kijárati jelzők, bejárati jelzők, térközjelzők, fedező jelzők.
+
+? Melyek az „ismétlő jelző” jellemzői?
+- A menetirány szerint következő főjelzővel kényszerkapcsolatban van, akkor kell alkalmazni, ha a főjelző körzetében elérhető legnagyobb sebességre számított vészfékút távolságról (2 mp észlelési időt figyelembe véve) nem látható. Sebességjelzést nem ad. Azt jelzi, hogy a menetirányt tekintve következő főjelzőn továbbhaladást engedélyező, vagy továbbhaladást tiltó jelzés várható.
++ A menetirány szerint következő főjelzővel kényszerkapcsolatban van, akkor kell alkalmazni, ha a főjelző a rálátási távolságból nem látható. Sebességjelzést nem ad. Azt jelzi, hogy a menetirányt tekintve következő főjelzőn továbbhaladást engedélyező, vagy továbbhaladást tiltó jelzés van.
+- A menetirány szerint következő főjelzővel kényszerkapcsolatban van, akkor kell alkalmazni, ha a főjelző körzetében elérhető legnagyobb sebességre számított vészfékút távolságról (2 mp észlelési időt figyelembe véve) nem látható. Sebességjelzést ad. Azt jelzi, hogy a menetirányt tekintve következő főjelzőn továbbhaladást engedélyező, vagy továbbhaladást tiltó jelzés van és a főjelző jelzési képéhez milyen sebességérték tartozik.
+
+? Rendeltetésük szerint mire szolgálnak a tolatásjelzők?
++ Az engedélyezett tolatási mozgások szabályozására szolgálnak, egymással és a váltókkal kényszerkapcsolatban vannak, kivéve a nem biztosított tolatásjelzőket.
+- Vágánykapcsolatos állomásokon a helytelen irányú tolatási mozgás határát jelzik. Egymással és a váltókkal kényszerkapcsolatban vannak, kivéve a nem biztosított tolatásjelzőket.
+- Az engedélyezett tolatási mozgások szabályozására szolgálnak, illetve a vágánykapcsolatos állomásokon a helytelen irányú tolatási mozgás határát jelzik. Egymással és a váltókkal kényszerkapcsolatban vannak, kivéve a nem biztosított tolatásjelzőket.
+
+? Milyenek lehetnek rendeltetésük szerint a „Menetengedély-határ” jelzők?
+- Próbapálya vágányzáró főjelzők, próbapálya- végszakasz jelzők, tolatási határjelzők.
+- Vágányzáró fényjelzők, próbapálya- végszakasz jelzők, tolatási határjelzők.
++ Vágányzáró fényjelzők, tolatási határjelzők.
+
+? Mit jeleznek a menetengedély-határ jelzők?
++ A vasúti mozgások határát jelzik.
+- Két összefutó vágány között azt a helyet jelölik, ahol a két vágányra érvényes űrszelvény érintkezik.
+- Azt, hogy meddig szabad a pálya.
+
+? Hogyan kell értelmezni a fényjelzők „vörös” színképét?
++ A vonaton alkalmazott üzemmódtól függetlenül, minden esetben „Megállj!” jelzésként kell értelmezni!
+- Csak a nem kommunikáló, vagy fel nem szerelt (pl: szolgálati vonat) személyzete köteles” Megállj” jelzésként értelmezni.
+- A fényjelzők jelzési képeihez, a vonaton alkalmazott üzemmód függvényében mindig valamilyen sebességérték tartozik, ezért a fényjelző rendeltetésétől és az alkalmazott üzemmódtól függően kell értelmezni a „ vörös” jelzési képet.
+
+? Mely jelzők, fényjelzők K–Ny-i metróvonalon?
+- Főjelzők, ismétlő jelzők, tolatási jelzők, különleges jelzők, menetengedély-határ jelzők.
+- Főjelzők, ismétlő jelzők, biztonsági határjelzők, menetengedély-határ jelzők.
++ Főjelzők, ismétlő jelzők, tolatásjelzők, menetengedély-határ jelzők.
+
+? Milyen a fényjelzők kialakítása a K–Ny-i vonalon?
+- A K-Ny-i metróvonalon a fényjelzők kialakítása árbocos, törpe-árbocos és függesztett kivitelű.
+- A K-Ny-i metróvonalon a fényjelzők kialakítása árbocos kivitelű.
++ A K-Ny-i metróvonalon a fényjelzők kialakítása árbocos, törpe-árbocos kivitelű.
+
+? Honnan történik a fényjelzők vezérlése üzemszerűen?
++ A fényjelzők vezérlése üzemszerűen a központi forgalmi menetirányító központi kezelő felületéről, tartalék üzemmódban a járműtelepi forgalmi szolgálattevő kezelő felületéről történik.
+- A fényjelzők vezérlése üzemszerűen a járműtelepi forgalmi szolgálattevő kezelő felületéről, tartalék üzemmódban a központi forgalmi menetirányító központi kezelő felületéről történik.
+- A fényjelzők vezérlése üzemszerűen a központi forgalmi menetirányító központi kezelő felületéről, vagy az állomási forgalmi szolgálattevők kezelő felületéről történik.
+
+? Hogyan történik a fényjelzők jelölése?
++ Fényvisszaverő módon kialakított, a jelzők jelölését tartalmazó táblákkal. A táblákon fehér alapon fekete szám, betű vagy ezek kombinációja jelöli a jelzőt. Ez alól kivétel az ismétlő jelző, amelynek táblája megkülönböztetésként sárga alapú.
+- Fényvisszaverő módon kialakított, a jelzők jelölését tartalmazó táblákkal. A táblákon, fekete alapon fehér szám, betű vagy ezek kombinációja jelöli a jelzőt. Ez alól kivétel az ismétlő jelző, amelynek táblája megkülönböztetésként sárga alapú.
+- Fényvisszaverő módon kialakított, a jelzők jelölését tartalmazó táblákkal. A táblákon sárga alapon vörös szám, betű vagy ezek kombinációja jelöli a jelzőt. Ez alól kivétel az ismétlő jelző, amelynek táblája megkülönböztetésként fehér alapú.
+
+? Mi a teendő, ha a fényjelző sötét?
+- Előtte nem kell megállni, a foglalt vágányra való rájárás szabályainak betartásával a fényjelző meghaladható. Ez alól kivétel az ismétlő jelző, melynek kétes jelzése (vagy ha a jelző sötét) meg kell állni és álló helyzetből történő indulással alkalmazni kell a „foglalt vágányra való rájárás” szabályait.
+- Előtte meg kell állni és a „Megállj!” jelzésre vonatkozó szabályok szerint kell eljárni.
++ Előtte meg kell állni és a „Megállj!” jelzésre vonatkozó szabályok szerint kell eljárni. Ez alól kivétel az ismétlő jelző, melynek kétes jelzése (vagy ha a jelző sötét) az F.1. Jelzési Utasításban meghatározott módon meghaladható.
+
+? Mely főjelzők „Megállj!” jelzése nem haladható meg külön engedély nélkül, rádiótelefon-hírkapcsolat hiányában, a jelző előtt eltöltött 60 másodperces várakozás után?
+- Amelyekkel egy szelvényben tolatásjelző van, továbbá amelyek mellett „ Engedélykérés kötelező” jelző van.
+- A térközjelzők, továbbá amelyekkel egy szelvényben tolatásjelző van.
++ Amelyek mellett „Engedélykérés kötelező” jelző van.
+
+? A főjelző „zöld és alatta egy fehér” fényének jelzése a következő:
+- „A menetengedély határ a jelző mögött van.” A jelző fénye a CBTC rendszerben, a dinamikus követési rendet jelzi a hibás fedélzeti berendezéssel rendelkező, nem kommunikáló vonat számára. A TOD képernyő információitól függetlenül továbbhaladási engedélyt jelent.
+- „A menetengedély határ a jelző mögött van.”A jelző meghaladása kommunikáló vonattal engedélyezett, „AM”, vagy „ATPM” üzemmódban. A TOD képernyő információitól függetlenül továbbhaladási engedélyt jelent.
++ „A menetengedély határ a jelző mögött van.”A jelző meghaladása kommunikáló vonattal engedélyezett, „AM”, vagy „ATPM” üzemmódban (a vonatvezetői kijelzőn -(TOD)- jelzett sebességhatáron belüli sebességgel).
+
+? A nem kommunikáló vagy fedélzeti berendezéssel fel nem szerelt vonat személyzetének mit jelent a főjelző „zöld és alatta egy fehér” fénye?
+- „Szabad a továbbhaladás”, a főjelző a vonalra engedélyezett sebességgel meghaladható. Ezt a sebességet a pálya azon pontjáig szabad alkalmazni, ahonnan a következő fényjelzővel kapott jelzési parancs biztosan végrehajtható.
++ Kétes jelzés.
+- „Szabad a továbbhaladás”, a főjelző a vonatnál alkalmazható sebességgel meghaladható.
+
+? Egy zöld fény a főjelzőn :
+- „A menetengedély határ a jelző mögött van” A főjelző a vonalra engedélyezett legnagyobb sebességgel meghaladható. Ezt a sebességet a pálya azon pontjáig szabad alkalmazni, ahonnan a következő fényjelzővel kapott jelzési parancs biztosan végrehajtható.
+- „A menetengedély határ a jelző mögött van” A főjelző meghaladása automatikus vonattovábbítási üzemmódban engedélyezett. A nem automatikus üzemmódban közlekedő vonat számára a jelzés kétes jelzésként értelmezendő.
++ „Szabad a továbbhaladás” A főjelző a vonatnál alkalmazható sebességgel meghaladható. Ezt a sebességet a pálya azon pontjáig szabad alkalmazni, ahonnan a következő fényjelzővel kapott jelzési parancs biztosan végrehajtható.
+
+? Egy vörös fény a főjelzőn:
+- A vonaton az alkalmazott üzemmódtól függően kell megállni, vagy tovább lehet haladni.
+- „AM” üzemmódban tovább lehet haladni, mert az automatikus vonatvédelem garantálja a biztonságos továbbhaladást a dinamikus követési rendszerben.
++ „Megállj!”A főjelző előtt meg kell állni.
+
+? Hívójelzés a főjelzőn:
++ A főjelző folyamatos vörös és alatta egy villogó fehér fénye. A főjelzőt legfeljebb 15 km/h sebességgel szabad meghaladni, de ügyelni kell arra, hogy a vonat az esetleg jelentkező akadály előtt feltétlen megállítható legyen.
+- A főjelző vörös fénye villog és alatta egy fehér folyamatosan világít. A főjelzőt legfeljebb 15 km/h sebességgel szabad meghaladni, de ügyelni kell arra, hogy a vonat az esetleg jelentkező akadály előtt feltétlen megállítható legyen.
+- A vörös és alatta egy fehér folyamatosan világít. A főjelzőt legfeljebb 15 km/h sebességgel szabad meghaladni, de ügyelni kell arra, hogy a vonat az esetleg jelentkező akadály előtt feltétlen megállítható legyen.
+
+? Milyen rálátási távolságra kell kitűzni az ismétlő jelzőt?
+- Az ismétlő jelzőt a hozzá tartozó főjelzőhöz a vonalra engedélyezett legnagyobb sebességhez tartozó rálátási távolsághoz kell kitűzni.
++ Az ismétlő jelzőt a hozzá tartozó főjelzőhöz az ATPR-40 üzemmódnak megfelelően 40 km/h sebességhez tartozó rálátási távolsághoz kell kitűzni.
+- Az ismétlő jelzőt a hozzá tartozó főjelzőhöz a jelző körzetében elérhető legnagyobb sebességre számított rálátási távolsághoz kell kitűzni.
+
+? Jelzőfények hiányában az ismétlő jelző hogyan haladható meg?
++ Az ismétlő jelző jelzőfényeinek hiányában,  AM, vagy ATPM járművezetési üzemmódban az automatikus üzemnek megfelelően, CBTC-vel felszerelt vonattal szabad kézi vezetés esetén ATPR, ATC By üzemmódban, illetve nem a vonalnak megfelelő fedélzeti berendezéssel felszerelt, vagy fel nem szerelt vonattal a sárga jelzési képének megfelelő módon meghaladható.
+- A jelző sötét,”hiányos” jelzést ad, amelyet kétesnek kell minősíteni. Nem haladható meg semmilyen üzemmódban.
+- A jelző sötét, tehát nem haladható meg, mert a sötét fényjelző minden esetben- függetlenül annak rendeltetésétől- „Megállj” jelzést jelent.
+
+? Az ismétlő jelzőn „zöld és alatta egy fehér” fény világít”Mi a jelzés értelme?
+- Az ismétlő jelzőhöz tartozó főjelző „Szabad a továbbhaladás” jelzést mutat.
+- Az ismétlő jelzőhöz tartozó főjelző sötét.
++ Az ismétlő jelzőhöz tartozó főjelző „ A menetengedély határ a jelző mögött van” jelzést jelez.
+
+? Mit jelent az ismétlő jelző egy sárga fénye?
++ Az ismétlő jelzőhöz tartozó főjelzőn Megállj! jelzés van.
+- Az ismétlő jelzőhöz tartozó főjelző „A menetengedély határ a jelző mögött van.”
+- Az ismétlő jelzőhöz tartozó főjelzőn „Szabad a továbbhaladás” jelzés van.
+
+? Egy fehér fény a tolatásjelzőn:
+- A tolatásjelzőt legfeljebb 15 km/h sebességgel szabad meghaladni, de ügyelni kell arra, hogy a vonat az esetleg jelentkező akadály előtt feltétlen megállítható legyen.
++ Az engedélyezett tolatási mozgásrészére a vágányút le van zárva. Az engedélyezett tolatási mozgás megkezdhető, illetve a jelzőn túl folytatható tolatási sebességgel.
+- Szabad a továbbhaladás a vonatnál engedélyezett sebességgel.
+
+? A tolatásjelző Hívójelzése:
+- A vörös és alatta egy fehér folyamatosan együtt világít.
++ A vörös folyamatosan világít és alatta egy fehér villog.
+- A vörös és alatta egy fehér együtt villog.
+
+? Mit jelent a tolatási határjelző „egy vörös” fénye?
+- Az engedélyezett helytelen irányú tolatás csak a tolatási határjelzőig végezhető.
++ Az engedélyezett helytelenirányú tolatás csak a tolatási határjelzőig végezhető. A szerelvénnyel a tolatási határjelző előtt meg kell állni.
+- A tolatás csak a tolatási határjelzőtől végezhető. A szerelvénnyel a jelzőtől el kell indulni.
+
+? Egyszerű váltó váltójelzőjén „Fekete mezőben vízszintes helyzetű fehér téglalap” jelzés látható. Mi a jelentése?
++ A váltó gyökkel szemben haladó menet részére kitérő irányban áll.
+- A váltó csúccsal és gyökkel szemben haladó menet részére egyaránt az egyenes irányban áll.
+- A váltó csúccsal haladó menet részére kitérő irányban áll.
+
+? Átszelési váltó váltójelzőjén „Fekete mezőben felső részén csúcsban végződő ferde helyzetű fehér téglalap” jelzés látható. Mi a jelentése?
+- A váltó főirányba áll.
+- A váltó főirányból a mellékirányba áll.
++ A váltó mellékirányba áll.
+
+? Mely váltók hagyhatók váltójelző nélkül?
++ A központi villamos vezérlésű váltók váltójelző nélkül hagyhatók.
+- A járműtelepi egyéb vágányokon elhelyezett váltók váltójelző nélkül hagyhatók.
+- Az állítómű ellensúlyos (súlykörtés) váltók váltójelző nélkül hagyhatók.
+
+? Hogyan kell meghatározni a váltójelző nélkül hagyható váltók irányát?
++ Aszerint kell meghatározni, hogy a váltó jobbra, vagy balra terel. Ez mindig csúcs felől tekintve értendő (átszelési váltónál külön az „a” és külön a „b” vége felől).
+- Aszerint kell meghatározni, hogy váltó egyenes irányba vagy kitérő irányba terel. Ez mindig csúcs felől tekintve értendő (átszelési váltónál külön az „a” és külön a „b” vége felől).
+- Aszerint kell meghatározni, hogy a váltó egyenes irányba vagy kitérő irányba terel. Ez mindig gyök felől tekintve értendő (átszelési váltónál csak az „a” vége felől).
+
+? Fekete szegélyes kör alakú fehér mezőben vízszintes fekete sáv:
+- Vágányzáró jelző, amely a biztosítóberendezésbe bekapcsolt csonka vágányok végét jelzi.
++ Vágányzáró jelző, amely a biztosítóberendezésbe be nem kapcsolt csonka vágányok végét jelzi.
+- Megállás helye jelző.
+
+? Hol kell elhelyezni azt a gerenda kialakítású jelzőt, melynek fekete-fehér váltakozó csíkozása 10 cm széles?
++ Ahol a metró kocsikból összeállított vonat, vagy tolató szerelvény elejével meg kell állni.
+- Ahol a szolgálati vonattal, a szerelvény elejével meg kell állni.
+- Két összefutó vágány között, ahol a két vágányra érvényes űrszelvény érintkezik.
+
+? Mi a neve annak a kifelé dőlő fekete-fehér csíkozású gerendának, melyet a vágánytengelyre merőlegesen, a két sínszál közé kell elhelyezni?
++ Próbapálya CBTC üzemi megállás helye jelző.
+- Vágányzáró jelző.
+- Biztonsági határjelző.
+
+? Vonathossztól függő megállás helye jelző:
+- A fordító vágányokon alkalmazzák.
+- Azokon a vágányokon alkalmazzák, ahol rendszeres tolatási mozgást végeznek.
++ Azokon a vágányokon alkalmazzák, amelyeket folyamatos továbbhaladásra és menetirányváltásra egyaránt használnak.
+
+? Négyszög alakú fehér színű tábla, rajta fekete színű „Á” betű:
+- Útátjáró jelző.
++ Járműtelepi egyéb vágányokon megállás helye jelző.
+- Állomási vágányokon alkalmazott megállás helye jelző.
+
+? Mit jelent a téglalap alakú fehér színű táblán lévő vörös színű felkiáltó jel?
+- „Engedélykérés kötelező!” – a mellette lévő főjelző csak írásbeli rendelkezésre haladható meg.
++ „Engedélykérés kötelező!”A mellette lévő főjelző „ Megállj” jelzése 60 másodperc eltelte után sem haladható meg rádiótelefon-hírkapcsolat hiányában.
+- „Engedélykérés kötelező!” – a mellette lévő tolatásjelző „Megállj” jelzése rádiótelefon-hírkapcsolat hiányában sem haladható meg engedély nélkül.
+
+? Mivel történik üzemidőben jelentkező, sebességkorlátozást igénylő meghibásodás esetén a hibás szakasz pontos megjelölése?
+- Egy darab hordozható, könnyen kihelyezhető, önálló energiaforrással rendelkező sárgán villogó lámpát kell alkalmazni a pályahiba előtt 25 m-re.
++ Kettő darab hordozható, könnyen kihelyezhető, önálló energiaforrással rendelkező sárgán villogó lámpát kell alkalmazni, egyiket a hibahely elejénél, másikat a hibahely végétől vonathossz távolságra.
+- Egy-egy darab hordozható, könnyen kihelyezhető, önálló energiaforrással rendelkező sárgán villogó lámpát kell alkalmazni a pályahiba előtt és után 25 m-re.
+
+? Üzemidőben jelentkező, sebességkorlátozást igénylő meghibásodás esetén hol kell elhelyezni a sárgán villogó jelzőlámpákat az alagúti szakaszon?
++ Az egyiket hibahely elejénél, a másikat a hibahely végétől vonathossz távolságra, a pálya menetirány szerinti jobb oldalán, kb. 2 m magasságban, a kábellétrákra kell felerősíteni.
+- Az egyiket a hibás pályaszakasz elejétől 25 m távolságra, a másikat a hibás pályaszakasz végétől 25 m távolságra kell elhelyezni, egyenes pályaszakaszon a menetirány szerinti jobb oldalon, íves pályaszakaszon az ív külső oldalán.
+- Az egyiket hibahely elejénél, a másikat a hibahely végénél, a pálya menetirány szerinti jobb oldalán, kb. 2 m magasságban, a kábellétrákra kell felerősíteni.
+
+? Hogyan kell jelezni a járművezetők részére azokat a helyeket, ahol a vonalra engedélyezett legnagyobb sebesség műszaki ok miatt nem engedélyezhető és a hibát az üzemszünetben nem lehetett elhárítani?
+- Egy darab hordozható, könnyen kihelyezhető, önálló energiaforrással rendelkező sárgán villogó lámpát kell alkalmazni a pályahiba előtt és után 25 m-re.
+- „Állandó lassúmenet előjelző”- vel, az„Állandó lassan bejárandó pályarész eleje” jelző, az „ Állandó lassan bejárandó pályarész vége” jelzőkkel és kettő darab sárgán villogó jelzőlámpával kell jelezni.
++ A lassan bejárandó pályarészt a „Lassúmenet előjelző”, a „Lassan bejárandó pályarész eleje” jelző, és a „Lassan bejárandó pályarész vége” jelző egyidejű alkalmazásával kell jelezni.
+
+? Mi a neve annak a csúcsára állított fehér szegélyes háromszög alakú táblának, melynek sárga mezejében fekete arab szám van?
++ Lassúmenet előjelző
+- Lassan bejárandó pályarész vége
+- Lassan bejárandó pályarész eleje
+
+? Fehér szegélyes, háromszög alakú, csúcsára állított tábla, melynek sárga mezejében fekete „5” -ös szám van. Mi a jelzés értelme?
++ Lassíts! A lassan bejárandó pályarész elejéhez legfeljebb 5 km/h sebességgel szabad érkezni.
+- Lassan! Legfeljebb 50 km/h sebességgel szabad továbbhaladni.
+- Feloldás! A jelzés feloldja a sebességkorlátozást, a járművezető azonban csak akkor növelheti a sebességet, (max. 50 km/h-ra) ha a vonat teljes egészében elhaladt a jelző mellett.
+
+? Téglalap alakú fehér szegélyű tábla, melynek sárga mezejében nagy fekete „V” betű van. Mi a jelzés értelme?
++ Lassan! Legfeljebb az előjelzett sebességgel szabad továbbhaladni.
+- Feloldás! A jelzés feloldja a sebességkorlátozást, a járművezető azonban csak akkor növelheti a sebességet, ha a vonat teljes egészében elhaladt a jelző mellett.
+- Lassíts! A lassan bejárandó pályarész elejéhez legfeljebb a jelzett sebességgel szabad érkezni.
+
+? Fordított helyzetű, nagy fekete „V” betű, egy téglalap alakú tábla fehér mezejében:
+- Lassúmenet előjelző
++ Lassan bejárandó pályarész vége
+- Lassan bejárandó pályarész eleje
+
+? Hol helyezendő el, a fehér alapon vörös „VF” betűs jelző?
++ A próbapálya mellett, a vágánytengelyre merőlegesen, a próbapálya végszakaszt fedező jelző előtt 30 m-rel
+- A próbapálya mellett, a vágánytengelyre merőlegesen, a próbapálya végszakasz jelző előtt 50 m-rel
+- A próbapálya mellett, a vágánytengelyre merőlegesen, a próbapálya végszakasz jelző előtt , az elérhető legnagyobb sebességre számított vészfékút távolságra
+
+? Három egyenlő részre festett fehér - fekete-fehér gerenda, vagy síndarab:
+- Menetengedély-határ jelző. A vasúti mozgások határán kell elhelyezni.
++ A „Biztonsági határjelző. Az összefutó vágányok között azon a helyen kell elhelyezni, ahol a két vágányra érvényes űrszelvény érintkezik.
+- Megállás helye jelző. Azon a helyen kell elhelyezni, ahol a szolgálati vonattal, a szerelvény elejével meg kell állni.
+
+? Mi a jelentése a „Vonathossz jelző”-nek?
+- „Egyéb jelző” Azt a helyet jelöli a pályán, ahol az adott metróvonalon alkalmazott típusú, darabszámú metró kocsiból összeállított vonat már teljes hosszával lehaladt a lassan bejárandó pályarészből. Automatikus (AM) járműtovábbítási üzemmód esetén is figyelembe kell venni.
+- „Figyelmeztető jel”. Azt a helyet jelöli a pályán, ahol az adott metróvonalon alkalmazott típusú, darabszámú metró kocsiból összeállított vonat már teljes hosszával kihaladt az állomás peronja mellől. Automatikus (AM) járműtovábbítási üzemmód esetén nem kell figyelembe venni.
++ Azt a helyet jelöli a pályán, ahol az adott metróvonalon alkalmazott típusú,darabszámú metró kocsiból összeállított vonat már teljes hosszával lehaladt a korlátozott sebességű pályaszakaszról, illetve teljes hosszával kihaladt az állomás peronja mellől. Automatikus (AM) járműtovábbítási üzemmód esetén nem kell figyelembe venni.
+
+? Szabad kézi vezetés (ATPR, ATC By) üzemmódban a fehér színű téglalapon lefelé mutató vörös színű nyíl jelzésének értelme?
++ A jelző eléréséig a vontatást meg kell szüntetni.
+- Az automatikus vonatvédelem ellenőrzi a vontatási folyamatot és az itt alkalmazott vontatás esetén vészfékkel megállítja a vonatot.
+- A járművezetőnek nem ad jelzési parancsot.
+
+? Egy kék fény a „Feszültségállapot jelzőn”:
+- A harmadik- sín táplálása megszűnt ( kikapcsolt állapot), de a rövidre zárás- földelés hiányában a pályát feszültség alatt állónak kell tekinteni.
+- A rövidre zárás-földelés megtörtént, a harmadik-sín feszültségmentes. A pályára lépni az F.2. előírásai szerint szabad.
++ A harmadik-sín feszültség alatt áll, megközelítése életveszélyes.
+
+? Mit jelent a „Feszültségállapot jelző” villogó fehér fénye?
+- A harmadik –sín táplálása megtörtént, a harmadik- sín feszültségmentes. A pályára lépni az F.2. előírásai szerint szabad.
+- A harmadik- sín feszültség alatt áll, megközelítése életveszélyes.
++ A harmadik-sín táplálása megszűnt, de a rövidre zárás-földeléshiányában a pályát feszültség alatt állónak kell tekinteni.
+
+? Mi az értelme annak a négyszög alakú jelző jelzésének, melynek alsó részén fehér színű vízszintes téglalap folyamatosan világít?
+- A harmadik-sín feszültség alatt áll, megközelítése életveszélyes.
+- A harmadik- sín táplálása megszűnt ( kikapcsolt állapot), de a rövidre zárás- földelés hiányában a pályát feszültség alatt állónak kell tekinteni.
++ A rövidre zárás-földelés megtörtént, a harmadik-sín feszültségmentes. A pályára lépni az F.2. előírásai szerint szabad.
+
+? Kör alakú, fehér szegélyes, sárga színű tárcsa. Mi a tábla neve, melyik csoportba tartozik és mi a jelzésének értelme?
+- „Fékezést megkezdeni előjelző” (egyéb jelző). Jelzése: „Járhatatlan pályarész következik, minden vasúti járművel meg kell állni!”
+- „ Járhatatlan pályarész előjelző”(jelzőeszköz) Jelzése: Fékezést megkezdeni! A fékút végén „Megállj!” jelzés várható.
++ „Megállj! jelző előjelzője” (Egyéb jelző.) Jelzése: Fékezést megkezdeni! A fékút végén „Megállj!” jelzés van.
+
+? Mit jelent a fehér szegélyes, négyzet alakú vörös színű tábla jelzése? Mi a tábla neve és melyik csoportba tartozik?
++ „Megállj!” jelző, az egyéb jelzők csoportjába tartozik. A jelzés értelme:” Megállj!” a jelző előtt meg kell állni.
+- „ Megállj jelző, a főjelzők csoportjába tartozik. Jelentése: „Megállj!” 50 méter múlva járhatatlan pályarész következik” a járművel a járhatatlan pályarész előtt meg kell állni.
+- „ Megállj jelző, a jelzőeszközök csoportjába tartozik. Jelentése: „Megállj!” 25 méter múlva járhatatlan pályarész következik” a járművel a járhatatlan pályarész előtt meg kell állni.
+
+? Éjszakai üzemszünetben, valamint vágányzár esetén, ha a pályán, vagy a pálya közelében munkacsapat dolgozik, mivel és hogyan kell a munkavégzés helyét fedezni?
++ A munkavégzés helyét mindkét irány felől fedezni kell egy hordozható (félgömb alakú burával rendelkező) lámpával, mely villogó sárga fényt ad. ( „Pályán munkások dolgoznak!”) jelző.Ez a jelző A jelzőt a munkavégzés helyétől 25 m távolságra kell elhelyezni, egyenes pályaszakaszon a menetirány szerinti jobb oldalon, íves pályaszakaszon az ív külső oldalán.
+- A munkavégzés helyét mindkét irányból kell kettő darab sárgán villogó akkumulátoros lámpával fedezni. A lámpákat a pálya menetirány szerinti jobb oldalán 2 m magasságban, a kábellétrákra kell felerősíteni.
+- A munkavégzés helyét abból az irányból kell kettő darab sárgán villogó akkumulátoros lámpával jelezni, amelyikből szolgálati vonat közlekedése várható. A lámpákat a munkavégzés helyétől 25 m távolságra, a pálya menetirány szerinti jobb oldalán 2 m magasságban, a kábellétrákra kell felerősíteni.
+
+? Mit jelent a fényjelzőre elhelyezett sárga–fekete sávos ferde kereszt, vagy a fényjelző optikái elé elhelyezett sárga–fekete sávos takaró lemez?
+- A fényjelző használhatatlan, előtte meg kell állni.
++ A fényjelző érvénytelen.
+- A fényjelző használhatatlan, mellette elszabad haladni.
+
+? Hogyan kell “Megállj!” jelzést adni a vasúti járművek részére veszély esetén?
+- Az egyik kar magasan való mozdulatlan tartásával a vonat felé fordulva.
++ Nappal jelzőzászló vagy helyette bármely más tárgy illetve az egyik kar körbeforgatása, sötétben bármilyen színt adó kézi jelzőlámpa körbeforgatása a vonat felé fordulva.
+- Bármilyen színt adó kézi jelzőlámpa mozdulatlan tartásával a vonat felé fordulva.
+
+? Melyik az a jelzés, melyet az egyik kar magasan való mozdulatlan tartásával kell adni?
+- „Megállj!”
++ „Szabad a továbbhaladás!”
+- „Felhívás figyelj jelzés adásra”
+
+? Mikor kell az egyik kar magasan való mozdulatlan tartásával jelzést adni?
++ Állomásokon akkor, ha az utasok a vonatból kiszálltak, illetve a továbbhaladást akadályozó körülmény elhárult.
+- Tolt menetben végzett tolatási mozgások során, állomásokon akkor, ha az utasok a vonatból kiszálltak, illetve a továbbhaladást akadályozó körülmény elhárult.
+- Közúti átjáróban végzett tolatási mozgások esetén.
+
+? Melyik az a jelzés, amelyet „mindkét kar fej felett történő szétnyitásával” kell adni? Mikor kell alkalmazni?
+- „ Felhívás figyelj jelzés adásra” jelzés. A jelzést akkor kell adni, ha az állomásban álló vonat ajtóinak bezárása után személy vagy tárgy szorult az ajtók közé.
+- „ Ajtót nyiss!” jelzés. A jelzést akkor kell adni, amikor a biztonságot veszélyeztető körülmény elhárult és a vonat indulásának nincs akadálya.
++ „Ajtót nyiss!”jelzés. A jelzést akkor kell adni, ha az állomásban álló vonat ajtóinak bezárása után személy vagy tárgy szorult az ajtók közé.
+
+? Mikor kell alkalmazni azt a jelzést, amelyet „mindkét kar fej felett történő összezárásával” kell adni? Mi a jelzés neve?
+- „Ajtót nyiss” jelzés. A jelzést akkor kell adni, ha az állomásban álló vonat ajtóinak bezárása után személy vagy tárgy szorult az ajtók közé.
++ „Ajtót zárj!”jelzés. A jelzést az „Ajtót nyiss!”jelzés adása után akkor kell adni, amikor a biztonságot veszélyeztető körülmény elhárult és a vonat indulásának nincs akadálya.
+- „ Felhívás figyelj jelzés adásra” jelzés. A jelzést akkor kell adni, ha az állomásban álló vonat ajtóinak bezárása után személy vagy tárgy szorult az ajtók közé.
+
+? Mi a kiegészítő hangjelzése annak a jelzésnek, amit nappal kibontott sárga jelzőzászló, vagy az egyik kar, sötétben fehér fényű jelzőlámpa függőleges irányban fel-le mozgatásával kell adni?
+- A „Távolodj tőlem” kézi jelzést szükség esetén ki kell egészíteni jelzősíppal adott egy rövid és egy hosszú hanggal.
+- A „Közeledj felém” kézi jelzést szükség esetén ki kell egészíteni a jelzőkürttel adott egy hosszú hanggal.
++ A „Távolodj tőlem” kézi jelzést szükség esetén ki kell egészíteni jelzősíppal adott egy hosszúhanggal.
+
+? Melyik az a jelzés, melyet nappal kibontott sárga jelzőzászló, vagy az egyik kar, sötétben fehér fényű jelzőlámpa vízszintes irányban ide-oda mozgatásával kell adni?
+- „Lassan!”kézi jelzés. Kiegészítő hangjelzése: jelzősíppal adott egy hosszú hang.
+- „Távolodj tőlem” kézi jelzés. Kiegészítő hangjelzése: a jelzősíppal adott egy hosszú hang.
++ „Közeledj felém!”kézi jelzés. Kiegészítő hangjelzése: jelzősíppal adott egy rövid és egy hosszú hang.
+
+? Nappal kibontott sárga jelzőzászló, vagy mindkét kar ferdén lefelé tartása, sötétben fehér fényű jelzőlámpa ferdén lefelé tartása:
+- „Távolodj tőlem” kézi jelzés. Kiegészítő hangjelzése: jelzősíppal adott egy hosszú hang.
+- „Közeledj felém” kézi jelzés. Kiegészítő hangjelzés: jelzősíppal adott egy rövid és egy hosszú hang.
++ „Lassan!” kézi jelzés. Kiegészítő hangjelzése: jelzősíppal adott kettőnél több hosszú hang.
+
+? Felhívás a figyelj jelzés adására!
+- Nappal kibontott jelzőzászló kis ívben a fej felett való mozgatása, sötétben a fehér fényű jelzőlámpa a fej felett való tartása. Kiegészítő hangjelzése: nincs.
++ Nappal kibontott jelzőzászlónak a fej felett való tartása, sötétben a fehér fényű jelzőlámpa kis ívben a fej felett való mozgatása. Kiegészítő hangjelzése nincs.
+- Nappal kibontott jelzőzászló vagy mindkét kar ferdén lefelé tartása, sötétben fehér fényű jelzőlámpa vállmagasságban mozdulatlanul oldalt tartva. Kiegészítő hangjelzése: jelzősíppal adott egy rövid és egy hosszú hang.
+
+? Mi hatalmazza fel a tolatás során a járművezetőt a mozgás megkezdésére, és mi határozza meg annak irányát?
+- A tolatásvezető előzetes szóbeli rendelkezése.
+- Minden esetben a tolatásvezető kézi jelzése.
++ A tolatásvezető „Távolodj tőlem!” és „Közeledj felém!”kézi jelzése, illetve a járművezető közelében tartózkodva élőszóban adott rendelkezése.
+
+? Mi az eljárás a jelzőkürt meghibásodása esetén?
+- A vonatot azonnal félre kell állítani, utasokat nem szállíthat.
+- A vonat a menetrend szerinti kiállásig forgalomba maradhat.
++ A vonatot ki kell állítani a forgalomból, a kiállításhelyéig utasokat szállíthat.
+
+? Mikor és hogyan kell adni a „Figyelj” hangjelzést?
++ Minden megkezdett tolatási mozgás előtt, továbbá minden olyan esetben, amikor a pályán, vagy a pálya mellett tartózkodók figyelmét a mozgásra fel kell hívni, illetve ha ezzel veszély hárítható el, egy hosszú hang a jelzőkürttel.
+- Minden megkezdett tolatási mozgás előtt, továbbá minden olyan esetben, amikor a pályán, vagy a pálya mellett tartózkodók figyelmét a mozgásra fel kell hívni, illetve ha ezzel veszély hárítható el, kettő hosszú hang a jelzőkürttel.
+- Minden olyan esetben, amikor a pályán, vagy a pálya mellett tartózkodók figyelmét a mozgásra fel kell hívni, kettő hosszú hang a jelzőkürttel.
+
+? Egy hosszú, egy rövid, egy hosszú hang a jelzőkürttel. (-.-).
+- „Vészjelzés!”
++ „Féket ereszd meg!”
+- „Féket húzd meg!”
+
+? Hogyan kell adni jelzőkürttel a „Féket húzd meg!” jelzést?
+- Egy hosszú hang jelzőkürttel. (_)
+- Egy hosszú, egy rövid, egy hosszú hang jelzőkürttel. (_._)
++ Három rövid hang a jelzőkürttel. (…)
+
+? Hogyan kell adni a „Vészjelzés!”-t?
+- Egy hosszú, egy rövid, egy hosszú hang jelzőkürttel. (_._)
+- Három rövid hang jelzőkürttel. (…)
++ Legalább háromszor a „Féket húzd meg!” jelzés ismétlése gyors egymásutánban. (… … …)
+
+? Hogyan és mikor kell megjelölni a vonat elejét?
+- A vonat elejét a távolbalátás korlátozottsága esetén, legalább két fehér fényű, előre világító lámpával kell megjelölni.
+- A vonat elejét sötétben két fehér fényű lámpával kell jelölni.
++ A vonat elejét a napszaktól és a látási viszonyoktól függetlenül legalább két fehér fényű, előre világító lámpával kell megjelölni.
+
+? Tolt vonat elejét hogyan kell megjelölni?
++ Tolt vonat elejét (a napszaktól és a látási viszonyoktól függetlenül) az első jármű homlokfalán elhelyezett legalább egyetlen fehér fényű lámpával kell jelezni.
+- A tolt vonat elejét a távolbalátás korlátozottsága esetén, legalább két fehér fényű, előre világító lámpával kell megjelölni.
+- A tolt vonat elejét nem kell megjelölni.
+
+? Fehér alapon hosszú fekete nyíl, hegyével a benyúlás iránya felé:
+- Egyéb jelző, melyet űrszelvényen kívül lévő létesítményeken oldalról vagy felülről az űrszelvénybe nyúló részen kell felfesteni.
+- Űrszelvénybe nyúló létesítményre figyelmeztet, a vágánytengellyel párhuzamosan kell elhelyezni.
++ Figyelmeztető jel, melyet űrszelvénybe nyúló létesítményeken oldalról, vagy felülről az űrszelvénybe nyúló részein kell felfesteni.
+
+? Nyolcszög alakú sárga szegélyes fekete táblán, egy sárga nyíl:
++ Arra figyelmezteti a járművezetőt, hogy a fölötte elhelyezett jelző jelzési parancsa a váltónak csak arra az irányára érvényes, amely felé a nyíl mutat.
+- A jelzés parancs irányát meghatározó egyéb jelző, mely arra figyelmezteti a járművezetőt, hogy az alatta elhelyezett jelző jelzési parancsa a váltónak csak arra az irányára érvényes, amely felé a nyíl mutat.
+- A jelzés parancs irányát meghatározó egyéb jelző, mely arra figyelmezteti a járművezetőt, hogy a mellette elhelyezett jelző jelzési parancsa a váltónak csak arra az irányára érvényes, amely felé a nyíl mutat.
+
+? Hogyan jelöljük a szelvényátmenetek határát?
+- Fekete szegélyes fehér téglalapon vörös számokkal, 100 méterenként.
++ Fekete szegélyes fehér téglalapon fekete számokkal, 100 méterenként.
+- Fehér szegélyes fekete téglalapon fehér számokkal, 100 méterenként.
+
+? Mélyvezetésű szakaszokon milyen „Szelvénytáblákat” alkalmazunk?
+- Szelvényen belül 50 méterenként dupla szelvénytáblák kerülnek elhelyezésre. A felső mezőkben a szelvényszámok, az alsó mezőben a tábla szelvényen belüli elhelyezkedését jelölő számok vannak.
++ Szelvényen belül 25 méterenként dupla szelvénytáblák kerülnek elhelyezésre. A felső mezőkben a szelvényszámok, az alsó mezőben a tábla szelvényen belüli elhelyezkedését jelölő számok vannak.
+- Szelvényen belül 15 méterenként dupla szelvénytáblák kerülnek elhelyezésre. A felső mezőkben a tábla szelvényen belüli elhelyezkedését jelölő számok szelvényszámok, az alsó mezőben szelvényszámok vannak.
+
+? Milyen jelzőeszközökkel kell felszerelni a személyvonat személyzetét?
+- 1 db fehér fényű kézi jelzőlámpával, 1 db jelzősíppal és 1 db vörös fényvisszaverő zártárcsával.
+- 1 db fehér fényű kézi jelzőlámpával és 1 db vörös fényvisszaverő zártárcsával.
++ Személyenként 1 db fehér fényű kézi jelzőlámpával.

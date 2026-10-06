@@ -1,0 +1,169 @@
+﻿? Mekkora a vonalra engedélyezett sebesség?
+- 90 km/h
++ 80 km/h
+- 50 km/h
+
+? Milyen alapállású főjelzőket alkalmaznak a vonalon?
+- A vonalon "Szabad a továbbhaladás!" alapállású főjelzőket alkalmaznak.
++ A vonalon "Megállj!" alapállású főjelzőket alkalmaznak.
+- A vonalon "Megállj!" és "Szabad a továbbhaladás!" alapállású főjelzőket egyaránt alkalmaznak.
+
+? Hol található a KFM szolgálati helye?
++ Szabó Ervin tér (Kálvin tér)
+- Deák tér
+- Határ út
+
+? Melyik állomáson van állomási forgalmi szolgálattevő szolgálat az alábbiak közül?
+- Deák tér
+- Kálvin tér
++ Határ út
+
+? A határ úti forgalmi szolgálattevő rádiótelefon hívószáma:
++ Metró 174
+- Metró 182
+- Metró 301
+
+? Mi Újpest-Központ állomás forgalmi szolgálattevőjének rádiótelefon hívószáma?
+- Metró 182
+- Metró 174
++ Metró 209
+
+? Hol van a vonal kezdőpontja (forgalmi szempontból) , melyik a jobb ill. bal vágány?
+- A vonal kezdőpontja Határ út állomás. Határ út állomás felől Kőbánya-Kispest állomás felé tekintve a jobb kéz felőli vágány a jobb vágány, a bal kéz felőli vágány a bal vágány.
++ A vonal kezdőpontja Kőbánya-Kispest. Kőbánya-Kispest felől Újpest Városközpont felé tekintve a jobb kéz felőli vágány a jobb vágány, a bal kéz felőli vágány a bal vágány.
+- A vonal kezdőpontja Újpest Városközpont. Újpest Városközpont felől Kőbánya-Kispest felé tekintve a jobb kéz felőli vágány a jobb vágány, a bal kéz felőli vágány a bal vágány.
+
+? Melyik állomás kijárati jelzője engedélyezi üzemszerűen „Egy sárga-Szabad a továbbhaladás” jelzéssel az állomásból történő kihaladást?
+- Lehel tér bal
++ Határ út jobb
+- Határ út bal
+
+? Melyik kihúzóvágányon nincs AVR programszőnyeg Kőbánya-Kispest állomáson?
++ III.-as kihúzó
+- II.-es kihúzó
+- I.-es kihúzó
+
+? 70 km/h állandó sebességkorlátozás található:
+- Népliget-Nagyvárad tér között a jobb vágányon és Lehel tér-Nyugati pályaudvar között a bal vágányon.
++ Nagyvárad tér-Klinikák között a jobb vágányon és Lehel tér-Nyugati pályaudvar között a bal vágányon.
+- Klinikák-Nagyvárad tér között a bal vágányon és Nyugati pályaudvar-Lehel tér között a jobb vágányon.
+
+? Hol van jelentősebb emelkedő az alábbiak közül?
+- Ecseri út-Népliget állomásközben (jobb vágány)
++ Klinikák-Nagyvárad tér között (bal vágány)
+- Lehel tér-Nyugati pályaudvar között (bal vágány)
+
+? Hol van menetirány szerinti bal oldalra áthelyezett jelző az alábbiak közül?
++ Ferenciek tere-Deák tér között (98)
+- Az összekötő vágányon a "P" jelű jelző
+- Határ út-Pöttyös utca (EH)
+
+? Corvin negyed állomás bejárati jelzőinek állomási jellegbetűje :
+- "COR"
++ "Fk"
+- "Cn"
+
+? Nyugati pályaudvar állomás bejárati jelzőinek állomási jellegbetűje:
+- "MAX"
++ "M"
+- "NYP"
+
+? Lehel tér állomás bejárati jelzőinek állomási jellegbetűje:
+- "L"
++ "É"
+- "LT"
+
+? Mi az állomási jellegbetűje Újpest-Központ állomás bejárati jelzőinek ?
+- "U"
++ "B"
+- "UK"
+
+? Határ út állomás jellemzői:
+- Mélyvezetésű, 2 vágányos, vágánykapcsolatos fordító állomás. A fordítóvágány (kihúzó) és a középső vágány szerelőaknával rendelkezik és AVR programszőnyeg is van.
+- Mélyvezetésű, 3 vágányos, vágánykapcsolatos fordító állomás. A fordítóvágány (kihúzó) és a középső vágány nem rendelkezik szerelőaknával és rajtuk AVR programszőnyeg sincs.
++ Felszín alatti, 3 vágányos, vágánykapcsolatos fordító állomás. A fordítóvágány (kihúzó) és a középső vágány nem rendelkezik szerelőaknával és rajtuk AVR programszőnyeg sincs.
+
+? Melyek a Nagyvárad tér állomás jellemzői?
++ Felszín alatti, 3 vágányos, vágánykapcsolatos fordító állomás. A fordítóvágány (kihúzó) szerelőaknával rendelkezik, külön feszültségmentesíthető, AVR programszőnyeg nincs.
+- Mélyvezetésű, 3 vágányos, vágánykapcsolatos fordító állomás. A fordítóvágány (kihúzó) AVR programszőnyeggel felszerelt, külön feszültségmentesíthető.
+- Felszín alatti, 2 vágányos, vágánykapcsolatos fordító állomás.
+
+? Milyen kialakítású a Deák tér állomás?
+- Mélyvezetésű, 3 vágányos, vágánykapcsolatos fordító állomás. A fordítóvágányon (kihúzó) szerelőakna és AVR programszőnyeg is van.
+- Felszín alatti, 3 vágányos, vágánykapcsolatos fordító állomás. A fordítóvágány (kihúzó) szerelőaknával rendelkezik, külön feszültségmentesíthető, AVR programszőnyeg nincs.
++ Mélyvezetésű, 3 vágányos, vágánykapcsolatos fordító állomás. A fordítóvágányon (kihúzó) szerelőakna és AVR programszőnyeg nincs.
+
+? Melyek a Lehel tér állomás jellemzői?
++ Felszín alatti, 2 vágányos, vágánykapcsolatos fordító állomás.
+- Mélyvezetésű, 3 vágányos, vágánykapcsolatos fordító állomás. A fordítóvágány (kihúzó) AVR programszőnyeggel felszerelt, külön feszültségmentesíthető.
+- Felszín alatti, 3 vágányos, vágánykapcsolatos fordító állomás. A fordítóvágány (kihúzó) szerelőaknával rendelkezik, külön feszültségmentesíthető, AVR programszőnyeg nincs.
+
+? Újpest-Központ állomás:
+- Mélyvezetésű, 2 vágányos, fordító végállomás.
++ Felszín alatti, 2 vágányos, fordító végállomás.
+- Felszín alatti, 3 fordító vágányos végállomás.
+
+? Az alábbiak közül melyik állomáson van vonali tárolóhely?
+- Forgách utca
+- Dózsa György út
++ Nagyvárad tér
+
+? Milyen Újpest-Központ állomás "jobb hátsó" tárolóhelyének kialakítása?
+- Aknás kialakítású pályaszakasz, de AVR programszőnyeggel rendelkezik. Önállóan feszültségmentesíthető és feszültség alá helyezhető, de csak központilag, az EDI-től.
+- Mélyvezetésű szakasz, mely nem rendelkezik szerelőaknával, azonban AVR programszőnyeg van.
++ Aknás kialakítású pályaszakasz, AVR programszőnyeggel nem rendelkezik. Önállóan feszültségmentesíthető és feszültség alá helyezhető, akár a helyszínről is.
+
+? Mely jelzőknél van a forgalomtechnológiai határ (Fővágányokat fedező fényjelzők) a járműtelep irányából Kőbánya Kispest állomás irányába haladva?
+- Az E101/b és E102/b tolatásjelzőknél
++ Az „AKK-T1KK” és „BKK-T2KK” jelzőknél
+- A T101 és T102 tolatásjelzőknél
+
+? Kőbánya- Kispest állomás irányából a Járműtelep felé haladva, mely jelzőknél van a forgalomtechnológiai határ (Járműtelepet fedező fényjelzők)?
++ Az E101/b és E102/b tolatásjelzőknél
+- A T101 és T102 tolatásjelzőknél
+- A T103 és T104 tolatásjelzőknél
+
+? Milyen kialakítású és mi a rendeltetése a járműtelep XV. számú vágányának?
++ A járműtároló kocsiszínben található, áramszedő sínnel ellátott porlefúvató vágány.
+- A járműtároló kocsiszínben található, lengőkábellel ellátott porlefúvató vágány.
+- A járművizsgáló kocsiszínben található, lengőkábellel ellátott mosóvágány.
+
+? Mi a rendeltetése és milyen kialakítású a járműtelep XX. számú vágánya?
+- A járműtároló kocsiszínben található, lengőkábellel ellátott porlefúvató vágány.
++ A járművizsgáló kocsiszínben található mosóvágány. A mosóvágányon az épületen belül nincs sem lengőkábel, sem áramszedő sín.
+- A járműtároló kocsiszínben található, áramszedő sínnel ellátott porlefúvató vágány.
+
+? Hány darab feszültségállapot jelző található Deák tér állomás kihúzójában és melyik, mit jelez?
++ Három darab feszültségállapot jelző található. A felső az É-D fordítóvágány, a középső az összekötő vágány, az alsó a K-NY fordítóvágány feszültségállapotát jelzi.
+- Egy darab feszültségállapot jelző van, amely a Deák téri betáplálási körzet (peronok, kihúzó) feszültségállapotát mutatja.
+- Kettő darab feszültségállapot jelző található. A felső az állomási peronok melletti pályaszakasz, az alsó az É-D-i kihúzó feszültségállapotát jelzi.
+
+? Hol kell szabályozni az M2/M3 összekötő vágány használatát?
+- Az összekötő vágány használatát az F.2, Forgalmi Utasításban kell szabályozni
++ Az összekötő vágány használatát az igazgatóság végrehajtási utasításban köteles szabályozni
+- Az összekötő vágány használatát a Szolgálati Vonat Végrehajtási Utasításban kell szabályozni
+
+? Ki gyakorolja a rendelkezési jogot az üzemi összekötő vágány felett?
++ Az összekötő vágány forgalma felett a két vonal ( K-NY, É-D) Központi Forgalmi Menetirányítója rendelkezési jogát közösen gyakorolja.
+- Az összekötő vágány forgalma felett a K-NY-i vonal Központi Forgalmi Menetirányítója gyakorolja a rendelkezési jogot.
+- Az összekötő vágány forgalma felett a vágányra vonatot indító vonal Központi Forgalmi Menetirányítója gyakorolja a rendelkezési jogot.
+
+? Mekkora az engedélyezett legnagyobb sebesség az üzemi összekötő vágányon?
++ A vonatok az összekötő vágányon legfeljebb 25 km/h sebességgel közlekedhetnek.
+- A vonatok az összekötő vágányon legfeljebb 40 km/h sebességgel közlekedhetnek.
+- A vonatok az összekötő vágányon legfeljebb 20 km/h sebességgel közlekedhetnek.
+
+? Hogyan történik a vonatok közlekedése az összekötő vágányon?
+- Az összekötő vágányon a vonatforgalom mindkét irányban az állomástávolságú közlekedés szabályai szerint történik. A vonatközlekedés idején az alagúti világításnak bekapcsolt állapotban kell lennie.
++ Az összekötő vágányon a vonatforgalom mindkét irányban jelzőüzemre történik. A vonatközlekedés idején az alagúti világításnak bekapcsolt állapotban kell lennie.
+- Az összekötő vágányon a vonatforgalom a kezdőpont felől (K-NY) a végpont felé jelzőüzemre, ellenkező irányban az állomástávolságú közlekedés szabályai szerint történik. A vonatközlekedés idején az alagúti világításnak bekapcsolt állapotban kell lennie.
+
+? Milyen előírás vonatkozik az összekötő vágányon közlekedő vonat rádiótelefonjára?
++ Az összekötő vágányon közlekedő vonatnak mindkét vonalra kell rádiótelefonnal rendelkeznie.
+- Az összekötő vágányon közlekedő vonatnak legalább a "fogadó" vonalon történő forgalmazásra alkalmas rádiótelefonnal kell rendelkeznie.
+- Az összekötő vágányon közlekedő vonatnak legalább az "indító" vonalon történő forgalmazásra alkalmas rádiótelefonnal kell rendelkeznie.
+
+? A K-NY-i vonalról az É-D-i vonalra az összekötő vágányon áthaladva, mely jelzőnél kell felvenni a rádiótelefon hírkapcsolatot az É-D-i vonal Központi Forgalmi Menetirányítójával?
+- A „P” jelű jelzőnél
++ A „O” jelű jelzőnél
+- Az „T” jelű jelzőnél

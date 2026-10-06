@@ -1,0 +1,514 @@
+﻿? Ki a szolgálati elöljáró?
+- A szolgálati elöljáró a forgalmi szolgálatot irányító személy.
+- A szolgálati elöljáró valamely szakterület egyszemélyi felelős vezetője.
++ A szolgálati elöljáró a szolgálatra hozzá beosztottak munkáját közvetlenül irányítja, azoknak az üzem lebonyolításával kapcsolatban rendelkezést ad és a végrehajtást ellenőrzi.
+
+? Mikor gördülésképtelen a vonat?
+- Ha olyan jármű meghibásodás következik be, amikor a vonat önerőből tovább közlekedni nem képes.
++ Ha a járművön történt valamilyen továbbhaladást akadályozó sérülés, törés miatt a vonat tovább közlekedni nem képes.
+- Ha olyan jármű meghibásodás következik be, amikor a vonat utasokat nem szállíthat.
+
+? Mit nevezünk üzemidőnek?
+- Az üzemkezdettől az üzemszünetig tartó időszakot.
+- A vonal (vonalszakasz) feszültség alá helyezésének időpontjától az üzemszerű feszültségmentesítésig terjedő időszakot.
++ Az utas szállításra kijelölt időszakot.
+
+? Mit kell tartalmaznia az írásbeli rendelkezésről szóló előzetes szóbeli értesítésnek?
++ A rendelkezés tartalmát és az átadás helyét.
+- A rendelkezés rövid tartalmát, a rendelkező nevét, az átadó személy nevét, az átadás helyét.
+- A rendelkezés rövid tartalmát, az átadó személy nevét, az átadás helyét.
+
+? Üzemszerű forgalomban kik kötelesek a KFM utasításszerű rendelkezéseit maradéktalanul végrehajtani?
++ A szolgálatban levő forgalmi dolgozók, valamint a társszolgálati ágak azon dolgozói, akik a forgalom lebonyolításával kapcsolatos tevékenységet végeznek.
+- A szolgálatban levő, végrehajtó forgalmi dolgozók.
+- A társszolgálati ágak azon dolgozói, akik a forgalom lebonyolításával kapcsolatos tevékenységet végeznek.
+
+? Mikor kell megkezdeni a vonal forgalomba helyezésével kapcsolatos teendők végzését?
+- Az első vonat indulása előtt legalább 15 perccel.
++ A pálya feszültség alá helyezése előtt 20 perccel.
+- Az előre közölt időpontban, de legalább az első vonat indulása előtt 20 perccel.
+
+? Mikor kell a pályát feszültség alá helyezni?
++ Az első vonat indulása előtt legalább 15 perccel.
+- Az előre közölt időpontban, de legalább az első vonat indulása előtt 5 perccel.
+- Az első vonat indulása előtt 20 perccel.
+
+? Mikor rendelheti el a KFM a pálya feszültség alá helyezését?
++ Kizárólag akkor rendelheti el, ha a jelentések útján meggyőződött arról, hogy az alagutakban és a pályán senki sem tartózkodik,és a feszültség alá helyezésnek akadálya nincs.
+- Csak akkor rendelheti el, amikor a diszpécserek leadták jelentéseiket.(EDI,MÜDI,PFT,BÜCS) és a feszültség alá helyezés időpontja elérkezett.
+- Csak akkor rendelheti el, amikor a műszaki ügyeletesek leadták jelentéseiket és a feszültség alá helyezés előre közölt időpontja elérkezett.
+
+? Áthaladó vonat esetén a motorkocsi vezető hol köteles „Figyelj!” jelzést adni?
+- A peron elejétől a teljes áthaladásig folyamatosan.
+- A peron elején és az állomásból történő kihaladáskor.
++ A peron elején.
+
+? Hogyan biztosítható, hogy a forgalomból kiálló vonatban ne maradjon utas?
+- A kiállító állomáson ellenőrizni kell a vonat üres állapotát. Az ellenőrzést a vonatellenőrzésre beosztott dolgozónak kell: elvégezni.
++ A kiállító állomáson ellenőrizni kell a vonat üres állapotát. Az ellenőrzést az első kocsinál a vonatszemélyzetnek, a többi kocsinál a vonatellenőrzésre beosztott dolgozónak kell: elvégezni.
+- A kiállító állomáson ellenőrizni kell a vonat üres állapotát. Az ellenőrzést az első két kocsinál a vonatszemélyzetnek, a többi kocsinál a vonatellenőrzésre beosztott dolgozónak kell: elvégezni.
+
+? A forgalomból a járműtelepre történő kiállás esetén, a járműtelepet védő tolatásjelzőnél (a forgalomtechnológiai határnál) mikor kell megállni?
++ Függetlenül a tolatásjelző jelzésétől, a kiálló vonat minden esetben köteles megállni.
+- A kiálló vonat csak a tolatásjelző „Megállj!” jelzése esetén köteles megállni.
+- A kiálló vonat csak a tolatásjelző „Megállj!”, vagy Hívójelzése jelzése esetén köteles megállni.
+
+? Mekkora szolgálati küldemény szállítható személyvonaton a motorkocsi vezető engedélyével?
+- A szolgálati küldemény 100 kg-nál nagyobb súlyú, illetve 8 ember által elfoglalt helynél (2 m2) nagyobb méretű nem lehet.
++ A szolgálati küldemény 50 kg-nál nagyobb súlyú, illetve 4 ember által elfoglalt helynél (1 m2) nagyobb méretű nem lehet.
+- A szolgálati küldemény 100 kg-nál nagyobb súlyú, illetve 3 m-nél hosszabb méretű nem lehet.
+
+? Mit jelent a Hívójelzés kézi kivezérléséről szóló értesítés?
+- Azt jelenti, hogy a vonat a következő fényjelzőig legfeljebb 40 km/h sebességgel folytathatja útját a pálya fokozott megfigyelése mellett úgy, hogy az esetleges jelentkező akadály előtt meg tudjon állni.
++ Azt jelenti, hogy a vonat a következő fényjelzőig legfeljebb 15 km/h sebességgel folytathatja útját a pálya fokozott megfigyelése mellett úgy, hogy az esetleges jelentkező akadály előtt meg tudjon állni.
+- Azt jelenti, hogy a vonat a hívójelzéstől legfeljebb 15 km/h sebességgel folytathatja útját a pálya fokozott megfigyelése mellett úgy, hogy az esetleges jelentkező akadály előtt meg tudjon állni. Ez a sebesség a pálya ama pontjáig alkalmazandó, ahonnan a következő főjelző jelzési képével a motorkocsi vezető újabb parancsot kap.
+
+? Hogyan közlekedhet a foglalt vágányra történő behaladásra utasított vonat?
+- A „Megállj!” jelzés meghaladására vonatkozó szabályok szerint, kikapcsolt UAVA-val, álló helyzetből történő indítással, legfeljebb 10 km/h sebességgel.
+- Helyes irányban a kijelölt állomástól, helytelen irányban a kijelölt jelzőtől, álló helyzetből történő indítással, legfeljebb 10 km/h sebességgel.
++ Helyes irányban a kijelölt jelzőtől, helytelen irányban a kijelölt állomástól, álló helyzetből történő indítással, legfeljebb 15 km/h sebességgel.
+
+? Foglalt vágányra való behaladásra utasított vonat helyes irányban hogyan közlekedik?
++ „Hívójelzés”-re közlekedik.
+- Kikapcsolt UAVA-val közlekedik.
+- A „Megállj!” jelzés meghaladására vonatkozó szabályok szerint közlekedik.
+
+? Kinek köteles jelenteni a motorkocsi vezető a meghibásodás észlelését és az elhárításra tett intézkedéseket?
+- A meghibásodás észlelését és az elhárításra tett intézkedéseket is a járművezető instruktornak, köteles jelenteni.
+- A meghibásodás észlelését és az elhárításra tett intézkedéseket is a központi forgalmi menetirányítónak, köteles jelenteni.
++ A meghibásodás észlelését a központi forgalmi menetirányítónak, az elhárításra tett intézkedéseket a járművezető instruktornak köteles jelenteni.
+
+? Mi az eljárás, ha a vonat bármely kocsiján a légfék üzemképtelenné vált, vagy egy kocsit a légfékezésből ki kell iktatni?
+- A kocsiból az utasokat ki kell szállítani és az érintett kocsit le kell zárni.
+- A vonat a menetrend szerinti kiállásáig forgalomban maradhat. A hibát a Járműkísérő lapra fel kell jegyezni.
++ A vonatból az utasokat ki kell szállítani.
+
+? Mi az eljárás abban az esetben, ha a vonat bármelyik utastéri ajtaja nem nyílik?
+- A vonatot üzemképtelennek kell nyilvánítani.
+- A vonatból az utasokat ki kell szállítani.
++ A kocsiból az utasokat ki kell szállítani és az érintett kocsit le kell zárni.
+
+? Mikor kell üzemképtelennek minősíteni a vonatot?
++ Ha utasokat nem szállíthat.
+- Ha olyan járműmeghibásodás következik be, amikor a vonat önerőből tovább közlekedni nem képes.
+- Ha a járművön történt valamilyen továbbhaladást akadályozó sérülés, törés miatt a vonat tovább közlekedni nem képes.
+
+? Ki és mikor köteles segélyvonat kiküldését kérni a KFM-től?
+- Ha a vonat üzemképtelen, a motorkocsi vezető, vagy az instruktor köteles segélyvonat kiküldését kémi a központi forgalmi menetirányítótól.
++ Ha a vonat mozgásképtelen, a motorkocsi vezető köteles segélyvonat kiküldését kémi a központi forgalmi menetirányítótól.
+- Ha a vonat gördülésképtelen, a motorkocsivezető, vagy az instruktor köteles segélyvonat kiküldését kémi a központi forgalmi menetirányítótól.
+
+? Üzemidőben, a pálya meghibásodása esetén, ha a hibás pályaszakaszon a forgalom fenntartható, a PFT szolgálat illetékesének döntéséig milyen sebességkorlátozást és hogyan köteles elrendelni a KFM?
++ A KFM 5 km/h sebességkorlátozást köteles elrendelni. A rendelkezést a vonatszemélyzetek részére körözvény formájában kell kiadni.
+- A KFM 5 km/h sebességkorlátozást köteles elrendelni. A rendelkezést a vonatszemélyzetek részére írásbeli rendelkezésen kell kiadni.
+- A KFM 10 km/h sebességkorlátozást köteles elrendelni. A rendelkezést a vonatszemélyzetek részére írásbeli rendelkezésen kell kiadni.
+
+? Ha valamely jelző önműködő vonatmegállító (autostop) berendezésének meghibásodása miatt a KFM nem a meghibásodott jelző előtt rendeli el az UAVA kikapcsolását, a kikapcsolt UAVA-val való közlekedésre vonatkozó sebességkorlátozás hol érvényes?
+- Az UAVA kikapcsolásától a meghibásodott jelzőig, vagy jelzőkig.
+- Az UAVA kikapcsolásától annak visszakapcsolásáig.
++ Csak a meghibásodott jelző, vagy jelzők utáni térközre vonatkozik, az UAVA visszakapcsolásáig.
+
+? Mikor végezhető a jelző- és vasútbiztosító berendezésen karbantartási munka?
+- Üzemszünetben és üzemidőben is végezhető, de csak a vasútforgalom veszélyeztetése nélkül.
+- Csak üzemidőben végezhető, a vasútforgalom veszélyeztetése nélkül. A karbantartás megkezdését a műszerész a központi forgalmi menetirányító, illetve a forgalmi szolgálattevő tudomására köteles hozni, a Hibaelőjegyzési Könyvbe történő bejegyzéssel.
++ Csak üzemszünetben végezhető.
+
+? A rádiótelefon-hálózat üzemképtelensége esetén hogyan tartható fenn, a forgalom?
++ A forgalom csak akkor tartható fenn, ha a jelző- és vasútbiztosító berendezés kifogástalanul működik.
+- A forgalom csak állomástávolságú közlekedéssel tartható fenn. Ebben az esetben a KFM a rendelkezéseit írásbeli rendelkezéssel köteles kiadni a vonatszemélyzetek felé.
+- Át kell térni helyi üzemre és a KFM köteles a rendelkezési jogát is átadni az állomási forgalmi szolgálattevők részére.
+
+? Mi a teendő Jelző-, vasútbiztosító-, forgalomirányító- és hírközlő berendezés együttes és teljes használhatatlansága esetén?
++ Az összes vonatot az állomások peronjai mellett kell megállítani, az utasokat ki kell szállítani, az állomásokat le kell zárni. A forgalmat fenntartani tilos!
+- Át kell térni helyi üzemre és a KFM köteles a rendelkezési jogát is átadni az állomási forgalmi szolgálattevők részére.
+- A forgalmat a KFM írásbeli rendelkezésekkel köteles szabályozni, az állomástávolságú közlekedés szabályainak megfelelően.
+
+? Mi a teendő, ha az állomás utasterének üzemi világítása teljesen megszűnik?
+- A vonatokat az állomáson át kell haladtatni.
++ Az állomást az utasforgalom elől le kell zárni és a vonatokat az állomáson át kell haladtatni.
+- Az utasforgalom szükségvilágítás mellett, fokozott figyelemmel fenntartható. Az állomásra tartalékost kell vezényelni, aki a peronvész kapcsoló mellett köteles tartózkodni, hogy szükség esetén azt azonnal működtetni tudja.
+
+? Mi a teendő, ha a peronvész kapcsoló meghibásodik?
+- A hibás berendezést meg kell jelölni, valamint értesíteni kell a központi forgalmi menetirányítót és a vonatszemélyzeteket.
++ A hibás berendezést meg kell jelölni, valamint értesíteni kell a központi forgalmi menetirányítót, az állomási forgalmi személyzetet és a vonatszemélyzeteket.
+- A hibás berendezést meg kell jelölni, valamint értesíteni kell a központi forgalmi menetirányítót és az állomási forgalmi személyzetet.
+
+? Kinek köteles jelentést tenni minden metró dolgozó a bekövetkezett rendkívüli eseményről?
++ Minden metró-dolgozó köteles azonnal jelentést tenni a központi forgalmi menetirányítónak.
+- Minden metró-dolgozó köteles azonnal jelentést a közvetlen szolgálati elöljárójának.
+- Minden metró-dolgozó köteles azonnal jelentést a szolgálati főnökének.
+
+? Ki a felelős az elhárítás irányításáért rendkívüli esemény bekövetkeztekor, ha a KFM helyszíni megbízottat jelöl ki?
++ Mindaddig, míg a központi forgalmi menetirányító az általa megbízott személytől az intézkedési jogot vissza nem vonta, az irányításért a megbízott személy a felelős.
+- Az elhárítás irányításáért a központi forgalmi menetirányító és az általa megbízott személy együttesen felelősek.
+- Az elhárítás irányításáért a központi forgalmi menetirányító felelős akkor is, ha helyszíni megbízottat jelölt ki.
+
+? Kinek az engedélyével és milyen feltételekkel történhet a belépés a feszültség és forgalom alatti pályára?
+- A feszültség alatti pályára, illetve az alagútba a feszültség és forgalom alatti pályára való belépésre jogosító igazolvánnyal rendelkező dolgozók léphetnek, a központi forgalmi menetirányító, vagy a beléptetéssel megbízott forgalmi dolgozó engedélyével.
+- A feszültség alatti pályára, illetve az alagútba a feszültség és forgalom alatti pályára való belépésre jogosító igazolvánnyal rendelkező dolgozók léphetnek. Vonattal történő belépésnél a motorkocsi vezető, gyalogosan történő belépésnél a központi forgalmi menetirányító által kijelölt dolgozó engedélyével.
++ A feszültség alatti pályára, illetve az alagútba a feszültség és forgalom alatti pályára való belépésre jogosító igazolvánnyal rendelkező dolgozók léphetnek, kizárólag a központi forgalmi menetirányító engedélyével.
+
+? Hány fő léphet egyszerre a feszültség és forgalom alatti pályára?
++ Feszültség és forgalom alatti pályára egyszerre legalább két fő, legfeljebb öt fő léphet.
+- Feszültség és forgalom alatti pályára egyszerre legalább két fő, legfeljebb hat fő léphet.
+- Feszültség és forgalom alatti pályára egyszerre legalább két fő, legfeljebb nyolc fő léphet.
+
+? Mivel kell rendelkeznie a feszültség és forgalom alatti pályára belépő munkacsapat minden tagjának?
+- Feszültség és forgalom alatti pályára való belépésre jogosító, érvényes igazolvánnyal jól láthatóságot biztosító munkaruhával, vagy védőmellénnyel, pontosan járó órával, üzemképes rádiótelefonnal, fehér fényű kézilámpával kell rendelkezniük és munkaképes állapotban kell lenniük.
++ Feszültség és forgalom alatti pályára való belépésre jogosító, érvényes igazolvánnyal és jól láthatóságot biztosító munkaruhával, vagy védőmellénnyel kell rendelkezniük és munkaképes állapotban kell lenniük.
+- Feszültség és forgalom alatti pályára való belépésre jogosító, érvényes igazolvánnyal jól láthatóságot biztosító munkaruhával, vagy védőmellénnyel, pontosan járó órával, üzemképes rádiótelefonnal kell rendelkezniük és munkaképes állapotban kell lenniük.
+
+? Amennyiben munkavégzés céljából a belépés vonattal történik, a forgalom és feszültség alatti pályára, ki köteles a beléptetést végző vonat továbbhaladásáról jelentést tenni a KFM-nek?
++ A továbbhaladást a munkacsapat-vezető és a motorkocsi vezető is köteles jelenteni a KFM-nek.
+- A továbbhaladást a motorkocsi vezető köteles jelenteni a KFM-nek.
+- A továbbhaladást a munkacsapat-vezető köteles jelenteni a KFM-nek.
+
+? Mi a központi forgalmi menetirányító teendője, ha dolgozók léptek be a feszültség és forgalom alatti pályára?
+- A belépésről és a tartózkodás pontos helyéről a központi forgalmi menetirányító köteles rádiótelefonon azonnal értesíteni a munkavégzés helyét határoló két szomszédos állomás személyzetét.
+- A belépésről és a tartózkodás pontos helyéről a központi forgalmi menetirányító köteles rádiótelefonon azonnal értesíteni a vonatszemélyzeteket és a munkavégzés helyét határoló két szomszédos állomás személyzetét.
++ A belépésről és a tartózkodás pontos helyéről a központi forgalmi menetirányító köteles rádiótelefonon azonnal értesíteni a vonatszemélyzeteket.
+
+? Mikor hagyhatják el a biztonságos helyet a forgalom és feszültség alatti pályáról vonattal kilépő dolgozók?
+- A dolgozók csak akkor hagyhatják el a biztonságos helyet, ha a kiléptetésükre kijelölt vonat már megállt és a KFM szóbeli engedélyt adott rádiótelefonon.
+- A dolgozók csak akkor hagyhatják el a biztonságos helyet, ha a kiléptetésükre kijelölt vonat már megállt és a motorkocsi vezető szóbeli engedélyt adott.
++ A dolgozók csak akkor hagyhatják el a biztonságos helyet, ha a kiléptetésükre kijelölt vonat már megállt és „Figyelj!” jelzést adott.
+
+? A forgalom és feszültség alatti pályáról vonattal kilépő dolgozók vonatra való felszállását ki köteles jelenteni a KFM-nek?
+- A dolgozóknak a vonatra való felszállását a munkacsapat vezető köteles jelenteni a központi forgalmi menetirányítónak.
++ A dolgozóknak a vonatra való felszállását a vonatszemélyzet köteles jelenteni a központi forgalmi menetirányítónak.
+- A dolgozóknak a vonatra való felszállását a munkacsapat vezető és a vonatszemélyzet is köteles jelenteni a központi forgalmi menetirányítónak.
+
+? Mikor kell a rendkívüli feszültségmentesítést és rendkívüli kikapcsolást eseménynek tekinteni?
++ Minden rendkívüli feszültségmentesítést és rendkívüli kikapcsolást eseménynek kell tekinteni, amennyiben az vonatkésést okoz.
+- Üzemidő alatt minden feszültségmentesítést és minden kikapcsolást rendkívüli eseménynek kell tekinteni.
+- Minden feszültségmentesítést és minden kikapcsolást rendkívüli eseménynek kell tekinteni.
+
+? Rendkívüli feszültségmentesítés esetén munkavégzés, baleset elhárítás, mentés mi után végezhető?
++ Csak a KFM rádiótelefonon adott engedélyére végezhető, ha a belépés helyén az alagúti kioldó működtetését a KFM által kijelölt dolgozó elvégezte és az EDI az érintett pályaszakaszt feszültségmentesnek nyilvánította.
+- Kizárólag a helyszíni megbízott szóbeli engedélyére végezhető, ha a belépés helyén az alagúti kioldó működtetését a KFM által kijelölt dolgozó elvégezte.
+- Kizárólag a helyszíni megbízott szóbeli engedélyére végezhető, ha a belépés helyén peronvész kapcsoló működtetését a KFM által kijelölt dolgozó elvégezte és az EDI az érintett pályaszakaszt feszültségmentesnek nyilvánította.
+
+? Motorkocsin történő zárlat esetén, mi a motorkocsi vezető teendője?
++ A központi forgalmi menetirányítón keresztül feszültségmentesítést kér.
+- Jelentést tesz a járművezető instruktornak és a továbbiakban az ő rendelkezései szerint jár el.
+- Megkezdi a hibaelhártást.
+
+? Ki rendelheti el az állomások kiürítését, lezárását, illetve a vonatokból való rendkívüli alagúti kiszállítást?
++ Csak a központi forgalmi menetirányító rendelheti el.
+- Kizárólag a vállalatvezetés rendszerében meghatározott szakterület vezetője rendelheti el.
+- A központi forgalmi menetirányító, vagy helyi üzemben, átruházott jogkörben az állomási forgalmi szolgálattevő rendelheti el.
+
+? A metró területén tűz, vagy annak közvetlen veszélyének észlelése esetén mikor kell a Tűzoltóságot értesíteni?
+- A helyzet tisztázása és a tűz eloltása után.
+- A Tűzoltóság azonnali értesítésének szükségességéről az eset összes körülményének mérlegelése után a KFM dönt.
++ A Tűzoltóság azonnali értesítése kötelező.
+
+? Az égő vonat állomásba történő behaladása és megállása után mi a teendő?
+- Az ajtók kinyitása után azonnal intézkedni kell a vonat és az állomás kiürítéséről, és az érintett pályaszakasz feszültségmentesítéséről.
+- Az ajtók kinyitása után azonnal intézkedni kell a vonat kiürítéséről, és feszültségmentesítéséről.
++ Az ajtók kinyitása után azonnal intézkedni kell a vonat kiürítéséről, szükség esetén az állomás lezárásáról. Az érintett pályaszakaszt és a vonatot feszültségmentesíteni kell.
+
+? Mikor kell rendőri intézkedést igénybe venni?
++ Gázolásos baleset, pályán történt áramütés, mozgó vonatból történő kiesés, és a metró területén történt haláleset esetén.
+- Gázolásos baleset, vonatból történő kiesés, és a metró területén történt haláleset esetén.
+- Gázolásos baleset, a metró területén történt áramütés, vonatból történő kiesés, és a metró területén történt haláleset esetén.
+
+? Mi az eljárás, ha gázoláskor a sérült a vonat alatt van?
+- Értesíteni kell a Tűzoltóságot és a kocsiszíni műszaki segélybrigádot. Motorkocsi emelést a Tűzoltóság és a műszaki segélybrigád is végezhet.
++ Értesíteni kell a Tűzoltóságot. Motorkocsi emelést csak a Tűzoltóság végezhet.
+- Értesíteni kell a Tűzoltóságot és a kocsiszíni műszaki segélybrigádot. Motorkocsi emelést csak a műszaki segélybrigád végezhet.
+
+? Pályára került utas balesetekor, milyen megjelölésekről kell gondoskodni?
+- Meg kell jelölni: az észlelés helyét és a sérült helyét a pályán.
+- Meg kell jelölni: az észlelés helyét és a pályára kerülés helyét.
++ Meg kell jelölni a pályára kerülés helyét, a sérült helyét a pályán és a megállított vonat elejének a helyét.
+
+? Gázolás esetén ki köteles gondoskodni a helyszín rögzítéséről?
+- Gázolás esetén az állomási diszpécser köteles gondoskodni a helyszín rögzítéséről.
+- Gázolás esetén a járművezető köteles gondoskodni a helyszín rögzítéséről.
++ Gázolás esetén a KFM helyszíni megbízottja köteles gondoskodni a helyszín rögzítéséről.
+
+? Gázolás esetén mikor adhatja ki a forgalom újraindítására vonatkozó rendelkezéseit a központi forgalmi menetirányító?
+- Csak akkor adhatja ki, ha a rendőrség arra jogosult képviselője a forgalom beindításához hozzájárult.
+- Csak akkor adhatja ki, ha a helyszíni megbízott az elhárítás befejezéséről a jelentést megtette.
++ Csak akkor adhatja ki, ha a helyszíni megbízott az elhárítás befejezéséről a jelentést megtette, és a rendőrség arra jogosult képviselője a forgalom beindításához hozzájárult.
+
+? Ki köteles az eseménnyel kapcsolatos adatokat és jelentéseket összegyűjteni és a központi forgalmi menetirányítónak továbbítani?
++ A helyszíni megbízott.
+- Az állomási diszpécser.
+- A műszakvezető diszpécser.
+
+? Pályára esett tárgy esetén mikor szabad a forgalmat leállítani?
+- A forgalmat minden esetben le kell állítani, ha a pályára tárgy esik.
+- Ha a műszakvezető diszpécser erre utasítást ad.
++ Ha a leesett tárgy a vonatközlekedést veszélyezteti.
+
+? Ha a pályára esett tárgy a vonatforgalmat veszélyezteti, hogyan kell eltávolítani?
+- A tárgyat csak feszültség és forgalom alatti pályára való belépésre jogosító igazolvánnyal rendelkező személy emelheti ki.
++ A tárgyat a peronvész kapcsolóval végrehajtott feszültségmentesítés szabályainak betartásával kell eltávolítani.
+- A tárgyat az állomási forgalmi dolgozó rendelkezésére álló szigetelt nyelű horoggal, a vonatforgalom zavarása nélkül kell eltávolítani.
+
+? Mi az eljárás, ha a közlekedő személyvonaton, állomásból való kihaladáskor a vészjelzőt működtették?
++ Vészfékkel, azonnal meg kell állni.
+- A vonattal be kell haladni a következő állomásra.
+- A motorkocsi vezető köteles a vonatot üzemi fékezéssel megállítani.
+
+? Hogyan történhet a vonat eltávolítása a felvágott váltóról?
+- A forgalmi szolgálattevő és a biztosítóberendezési- szakterület ügyeletes dolgozójának együttes irányításával, legfeljebb 15 km/h sebességgel történhet abban az esetben, ha a helyszínre küldött dolgozók meggyőződtek arról, hogy a vonat eltávolításának akadálya nincs.
++ A forgalmi szolgálattevő irányításával legfeljebb 5 km/h sebességgel történhet abban az esetben, ha a forgalmi szolgálattevő kétséget kizáróan meggyőződött arról, hogy a vonat eltávolításának akadálya nincs.
+- A forgalmi szolgálattevő és a biztosítóberendezési- valamint a pályafenntartási szakterület ügyeletes dolgozóinak együttes irányításával, legfeljebb 10 km/h sebességgel történhet abban az esetben, ha a helyszínre küldött dolgozók meggyőződtek arról, hogy a vonat eltávolításának akadálya nincs.
+
+? Ki bízható meg villamos vezérlésű váltó helyszíni kézi állításával?
++ Olyan váltóállításra kiképzett dolgozó bízható meg, aki rendelkezik feszültség és forgalom alatti pályára való belépésre jogosító igazolvánnyal.
+- Csak forgalmi szolgálattevő, vagy biztosító berendezési dolgozó bízható meg, akinek rendelkeznie kell feszültség és forgalom alatti pályára való belépésre jogosító igazolvánnyal.
+- Csak forgalmi szolgálattevő bízható meg, akinek rendelkeznie kell feszültség és forgalom alatti pályára való belépésre jogosító igazolvánnyal.
+
+? Mikor szabad állomástávolságú közlekedés esetén az állomásban tartózkodó vonat ajtajait bezárni?
+- Amikor a kijárati jelző „Szabad a továbbhaladás” jelzésre vált.
+- Amikor a kijárati jelző „Szabad a továbbhaladás” jelzésre vált és a menetrendi indulási idő elérkezett.
++ Amikor az indulásra az engedélyt a vonatszemélyzet megkapta.
+
+? Állomástávolságú közlekedés esetén, mikor indíthatja a vonatot a motorkocsi vezető?
+- Csak a központi forgalmi menetirányító külön engedélyére indíthatja, amennyiben a menetrendi indulási idő elérkezett és a kijárati jelző „Szabad a továbbhaladás” jelzést mutat.
++ Csak a központi forgalmi menetirányító külön engedélyére indíthatja, a kijárati jelző jelzési képétől függetlenül.
+- Csak a központi forgalmi menetirányító külön engedélyére indíthatja, a kijárati jelző „Szabad a továbbhaladás” jelzésére.
+
+? Helytelen irányú közlekedést ki rendelhet el?
+- A központi forgalmi menetirányító, vagy helyi üzemben, átruházott jogkör esetén a forgalmi szolgálattevő rendelhet el.
+- Kizárólag a vállalatvezetés rendszerében meghatározott szakterület vezetője rendelhet el.
++ Kizárólag a KFM rendelheti el.
+
+? Ki rendelhet el egyvágányú közlekedést?
++ Egyvágányú közlekedésre való áttérést kizárólag a központi forgalmi menetirányító rendelhet el.
+- Egyvágányú közlekedésre való áttérést a központi forgalmi menetirányító, vagy helyi üzemben, átruházott jogkör esetén a forgalmi szolgálattevő rendelhet el.
+- Egyvágányú közlekedésre való áttérést kizárólag a vállalatvezetés rendszerében meghatározott szakterület vezetője rendelhet el.
+
+? Üzemelő motorkocsikból összeállított szerelvénnyel végzett tolatásnál, ki láthatja el a tolatásvezetői feladatokat?
++ Üzemelő motorkocsikból összeállított szerelvénnyel végzett tolatásnál, ha a vezetés az első vezetőfülkéből folyamatosan biztosítható, a tolatásvezetői feladatokat a motorkocsivezető is elláthatja.
+- Üzemelő motorkocsikból összeállított szerelvénnyel végzett tolatásnál, a tolatás lebonyolításához minden esetben egy másik motorkocsivezetőt és egy járműfenntartási dolgozót is biztosítani kell.
+- Üzemelő motorkocsikból összeállított szerelvénnyel végzett tolatásnál, a tolatás lebonyolításához minden esetben egy másik motorkocsivezetőt is kell biztosítani.
+
+? Motorkocsikból összeállított tolató szerelvények esetén, milyen előírás vonatkozik a fékezettségre?
+- Motorkocsikból összeállított tolató szerelvények esetén a légfékrendszer legalább 1/3- ának üzemképesnek (a működő légfékrendszerbe bekapcsoltnak) kell lenni.
+- Motorkocsikból összeállított tolató szerelvények esetén a légfékrendszer több mint 50 %-ának üzemképesnek (a működő légfékrendszerbe bekapcsoltnak) kell lenni.
++ Motorkocsikból összeállított tolató szerelvények esetén a légfékrendszer legalább 50 %-ának üzemképesnek (a működő légfékrendszerbe bekapcsoltnak) kell lenni.
+
+? Hogyan szabad mozgatni a kézifékkel fékezhetetlen motorkocsikat?
++ Csak egyenként szabad mozgatni, legfeljebb 3 km/h sebességgel.
+- Csak egyenként szabad mozgatni, legfeljebb 5 km/h sebességgel.
+- Csak egyenként, fékezhető utolsó kocsival szabad mozgatni, legfeljebb 1-1,5 km/h sebességgel.
+
+? A tolatás során, illetve után, az állva maradó kocsikat hogyan kell elhelyezni?
+- Minden esetben a biztonsági határjelzőn kívüli vágányrészen kell elhelyezni, és megfelelően rögzíteni kell.
++ Minden esetben a biztonsági határjelzőn belüli vágányrészen kell elhelyezni, és megfelelően rögzíteni kell.
+- Minden esetben a tároló helyen kell elhelyezni, és alátétfával, vagy légfékkel rögzíteni kell.
+
+? Tolatás közben a járműmegfutamodást hogyan kell megakadályozni?
++ A tolatott járművek megfelelő összekapcsolásával és a járművek fékezésével.
+- Kézifékkel és alátétfával.
+- A két szélső kerékpár ütköző felőli oldalán egy-egy alátétfát kell elhelyezni.
+
+? Ki rendelheti el az állomási vágányokon a tolatásokat?
++ A KFM, vagy átruházott jogkör esetén az állomási forgalmi szolgálattevő rendelheti el.
+- Kizárólag a KFM rendelheti el.
+- Kizárólag az állomási forgalmi szolgálattevő rendelheti el.
+
+? Kinek a feladata a járműtelepi harmadik-sínnel ellátott vágányokon történő tolatások megszervezése?
+- A kocsiszíni diszpécser, vagy a PFT kijelölt dolgozójának feladata.
+- A járműtelepi forgalmi operátor és a kocsiszíni diszpécser feladata.
++ A járműtelepi forgalmi szolgálattevő feladata.
+
+? Hogyan szabad a vasúti járművek tárolására, vizsgálatára, karbantartására szolgáló létesítményekbe behaladni?
+- Csak jelzésre, legfeljebb 10 km/h sebességgel szabad.
+- Kizárólag a járműtelepi forgalmi szolgálattevő engedélyére, legfeljebb 5 km/h sebességgel szabad.
++ Csak jelzésre, vagy engedélyre, legfeljebb 5 km/h sebességgel szabad.
+
+? Ki adja ki a járműtelepi próbavágány használatára vonatkozó engedélyt?
++ A járműtelepi forgalmi szolgálattevő adja ki.
+- A kocsiszíni diszpécser adja ki.
+- A kocsiszíni diszpécser és a járműtelepi forgalmi szolgálattevő közösen adja ki.
+
+? Kinek kell végezni a próbafutás irányítását?
+- A próbafutás irányítását a próbaszerelvény járművezetőjének kell végezni.
++ A próbafutás irányítását a próbafutás-vezetőnek kell végezni.
+- A próbafutás irányítását a járműtelepi forgalmi szolgálattevőnek kell végezni.
+
+? Ki jelöli ki a próbafutás vezetőjét?
+- A próbafutás vezetőjét a kocsiszíni diszpécser jelöli ki.
++ A próbafutás vezetőjét a járműfenntartási szakterület jelöli ki.
+- A próbafutás vezetőjét járműtelepi próbafutáskor a forgalmi szolgálattevő-, vonali próbafutáskor a KFM jelöli ki.
+
+? Hogyan végezhető vonali próbafutás?
+- Üzemidőben bármikor végezhető, de a személyvonatok forgalmát nem zavarhatja.
++ Csak csúcsforgalmi időszakon kívül és a személyvonatok forgalmának zavarása nélkül szabad végezni.
+- Csúcsforgalmi időszakon kívül és a személyvonatok forgalmának zavarása nélkül szabad végezni. Vonali próbafutáskor,a próbaszerelvény vonatszemélyzete megbízható a próbafutás vezetői teendőkkel is.
+
+? Milyen előírás vonatkozik a próbavonat személyzetére?
++ Próbafutást csak kétszemélyes üzemmódban lehet végrehajtani. A próbaszerelvény vonatszemélyzete nem lehet a próbafutás vezetője.
+- AVR üzemű vonali próbafutást egyszemélyes üzemmódban is végre lehet hajtani, ebben az esetben, a próbaszerelvény vonatszemélyzete megbízható a próbafutás vezetői teendőkkel is.
+- Próbafutást csak kétszemélyes üzemmódban lehet végrehajtani. A próbaszerelvény vonatszemélyzete –járműtelepi próbafutáskor-nem lehet a próbafutás vezetője.
+
+? Üzemszünet alatt a bejáratokon kik engedhetők be?
+- Csak a műszakvezető diszpécser által meghatározott személyek engedhetők be.
++ Csak engedéllyel rendelkezők, ellenőrzésre feljogosított, valamint munkát végző dolgozók engedhetők be.
+- Csak ellenőrzésre feljogosított személyek engedhetők be.
+
+? Egy mélyállomás valamennyi mozgólépcsőjének meghibásodása esetén mi az eljárás?
++ Az állomást az utasforgalom elől le kell zárni, a vonatokat az állomáson át kell haladtatni.
+- A vonatokat az állomáson át kell haladtatni.
+- Ha csekély az utasforgalom az állomást nem kell lezárni.
+
+? Kinek a kötelessége a menetrendszerű közlekedés biztosítása?
+- A menetrendszerű közlekedés biztosítása kizárólag a KFM kötelessége.
++ A vonatforgalom lebonyolításában résztvevő valamennyi dolgozó köteles a munkáját úgy végezni, hogy az a menetrendszerű közlekedést biztosítsa.
+- A központi forgalmi menetirányító (helyi üzemben a forgalmi szolgálattevő) köteles a munkáját úgy végezni, hogy az a menetrendszerű közlekedést biztosítsa.
+
+? Szolgálati okmányba bejegyzést, kitöltést ki eszközölhet?
+- A szolgálati okmányba bejegyzést, kitöltést a szolgálatban lévő dolgozó engedélyével, bárki eszközölhet.
++ A szolgálati okmányba bejegyzést, kitöltést csak a szolgálatban lévő dolgozó eszközölhet.
+- Szolgálati okmányba szükség esetén, a KFM engedélyével társszolgálati dolgozó is tehet bejegyzést.
+
+? Milyen üzemmódban köteles a biztonsági járat a vonalon, illetve a kijelölt vonalszakaszon végighaladni?
+- Szabad kézi vezetéssel (CML) köteles végighaladni.
++ Ellenőrzött kézi vezetéssel (CMC) köteles végighaladni.
+- Automatikus vonatvezetéssel (PA) köteles végighaladni.
+
+? Meddig kell nyomnia a járművezetőnek PA - üzemmódban, a vonat állomási kihaladásakor az indítógombot?
+- A menetáramkör kikapcsolásáig.
++ A vonat állomásból történő teljes kihaladása alatt, míg a megfelelő jelzés az elengedés lehetőségét nem mutatja.
+- A vonat elindulásáig.
+
+? Üzemképtelen fedélzeti berendezéssel hogyan tartható forgalomban a vonat?
++ Csak akkor maradhat forgalomban, ha az autostop berendezése és az éberségi berendezése is kifogástalanul működik.
+- Csak akkor maradhat forgalomban, ha legalább az autostop berendezése kifogástalanul működik.
+- Csak akkor maradhat forgalomban, ha legalább az éberségi berendezése kifogástalanul működik.
+
+? Hol történhet a vonaton alkalmazott üzemmód váltás AVR -ben, ha az ”Hívójelzés” miatt válik szükségessé?
+- Csak a jelző előtt.
++ A jelző előtt vagy a megelőző állomásban.
+- Csak a megelőző állomásban.
+
+? Szabad-e hibás éberségi berendezésű vonatot foglalt vágányra járatni?
++ Hibás éberségi berendezésű vonatot foglalt vágányra járatni csak akkor szabad, ha a vonaton második, kisegítő dolgozó alkalmazása biztosítható.
+- Hibás éberségi berendezésű vonatot foglalt vágányra járatni csak akkor szabad, ha az autostop berendezése kifogástalanul működik.
+- Hibás éberségi berendezésű vonatot foglalt vágányra járatni nem szabad.
+
+? A próbapályán, az AVR üzemre (PA, CMC üzemmód) történő áttérést és annak befejezését kik kötelesek rádiótelefonon egyeztetni?
+- A kocsiszíni diszpécser és a járműtelepi forgalmi szolgálattevő köteles egyeztetni.
+- A mkv. és a járműtelepi forgalmi szolgálattevő köteles egyeztetni.
++ A próbafutás-vezető és a járműtelepi forgalmi szolgálattevő köteles egyeztetni.
+
+? Mi az eljárás, ha próbafutás közben az URH használhatatlanná válik?
+- URH használhatatlansága esetén, amennyiben a jelző és vasútbiztosító berendezés kifogástalanul működik, a próbafutás folytatható.
++ URH használhatatlansága esetén a próbafutás nem folytatható.
+- URH használhatatlansága esetén a próbafutás fokozott figyelemmel folytatható. Ebben az esetben a próbafutás-vezető mobiltelefonon tartja a kapcsolatot a járműtelepi forgalmi szolgálattevővel.
+
+? AVR -ben ki osztható be második személyként meghibásodott vonat forgalomból történő kivonásakor kisegítő dolgozónak?
+- Csak jogosítvánnyal rendelkező dolgozó.
+- Szolgálatban lévő bármely dolgozó.
++ Olyan forgalmi dolgozó, aki legalább a vonat megállítására ki lett képezve és forgalmi vizsgával is rendelkezik.
+
+? Helytelen irányú közlekedés esetén, AVR -ben kiiktatható-e az UAVA?
++ Csak az éberségi berendezés üzemképessége esetén.
+- Csak akkor, ha a vonaton második, kisegítő dolgozó alkalmazása biztosítható.
+- Helytelen irányú közlekedés esetén, AVR –ben, az UAVA-t kiiktatni szigorúan tilos!.
+
+? Szállíthat-e utasokat AVR-ben a második, kisegítő dolgozóval közlekedő vonat?
+- A KFM dönti el.
++ Utasokat nem szállíthat.
+- Utasokat szállíthat.
+
+? Mi az eljárás a pálya meghibásodása esetén AVR-ben?
+- Az ideiglenes sebességkorlátozás betartását az AVR ellenőrzi, ezért a korlátozott sebességű pályaszakaszon PA üzemmódban is lehet közlekedni.
++ Az ideiglenes sebességkorlátozás betartását az AVR nem ellenőrzi, azt a mkv. - nek kell biztosítani, ezért a sebességkorlátozás helye előtti állomáson a vonaton ellenőrzött kézi vezetés (CMC) üzemmódot kell kapcsolni és így kell közlekedni a következő állomásig.
+- Az ideiglenes sebességkorlátozás betartását az AVR nem ellenőrzi, azt a mkv.-nek kell biztosítani, ezért a sebességkorlátozás helye előtti állomáson a vonaton szabad kézi vezetés (CML) üzemmódot kell kapcsolni és így kell közlekedni a következő állomásig.
+
+? Milyen üzemmódban kell közlekedtetni a vonatokat abban az állomásközben, ahol a feszültség és forgalom alatti pályán személyek tartózkodnak?
+- Az mkv dönti el az üzemmódot.
+- CML.
++ CMC.
+
+? Mikor és kinek köteles a próbafutás vezető jelenteni az AVR -ben tapasztalt rendellenességet?
+- A kocsiszíni diszpécsernek köteles haladéktalanul jelenteni.
++ A forgalmi szolgálattevőnek köteles haladéktalanul jelenteni.
+- A próbafutás befejezésekor a forgalmi szolgálattevőnek köteles jelenteni.
+
+? Mi a teendő AVR-ben,ha az áramellátási rendszerben történt meghibásodás ellenére, az áramellátási rendszer korlátozott vonatforgalom energia ellátására még képes?
+- A forgalomban lévő vonatok számát csökkenteni kell. A közlekedő vonatok részére „lassú” menetjelleget kell beállítani és a vonatokat automatikus vonatvezetés (PA) üzemmódban kell közlekedtetni.
++ A vonatok csak ellenőrzött kézi vezetés (CMC) üzemmódban, léptetéses indítással közlekedtethetők.
+- A vonatok csak szabad kézi vezetés (CML) üzemmódban, léptetéses indítással közlekedtethetők.
+
+? Közlekedtethető-e AVR - ben segélyvonatként hibás éberségi berendezéssel rendelkező vonat?
++ Igen, második kisegítő dolgozó alkalmazásával.
+- Igen, ha a hibás vonatot húzni kell.
+- Igen, ha a hibás vonatot tolni kell.
+
+? Ki dönt a meghibásodott fedélzeti berendezésű vonat forgalomból való kiállításáról?
++ Forgalmi viszonyok alapján a KFM.
+- Járművezető instruktor.
+- Motorkocsi-vezető.
+
+? Mikor tekinthető üzemképtelennek az AVR fedélzeti berendezése?
+- Az AVR fedélzeti berendezése akkor tekinthető üzemképtelennek, ha egyidejűleg az autostop berendezés is meghibásodik.
+- Az AVR fedélzeti berendezése akkor tekinthető üzemképtelennek, ha nem teszi lehetővé az automatikus vonatvezetés (PA) alkalmazását.
++ Az AVR fedélzeti berendezése akkor tekinthető üzemképtelennek, ha csak szabad kézi vezetést (CML) tesz lehetővé.
+
+? Vonathiba esetén mikor kell kiszállítani a vonatból az utasokat?
++ Ha a hibaelhárítás időtartama előreláthatólag annyi időt vesz igénybe, hogy a követő vonat menetrendi forgalmát zavarja.
+- Ha a hibaelhárítás időtartama előreláthatólag 10 percnél tovább tart.
+- Ha a hibaelhárítás időtartama előreláthatólag 5 percnél tovább tart.
+
+? Mi a teendő, ha a vonat üzemképtelenségét a kerékpár gördülésképtelensége (beékelődése) okozza?
++ A motorkocsi vezető szabad kézi vezetés (CML) üzemmódban köteles a vonatot a legközelebbi félreállító helyig továbbítani, legfeljebb 10 km/h sebességgel.
+- A motorkocsi vezető ellenőrzött kézi vezetés (CMC) üzemmódban köteles a vonatot a legközelebbi félreállító helyig továbbítani, legfeljebb 10 km/h sebességgel.
+- A motorkocsi vezető ellenőrzött kézi vezetés (CMC) üzemmódban köteles a vonatot a legközelebbi félreállító helyig továbbítani, legfeljebb 15 km/h sebességgel.
+
+? Amennyiben az AVR -ben közlekedő vonat éberségi berendezése üzemképtelen és az UAVA nem iktatható ki, hogyan haladható meg a megállító állásban lévő autóstop?
++ A KFM engedélyére, kis sebességgel haladható meg. (A stopra futtatás sebessége 5-15 km/h lehet.)
+- A KFM engedélyére, CMC üzemmódban, kis sebességgel haladható meg. (A stopra futtatás sebessége legfeljebb 8 km/h lehet.)
+- A KFM engedélyére, CMC üzemmódban, kis sebességgel haladható meg. (A stopra futtatás sebessége 5-15 km/h lehet.)
+
+? Az állomástávolságú közlekedés esetét kivéve, mekkora lehet a kikapcsolt UAVA-val való közlekedés legnagyobb sebessége?
+- 10 km/h
+- 40 km/h
++ 15 km/h
+
+? Szabad állomásközben mekkora a helytelen irányú közlekedés megengedett legnagyobb sebessége?
++ 40 km/h
+- 15 km/h
+- 25 km/h
+
+? Foglalt állomásközben mekkora a helytelen irányú közlekedés megengedett legnagyobb sebessége?
++ 15 km/h
+- 25 km/h
+- 40 km/h
+
+? Mekkora az engedélyezett legnagyobb sebesség, ha a vonat pneumatikus fékrendszerének egyharmada meghibásodott és a vonat vezérlése az első vezetőfülkéből történik?
+- 15 km/h
+- 25 km/h
++ 40 km/h
+
+? A vonat pneumatikus fékrendszerének fele meghibásodott és a vonat vezetése az első vezetőfülkéből történik. Mekkora ebben az esetben az alkalmazható legnagyobb sebesség?
+- 15 km/h
+- 40 km/h
++ 25 km/h
+
+? Mekkora lehet az összekapcsolt hibás és segélyvonat legnagyobb haladási sebessége, ha a meghibásodás nagyobb mértékű sebességkorlátozást nem tesz szükségessé és a segélyvonat húzza a hibás vonatot?
++ 40 km/h
+- 25 km/h
+- 15 km/h
+
+? Villamos vezérlésű váltó helyszíni kézi állításakor, mekkora az alkalmazható legnagyobb sebesség a váltókörzetben?
+- 10 km/h
+- 5 km/h
++ 15 km/h
+
+? Mekkora a járműtelepi vágányokon alkalmazható legnagyobb sebesség?
++ 15 km/h
+- 25 km/h
+- 10 km/h
+
+? Mekkora lehet a próbavágányra való behaladás és a próbafutás első menetének sebessége?
++ Legfeljebb 15 km/h
+- Legfeljebb 10 km/h
+- Legfeljebb 25 km/h

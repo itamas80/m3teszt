@@ -1,0 +1,374 @@
+﻿? A vonat ajtózárás vezérlés biztosítéka (PD2) a vezérkocsiban kiolvadt, a tapasztalható jelenség a következő:
+- Az ajtók csak tartalékkal zárhatóak mindhárom üzemmódban.
+- Ellenőrzött üzemben az ajtók nem zárhatók.
++ Az ajtók nem zárhatóak semmilyen üzemmódban, tartalék ajtózáróval sem.
+
+? AVR üzemű vonat ajtói tartalékkal sem zárhatók. Mi okozhatja a hibát?
+- Segédvezetői ajtózáró.
+- Irányváltó középállásban van.
++ Vezérlési főkapcsoló; P24.
+
+? A vonat ajtói CML-ben nem nyithatók. Mi okozhatja a hibát?
+- Ajtóhurok biztosító kiolvadt, vagy a kisautomata leoldott.
+- P18; P19 biztosító.
++ Irányváltó középállásban van.
+
+? Egy kocsi ajtói tartalékkal sem zárhatók. Mi okozhatja a hibát?
++ Ajtólégtelenítő kar.
+- P17 biztosító, vagy A16 kismegszakító.
+- PD2 biztosító.
+
+? A vezető ellenőrzött üzemben megnyomja a peronnal ellentétes oldalon az ajtónyitó nyomógombot. (ajtónyitó engedély van) Kinyílnak-e az ajtók?
+- Nem.
++ Igen, a peron felőli oldalon.
+- Igen, de a peronnal ellentétes oldalon.
+
+? Mechanikusan lezárt tolóajtónál a reteszt a vezető oldani akarja. Van-e jelentősége, hogy az ajtóműködtető léghengerben nyitóirányú levegőnyomás van?
++ Van jelentősége, mert a retesz ebben az esetben befeszül, és az ajtókulccsal nem oldható. Feloldás előtt a záró Ep szelepet működtetni kell.
+- Van, de az ajtólégtelenítő kar elfordítása után a retesz feloldható.
+- Nincs jelentősége, mert a retesz működtethetősége szempontjából mindegy, hogy a léghengerben milyen irányú nyomás van.
+
+? Milyen hibát okozhat, ha valamelyik kocsi ajtó légrendszerében töltővezetéki nyomás van?
+- Nem okozhat hibát., mert az ajtóműködtető légrendszer töltővezetéki nyomáson is működőképes marad.
+- Hibát nem okoz, de az ajtók nagyobb erővel záródnak, ezért a balesetveszély megnő.
++ A DVR-t nem erre a levegőnyomásra tervezték ezért az ajtók nyitása és zárása is bizonytalanná válhat.
+
+? Mi a teendő, ha CML üzemmódban hosszabb impulzussal sem nyithatók a vonat ajtói? (Ajtójelzés van!)
+- Ellenkező oldali nyitógombbal próbál nyitni.
+- Ellenőrzi a vezérlési főkapcsolót, a P24-es biztosítót.
++ A vezető ellenőrzi a P32 biztosítót.
+
+? AVR üzemű vonaton a segédvezetői ajtónyitó kapcsolóval milyen üzemmódban lehet ajtót nyitni?
+- CML és CMC üzemmódban.
+- Mindhárom üzemmódban (PA, CMC, CML).
++ Csak CML üzemmódban.
+
+? Milyen üzemmódban feltétele az ajtózárásnak, hogy a segédvezetői ajtózáró le legyen kapcsolva?
+- Csak CML üzemmódban.
+- CML és CMC üzemmódban.
++ Mindhárom üzemmódban (PA, CMC, CML).
+
+? Hogyan történik egy kocsi lezárása az utasforgalom elől?
+- P17 biztosító kiszedésével.
++ P18; P19 biztosító kiszedésével.
+- Az ajtók egyenkénti mechanikus lezárásával.
+
+? Egy kocsi ajtói csak tartalékkal zárhatók. Mi okozhatja a hibát?
+- Ajtózáró kapcsoló.
++ P17 biztosító.
+- Ajtólégtelenítő kar.
+
+? A vonat ajtójelzés nélkül, a szükségindító bekapcsolása után milyen üzemmódban indítható?
+- Csak CML üzemmódban.
++ CML és CMC üzemmódban.
+- Mindhárom üzemmódban (PA, CMC, CML).
+
+? A következő állítás igaz AVR üzemű vonat esetében.
+- Nincs vonat ajtójelzés, ha a vonat bármelyik végén a P24-es biztosító kiég.
++ Nincs vonat ajtójelzés, ha az üzemmód választó kapcsoló a vonat mindkét végén bekapcsolva maradt.
+- Nincs vonat ajtójelzés, ha bármelyik vezérlési főkapcsoló ki van kapcsolva.
+
+? Ellenőrzött üzemben okoz-e vészfékműködést az ajtójelzés megszűnése?
+- PA üzemmódban minden esetben, CMC üzemmódban csak addig, amíg a vonat kihalad az állomásból.
+- Nem.
++ Csak PA állomási indítási szakaszban.
+
+? AVR üzemű vonat egy kocsiján zárt ajtók mellett nem világít a kocsi ajtójelzés lámpája. Melyik állítás a helyes?
+- A hibát csak a kocsi ajtójelzés biztosíték (P22) kiolvadása okozhatja.
+- A hibát csak valamelyik ajtó végállás kapcsoló okozhatja.
++ A hibát ajtó végállás kapcsoló és a P22 kiolvadása egyaránt okozhatja.
+
+? A vonat teljes hosszában a peronnal ellentétes oldalon csapkodnak az ajtók. Ebben az esetben hogyan kell az utasokat kiszállítani?
+- Az ajtózáró kapcsolót fel kell kapcsolni, és a megfelelő oldalon meg kell nyomni az ajtónyitó gombot.
++ Az ajtózáró kapcsolót felkapcsolni, és az üzemmód választó kapcsolót “N”-be kapcsolni tilos. Az utas kiszállítás ajtólégtelenítő karokkal történik.
+- Az utaskiszállítás DVR-rel történik.
+
+? Állomásközben a csapkodni kezdenek a vonat ajtói. Az utasok kiszállításáig hogyan kell továbbítani a vonatot?
+- A vezetőnek az állomási megállásig nincs teendője.
++ A vonat állomási megállásáig a tartalék ajtózáró kapcsolót folyamatosan nyomni kell. Szükségessé válhat a PA-ról CML-re áttérés, és a szükségindító bekapcsolása.
+- Meg kell állni, és egy ajtót ki kell ékelni. PA-ról CML-re kell átkapcsolni, és a szükségindítót be kell kapcsolni. A vonat ezután indítható.
+
+? AVR-rel felszerelt vonat ajtói csapkodnak. Mi történik, ha a vezető egy ajtót kiékel?
+- Az ajtók csapkodása az egész vonaton megszűnik.
+- A kiékelt ajtó nem csapkod tovább, de a többi igen.
++ Azon a kocsin, amelyiken az ajtókat kiékelte, megszűnik a csapkodás, de a többi kocsin nem.
+
+? PA vagy CMC üzemmódra kapcsolva az ellenőrzött üzem zöld jelzőlámpája nem gyullad ki. Mi okozhatja a hibát?
+- A vezérkocsiban a P24-es biztosító kiégett, vagy leoldott az A54-es kismegszakító.
+- A vezérkocsiban a vezérlési főkapcsoló ki lett kapcsolva.
++ Az utolsó kocsiban a vezérlési főkapcsoló ki lett kapcsolva.
+
+? Van-e befolyása a vonat haladására a kilométerórának ellenőrzött üzemben?
++ Nincs, mert az AVR nem a kilométerórától kapja a sebességinformációt.
+- Van, mert CMC üzemmódban a vészfék a vonaton nem oldható.
+- Van, mert a kilométeróra meghibásodása esetén a vonat ellenőrzött üzemben sem tud tovább közlekedni.
+
+? Irányváltás után mit tapasztal a vezető, ha az elhagyott vezetőfülkében az üzemmód választó kapcsoló nem lett "N" állásba kapcsolva?
+- Nincs ellenőrzött üzem, de a légfék CML üzemmódban leoldható. Vonat ajtójelzés zárt ajtók esetén van.
+- Ellenőrzött üzem van, de a légfék egyik üzemmódban sem oldható Vonat ajtójelzés zárt ajtók esetén van.
++ Nincs ellenőrzött üzem, a légfék CML üzemmódban sem oldható. Oldást megkísérelve jellegzetes sistergő hang hallható. Vonat ajtójelzés zárt ajtók esetén sincs.
+
+? Irányváltás után mit tapasztal a vezető, ha az elhagyott vezetőfülkében az EPK csap nyitott helyzetéből elmozdult? (Félállásban van, vagy teljesen el van zárva).
+- Ellenőrzött üzem van, de a légfék egyik üzemmódban sem oldható. Vonat ajtójelzés zárt ajtók esetén van.
++ Nincs ellenőrzött üzem, de a légfék CML üzemmódban leoldható. Vonat ajtójelzés zárt ajtók esetén van.
+- Nincs ellenőrzött üzem, a légfék CML üzemmódban sem oldható. Vonat ajtójelzés zárt ajtók esetén nincs.
+
+? Állomásban ellenőrzött üzemre kapcsolva az "Ajtónyitó engedély" jelzőlámpa kigyullad, de az "Ellenőrzött üzem" nem. Az alábbiak közül mi okozhatja a hibát?
+- Az üzemen kívüli vezetőfülkében kiégett a P24-es biztosító, vagy leoldott az A54-es kismegszakító.
++ Kiégett az ellenőrzött üzem izzója.
+- Valamelyik EPK csap elmozdult.
+
+? Milyen jelenséget tapasztal a vezető, ha az alaphelyzet hatástalan?
+- Az "ellenőrzött üzem" jelzőlámpa nem világít, és a légfék az "alaphelyzet" nyomógomb megnyomása után nem oldható.
++ Pályajel van, de a légfék az “alaphelyzet” nyomógomb megnyomása után nem oldható.
+- Pályajel nincs, és a légfék az "alaphelyzet" nyomógomb megnyomása után nem oldható.
+
+? Milyen jelenséget tapasztal a vezető, ha a vonaton nincs ellenőrzött üzem?
++ PA, vagy CMC üzemmódba kapcsoláskor az AVR jelzőlámpái közül nem gyullad ki egyik sem, és nem is villan fel.
+- Az "ellenőrzött üzem" jelzőlámpa világít, de a légfék az "alaphelyzet" nyomógomb megnyomása után nem oldható.
+- PA, vagy CMC üzemmódba kapcsoláskor a "Nincs pályajel" jelzőlámpa felvillan, de az "Ellenőrzött üzem" nem gyullad ki.
+
+? Mit tapasztal a vezető, ha a vonaton az ellenőrzött üzem menet közben szűnik meg?
+- A vonat azonnal vészfékez, de alaphelyzet kezelése után a légfék leoldható.
++ A vonat azonnal vészfékez, az ellenőrzött üzem jelzőlámpái kialszanak.
+- Az "Ellenőrzött üzem" jelzőlámpa elalszik, de vészfékműködés nem történik.
+
+? Az EPK csapok távvezérelt elzárását a következőképpen kell elvégezni:
+- A vezető az irányváltót előre, a kontrollert fék 1A-ra kapcsolja, és a távelzáró nyomógombot megnyomja.
++ A vezető az üzemmód választó kapcsolót “CML” állásba, az irányváltót előre, a kontrollert fék 2-re kapcsolja, és a távelzáró nyomógombot kb. 5 másodpercig folyamatosan nyomja.
+- A vezető az üzemmód választó kapcsolót "CML" állásba, az irányváltót előre, a kontrollert fék 1-re kapcsolja, és a távelzáró nyomógombot megnyomja.
+
+? Mi a teendő, ha a vonat CML üzemmódban sebességtúllépés miatt vészfékkel megáll?
+- A megállás után a vezető oldja a légféket, majd indítja a vonatot.
++ A megállás után a vezető megnyomja a “Vészféktörlés”-t, oldja a légféket, majd indítja a vonatot.
+- A megállás után a vezető alaphelyzetet kezel, oldja a légféket, majd indítja a vonatot.
+
+? Mi a teendő, ha ellenőrzött üzemben a kilométeróra elsötétül?
++ P30 biztosítót kell ellenőrizni. A vonat AVR üzemére a hiba nincs befolyással.
+- CML üzemmódba kell átkapcsolni, az EPK csapokat el kell zárni, és az utasokat ki kell szállítani.
+- Ellenőrzött üzemben a vonat haladására nincs befolyása, de CMC-ről PA-ra, vagy PA-ról CMC-re átkapcsolni nem szabad, mert az alaphelyzet kezelése hatástalan.
+
+? Mi a teendő CML üzemmódban, ha a kilométeróra elsötétül, és a biztosíték ellenőrzése eredménytelen?
++ A rádiót és a szintetizátort rövid időre ki kell kapcsolni. Ha a “0” jelzés a kilométerórán megjelenik, a “Vészféktörlés” kezelése után a légfék leoldható.
+- Az EPK csapokat a távvezérlővel azonnal el kell zárni. A légfék ezután leoldható.
+- A rádión azonnal részletes jelentést kell tenni a tapasztaltakról az instruktornak.
+
+? Ha az RP működés a vontatómotorok automatikus jelleggörbe szerinti gyorsulásakor következik be, azt tilos visszaállítani. Ez mit jelent?
+- Tilos az RP-t visszaállítani, ha valamelyik kocsin automatikus indításkor történik RP működés.
++ Tilos az RP-t visszaállítani, ha valamelyik kocsin akkor történik RP működés, amikor a motorok előtét ellenállásait az SZDRK már kiiktatta.
+- Tilos az RP-t visszaállítani, ha valamelyik kocsi PA üzemmódban, meneten RP működés következik be.
+
+? Hogyan történik az RP visszaállítása PA üzemmódban?
++ Kifuttatási szakaszban vagy álló helyzetben.
+- Az RP visszaállítása a vezérkontroller "0" pozíciójában bármikor lehetséges.
+- Csak álló helyzetben lehetséges.
+
+? Ev3-as típusú vonat egy kocsija sötét, és a menetáramkör sem alakul ki. Mi okozhatja a hibát?
++ AV kapcsoló leoldott.
+- Nullrelé biztosítéka kiolvadt.
+- Kocsi főbiztosító kiolvadt.
+
+? Mit tapasztal a vezető, ha a vonat egy kocsiján kiolvad a főbiztosító?
++ A hibát az RP vörös nem jelzi. A kocsin menetáram nincs, de az áramkör kialakul. A vonat a szokásosnál nehezebben gyorsul. Utastéri világítás van.
+- A kocsi sötét, és sem a menet, sem a fékáramkör nem alakul ki rajta.
+- A kocsi sötét, és a menetáramkör nem alakul ki rajta.
+
+? Milyen rendellenességet okoz, ha a vonat egy kocsiján ki van kapcsolva a főszakaszoló?
+- Sem meneten, sem féken nincs áramfelvétel, de az áramkör mindkét esetben kialakul.
+- A menetáramkör a kocsin nem alakul ki. Az RP vörös csökkentett fénnyel világít.
++ A kocsin menetáram nincs, de az áramkör kialakul.
+
+? PA állomási indítási szakaszban kiég a P24-es biztosító Mit tapasztal a vezető?
+- A menetáramkör szétesik a vonaton, de vészfékműködés nem történik.
+- A vonat ajtójelzés megszűnik, de vészfékműködés nem történik.
++ A vonat ajtójelzés megszűnik, a vonat vészfékkel megáll.
+
+? Az állomási indítási szakasz után, PA üzemmódban meneten kiég a P24-es biztosító Mit tapasztal a vezető?
++ A menetáramkör szétesik a vonaton, de vészfékműködés nem történik. A vonat ajtójelzés megszűnik.
+- A vonat ajtójelzés megszűnik, a vonat vészfékkel megáll.
+- A vonat ajtójelzés nem szűnik meg, csak a menetáramkör esik szét.
+
+? CMC üzemmódban villamos fékezés közben kiég a P24-es biztosító. Melyik állítás igaz?
+- A vonat azonnal bevészfékez.
+- Ha a vonat teljes hosszában az állomási peron mellett áll meg, az ajtók az ajtónyitó gombbal kinyithatók.
++ A fékáramkör szétesik, de a vonat csak akkor vészfékez, ha a programszőnyegben megengedett sebességet túllépte.
+
+? START megnyomása után a vonat nem indul, és a No1-es szelep sem old le. Az alábbiak közül mi okozhatja a hibát?
++ Nincs vonat ajtójelzés.
+- Nincs vontatási feszültség.
+- Az UAVA érintkező nincs lenyomva.
+
+? CML üzemmódban a kontrollert menetre kapcsolva a vonat nem indul. Vonat ajtójelzés van, de az RP vörös nem világít. Mi a vezető teendője?
+- Ellenőrzi, hogy nincs-e befékezve a vonat.
+- Ellenőrzi a vezérlési főkapcsolót és a P24-es biztosítót.
++ Kéri a segélyvonatot.
+
+? Menet 3-ra kapcsoláskor a P24-es biztosító ismételten kiolvad. Mi a vezető teendője?
++ P24 cseréje után leold, majd maximum menet 2 alkalmazásával kiáll a forgalomból.
+- A P24-et kicseréli és leold, majd fokozatos indítással indítja a vonatot. Ha M3-ra kapcsoláskor a P24 ismét kiég, RUM-ozással keresi meg a hibás kocsit.
+- Kéri a segélyvonatot.
+
+? A kontroller menetre kapcsolásakor az RP vörös és zöld lámpa együtt ég, a vonat nem indul. Az RP a kontroller "0" pozícióján visszaállítható. Mi a vezető teendője?
+- Segédüzemi kapcsolókat kikapcsolja, majd megpróbálja az RP-t visszaállítani.
++ A vezető ellenőrzi a hibajelző nyomógombot, hogy nincs-e beragadva.
+- Azonnal kéri a segélyvonatot.
+
+? A vonat nem indul, az RP vörös és zöld lámpa együtt ég. Az RP csak addig tartható visszaállított helyzetben, amíg a vezető az RP visszaállító gombot nyomja. Mi a vezető teendője?
+- Ellenőrzi a hibajelző nyomógombot, hogy nincs-e beragadva.
++ Szükségvilágítást, kompresszort, ajtózáró kapcsolót, utastéri erősítőt kikapcsolja, majd megpróbálja az RP-t visszaállítani.
+- Azonnal kéri a segélyvonatot.
+
+? Egy kocsin a menetáramkör időnként szétesik, és ezzel egy időben a tükörből erős ívhúzás látható. Mi okozhatja a hibát?
++ A kocsin egy áramszedő kiékelődött.
+- A kocsi főbiztosítója kiégett.
+- A kocsin a menetáramkör vezérlése bizonytalanná vált.
+
+? A vonat egy kocsiján sem a menet, sem a fékáramkör nem alakul ki. Mi okozhatja a hibát?
+- AV kapcsoló leoldott.
++ P16-os biztosító kiolvadt.
+- Nullrelé biztosítéka kiolvadt.
+
+? A töltővezeték nyomása 6 bar alá csökken, de a kompresszorok nem indulnak el. Mi okozhatja a hibát?
+- Valamelyik kocsiban a kompresszor nyomáskapcsoló nem kapcsol be.
+- A vezérkocsiban a kompresszor nyomáskapcsoló nem kapcsol be.
++ A vezérkocsiban a kompresszorkapcsoló meghibásodott, vagy kiégett a kompresszorvezérlés (P20) biztosíték.
+
+? Mi a teendő, ha a töltővezetéki levegőszökést biztonsági szelep működése okozza?
++ A kompresszort kikapcsolja, és megvárja, amíg a biztonsági szelep leül. A töltővezeték megfelelő nyomását a kompresszor-kapcsoló kezelésével biztosítja.
+- A kompresszort kikapcsolja, és megvárja, amíg a biztonsági szelep leül. A töltővezeték megfelelő nyomását a kompresszor nyomáskapcsolók biztosítják.
+- Ha a levegőszökést a kompresszorok folyamatos üzemeléssel tudják pótolni, a vonat forgalomban maradhat.
+
+? A végelzáró csapok elzárása után a kormányszelepet is le kell selejtezni, ha:
+- Csatlás hibája miatt fékvezetéki végelzáró csapot kellett elzárni.
+- Töltővezetéki levegőszökés miatt egy kocsi töltő légrendszerét le kellett választani.
++ Fékvezetéki levegőszökés miatt egy kocsi fék-légrendszerét le kellett választani.
+
+? A hátsó vonatrészben a fékezőszelepet üzembe kell helyezni, ha valamelyik közbülső kocsi hibája miatt:
++ Fékvezetéki végelzáró csapot kellett a vonaton elzárni.
+- Töltővezetéki végelzáró csapot kellett a vonaton elzárni.
+- Töltő, vagy fékvezetéki végelzáró csapot kellett a vonaton elzárni.
+
+? Mi a teendő, ha a vonat egy kerékpárja beékelődött?
+- A hibás kocsin a kormányszelepet le kell selejtezni.
+- A vezető a KFM-től a segélybrigád kirendelését kell kérni.
++ A hibás kocsit elektromosan le kell selejtezni, és a vonatot a legközelebbi félreállító helyen ki kell állítani a forgalomból.
+
+? "Menet 1"-re kapcsoláskor éles, egyre hangosabb süvítő hang hallható a kocsi alól, amely csak 10-15 másodperccel a kontroller "0"-ba kapcsolása után halkul el, és szűnik meg.
+- A jelenség valamelyik kerékpár felpörgésére utal.
++ A jelenség kardánszakadásra utal.
+- A jelenség levegőszökésre utal.
+
+? Mi a vezető teendője, ha a kontroller "Menet-2"-re kapcsoláskor a vonat ismételten leveri a nagyfeszültséget, de kísérőjelenség nem tapasztalható?
+- A kocsik egyenkénti selejtezésével keresi meg a hibás kocsit.
+- "Menet-1" alkalmazásával kiáll a forgalomból.
++ Kéri a segélyvonatot.
+
+? Mi a vezető teendője, ha a kontroller "Menet-3"-ra kapcsoláskor a vonat leveri a nagyfeszültséget, de kísérőjelenség nem tapasztalható?
++ Kézi vezetésre tér át, és léptetéses indítást alkalmaz. Ha M3-ra kapcsoláskor a vonat ismételten leveri a nagyfeszültséget, M2 alkalmazásával kiáll a forgalomból.
+- A kocsik egyenkénti RUM-ozásával keresi a hibát.
+- M2 alkalmazásával félreáll.
+
+? A vontatási feszültség kimaradásakor a vonat egy kocsiján RP működés, és égésre utaló jelek tapasztalhatók. Mi a vezető teendője?
+- Az RP-t nem állítja vissza. Állomásba érve a kocsit leselejtezi, és a kocsiból az utasokat kiszállítja.
++ Az RP-t nem állítja vissza. Állomásba érve a kocsit leselejtezi, és a vonatból az utasokat kiszállítja.
+- Az RP-t visszaállítja. A forduló végéig utasokat szállíthat.
+
+? Ha a vonatban kényszermenetes kocsi van, az utasok kiszállítása után:
+- Feszültségmentesítés után a főszakaszolót ki kell kapcsolni.
+- Az adott kocsit le kell selejtezni.
++ A kocsit le kell selejtezni, és feszültségmentesítés után a főszakaszolót ki kell kapcsolni.
+
+? A vonat kényszermenetes, az utasok kiszállítása után hogyan történik a vonat forgalomból kivonása?
+- PA üzemmódban állomási áthaladással.
++ CMC üzemmódban, maximum M2 kapcsolásával. Ha a kényszermenet továbbra is fennmarad, a vontatás megszüntetése a vezérlési főkapcsoló kikapcsolásával történik.
+- CML üzemmódban. A vontatás megszüntetése a vezérlési főkapcsoló kikapcsolásával történik.
+
+? Mikor világít az RP vörös jelzőlámpa teljes fénnyel?
++ Ha a vonat egy vagy több kocsiján RP működés történt, vagy az RP ki lett veretve.
+- Ha a vonat egy kocsiján a menet vagy a fékáramkör nem alakul ki.
+- Ha az egész vonaton a menet vagy a fékáramkör nem alakul ki.
+
+? AVR nélküli vonat nem indul, az RP vörös jelzőlámpája nem világít. A hibát okozhatja:
+- az UAVA.
+- az AV kapcsoló.
++ A P24-es biztosíték.
+
+? AVR nélküli vonat nem indul, az RP vörös jelzőlámpája nem világít, a kisfeszültségű voltmérő utántöltési feszültséget mutat. Mi okozza a hibát?
+- A P24-es biztosíték kiolvadt a vezérkocsin.
+- A Nullrelé biztosítékok kiolvadtak.
++ A P1-es biztosítékok kiolvadtak.
+
+? Mi a vezető teendője AVR nélküli vonaton, ha a P24-es biztosíték ismételten kiolvad a vezérkontroller M3 pozícióján?
++ Maximum "Menet2" alkalmazásával kiáll a forgalomból.
+- Második kocsiból vezeti a vonatot.
+- Hosszú RUM-ozással keresi meg a hibás kocsit.
+
+? AVR nélküli vonat RUM-ozása esetén, mikor kell az utasokat a vonatból kiszállítani?
++ Ha az első kocsi vezérkontrollere a hibás.
+- Ha a vezérkocsi RUM utáni áramköre a hibás.
+- Ha a második kocsi RUM utáni áramköre a hibás.
+
+? A kontrollert menetre kapcsolva a vonat nem indul, az RP vörös jelzőlámpája csökkentett fénnyel világít. A fékáramkör kialakul. A hiba lehet:
+- az irányváltóban.
++ az UAVA-ban.
+- az AVT-ben.
+
+? CML üzemmódban a kontrollert menetre kapcsolva a vonat nem indul, a fékáramkör sem alakul ki, az RP vörös jelzőlámpája csökkentett fénnyel világít. Mi okozhatja a hibát?
+- A P24-es biztosíték.
++ A vonat befékezett állapota.
+- AV kapcsoló.
+
+? Melyik biztosíték védi az RP zöld jelzőlámpa és a fülkevilágítás áramkörét?
+- A P13-as jelű.
+- A P25-ös jelű.
++ A P21-es jelű.
+
+? Hol kell leellenőrizni a hibás vagy hibagyanús vezérlőáramköri biztosítékokat?
++ A P21-es biztosíték helyén.
+- A P15-ös biztosíték helyén.
+- A P26-os biztosíték helyén.
+
+? Melyik áramkör védelmét látja el a P25-ös jelű biztosíték?
+- Kocsi szükségvilágítás.
++ Vonat szükségvilágítás.
+- Utastéri világítás II-es szakasz.
+
+? Melyik készülék vezérlőáramkörét védi a P16-os jelű biztosíték?
+- A kocsi kompresszor kontaktor.
+- A kocsi menetfékkapcsoló.
++ A kocsi ellenállás-kontroller.
+
+? Melyik készülék vezérlőáramkörét védi a P28-as jelű biztosíték?
++ A kocsi menetfék-kapcsoló.
+- A kocsi kompresszor kontaktor.
+- A kocsi ellenálláskontroller.
+
+? Mi a járművezető első teendője, ha villamosfékezés közben a harmadik sín feszültségmentesítődését észleli?
+- Ha RP működés is történt, visszaállítja az RP-t.
+- Megállítja a vonatot.
++ A nagyfeszültség automatikus visszakapcsolása után a visszapillantó tükörből kell figyelnie a vonatát, hogy történik-e valami rendellenes jelenség.
+
+? A kontrollert menetre kapcsolva a vonat nem indul, az RP vörös és zöld jelzőlámpa együtt világít, meneten és féken. Az RP visszaállítható. Mit kell ellenőriznie a járművezetőnek?
+- A fékhenger nyomásmérő műszert.
++ A hibajelző nyomógombot, hogy nincs-e beragadva.
+- A segédüzemi kapcsolókat.
+
+? Menet-1-re kapcsolva a vonat elindul, de a menetáramkör kialakulásának pillanatában az RP zöld jelzőlámpa kigyullad. Mi a járművezető teendője?
+- Leellenőrzi a hibajelző nyomógombot.
+- Kikapcsolja a segédüzemi kapcsolókat.
++ Leselejtezi a vezérkocsit.
+
+? Villamos fékezés közben, egy kocsin működik az RP védelem. Mi a járművezető teendője?
+- Nem állíthatja vissza az RP-t.
+- A hibás kocsin kikapcsolja a RUM-ot.
++ Visszaállítja az RP-t.
+
+? Menetüzemben, egy kocsin működik az RP védelem. Az RP működésével egy időben az áramszedősín feszültségmentessé válik. Mi a járművezető teendője?
+- RUM-ozással keresi a hibát.
++ A hibás kocsit leselejtezi. Nem állíthatja vissza az RP-t.
+- Visszaállítja az RP-t.
+
+? Fékre kapcsoláskor, az áramkör kialakulásának pillanatában az egyik kocsin működik az RP védelem. Mi a járművezető teendője?
+- RUM-ozással keresi a hibát.
++ A hibás kocsit leselejtezi. Nem állíthatja vissza az RP-t.
+- Visszaállítja az RP-t.

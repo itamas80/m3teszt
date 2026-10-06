@@ -1,0 +1,124 @@
+﻿? Hány km/h a megengedett legnagyobb sebesség a járműre?
+- 5 km/h
++ 6 km/h
+- 7 km/h
+
+? Mennyi az akkumulátorok kapacitása? 
+- 300 Ah
+- 500 Ah
++ 455 Ah
+
+? Laprugó található e a járművön? 
+- Nem
+- Csak duplex rugót alkalmaznak
++ Igen
+
+? Milyen fékberendezés található a járművön? 
++ Csak kézifék
+- Légfék
+- Légfék és kézifék
+
+? Milyen hajtást alkalmaznak a járművön? 
++ Lánc és fogaskerék hajtást
+- Fogaskerék hajtást
+- Lánckerék hajtást
+
+? Az irányváltó milyen esetben állítható át? 
+- Bármikor
++ Csak a kontroller „0” állásában
+- Csak a kontroller 9. állásában
+
+? Tartós vontatásra mely fokozatok használhatóak? 
+- 3-as és a 4-es fokozat
++ 3-as, 6-os és a 9-es fokozat
+- 1-es és a 2-es fokozat
+
+? Mivel működtethető a homokszóró berendezés? 
+- Kézzel
+- Billenő kapcsolóval
++ Lábbal
+
+? Milyen fékezőszelep található a járművön? 
++ Semmilyen 
+- ZBR-3,7-es 
+- ST-126-os
+
+? A jármű áramtalanítása mivel történik?
+- Vészkapcsolóval. 
++ Főkapcsolóval.
+- Irányváltóval.
+
+? Hol közlekedhet a tolatómozdony?
+- A járműtelep valamint Kőbánya-Kispest végállomás teljes vágányhálózatán.
+- A járművizsgálóban, a járműtárolóban, a próbapályán és a líravágányokon.
++ A járműtelep teljes vágányhálózatán, annak forgalomtechnológiai határáig.
+
+? Feszültség alatti pályán közlekedhet-e a tolatómozdony?
++ Feszültség alatti pályán is közlekedhet.
+- Nem közlekedhet.
+- Csak írásbeli rendelkezésre közlekedhet feszültség alatti pályán.
+
+? Milyen fokozattal közlekedhet a tolatomozdony?
+- Az engedélyezett vágányhálózaton 9-es fokozattal a mosóberendezés kivételével, ahol csak 3-as fokozattal közlekedhet.
+- 6-os fokozattal bárhol közlekedtethető amennyiben motorkocsikat mozgat.
++ A líravágányokon 9-es fokozattal, a járművizsgáló és a tároló bármely vágányán 6-os fokozattal, mosóberendezésen 3-as fokozattal.
+
+? Hány motorkocsi mozgatható a tolatómozdonyból történő kézifékezéssel?
+- Egy – három motorkocsi.
+- Csak egy motorkocsi.
++ Egy vagy két motorkocsi.
+
+? A tolatómozdony vezetője hogyan köteles a fékek üzemképes állapotáról meggyőződni?
+- A kézifék betekerése után szemrevételezéssel kell meggyőződni arról, hogy a féktuskók a kerékhez szorulnak-e.
++ A kézifék betekerése után 1-es fokozatot kell kapcsolni majd "0"-ra kapcsolva a mozdonynak illetve a szerelvénynek azonnal meg kell állnia.
+- A kézifék betekerése után 1-es fokozatot kapcsolva a mozdonynak illetve a szerelvénynek nem szabad mozdulnia.
+
+? Ki vezetheti a tolatómozdonyt?
+- Aki a mozdonyra típusismereti vizsgát tett, járművezetői engedélytől függetlenül.
+- Aki a tolatómozdonyt kezelni tudja és szolgálatban van.
++ Aki metró járművezetői vagy dízelmozdony vezetői engedéllyel rendelkezik, és a tolatómozdonyra típusismereti vizsgát tett.
+
+? Ki a felelős a csatolásokért, ha azt tolatómozdonnyal végzik?
+- A vontatási diszpécser, vagy az instruktor.
++ A tolatómozdony vezetője.
+- A csatolást irányító dolgozó.
+
+? Hol kell elvégezni a mosóvágányon történő összecsatolást?
+- A szárítóban.
++ A gépi mosó kapujában.
+- A gépi mosó előtti átjáróban.
+
+? Mikor köteles a tolatómozdony vezetője hangjelzést adni?
++ Tolatási mozgások megkezdése előtt.
+- Össze és szétcsatolások előtt.
+- A tolatási mozgások alatt.
+
+? Milyen hibaelhárítást végezhet a tolatómozdony vezetője?
+- Kizárólag csak biztosíték cserét végezhet.
+- Apróbb javítási munkát végezhet csak.
++ Sem biztosíték cserét, sem más javítási munkát nem végezhet.
+
+? Hogyan történhet a tolatómozdony tárolása?
+- Vagy kézifékkel rögzítve vagy alátétfával biztosítva.
++ Csak kézifékkel rögzített állapotban.
+- Megfutamodás ellen alátétfával kell biztosítani.
+
+? Hányan tartózkodhatnak a tolatómozdony vezetőfülkéjében?
+- A vezetőn kívül legfeljebb 1 fő.
++ A vezetőn kívül legfeljebb 2 fő.
+- A vezetőn kívül legfeljebb 3 fő.
+
+? Mennyi  lehet a tolatómozdonnyal mozgatott motorkocsik száma?
++ Legfeljebb 6 db.
+- Legfeljebb 7 db.
+- Legfeljebb 5 db.
+
+? Milyen kocsik csatolhatók az akkumulátoros tolatómozdonyhoz?
+- A metró bármely kocsija.
++ Központi vonó- és ütköző-berendezéssel ellátott kocsik.
+- Csavarkapcsos, vagy központi vonó- és ütköző-berendezéssel ellátott kocsik.
+
+? Hol szabad a tárolóban leszállni a tolatómozdonyról?
++ A szerelőjárdával ellentétes oldalon.
+- A szerelőjárda felőli oldalon.
+- A tárolóban nem szabad leszállni a tolatómozdonyról.

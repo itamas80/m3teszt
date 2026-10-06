@@ -1,4 +1,12 @@
 altalanos.txt
 muszaki.txt
-tortenelem.txt
-informatika.txt
+812k.txt
+ev3.txt
+tofi.txt
+m3_vonal.txt
+m3_f1.txt
+m3_f2.txt
+m3_v1.txt
+m2_vonal.txt
+m2_atjaras_f1.txt
+m2_atjaras_f2.txt

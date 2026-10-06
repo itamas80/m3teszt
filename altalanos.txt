@@ -140,9 +140,9 @@
 - A beépített erőgéppel rendelkező, de utastérrel vagy raktérrel nem rendelkező vasúti jármű.
 
 ? Hány számjegyből áll a vasúti járművek egységes megjelölésére szolgáló pályaszám?
--8
-12
--4
+- 8
++ 12
+- 4
 
 ? Mi biztosítja a vasúti kerékpár vágányon történő vezetését?
 + A kerék nyomkarimája

@@ -1,0 +1,99 @@
+﻿? Mikor tekinthető a vonalon közlekedő, vagy tárolt vonat (szerelvény) feszültségmentesnek?
++ Akkor feszültség mentes, ha az áramellátási szakterület illetékes dolgozója a KFM-n keresztül, feszültség mentesnek nyilvánította az érintett tápkörzetet.
+- Akkor feszültség mentes, ha a tápkörzetre vonatkozó feszültségállapot jelzőn egy folyamatos fehér fény látható.
+- Akkor feszültség mentes, ha az ismertető jegyek alapján a motorkocsi vezető meggyőződött a feszültség mentességről.
+
+? Mi a teendő, ha ellenőrzött (PA, CMC) üzemben történő megállás után a „Megállás helye!” jelzőnél nincs ajtónyitás engedély?
++ A mkv. köteles CML üzemmódba kapcsolni, ajtót nyitni és azt jelenteni a KFM-nek
+- A mkv. köteles a KFM-től érdeklődni a hiba okáról.
+- A mkv. köteles a CML üzemmódba kapcsoláshoz engedélyt kérni a KFM-től
+
+? Ki engedélyezheti a dolgozók járműtelepre történő be-, illetve kiszállítását?
+- Kizárólag a KFM engedélyezheti.
+- A járművezető instruktor, a telepbelépési, illetve ellenőrzési és intézkedési igazolvány alapján engedélyezheti.
++ A vonat motorkocsi vezetője, a telepbelépési, illetve ellenőrzési és intézkedési igazolvány alapján engedélyezheti.
+
+? Ki jelenti a KFM-nek a segélyvonat szükségességét?
+- A járművezető, vagy az instruktor
+- A járművezető instruktor.
++ A járművezető.
+
+? Segélyvonat közlekedésekor, az összecsatolt két vonat biztonságos továbbításáért ki a felelős?
+- A segélyvonat járművezetője a felelős.
+- A hibás vonat járművezetője a felelős.
++ A menetirány szerinti első vezetőfülkében tartózkodó vonatszemélyzet a felelős.
+
+? Ki a felelős a segélyvonat és a meghibásodott vonat helyes összecsatolásáért?
++ A segélyvonat járművezetője a felelős.
+- A menetirány szerinti első vezetőfülkében tartózkodó vonatszemélyzet a felelős
+- A hibás vonat járművezetője a felelős.
+
+? Mikor és kin keresztül köteles a mkv. a műszaki mentőcsoportot kihívni?
+- A KFM-n keresztül, ha a vonatánál kisiklás történt, vagy a vonat automatikus ütköző- és vonókészülékének mechanikus csatló része szétszakadt
++ A KFM-n keresztül, ha a vonatánál kisiklás történt, vagy a vonatán továbbhaladást akadályozó törés van
+- Az instruktoron keresztül, ha a vonatánál kisiklás történt, vagy a vonatán továbbhaladást akadályozó törés van
+
+? Mi az eljárás, ha a vonatszemélyzet tudomást szerez arról, hogy a vonat valamelyik kocsijában haláleset történt?
+- A KFM-t azonnal értesíteni kell, az utasokat a kocsiból ki kell szállítani, az érintett kocsit le kell zárni, a vonatot a járműtelep felőli végállomáson ki kell vonni a forgalomból. A kiállításig a vonat utasokat szállíthat.
+- A KFM-t azonnal értesíteni kell, az utasokat a vonatból ki kell szállítani, s a vonatot az első félreállító helyre félre kell állítani.
++ A KFM-t azonnal értesíteni kell, az utasokat a vonatból ki kell szállítani, s a vonatot a KFM által meghatározott helyre félre kell állítani.
+
+? Legfeljebb mekkora sebesség alkalmazható tolatás közben, a vágánylírán, kedvezőtlen időjárási viszonyok esetén?
++ 5 km/h
+- 15 km/h
+- 10 km/h
+
+? Legfeljebb mekkora sebesség alkalmazható a próbapályán végzett (nem AVR üzemű)próbafutás negyedik menetében?
+- 40 km/h
+- 25 km/h
++ 50 km/h
+
+? Legfeljebb mekkora sebesség alkalmazható, ha a vízszint a síntalpat eléri?
+- 10 km/h
++ 15 km/h
+- 0 km/h (A forgalmat le kell állítani.)
+
+? Legfeljebb mekkora sebesség alkalmazható hibás váltó korlátozott használhatósága esetén?
+- 3 km/h
++ 5 km/h
+- 15 km/h
+
+? Legfeljebb mekkora sebesség alkalmazható villamos vezérlésű váltó kézi állításakor ?
+- 10 km/h
++ 15 km/h
+- 5 km/h
+
+? Legfeljebb mekkora sebesség alkalmazható le nem zárt váltón való áthaladáskor?
+- 5 km/h
++ 15 km/h
+- 10 km/h
+
+? Legfeljebb mekkora sebesség alkalmazható álló járművek 10 méternél kisebb távolságra való megközelítésekor?
++ 3 km/h
+- 5 km/h
+- 10 km/h
+
+? Legfeljebb mekkora sebesség alkalmazható kocsimosó berendezésen, kocsimosás esetén történő áthaladáskor?
++ 1-1,5 km/h
+- 3 km/h
+- 5 km/h
+
+? Legfeljebb mekkora sebesség alkalmazható kocsimosó berendezésen, nem kocsimosás céljából történő áthaladáskor?
+- 1-1,5 km/h
++ 5 km/h
+- 3 km/h
+
+? Legfeljebb mekkora sebesség alkalmazható műszaki vizsgálat céljából végzett mozgáspróba esetén?
++ 1 – 1,5 km/h
+- 3 km/h
+- 5 km/h
+
+? Legfeljebb mekkora sebesség alkalmazható lefúvatóaknára való ráhaladáskor?
++ 5 km/h
+- 3 km/h
+- 10 km/h
+
+? Legfeljebb mekkora sebesség alkalmazható kézifékkel fékezhetetlen motorkocsik mozgatásakor?
+- 5 km/h
+- 1-1,5 km/h
++ 3 km/h

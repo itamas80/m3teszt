@@ -1,0 +1,324 @@
+﻿? Válassza ki az alábbiak közül, hogy hátsóstop működéskor mi a járművezető teendője!
+- A fékezőszelep karjának VI-os állásában a fékvezeték nyomását 3,1 bár-on tartani
+- A fékezőszelep karját II-es utazó állásba helyezni
++ A fékezőszelep karjának VII-es állásban, a fékvezeték nyomását „0” bár-ra csökkenteni
+
+? Mit jelent a járművezető számára az alábbi ikon megjelenése a vezetői képernyőn? Jelölje meg a helyes választ!
++ Pneumatikus fék bekapcsolva
+- Vészhelyzeti fék bekapcsolva
+- Rögzítőfék bekapcsolva
+
+? Jelölje meg a helyes választ a kocsik szétcsatolásával kapcsolatban!
+- A kocsik közötti csatlás szétkapcsolása esetében a szétkapcsolás a kocsik utasterében az utasülés támla mögötti elektromos készülékszekrényekben elhelyezett nyomógombbal végezhető.
++ A kocsik közötti csatlás szétkapcsolása esetében a szétkapcsolás a kocsi végfali készülékszekrényekben elhelyezett nyomógombbal végezhető.
+- A kocsik közötti csatlás szétkapcsolása esetében a szétkapcsolás a vezérlőkocsi segédpultján elhelyezett nyomógombbal végezhető.
+
+? Mit jelent a járművezető számára az alábbi ikon megjelenése a vezetői képernyőn? Jelölje meg a helyes választ!
+- (CsE) csúszáselleni egység kompenzálja a csúszást legalább egy kocsin
+- (CsE) csúszáselleni egység csúszást jelez legalább egy kocsin
++ (CsE) csúszáselleni egység működőképes az összes kocsin
+
+? Mit jelent a járművezető számára az alábbi ikon megjelenése a vezetői képernyőn? Jelölje meg a helyes választ!
+- Tartalék fék bekapcsolva
++ Rögzítőfék bekapcsolva
+- Pneumatikus fék bekapcsolva
+
+? Mit jelent a járművezető számára az alábbi ikon megjelenése a vezetői képernyőn? Jelölje meg a helyes választ!
+- Vészhelyzeti fék bekapcsolva
++ Tartalék fék bekapcsolva
+- Rögzítőfék bekapcsolva
+
+? A K9-es csap
+- A segédlégtartályt táplálja meg fékvezetéki levegővel
++ A „B6”-os EP szelep tápláló és leválasztó csapja
+- A „B5”-ös EP szelepet táplálja meg töltővezetéki levegővel
+
+? Mit jelent a járművezető számára az alábbi ikon megjelenése a vezetői képernyőn? Jelölje meg a helyes választ!
++ (EAN) egyedi ajtónyitás üzemmód kikapcsolva
+- (EAN) egyedi ajtónyitás üzemmód bekapcsolva
+- (DIRÖV) digitális információs rendszer vezérlés személyzeti működése
+
+? Hol található a szerelvényen a rövidrezáró- földelő berendezés?
++ A vezérlő kocsikon
+- Csak a közbenső kocsikon
+- A szerelvény minden kocsiján
+
+? Hol található az "UTASTÉR VILÁGÍTÁS" forgókapcsoló?
+- a vezető fülkében elhelyezett „FÜLKEVILÁGÍTÁS" panelen
++ a vezetőfülkében elhelyezett hátfali segédpanelen
+- a vezetőfülkében a főpulton elhelyezett 1. számú vezetői panelen
+
+? Hol van elhelyezve az AVR rendszerhez tartozó jeladó sebességmérő (kilóméter óra) Jelölje meg a helyes választ!
+- A vezetőfülkében a vezetői pult alatt a bal oldali készülékszekrényben
++ A vezetőülés mögött, az utastéri válaszfalban lévő kapcsolószekrényben
+- A vezetőfülkében a vezetői pulton
+
+? Jelölje meg a helyes választ! A tartalék fék működése….
+- Elektromágneses
+- Elektrodinamikus
++ Elektropneumatikus
+
+? Jelölje meg a helyes választ az ajtóellenőrzés nélküli üzemmóddal kapcsolatban!
++ Az ajtóellenőrzés nélküli üzemmód a segédpulton elhelyezett forgókapcsolóval aktiválható
+- Az ajtóellenőrzés nélküli üzemmód az ajtózáró nyomógomb reteszeléssel kapcsolható be
+- Az ajtóellenőrzés nélküli üzemmód a vezetői képernyőn kapcsolható be az” Ajtójelzés” menüben
+
+? Az alábbiak közül melyik a feltétele a fékezőszelep teljes üzembehelyezésének (5,2 bar norma)
+- A töltővezeték 4 bar alatti nyomása
+- A fékhengernyomás 1,2 bar (állvatartó fék)
++ Vészfékhurok szakadás
+
+? Jelölje meg a helyes választ! Igaz-e hogy az utastéri világítás kétfokozatú?
+- Igaz, Az utastér világítás teljes és szükségvilágításból áll.
+- Igaz, Az utastér világítás teljes világítás, és csökkentett világítású (fél világítás).
++ Nem igaz, Az utastér világítás háromfokozatú: Teljes világítás, csökkentett világítás (fél világítás), szükségvilágítás (utasajtónként az ajtók térségében minimum 60 lux).
+
+? Hátsó stop működéskor a menetirány szerinti első vezetőfülkében levegőszökés nem hallható, az „MFDU” pneumatikus menüjében a fékvezeték nyomása az utolsó kocsin a legalacsonyabb. Az állítás:
+- Nem igaz
++ Igaz
+- első stop működésre utal
+
+? Az alábbiak közül válassza ki, hogy melyik a „Kocsiszíni kiállás” üzemmódra történő átállás egyik feltétele!
++ A menetirány kapcsoló „E” állása
+- A vezérkontroller „VF” pozíciója
+- A vésztáp kismegszakító bekapcsolt állapota
+
+? A vonat légsűrítő motorjának táplálásához
+- a PSZN segédüzemi inverter 230 V-os egyenáramot állít elő
++ a PSZN segédüzemi inverter 400 V-os háromfázisú váltakozó áramot állít elő
+- a PSZN segédüzemi inverter 400 V-os egyenáramot állít elő
+
+? Mit jelent a járművezető számára az alábbi ikon a vezetői képernyőn? Jelölje meg a helyes választ!
+- Nagyfeszültség jelenléte nem az összes kocsin
+- Nagyfeszültség hiánya az összes kocsin
++ Nagyfeszültség jelenléte az összes kocsin
+
+? Mit jelent a járművezető számára az alábbi ikon a vezetői képernyőn? Jelölje meg a helyes választ!
+- Nagyfeszültség hiánya az összes kocsin
+- Nagyfeszültség jelenléte az összes kocsin
++ Nagyfeszültség jelenléte nem az összes kocsin
+
+? Mit jelent a járművezető számára az alábbi ikon a vezetői képernyőn? Jelölje meg a helyes választ!
+- Nagyfeszültség jelenléte nem az összes kocsin
+- Nagyfeszültség jelenléte az összes kocsin
++ Nagyfeszültség hiánya az összes kocsin
+
+? Mit jelent a járművezető számára az ikon megjelenése a vezetői képernyőn? Jelölje meg a helyes választ!
+- Hibanapló nem üres. Abban az esetben, ha a hiba nem hárítható el a vonatot a járműtelep felőli végállomáson ki kell vonni a forgalomból
++ Hibanapló nem üres. Abban az esetben, ha a hiba nem hárítható el a vonatból az utasokat ki kell szállítani.
+- Hibanapló üres
+
+? Mit jelent a járművezető számára az alábbi ikon megjelenése a vezetői képernyőn? Jelölje meg a helyes választ!
+- Hibanapló üres
++ Hibanapló nem üres. Abban az esetben, ha a hiba nem hárítható el a vonatot a járműtelep felőli végállomáson ki kell vonni a forgalomból.
+- Hibanapló nem üres. Abban az esetben, ha a hiba nem hárítható el a vonatból az utasokat ki kell szállítani.
+
+? Mit jelent a járművezető számára az alábbi ikon megjelenése a vezetői képernyőn? Jelölje meg a helyes választ!
+- Akkumulátoros üzem „Kocsiszíni kiállás” üzemmód nem lehetséges
+- Akkumulátoros üzem a” Kocsiszíni kiállás” üzemmód kikapcsolva
++ Akkumulátoros üzem „Kocsiszíni kiállás” üzemmódban
+
+? Mit jelent a járművezető számára az alábbi ikon megjelenése a vezetői képernyőn? Jelölje meg a helyes választ!
++ Csúszás elleni védelem hibája egy, vagy több kocsin
+- Csúszás elleni védelem kompenzálja a csúszást legalább egy kocsin
+- Csúszás elleni védelem működőképes az összes kocsin
+
+? Mit jelent a járművezető számára az alábbi ikon megjelenése a vezetői képernyőn? Jelölje meg a helyes választ!
++ Hasznosítási üzemmód bekapcsolva (Visszatáplálás)
+- Hasznosítási üzemmód kikapcsolva (Nincs visszatáplálás)
+- Hasznosítási üzemmód készenlétben (Visszatáplálás bekapcsolható)
+
+? Válassza ki az alábbiak közül, hogy vészfékhurok szakadás esetén mit kell ellenőrizni, ha a menetirány kapcsolóval (reset) nem szüntethető meg!
+- Töltővezeték 7 bar feletti nyomását
++ Fékvezeték nyomását az MFDU pneumatikus menüjében minden kocsin
+- „EPK” kapcsoló bekapcsolt állását
+
+? Mit jelent a járművezető számára az alábbi ikon megjelenése a vezetői képernyőn? Jelölje meg a helyes választ!
++ Tűz a kocsiban
+- Füstjelzés a vonaton
+- Vészhelyzeti fék bekapcsolva
+
+? Mit jelent a járművezető számára az alábbi ikon megjelenése a vezetői képernyőn? Jelölje meg a helyes választ!
+- SIÁ (Segédüzemi inverter) működőképes
+- Hajtásinverter hiba egy kocsin
++ SIÁ (Segédüzemi inverter) hiba
+
+? Milyen színű a főképernyőn a jobb oldali kocsi berendezés ikon, ha abban selejtezés történt?
+- Kék
++ Sárga
+- Vörös
+
+? A 81-717-2K motorkocsi legnagyobb tömege utasok nélkül
++ 34 tonna
+- 32 tonna
+- 31,5 tonna
+
+? A járművezetőnek az éberségét
++ CML üzemmódban 30 másodpercenként vissza kell igazolni a vezérkontrolleren elhelyezett éberségi gomb megnyomásával, vagy a vezérkontroller elmozdításával.
+- CML üzemmódban 15 másodpercenként vissza kell igazolni a vezetőpulton elhelyezett éberségi gomb megnyomásával, vagy a vezérkontroller elmozdításával
+- CML üzemmódban 30 másodpercenként vissza kell igazolni, csak a vezérkontrolleren elhelyezett éberségi gomb megnyomásával
+
+? Vészfékműködés után a fékvezeték nyomása „0” bar-ra csökken. Okozhatja:
+- Vészfék ütőgomb
+- Autostop működés
++ EPK vészfék
+
+? Az önműködő csatlást
+- csak távvezérléssel lehet szétcsatolni
+- csak kézi erővel lehet szétcsatolni
++ távvezérléssel és kézi erővel is szét lehet csatolni
+
+? Az ajtóoldal választó kapcsolóval
+- CMC, CML üzemmódban választható ki a megfelelő oldali nyitás
++ CML, PA, CMC üzemmódban választható ki a megfelelő oldali nyitás
+- CML üzemmódban válaszható ki a megfelelő oldali nyitás
+
+? Milyen üzemmódban indítható az ajtóhibás vonat az „Ajtóellenőrzés nélküli üzem” kapcsoló bekapcsolt állapotában?
+- csak PA-ban
+- csak CML-ben
++ CML és CMC-ben
+
+? A tolóajtó az utastérből
++ vészhelyzet esetén történő, kézi nyitására minden ajtó mellett van egy elfordítható kar formájában kialakított készülék az ajtó vésznyitására, amely az ajtó melletti panelen van elhelyezve.
+- kézzel is nyitható, minden ajtó mellett van egy elfordítható légtelenítő kar az ajtó vésznyitására, amely az ajtó melletti panelen van elhelyezve.
+- vészhelyzet esetén történő, automatikus nyitására minden ajtószárnyon van egy elfordítható kar formájában kialakított készülék az ajtó vésznyitására.
+
+? Válassza ki a helyes állítást a mechanikus vésznyitó kar működtetésével kapcsolatban!
+- Az ajtó vésznyitó kar működtetése esetén az érintett tolóajtó minden esetben kézzel kis erőfeszítéssel kinyitható
++ Az ajtó vésznyitó kar működtetése esetén az érintett tolóajtó csak a vonat álló helyzetében „0 km/h” sebesség esetén, kézzel kis erőfeszítéssel kinyitható
+- Az ajtó vésznyitó kar működtetése esetén az érintett tolóajtó csak a vezetőpultról történő hozzájárulással nyitható ki kézzel
+
+? A BUPT-155MB
++ Pneumatikus fékvezérlő egység
+- Pneumatikus áramszedő vezérlő egység
+- Kompresszorvezérlő egység
+
+? Válassza ki a helyes állítást a kompresszor működtetésével kapcsolatban!
+- A kompresszor kétlépcsős üzemmódban működik: egyhengeres alacsony nyomású szakaszon és egyhengeres nagynyomású szakaszon
++ A kompresszor kétlépcsős üzemmódban működik: kéthengeresen alacsony nyomású szakaszon és egyhengeresen nagynyomású szakaszon
+- A kompresszor kétlépcsős üzemmódban működik: egyhengeresen alacsony nyomású szakaszon és kéthengeresen nagynyomású szakaszon
+
+? CML üzemmódban
++ a vezető által irányított szerelvény legnagyobb megengedett sebessége legfeljebb 40 km/h.
+- a vezető által irányított szerelvény legnagyobb megengedett sebessége legfeljebb 46 km/h.
+- a vezető által irányított szerelvény legnagyobb megengedett sebessége legfeljebb 50 km/h.
+
+? A járművön alkalmazott aszinkron vontatómotor teljesítménye
+- 110 KW
++ 120 KW
+- 130 KW
+
+? Az utastájékoztató képernyő (SBMCIK) jobb oldalán elhelyezett kezelőpanel „F4” billentyűje
+- Belépés a korlátozó üzenetek menüjébe.
++ Belépés a SBUCIK egység beállításának menüjébe.
+- Belépés a figyelmeztető üzenetek menüjébe.
+
+? Az utastájékoztató képernyő (SBMCIK) jobb oldalán elhelyezett kezelőpanel „F1” billentyűje
++ Belépés a kiegészítő üzenetek menüjébe.
+- Belépés a viszonylatok menüjébe.
+- Belépés a SBUCIK egység beállításának menüjébe.
+
+? Jelölje meg a helyes választ! A vezérkontrollernek hány rögzített pozíciója van…
+4
+-3
+-2
+
+? Hol található a K1 és a K9-es csap?
++ A fékezőszelep alatti készülékszekrényben
+- Az utastérben a 6-os 8-as tolóajtó közötti ülés alatt
+- A vezetőfülke hátfali készülékszekrényben
+
+? A digitális információs komplexum alapértesítő rendszer működésének képen látható kezelőgombja
+- a viszonylat (utastájékoztató szöveg) kezdetének kiválasztása a vonat haladási irányának megfelelően
++ a járművezető mikrofonjának csatlakoztatását az utastéri és külső hangosbemondó rendszerhez vagy a fülkék közötti összeköttetést biztosítja
+- csak a vezetőfülkék közötti kommunikáció beállítására szolgál
+
+? Mit jelent a TIMAN kijelzőjén megjelenő alábbi ikon?
++ Füstjelzés
+- Vízköd oltó nincs feltöltve
+- Áramkör szakadás az érzékelő és a központ között
+
+? Mit jelent a TIMAN kijelzőjén megjelenő alábbi ikon?
+- Menekítési algoritmus nem aktiválható
+- Áramkör szakadás az érzékelő és a központ között
++ Hőriasztás (Esetleg tűz)
+
+? Üzembe helyezett vezetőfülkében a fékezőszelep üzemen kívüli állapotba kerül. A hibát okozhatja:
+- Első stopműködés
+- K9-es csap nyitott állapota
++ Fékezőszelep táp kismegszakító leoldott
+
+? Mit jelent a TIMAN kijelzőjén megjelenő alábbi ikon?
++ Magas a csapágytok hőmérséklete
+- Tartalékvezérlés bekapcsolva
+- Hőriasztás (Esetleg tűz)
+
+? Mit jelent a TIMAN kijelzőjén megjelenő alábbi ikon?
+- Vészhívás aktív
++ Áramkör szakadás a központ és az oltópatron között
+- Füstjelzés
+
+? Mit jelent a TIMAN kijelzőjén megjelenő alábbi ikon?
+- Menekítési algoritmus bekapcsolva
++ A csapágytok túlmelegedett
+- Füstjelzés
+
+? A digitális információs komplexum alapértesítő rendszer működésének alábbi kezelőgombja
+- a viszonylat (utastájékoztató szöveg) kezdetének kiválasztása a vonat haladási irányának megfelelően
+- a járművezető mikrofonjának csatlakoztatását az utastéri és külső hangosbemondó rendszerhez vagy a fülkék közötti összeköttetés biztosítja
++ a megfelelő kiválasztott szöveg és memorikus üzenetek lejátszását biztosítja
+
+? A digitális információs komplexum alapértesítő rendszer működésének alábbi  kezelőgombja
++ a viszonylat (utastájékoztató szöveg) kezdetének kiválasztása a vonat haladási irányának megfelelően
+- a járművezető mikrofonjának csatlakoztatását az utastéri és külső hangosbemondó rendszerhez, vagy a fülkék közötti összeköttetés biztosítja
+- csak a vezetőfülkék közötti kommunikáció beállítására szolgál
+
+? Az áramszedőknek
+- kiékelt és ki nem ékelt állapotát a vezetői kijelző „pneumatikus berendezések” képernyőjén lehet ellenőrizni.
+- csak a kiékelt állapotát lehet a vezetői kijelző „kocsiberendezés” képernyőn ellenőrizni.
++ kiékelt és ki nem ékelt állapotát a vezetői kijelző „kocsiberendezés” képernyőn lehet ellenőrizni.
+
+? Jelölje meg a helyes választ! A vezérlőkocsi
++ jobboldali első ajtaja közelében elhelyezett, elektromos (vészhelyzeti) kapcsoló csak az első tolóajtót nyitja a végfali ajtók kireteszelése nélkül.
+- jobboldali első ajtaja közelében elhelyezett, elektromos (vészhelyzeti) kapcsoló a vezérlőkocsi összes jobb oldali tolóajtaját nyitja a végfali ajtók kireteszelése nélkül.
+- jobboldali első ajtaja közelében elhelyezett, elektromos (vészhelyzeti) kapcsoló csak az első tolóajtót nyitja a végfali ajtók kireteszelése mellett.
+
+? A BUD egységek
++ mikroprocesszoros vezérlő rendszerek, amelyek a villamos ajtómozgatást vezérlik egyenáramú motorral.
+- mikroprocesszoros vezérlő rendszerek, amelyek a vonat csúszásvédelmi rendszerének vezérlését biztosítják.
+- mikroprocesszoros vezérlő rendszerek, amelyek a szellőző aggregátok rendszerét vezérlik.
+
+? Hány biztonsági szelep található a közbenső kocsi töltőlégrendszerben?
+- 0 db
+- 8 db
++ 2 db
+
+? Hol található a „K31” légfék (fékhenger) selejtező csap?
+- A kocsi alatt a segédlégtartályon
+- BUPT-155MB pneumatikus fékvezérlő egységben
++ Az utastérben a 6-os és a 8-as tolóajtó közötti ülés alatt
+
+? Melyik üzemmódban hatástalan a tartalékfék?
++ PA és CMC-ben
+- Csak PA-ban
+- CML-ben
+
+? A K53
+- az önműködő vonatmegállító berendezés (autóstop) csapja
+- a fékvezeték végelzáró váltója
++ motorkocsi rögzítő fék kényszeroldó csapja
+
+? A K35
++ az önműködő vonatmegállító berendezés (autóstop) csapja
+- a fékvezeték végelzáró váltója
+- a motorkocsi rögzítő fék kényszeroldó csapja
+
+? A K38
+- a motorkocsi rögzítő fék kényszeroldó csapja
++ a fékvezeték végelzáró váltója
+- az önműködő vonatmegállító berendezés (autóstop) csapja
+
+? A K31
+- a fékvezeték végelzáró váltója
++ a motorkocsi légfék (fékhenger) selejtező csapja
+- a motorkocsi rögzítő fék kényszeroldó csapja
