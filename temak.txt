@@ -1,4 +1,4 @@
+altalanos.txt
 muszaki.txt
-foldrajz.txt
 tortenelem.txt
 informatika.txt

@@ -1,120 +1,120 @@
-# Vasúti járművezető villamos meghajtású földalatti (metró) vasúti jármű
-?Milyen elven működik a generátor?
--Az áramjárta vezetőre mágneses térben kitérítő erő hat.
-+Az elektromos áram mágneses hatása alapján működik. Ha egy mágneses térben egy vezetőt mozgatunk (forgatunk), a vezetőben feszültség indukálódik.
--Az elektromos áram vegyi hatása alapján működik. Ha egy mágneses térben egy vezetőt mozgatunk a vezetőben feszültség indukálódik.
+﻿# Műszaki
+? Milyen elven működik a generátor?
+- Az áramjárta vezetőre mágneses térben kitérítő erő hat.
+- Az elektromos áram vegyi hatása alapján működik. Ha egy mágneses térben egy vezetőt mozgatunk a vezetőben feszültség indukálódik.
++ Az elektromos áram mágneses hatása alapján működik. Ha egy mágneses térben egy vezetőt mozgatunk (forgatunk), a vezetőben feszültség indukálódik.
 
-?Mi a villanymotor feladata?
--Vegyi energiát alakít át elektromos energiává.
--Mechanikai energiát alakít át elektromos energiává.
-+Elektromos energiát alakít át mechanikai energiává.
+? Mi a villanymotor feladata?
++ Elektromos energiát alakít át mechanikai energiává.
+- Mechanikai energiát alakít át elektromos energiává.
+- Vegyi energiát alakít át elektromos energiává.
 
-?Mi az akkumulátor feladata?
--Villamos energia szállítása.
-+Villamos energia tárolása.
--Villamos energia előállítása, az elektromos áram mágneses hatása alapján.
+? Mi az akkumulátor feladata?
+- Villamos energia előállítása, az elektromos áram mágneses hatása alapján.
++ Villamos energia tárolása.
+- Villamos energia szállítása.
 
-?Mi a rugóerőtárolós fék egyik előnye?
-+Előnye az, hogy rövidebb és hosszabb ideig tartó biztonságos egyhelyben tartásra is alkalmas, így a járművön nem szükséges a kézifék alkalmazása.
--Előnye az, hogy rendszeresen használható nagy sebességről történő fékezéskor is.
--Előnye az, hogy a rugóerőtárolós fékkel kifejthető fékezőerő maximuma nem függ a kerék és a sín közötti tapadási viszonyoktól.
+? Mi a rugóerőtárolós fék egyik előnye?
+- Előnye az, hogy rendszeresen használható nagy sebességről történő fékezéskor is.
+- Előnye az, hogy a rugóerőtárolós fékkel kifejthető fékezőerő maximuma nem függ a kerék és a sín közötti tapadási viszonyoktól.
++ Előnye az, hogy rövidebb és hosszabb ideig tartó biztonságos egyhelyben tartásra is alkalmas, így a járművön nem szükséges a kézifék alkalmazása.
 
-?A túláramvédő berendezés működésbe lép, ha …
--a megengedettnél nagyobb feszültség, vagy áramerősség halad át rajta.
--a megengedettnél nagyobb feszültség halad át rajta.
-+a megengedettnél nagyobb áramerősség halad át rajta.
+? A túláramvédő berendezés működésbe lép, ha …
+- a megengedettnél nagyobb feszültség, vagy áramerősség halad át rajta.
+- a megengedettnél nagyobb feszültség halad át rajta.
++ a megengedettnél nagyobb áramerősség halad át rajta.
 
-?Mely villamos készülékek azok, amelyek működtető tekercsük gerjesztésekor egy vagy több áramkör nyitását, vagy zárását végzik?
--A kézi működtetésű kapcsolók, nyomógombok.
-+A relék.
--A szakaszolók.
+? Mely villamos készülékek azok, amelyek működtető tekercsük gerjesztésekor egy vagy több áramkör nyitását, vagy zárását végzik?
++ A relék.
+- A kézi működtetésű kapcsolók, nyomógombok.
+- A szakaszolók.
 
-?A hordmű mely része nem vesz részt üzemszerűen az utasok súlyának átadásában?
--A forgótányérok.
--A csapágytok.
-+A forgócsap.
+? A hordmű mely része nem vesz részt üzemszerűen az utasok súlyának átadásában?
+- A csapágytok.
+- A forgótányérok.
++ A forgócsap.
 
-?Milyen anyagból és hogyan készül a kerékpár tengelye?
--Nagyon jó minőségű öntöttvasból, kovácsolással készül.
--Nagyon jó minőségű öntöttacélból, sajtolással készül.
-+Nagyon jó minőségű ötvözött és többszörösen kovácsolt acélból készül.
+? Milyen anyagból és hogyan készül a kerékpár tengelye?
++ Nagyon jó minőségű ötvözött és többszörösen kovácsolt acélból készül.
+- Nagyon jó minőségű öntöttvasból, kovácsolással készül.
+- Nagyon jó minőségű öntöttacélból, sajtolással készül.
 
-?Miért előnyösebb a tuskós fék használatánál a tárcsafék alkalmazása?
-+A tárcsafék a tengelyhez vagy a hajtásrendszer más eleméhez úgy kapcsolódik, hogy a kerék futófelületét nem koptatja, és nem melegíti.
--A tárcsafék alkalmazása kopásmentes fékezést tesz lehetővé.
--A tárcsafék alkalmazásakor nem kell figyelembe venni a vasúti kerék és a sín közötti tapadás mértékét.
+? Miért előnyösebb a tuskós fék használatánál a tárcsafék alkalmazása?
+- A tárcsafék alkalmazásakor nem kell figyelembe venni a vasúti kerék és a sín közötti tapadás mértékét.
++ A tárcsafék a tengelyhez vagy a hajtásrendszer más eleméhez úgy kapcsolódik, hogy a kerék futófelületét nem koptatja, és nem melegíti.
+- A tárcsafék alkalmazása kopásmentes fékezést tesz lehetővé.
 
-?Melyik tényező befolyásolja a járműre kifejthető maximális vonó- vagy fékezőerő nagyságát?
--A vontatómotorok fordulatszám szabályozásának módja.
-+A vasúti kerék és a sín közötti tapadási viszonyok.
--A jármű pillanatnyi sebessége.
+? Melyik tényező befolyásolja a járműre kifejthető maximális vonó- vagy fékezőerő nagyságát?
+- A jármű pillanatnyi sebessége.
+- A vontatómotorok fordulatszám szabályozásának módja.
++ A vasúti kerék és a sín közötti tapadási viszonyok.
 
-?Melyek a kocsiszekrény fő részei?
-+Alváz, szekrényváz, tető, oldal- és homlokfalak.
--Alváz, szekrényváz, padló, ablakok, kapaszkodók és a tető.
--Alváz, szekrényváz, csatlás és a forgóváz.
+? Melyek a kocsiszekrény fő részei?
+- Alváz, szekrényváz, csatlás és a forgóváz.
+- Alváz, szekrényváz, padló, ablakok, kapaszkodók és a tető.
++ Alváz, szekrényváz, tető, oldal- és homlokfalak.
 
-?Mi biztosítja a jármű rugózását és lengéscsillapítását?
--A vonó- és ütközőkészülék biztosítja.
--Az alváz biztosítja.
-+A hordmű biztosítja.
+? Mi biztosítja a jármű rugózását és lengéscsillapítását?
+- Az alváz biztosítja.
++ A hordmű biztosítja.
+- A vonó- és ütközőkészülék biztosítja.
 
-?Melyek a kerék futófelületének természetes elhasználódásai?
--A kifutás és a kitöredezés.
--A kifutás, a laposodás és a hajszálrepedés.
-+A kifutás és a nyomkarima elvékonyodás.
+? Melyek a kerék futófelületének természetes elhasználódásai?
+- A kifutás, a laposodás és a hajszálrepedés.
++ A kifutás és a nyomkarima elvékonyodás.
+- A kifutás és a kitöredezés.
 
-?Milyen csapágyazásúak a metró járművek kerékpárjai?
--Sikló csapágyazásúak.
--Belső csapágyazásúak.
-+Külső csapágyazásúak.
+? Milyen csapágyazásúak a metró járművek kerékpárjai?
+- Belső csapágyazásúak.
+- Sikló csapágyazásúak.
++ Külső csapágyazásúak.
 
-?Mi az ütköző és vonókészülék feladata?
-+Kialakításuktól függően, a járművek közti mechanikus, pneumatikus és elektromos kapcsolat létrehozása, valamint a menet közben fellépő hosszirányú rángatások csillapítása.
--Kialakításuktól függően, a járművek közti mechanikus, pneumatikus és elektromos kapcsolat létrehozása, valamint a menet közben fellépő függőleges irányú erők csillapítása.
--Kialakításuktól függően, a járművek közti mechanikus, pneumatikus és elektromos kapcsolat létrehozása, valamint a menet közben fellépő keresztirányú rángatások csillapítása.
+? Mi az ütköző és vonókészülék feladata?
+- Kialakításuktól függően, a járművek közti mechanikus, pneumatikus és elektromos kapcsolat létrehozása, valamint a menet közben fellépő keresztirányú rángatások csillapítása.
++ Kialakításuktól függően, a járművek közti mechanikus, pneumatikus és elektromos kapcsolat létrehozása, valamint a menet közben fellépő hosszirányú rángatások csillapítása.
+- Kialakításuktól függően, a járművek közti mechanikus, pneumatikus és elektromos kapcsolat létrehozása, valamint a menet közben fellépő függőleges irányú erők csillapítása.
 
-?Miről ismerhető fel a csapágy melegedése?
--Nem ismerhető fel.
--A jármű látszólag ok nélkül kisiklik.
-+A melegedő csapágy hősugárzásáról, elszíneződéséről, füstöléséről, esetleg sípoló hangjáról.
+? Miről ismerhető fel a csapágy melegedése?
+- Nem ismerhető fel.
++ A melegedő csapágy hősugárzásáról, elszíneződéséről, füstöléséről, esetleg sípoló hangjáról.
+- A jármű látszólag ok nélkül kisiklik.
 
-?A metró járműveken a kerékpárfékezés melyik fajtáját használják?
--A tuskós, vagy tárcsás fékezést.
-+Az elektrodinamikus, tárcsás és tuskós fékezést.
--Az elektrodinamikus fékezést.
+? A metró járműveken a kerékpárfékezés melyik fajtáját használják?
++ Az elektrodinamikus, tárcsás és tuskós fékezést.
+- Az elektrodinamikus fékezést.
+- A tuskós, vagy tárcsás fékezést.
 
-?Melyek a metró járművek vasúti kerékpárjainak jellemzői?
--A kerék mindig gumibetétes kialakítású.
--Minden kerékpár hajtott, a két kerék egymáshoz képest szabadon foroghat.
-+A tengely és a kerekek mereven kapcsolódnak egymáshoz, a tengely csapágyazva van, valamint a keréknek nyomkarimája van.
+? Melyek a metró járművek vasúti kerékpárjainak jellemzői?
+- Minden kerékpár hajtott, a két kerék egymáshoz képest szabadon foroghat.
++ A tengely és a kerekek mereven kapcsolódnak egymáshoz, a tengely csapágyazva van, valamint a keréknek nyomkarimája van.
+- A kerék mindig gumibetétes kialakítású.
 
-?Mi a hátránya a merev kerékpár-megvezetésnek?
--Megnőnek a kocsiszekrény vágánytengelyre merőleges, keresztirányú elmozdulásai
-+Intenzívebb lesz a nyomkarima kopása
--Nincs hátránya
+? Mi a hátránya a merev kerékpár-megvezetésnek?
+- Nincs hátránya
++ Intenzívebb lesz a nyomkarima kopása
+- Megnőnek a kocsiszekrény vágánytengelyre merőleges, keresztirányú elmozdulásai
 
-?Miért nevezzük önhordó szerkezetűnek a kocsiszekrényt?
-+Mert az alváz a kocsiszekrény acélszerkezetével együtt tartórendszert képez, és ez a tartórendszer viseli a különböző terheléseket.
--Mert a szekrényváz viseli a különböző terheléseket.
--Mert az alváz és a szekrényváz egybe van építve.
+? Miért nevezzük önhordó szerkezetűnek a kocsiszekrényt?
+- Mert a szekrényváz viseli a különböző terheléseket.
+- Mert az alváz és a szekrényváz egybe van építve.
++ Mert az alváz a kocsiszekrény acélszerkezetével együtt tartórendszert képez, és ez a tartórendszer viseli a különböző terheléseket.
 
-?Válassza ki a forgóvázra vonatkozó helytelen – „hamis” – állítást!
--A forgóváz lehet hajtott, vagy szabadonfutó.
-+A forgóváz alkalmazásának előnye, hogy nincs szükség alvázra, mert a forgóváz keret betölti a szerepét.
--A forgóváz a futóműnek, a hordműnek, esetleg a hajtóműnek egy közös megjelenési formája, ahol a különböző szerkezeteket egy keret foglalja magába.
+? Válassza ki a forgóvázra vonatkozó helytelen – „hamis” – állítást!
+- A forgóváz lehet hajtott, vagy szabadonfutó.
+- A forgóváz a futóműnek, a hordműnek, esetleg a hajtóműnek egy közös megjelenési formája, ahol a különböző szerkezeteket egy keret foglalja magába.
++ A forgóváz alkalmazásának előnye, hogy nincs szükség alvázra, mert a forgóváz keret betölti a szerepét.
 
-?Válassza ki a villamosfék működésére vonatkozó helyes – „igaz” – állítást!
-+A „fék” üzembe kapcsolt vontatómotorok, mint generátorok elektromos áramot termelnek. Ez a folyamat a jármű mozgási energiáját elektromos energiává alakítja, így a jármű fékeződik.
--A „fék” üzembe kapcsolt vontatómotorok áramkörét az esetlegesen fellépő túláramok ellen minden esetben kisautomata védi.
--A villamosfékkel a járművet teljesen meg lehet állítani, illetve rögzíteni lehet.
+? Válassza ki a villamosfék működésére vonatkozó helyes – „igaz” – állítást!
+- A villamosfékkel a járművet teljesen meg lehet állítani, illetve rögzíteni lehet.
+- A „fék” üzembe kapcsolt vontatómotorok áramkörét az esetlegesen fellépő túláramok ellen minden esetben kisautomata védi.
++ A „fék” üzembe kapcsolt vontatómotorok, mint generátorok elektromos áramot termelnek. Ez a folyamat a jármű mozgási energiáját elektromos energiává alakítja, így a jármű fékeződik.
 
-?Mi a feladata az autostop berendezésnek?
--A járművezető cselekvőképességének ellenőrzése. Cselekvőképtelenség esetén kényszerfékezés kiváltása.
-+A pálya mentén elhelyezett (álló helyzetű, fix, vagy bizonyos sebesség felett az inercia) elem elérésekor a metró járművek kényszerfékezésének kiváltása.
--Hálózati feszültség kimaradását követően megakadályozza, hogy külön erre szolgáló kapcsolás nélkül, a kontrollert menetre kapcsolva a jármű meginduljon.
+? Mi a feladata az autostop berendezésnek?
+- A járművezető cselekvőképességének ellenőrzése. Cselekvőképtelenség esetén kényszerfékezés kiváltása.
++ A pálya mentén elhelyezett (álló helyzetű, fix, vagy bizonyos sebesség felett az inercia) elem elérésekor a metró járművek kényszerfékezésének kiváltása.
+- Hálózati feszültség kimaradását követően megakadályozza, hogy külön erre szolgáló kapcsolás nélkül, a kontrollert menetre kapcsolva a jármű meginduljon.
 
-?Mi a feladata a vontatási inverter egységnek?
--A hálózati feszültség lecsökkentése, ezzel a segédüzemű áramkörök tápellátása.
-+A hálózati egyenáram átalakítása háromfázisú váltóárammá, és ennek szabályozása által az aszinkron motor fordulatszámának szabályozása.
--A hálózati váltóáram átalakítása egyenárammá, és ennek szabályozásával az egyenáramú soros vontatómotorok fordulatszámának szabályozása.
+? Mi a feladata a vontatási inverter egységnek?
++ A hálózati egyenáram átalakítása háromfázisú váltóárammá, és ennek szabályozása által az aszinkron motor fordulatszámának szabályozása.
+- A hálózati váltóáram átalakítása egyenárammá, és ennek szabályozásával az egyenáramú soros vontatómotorok fordulatszámának szabályozása.
+- A hálózati feszültség lecsökkentése, ezzel a segédüzemű áramkörök tápellátása.

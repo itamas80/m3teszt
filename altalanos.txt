@@ -1,0 +1,170 @@
+﻿# Általános
+? Mi az akkumulátor feladata?
++ Villamos energia tárolása
+- Villamos energia előállítása
+- Villamos energia szállítása
+
+? Melyik NEM alapellenállás?
+- Csapsúrlódási ellenállás
+- Légellenállás
++ Szélellenállás
+
+? Mi az áramerősség mértékegysége?
+- 1 W (Watt)
++ 1 A (Amper)
+- 1 V (Volt)
+
+? A járművezetői alapvizsgák érvényességi ideje, mely letelte előtt időszakos vizsgát kell tenni:
+- 5 év
+- 1 év
++ 3 év
+
+? Hány évente kell részt venni a vasút járművezetőknek a 203/2009. Kormányrendelet szerint időszakos orvosi vizsgálaton, a negyvenedik életév betöltését megelőzően?
++ Ötévente
+- Évente
+- Háromévente
+
+? Hány évente kell részt venni a vasút járművezetőknek a 203/2009. Kormányrendelet szerint időszakos orvosi vizsgálaton, a negyvenedik életév betöltését követően, de a hatvankettedik életév betöltését megelőzően?
+- Ötévente
++ Háromévente
+- Évente
+
+? Mi a fékezőszelep feladata?
+- Vonatszakadás esetén a fékrendszerben található sűrített levegőt az atmoszférába engedi.
+- A pneumatikus fékezési/oldási parancs hatására szabályozza a levegőutakat, ezáltal megvalósítja a fékezést és az oldást.
++ Segítségével a járművezető létrehozza a pneumatikus fékezési és oldási parancsot.
+
+? Mi a kormányszelep feladata?
+- A vasúti járművek vágányon történő tartásában vesz részt.
++ A pneumatikus fékezési/oldási parancs hatására szabályozza a levegőutakat, ezáltal megvalósítja a fékezést és az oldást.
+- A termelt sűrített levegő elosztásában vesz részt, hogy minden légrendszeri elem egyenlő levegőellátásban részesüljön.
+
+? Kizárólag sínfék alkalmazása esetén lehetséges-e keréklaposodás?
++ Nem lehetséges
+- Igen, ha a járművezető nem megfelelően választja meg a fékerőt
+- Igen, ha a berendezés beállítása nem megfelelő
+
+? Féktechnikai szempontból melyek a fékezés céljai?
++ Sebesség tartása, sebesség csökkentése, megállítás, állvatartás
+- Lassítás, gyorsítás, megállítás, állvatartás
+- Megállítás állomáson vagy megállóhelyen, megállítás továbbhaladást tiltó jelzés esetén
+
+? Melyik az önműködő légfékre vonatkozó helyes állítás?
+- Továbbhaladást tiltó jelzés meghaladása esetén (ha a pályamenti berendezés is alkalmas rá) önműködően megállítja a vonatot.
+- A járművezető cselekvőképtelensége esetén önműködően megállítja a vonatot.
++ Vonatszakadás esetén önműködően megállítja az elől haladó és a leszakadt vonatrészt is.
+
+? Tuskós kerékpárfékezés esetén milyen energiává alakítjuk a mozgási energiát?
+- Ellentétes irányú mozgási energiává
++ Hőenergiává
+- Villamos energiává
+
+? Melyikre igaz: az a nem állami tulajdonban levő vasúti pályahálózat, amelyet kizárólag a pályahálózat tulajdonosa használ saját áruszállítási műveletekre, továbbá az a pályahálózat, amely egynél több végfelhasználót szolgál vagy szolgálhat ki és nem minősül iparvágánynak.
+- Városi vasúti pályahálózat
++ Saját célú vasúti pályahálózat
+- Térségi vasúti pályahálózat
+
+? Melyikre igaz: olyan, működési engedéllyel rendelkező gazdasági társaság, amelynek fő tevékenysége vasúti árufuvarozási vagy személyszállítási szolgáltatás nyújtása, azzal a megkötéssel, hogy e vállalkozásnak kell a vontatást biztosítania.
+- Pályahálózat-működtető
+- Vasúti társaság
++ Vállalkozó vasúti társaság
+
+? Hol alkalmazunk túlemelést?
+- Emelkedőkön
+- Lejtőkön
++ Ívekben
+
+? Hol alkalmazunk nyombővítést?
++ Ívekben
+- Váltók egyenes állásában
+- Vágánykeresztezéseknél
+
+? Hogy nevezzük a felsővezeték-hálózat azon részét, amellyel az áramszedő közvetlenül érintkezik?
++ Munkavezeték
+- Áramszedő vezeték
+- Érintkező vezeték
+
+? Mi a biztosítóberendezés?
+- Műszaki eszköz, amelynek kizárólagos szerepe a vasúti helyhez kötött jelzőberendezések működtetése.
++ Műszaki eszköz, amelynek célja a vasúti balesetek megakadályozása és a vasúti forgalom szabályozása.
+- Műszaki eszköz, amelynek célja a vasúti balesetek megakadályozása. Forgalomszabályozási szerepe nincs.
+
+? Hogyan lehet csoportosítani a biztosítóberendezéseket konstrukció alapján?
+- Vonóvezetékes, nyomógombos, számítógépes.
++ Mechanikus, elektromechanikus, elektrodinamikus, jelfogófüggéses, elektronikus.
+- Állomási, vonali, rendezőpályaudvari.
+
+? Mekkora a normál nyomtávolság?
+- 1524 mm
+- 1345 mm
++ 1435 mm
+
+? Melyek a vasúti pálya főbb részei?
+- Állomások és megállóhelyek.
++ Al- és felépítmény.
+- Fővágányok, váltók és vágánykereszteződések.
+
+? Melyek a kitérő fő részei?
+- Váltó, keresztezés.
++ Váltó, keresztezés és kettőt összekötő vágányrész.
+- Váltó, keresztezés, kampózár.
+
+? Mik a sínszelvény fő részei?
+- fej, törzs, lábrész
++ fej, gerinc, talp
+- korona, törzs, talp
+
+? Egyenáramú villamos vasúti vontatás esetén milyen pályaoldali elem szolgál a vontatási áramkör negatív visszavezetésére?
+- A felsővezeték második munkavezetéke
+- Egyenáramú vontatás esetén nincs szükség negatív visszavezetésre
++ A pályasín
+
+? Hogy nevezzük a váltó azon szerkezetét, amely megakadályozza, hogy a rajta áthaladó vasúti jármű mozgásának hatására a csúcssín eltávlodjon a tősíntől?
+- Sínszék
++ Csúcssínrögzítő szerkezet
+- Váltózár
+
+? Melyik váltóra igaz, hogy a vele szerkezeti függésben lévő jelzőre csak akkor vezérelhető ki a továbbhaladást engedélyező jelzés, ha a váltó helyes állásban le van zárva?
+- Nem biztosított váltóra
++ Biztosított váltóra
+- Helyszíni őrzés alatt nem álló váltóra
+
+? Mit jelent a térközi közlekedés?
+- Két állomás között egyszerre több, azonos irányú vonat követheti egymást, a követési távolságot a vasúti járművezető (az érvényben lévő szabályzatok alapján) köteles szabályozni.
+- A két állomás közti pályaszakaszt térköznek nevezzük, itt egyszerre több vonat is követheti egymást.
++ Két állomás között az állomásköz térközökre van felosztva, így egy állomásközben egyszerre több, azonos irányú vonat követheti egymást.
+
+? Mit nevezünk vontatott járműnek?
+- Beépített erőgéppel és utastérrel is rendelkező vasúti jármű, amely csak utasszállításra alkalmas.
++ A beépített erőgéppel nem rendelkező, vonóerő kifejtésére nem képes vasúti jármű.
+- A beépített erőgéppel rendelkező, de utastérrel vagy raktérrel nem rendelkező vasúti jármű.
+
+? Hány számjegyből áll a vasúti járművek egységes megjelölésére szolgáló pályaszám?
+-8
+12
+-4
+
+? Mi biztosítja a vasúti kerékpár vágányon történő vezetését?
++ A kerék nyomkarimája
+- A kerék futófelületének hornyos kialakítása
+- A kerék és a sín közötti tapadóerő
+
+? Hogy nevezzük azt a kerékpár-meghibásodást, amikor a nem megfelelően megválasztott fékerő miatt a kerék futófelületén rendellenes mértékű kopás jelentkezik?
+- Abroncselfordulás
+- Kerékpár-beékelődés
++ Keréklaposodás
+
+? A vasúti járművek rugózását és lengéscsillapítását…
+- ..a vonó- és ütközőkészülék biztosítja.
+- ..az alváz biztosítja.
++ ..a hordmű biztosítja.
+
+? Mit jelent az önhordó kocsiszekrény?
+- Az alváz önmagában veszi fel a statikus és dinamikus terheléseket, emellett hordozza a kocsiszekrényt és viseli az ebből adódó terheléseket is.
+- Az alváz veszi fel a statikus és dinamikus terheléseket, ezeket a vele egy szerkezeti egységet képező kocsiszekrény felé továbbítja.
++ Az alváz és a szekrényváz egy szerkezeti egységet képez, a statikus és dinamikus terhelések felvételében közösen vesznek részt, így a kocsiszekrény könnyebb szerkezetűre tervezhető.
+
+? Mi a villanymotor feladata?
+- Kémiai úton állít elő villamos energiát.
++ Villamos áramból mechanikai energiát előállítása.
+- Mechanikai energiából villamos energiát előállítása.
