@@ -1,0 +1,12 @@
+# Informatika
+? Hány bitből áll egy bájt?
++ 8
+- 4
+- 10
+- 16
+
+? Melyik NEM operációs rendszer?
++ Photoshop
+- Linux
+- Windows
+- macOS
