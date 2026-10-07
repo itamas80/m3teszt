@@ -24,6 +24,9 @@ button{font:inherit;cursor:pointer}
 .opt.sel{border-color:var(--ac);background:color-mix(in srgb,var(--ac) 16%,transparent)}
 .meta{color:var(--mu);font-size:.85rem;display:flex;justify-content:space-between;margin-bottom:8px}
 .hide{display:none}
+.rh{display:flex;align-items:center;gap:8px;padding:8px 0;border-bottom:1px solid var(--bd);font-weight:700}
+.rh .tn{flex:1}
+.rh .cl{width:188px;text-align:center}
 .row{display:flex;align-items:center;gap:8px;padding:10px 0;border-bottom:1px solid var(--bd)}
 .row .nm{flex:1}.row small{display:block;color:var(--mu)}
 .row button{width:36px;height:36px;border:1px solid var(--bd);border-radius:10px;background:var(--bg);color:var(--tx);font-size:1.2rem}
@@ -66,6 +69,7 @@ summary.hd{cursor:pointer}summary.hd::-webkit-details-marker{display:none}
   <h2>Vizsgakérdések - tesztsor</h2>
   <div id="pre"></div>
   <button class="btn sec" id="allq" style="margin:10px 0 6px">Összes kérdés elérhető</button>
+  <div class="rh"><div class="tn">Modul</div><div class="cl">Kérdésszámok</div></div>
   <div id="tl"></div>
   <div class="meta" id="msg" style="margin-top:10px"></div>
   <label class="chk"><input type="checkbox" id="o-show"> Helyes válaszok láthatóak</label>
@@ -75,8 +79,8 @@ summary.hd{cursor:pointer}summary.hd::-webkit-details-marker{display:none}
 
  <div class="card hide" id="s-quiz">
   <div class="meta"><span id="qid"></span><span id="cd"></span></div>
-  <img id="qimg" class="hide" alt="">
   <h2 id="qtext"></h2>
+  <img id="qimg" class="hide" alt="">
   <div id="opts"></div>
   <button class="btn hide" id="next">Következő</button>
   <div id="foot"><div id="f1"></div><div id="f2" class="good"></div><div id="f3" class="mine"></div><div id="f4"></div></div>
@@ -113,7 +117,7 @@ const PRESETS={             // gombnév: {témakör neve a txt "# ..." sorából
 "K-Ny - átjárás F.1.":0,
 "K-Ny - átjárás F.2.":0
 },
- "Alap + K-Ny":{
+ "Alap +\nK-Ny":{
 "Általános":24,
 "Műszaki":24,
 "81-2K":5,
@@ -186,7 +190,7 @@ function refresh(){
   const l=left(t).length,tot=Q.filter(x=>x.t===t).length;
   cnt[t]=Math.min(cnt[t]||0,l);
   const row=h("div","row"),nm=h("div","nm",t);
-  nm.appendChild(h("small","",`${l} / ${tot}`));
+  nm.appendChild(h("small","",`${tot} / ${l}`));
   const inp=h("input");inp.type="number";inp.min=0;inp.max=l;inp.value=cnt[t];inp.inputMode="numeric";
   const set=v=>{v=Math.max(0,Math.min(l,v||0));cnt[t]=v;inp.value=v};
   inp.onchange=()=>set(parseInt(inp.value));
