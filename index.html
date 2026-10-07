@@ -31,6 +31,19 @@ button{font:inherit;cursor:pointer}
 .chk{display:flex;align-items:center;gap:10px;margin-top:10px}
 .chk input{width:20px;height:20px}
 #pre{display:flex;gap:8px;margin-bottom:6px}#pre button{margin:0}
+#pre button{
+ border:1px solid var(--bd);
+ background:linear-gradient(var(--card),var(--bg));
+ box-shadow:0 4px 0 color-mix(in srgb,var(--tx) 25%,var(--bd)),0 6px 10px rgba(0,0,0,.15);
+ transform:translateY(0);
+ transition:transform .08s,box-shadow .08s;
+ -webkit-tap-highlight-color:transparent;
+ user-select:none;
+}
+#pre button:active{
+ transform:translateY(4px);
+ box-shadow:0 0 0 color-mix(in srgb,var(--tx) 25%,var(--bd)),0 1px 3px rgba(0,0,0,.2);
+}
 #qimg,.wimg{max-width:100%;max-height:320px;display:block;margin:0 auto 12px;border-radius:8px}
 #cd{font-weight:700;font-size:1.1rem;color:var(--ac)}
 #foot{text-align:center;margin-top:14px;color:var(--mu)}#foot div:first-child{font-weight:600;color:var(--tx)}
@@ -47,7 +60,7 @@ summary.hd{cursor:pointer}summary.hd::-webkit-details-marker{display:none}
 <body>
 <main>
  <div class="card" id="s-setup">
-  <h2>Modul</h2>
+  <h2>Vizsgakérdések - tesztsor</h2>
   <div id="pre"></div>
   <button class="btn sec" id="allq" style="margin:10px 0 6px">Összes kérdés elérhető</button>
   <div id="tl"></div>
@@ -77,8 +90,9 @@ summary.hd{cursor:pointer}summary.hd::-webkit-details-marker{display:none}
 <script>
 // ---- Beállítások ----
 const PASS_PERCENT=75;      // megfelelt, ha a jó válaszok aránya témakörönként legalább ennyi %
-const BASE_FS=16;          // alap betűméret (px)
-const FS_STEPS=5;           // ennyivel növelhető 1 px-es lépésekben (16-17-18-19-20-21)
+const BASE_FS=16;           // alap betűméret (px)
+const FS_INC=2;             // lépésköz (px)
+const FS_STEPS=4;           // ennyi lépés az alap fölé: 16-18-20-22-24
 const AUTO_NEXT_MS=3000;    // automata továbblépés várakozási ideje (ms)
 const PRESETS={             // gombnév: {témakör neve a txt "# ..." sorából: kérdésszám}
  "Alap":{"Általános":24,
@@ -103,8 +117,8 @@ const PRESETS={             // gombnév: {témakör neve a txt "# ..." sorából
 "É-D - F.2.":15,
 "É-D - V.1.":10,
 "K-Ny vonalismeret":5,
-"K-Ny - átjárás F.1.":25,
-"K-Ny - átjárás F.2.":25}
+"K-Ny - átjárás F.1.":20,
+"K-Ny - átjárás F.2.":20}
 };
 // ---------------------
 const $=id=>document.getElementById(id);
@@ -154,7 +168,7 @@ Object.keys(PRESETS).forEach(name=>{
 // betűméret gomb
 let fsStep=parseInt(store("quiz:fs"))||0;if(!(fsStep>=0&&fsStep<=FS_STEPS))fsStep=0;
 const fsBtn=h("button","btn sec");
-function applyFs(){document.documentElement.style.fontSize=(BASE_FS+fsStep)+"px";fsBtn.textContent="Aa "+(BASE_FS+fsStep)+"px"}
+function applyFs(){const px=BASE_FS+fsStep*FS_INC;document.documentElement.style.fontSize=px+"px";fsBtn.textContent="Aa "+px+"px"}
 fsBtn.onclick=()=>{fsStep=(fsStep+1)%(FS_STEPS+1);store("quiz:fs",String(fsStep));applyFs()};
 $("pre").appendChild(fsBtn);applyFs();
 
