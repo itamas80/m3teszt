@@ -45,8 +45,11 @@ button{font:inherit;cursor:pointer}
  box-shadow:0 0 0 color-mix(in srgb,var(--tx) 25%,var(--bd)),0 1px 3px rgba(0,0,0,.2);
 }
 #qimg,.wimg{max-width:100%;max-height:320px;display:block;margin:0 auto 12px;border-radius:8px}
-#cd{font-weight:700;font-size:1.1rem;color:var(--ac)}
-#foot{text-align:center;margin-top:14px;color:var(--mu)}#foot div:first-child{font-weight:600;color:var(--tx)}
+#cd{font-weight:700;font-size:1.1rem;color:var(--ac)}.qn{color:var(--card)}
+#foot{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:14px;color:var(--mu)}
+#fl{flex:1;text-align:center}
+#f1{font-weight:600;color:var(--tx)}
+#quit{padding:10px 14px;border:0;border-radius:10px;background:var(--no);color:#fff;font-weight:600;white-space:nowrap}
 .hd{display:grid;grid-template-columns:1fr 3.6em 4.6em 7em;gap:6px;align-items:center;padding:10px 0;border-bottom:1px solid var(--bd);list-style:none;cursor:default}
 summary.hd{cursor:pointer}summary.hd::-webkit-details-marker{display:none}
 .hd span:nth-child(2),.hd span:nth-child(3){text-align:center}
@@ -76,7 +79,8 @@ summary.hd{cursor:pointer}summary.hd::-webkit-details-marker{display:none}
   <h2 id="qtext"></h2>
   <div id="opts"></div>
   <button class="btn hide" id="next">Következő</button>
-  <div id="foot"><div id="f1"></div><div id="f2"></div><div id="f3" class="good"></div><div id="f4" class="mine"></div></div>
+  <div id="foot"><div id="f1"></div><div id="f2" class="good"></div><div id="f3" class="mine"></div><div id="f4"></div></div>
+  <button id="quit">Kilépés</button>
  </div>
 
  <div class="card hide" id="s-res">
@@ -95,7 +99,8 @@ const FS_INC=2;             // lépésköz (px)
 const FS_STEPS=4;           // ennyi lépés az alap fölé: 16-18-20-22-24
 const AUTO_NEXT_MS=3000;    // automata továbblépés várakozási ideje (ms)
 const PRESETS={             // gombnév: {témakör neve a txt "# ..." sorából: kérdésszám}
- "Alap":{"Általános":24,
+ "Alap":{
+"Általános":24,
 "Műszaki":24,
 "81-2K":5,
 "Ev3":5,
@@ -106,8 +111,10 @@ const PRESETS={             // gombnév: {témakör neve a txt "# ..." sorából
 "É-D - V.1.":10,
 "K-Ny vonalismeret":0,
 "K-Ny - átjárás F.1.":0,
-"K-Ny - átjárás F.2.":0},
- "Alap + K-Ny":{"Általános":24,
+"K-Ny - átjárás F.2.":0
+},
+ "Alap + K-Ny":{
+"Általános":24,
 "Műszaki":24,
 "81-2K":5,
 "Ev3":5,
@@ -118,7 +125,8 @@ const PRESETS={             // gombnév: {témakör neve a txt "# ..." sorából
 "É-D - V.1.":10,
 "K-Ny vonalismeret":5,
 "K-Ny - átjárás F.1.":20,
-"K-Ny - átjárás F.2.":20}
+"K-Ny - átjárás F.2.":20
+}
 };
 // ---------------------
 const $=id=>document.getElementById(id);
@@ -205,9 +213,9 @@ function counts(){
  const x=run.qs[run.i],u=unit(x);let pos=0;
  for(let k=0;k<=run.i;k++)if(unit(run.qs[k])===u)pos++;
  $("f1").textContent=`${u}: ${pos} / ${run.tt[u]}`;
- $("f2").textContent=`Összesen: ${run.i+1} / ${run.qs.length}`;
- $("f3").textContent=run.show?`Helyes: ${run.tok[u]}`:"";
- $("f4").textContent=run.show?`Helytelen: ${run.tbad[u]}`:"";
+ $("f2").textContent=run.show?`Helyes: ${run.tok[u]}`:"";
+ $("f3").textContent=run.show?`Helytelen: ${run.tbad[u]}`:"";
+ $("f4").textContent=`Összesen: ${run.i+1} / ${run.qs.length}`;
 }
 function stopCd(){clearInterval(run.timer);$("cd").textContent=""}
 function startCd(){
@@ -217,7 +225,7 @@ function startCd(){
 function ask(){
  stopCd();const x=run.qs[run.i];run.sel=null;run.locked=false;
  seen.add(x.id);saveSeen();
- $("qid").textContent=`${x.t} #${x.n}`;
+ $("qid").textContent=x.t+" ";$("qid").appendChild(h("span","qn","#"+x.n));
  counts();
  const im=$("qimg");
  if(x.img){im.src=imgSrc(x.img);im.classList.remove("hide")}else{im.classList.add("hide");im.removeAttribute("src")}
@@ -251,6 +259,7 @@ function next(){
  results();
 }
 $("next").onclick=next;
+$("quit").onclick=()=>{if(!confirm("Biztosan kilépsz? A teszt eredménye elvész."))return;stopCd();show("s-setup");refresh()};
 
 function results(){
  const g={};
