@@ -1,4 +1,5 @@
-﻿? Mikor tekinthető a vonalon közlekedő, vagy tárolt vonat (szerelvény) feszültségmentesnek?
+﻿# É-D - V.1.
+? Mikor tekinthető a vonalon közlekedő, vagy tárolt vonat (szerelvény) feszültségmentesnek?
 + Akkor feszültség mentes, ha az áramellátási szakterület illetékes dolgozója a KFM-n keresztül, feszültség mentesnek nyilvánította az érintett tápkörzetet.
 - Akkor feszültség mentes, ha a tápkörzetre vonatkozó feszültségállapot jelzőn egy folyamatos fehér fény látható.
 - Akkor feszültség mentes, ha az ismertető jegyek alapján a motorkocsi vezető meggyőződött a feszültség mentességről.

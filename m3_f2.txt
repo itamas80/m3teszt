@@ -1,4 +1,5 @@
-﻿? Ki a szolgálati elöljáró?
+﻿# É-D - F.2.
+? Ki a szolgálati elöljáró?
 - A szolgálati elöljáró a forgalmi szolgálatot irányító személy.
 - A szolgálati elöljáró valamely szakterület egyszemélyi felelős vezetője.
 + A szolgálati elöljáró a szolgálatra hozzá beosztottak munkáját közvetlenül irányítja, azoknak az üzem lebonyolításával kapcsolatban rendelkezést ad és a végrehajtást ellenőrzi.

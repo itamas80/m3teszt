@@ -1,4 +1,5 @@
-﻿? Hol érvényes a Kelet–nyugati (továbbiakban: K–Ny-i) metróvonal F.1. Jelzési Utasítása?
+﻿# K-Ny átjárás F.1.
+? Hol érvényes a Kelet–nyugati (továbbiakban: K–Ny-i) metróvonal F.1. Jelzési Utasítása?
 - A BKV Zrt. által üzemeltetett K-Ny-i (M2) és a DBR (M4) metróvonalon és járműtelepükön.
 - A BKV Zrt. által üzemeltetett K-Ny-i (M2) és a DBR (M4) metróvonalon és járműtelepükön, valamint az M2/M3 üzemi összekötő vágány K-Ny-i vonalhoz tartozó szakaszán.
 + A BKV Zrt. által üzemeltetett K–Ny-i metróvonalon és járműtelepen, valamint az K–Ny-i – Észak–déli üzemi összekötő vágány K–Ny-i metróvonalhoz tartozó szakaszán.

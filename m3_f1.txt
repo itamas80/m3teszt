@@ -1,4 +1,5 @@
-﻿? Mi a jelző?
+﻿# É-D - F.1.
+? Mi a jelző?
 + A pályán lévő olyan szerkezetek, melyek egy vagy több fénnyel, vagy geometriai ábrával jelzést adnak.
 - Azok a hordozható vagy járművekre felszerelt tárgyak, melyeknek az F.1. jelzési utasításban meghatározott használatával kell jelzést adni.
 - A pályán lévő olyan szerkezetek, melyeknek az F.1. jelzési utasításban meghatározott használatával kell jelzést adni.

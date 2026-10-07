@@ -1,4 +1,5 @@
-﻿? A vonat ajtózárás vezérlés biztosítéka (PD2) a vezérkocsiban kiolvadt, a tapasztalható jelenség a következő:
+﻿# Ev3
+? A vonat ajtózárás vezérlés biztosítéka (PD2) a vezérkocsiban kiolvadt, a tapasztalható jelenség a következő:
 - Az ajtók csak tartalékkal zárhatóak mindhárom üzemmódban.
 - Ellenőrzött üzemben az ajtók nem zárhatók.
 + Az ajtók nem zárhatóak semmilyen üzemmódban, tartalék ajtózáróval sem.
