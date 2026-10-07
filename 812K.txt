@@ -5,6 +5,7 @@
 + A fékezőszelep karjának VII-es állásban, a fékvezeték nyomását „0” bár-ra csökkenteni
 
 ? Mit jelent a járművezető számára az alábbi ikon megjelenése a vezetői képernyőn? Jelölje meg a helyes választ!
+! 812K/812K_02.png
 + Pneumatikus fék bekapcsolva
 - Vészhelyzeti fék bekapcsolva
 - Rögzítőfék bekapcsolva
@@ -15,16 +16,19 @@
 - A kocsik közötti csatlás szétkapcsolása esetében a szétkapcsolás a vezérlőkocsi segédpultján elhelyezett nyomógombbal végezhető.
 
 ? Mit jelent a járművezető számára az alábbi ikon megjelenése a vezetői képernyőn? Jelölje meg a helyes választ!
+! 812K/812K_04.png
 - (CsE) csúszáselleni egység kompenzálja a csúszást legalább egy kocsin
 - (CsE) csúszáselleni egység csúszást jelez legalább egy kocsin
 + (CsE) csúszáselleni egység működőképes az összes kocsin
 
 ? Mit jelent a járművezető számára az alábbi ikon megjelenése a vezetői képernyőn? Jelölje meg a helyes választ!
+! 812K/812K_05.png
 - Tartalék fék bekapcsolva
 + Rögzítőfék bekapcsolva
 - Pneumatikus fék bekapcsolva
 
 ? Mit jelent a járművezető számára az alábbi ikon megjelenése a vezetői képernyőn? Jelölje meg a helyes választ!
+! 812K/812K_06.png
 - Vészhelyzeti fék bekapcsolva
 + Tartalék fék bekapcsolva
 - Rögzítőfék bekapcsolva
@@ -35,6 +39,7 @@
 - A „B5”-ös EP szelepet táplálja meg töltővezetéki levegővel
 
 ? Mit jelent a járművezető számára az alábbi ikon megjelenése a vezetői képernyőn? Jelölje meg a helyes választ!
+! 812K/812K_08.png
 + (EAN) egyedi ajtónyitás üzemmód kikapcsolva
 - (EAN) egyedi ajtónyitás üzemmód bekapcsolva
 - (DIRÖV) digitális információs rendszer vezérlés személyzeti működése
@@ -90,41 +95,49 @@
 - a PSZN segédüzemi inverter 400 V-os egyenáramot állít elő
 
 ? Mit jelent a járművezető számára az alábbi ikon a vezetői képernyőn? Jelölje meg a helyes választ!
+! 812K/812K_19.png
 - Nagyfeszültség jelenléte nem az összes kocsin
 - Nagyfeszültség hiánya az összes kocsin
 + Nagyfeszültség jelenléte az összes kocsin
 
 ? Mit jelent a járművezető számára az alábbi ikon a vezetői képernyőn? Jelölje meg a helyes választ!
+! 812K/812K_20.png
 - Nagyfeszültség hiánya az összes kocsin
 - Nagyfeszültség jelenléte az összes kocsin
 + Nagyfeszültség jelenléte nem az összes kocsin
 
 ? Mit jelent a járművezető számára az alábbi ikon a vezetői képernyőn? Jelölje meg a helyes választ!
+! 812K/812K_21.png
 - Nagyfeszültség jelenléte nem az összes kocsin
 - Nagyfeszültség jelenléte az összes kocsin
 + Nagyfeszültség hiánya az összes kocsin
 
 ? Mit jelent a járművezető számára az ikon megjelenése a vezetői képernyőn? Jelölje meg a helyes választ!
+! 812K/812K_22.png
 - Hibanapló nem üres. Abban az esetben, ha a hiba nem hárítható el a vonatot a járműtelep felőli végállomáson ki kell vonni a forgalomból
 + Hibanapló nem üres. Abban az esetben, ha a hiba nem hárítható el a vonatból az utasokat ki kell szállítani.
 - Hibanapló üres
 
 ? Mit jelent a járművezető számára az alábbi ikon megjelenése a vezetői képernyőn? Jelölje meg a helyes választ!
+! 812K/812K_23.png
 - Hibanapló üres
 + Hibanapló nem üres. Abban az esetben, ha a hiba nem hárítható el a vonatot a járműtelep felőli végállomáson ki kell vonni a forgalomból.
 - Hibanapló nem üres. Abban az esetben, ha a hiba nem hárítható el a vonatból az utasokat ki kell szállítani.
 
 ? Mit jelent a járművezető számára az alábbi ikon megjelenése a vezetői képernyőn? Jelölje meg a helyes választ!
+! 812K/812K_24.png
 - Akkumulátoros üzem „Kocsiszíni kiállás” üzemmód nem lehetséges
 - Akkumulátoros üzem a” Kocsiszíni kiállás” üzemmód kikapcsolva
 + Akkumulátoros üzem „Kocsiszíni kiállás” üzemmódban
 
 ? Mit jelent a járművezető számára az alábbi ikon megjelenése a vezetői képernyőn? Jelölje meg a helyes választ!
+! 812K/812K_25.png
 + Csúszás elleni védelem hibája egy, vagy több kocsin
 - Csúszás elleni védelem kompenzálja a csúszást legalább egy kocsin
 - Csúszás elleni védelem működőképes az összes kocsin
 
 ? Mit jelent a járművezető számára az alábbi ikon megjelenése a vezetői képernyőn? Jelölje meg a helyes választ!
+! 812K/812K_26.png
 + Hasznosítási üzemmód bekapcsolva (Visszatáplálás)
 - Hasznosítási üzemmód kikapcsolva (Nincs visszatáplálás)
 - Hasznosítási üzemmód készenlétben (Visszatáplálás bekapcsolható)
@@ -135,11 +148,13 @@
 - „EPK” kapcsoló bekapcsolt állását
 
 ? Mit jelent a járművezető számára az alábbi ikon megjelenése a vezetői képernyőn? Jelölje meg a helyes választ!
+! 812K/812K_28.png
 + Tűz a kocsiban
 - Füstjelzés a vonaton
 - Vészhelyzeti fék bekapcsolva
 
 ? Mit jelent a járművezető számára az alábbi ikon megjelenése a vezetői képernyőn? Jelölje meg a helyes választ!
+! 812K/812K_29.png
 - SIÁ (Segédüzemi inverter) működőképes
 - Hajtásinverter hiba egy kocsin
 + SIÁ (Segédüzemi inverter) hiba
@@ -230,16 +245,19 @@
 - A vezetőfülke hátfali készülékszekrényben
 
 ? A digitális információs komplexum alapértesítő rendszer működésének képen látható kezelőgombja
+! 812K/812K_47.png
 - a viszonylat (utastájékoztató szöveg) kezdetének kiválasztása a vonat haladási irányának megfelelően
 + a járművezető mikrofonjának csatlakoztatását az utastéri és külső hangosbemondó rendszerhez vagy a fülkék közötti összeköttetést biztosítja
 - csak a vezetőfülkék közötti kommunikáció beállítására szolgál
 
 ? Mit jelent a TIMAN kijelzőjén megjelenő alábbi ikon?
+! 812K/812K_48.png
 + Füstjelzés
 - Vízköd oltó nincs feltöltve
 - Áramkör szakadás az érzékelő és a központ között
 
 ? Mit jelent a TIMAN kijelzőjén megjelenő alábbi ikon?
+! 812K/812K_49.png
 - Menekítési algoritmus nem aktiválható
 - Áramkör szakadás az érzékelő és a központ között
 + Hőriasztás (Esetleg tűz)
@@ -250,26 +268,31 @@
 + Fékezőszelep táp kismegszakító leoldott
 
 ? Mit jelent a TIMAN kijelzőjén megjelenő alábbi ikon?
+! 812K/812K_51.png
 + Magas a csapágytok hőmérséklete
 - Tartalékvezérlés bekapcsolva
 - Hőriasztás (Esetleg tűz)
 
 ? Mit jelent a TIMAN kijelzőjén megjelenő alábbi ikon?
+! 812K/812K_52.png
 - Vészhívás aktív
 + Áramkör szakadás a központ és az oltópatron között
 - Füstjelzés
 
 ? Mit jelent a TIMAN kijelzőjén megjelenő alábbi ikon?
+! 812K/812K_53.png
 - Menekítési algoritmus bekapcsolva
 + A csapágytok túlmelegedett
 - Füstjelzés
 
 ? A digitális információs komplexum alapértesítő rendszer működésének alábbi kezelőgombja
+! 812K/812K_54.png
 - a viszonylat (utastájékoztató szöveg) kezdetének kiválasztása a vonat haladási irányának megfelelően
 - a járművezető mikrofonjának csatlakoztatását az utastéri és külső hangosbemondó rendszerhez vagy a fülkék közötti összeköttetés biztosítja
 + a megfelelő kiválasztott szöveg és memorikus üzenetek lejátszását biztosítja
 
 ? A digitális információs komplexum alapértesítő rendszer működésének alábbi  kezelőgombja
+! 812K/812K_55.png
 + a viszonylat (utastájékoztató szöveg) kezdetének kiválasztása a vonat haladási irányának megfelelően
 - a járművezető mikrofonjának csatlakoztatását az utastéri és külső hangosbemondó rendszerhez, vagy a fülkék közötti összeköttetés biztosítja
 - csak a vezetőfülkék közötti kommunikáció beállítására szolgál
