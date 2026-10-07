@@ -283,7 +283,7 @@ function results(){
   const n=r.ok+r.bad.length,pass=r.ok*100>=PASS_PERCENT*n,hasBad=r.bad.length>0;
   const row=h(hasBad?"details":"div"),head=h(hasBad?"summary":"div","hd");
   head.append(h("span","",(hasBad?"▸ ":"")+t),h("span","",r.ok),h("span","",r.bad.length),
-   h("span","badge "+(pass?"ok":"no"),pass?"Megfelelt":"Nem felelt meg"));
+   h("span","badge "+(pass?"ok":"no"),pass?"Igen":"Nem"));
   row.appendChild(head);
   if(hasBad){
    const wl=h("div","wl");
@@ -302,7 +302,6 @@ function results(){
  show("s-res");
 }
 $("again").onclick=()=>{
- Q.filter(x=>x.t===t).forEach(x=>seen.delete(x.id))});
  saveSeen();show("s-setup");refresh();
 };
 $("allq").onclick=()=>{seen=new Set();saveSeen();refresh()};
