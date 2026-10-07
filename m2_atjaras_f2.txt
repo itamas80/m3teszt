@@ -1,4 +1,4 @@
-﻿# K-Ny átjárás F.2.
+﻿# K-Ny - átjárás F.2.
 ? Hol érvényes a K–Ny-i metróvonal F.2. Forgalmi Utasítása?
 - A BKV Zrt. által üzemeltetett K-Ny-i (M2) és DBR (M4) metróvonalon és járműtelepükön.
 + A BKV Zrt. által üzemeltetett K–Ny-i metróvonalon és járműtelepén, valamint a K–Ny-i és Észak–déli metróvonalakat összekötő üzemi vágány K–Ny-i vonalhoz tartozó szakaszán.

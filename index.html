@@ -91,8 +91,8 @@ const PRESETS={             // gombnév: {témakör neve a txt "# ..." sorából
 "É-D - F.2.":15,
 "É-D - V.1.":10,
 "K-Ny vonalismeret":5,
-"K-Ny - F.1.":25,
-"K-Ny - F.2.":25},
+"K-Ny - átjárás F.1.":25,
+"K-Ny - átjárás F.2.":25},
  "Alap + K-Ny":{"Általános":24,
 "Műszaki":24,
 "81-2K":5,
@@ -103,8 +103,8 @@ const PRESETS={             // gombnév: {témakör neve a txt "# ..." sorából
 "É-D - F.2.":15,
 "É-D - V.1.":10,
 "K-Ny vonalismeret":0,
-"K-Ny - F.1.":0,
-"K-Ny - F.2.":0}
+"K-Ny - átjárás F.1.":0,
+"K-Ny - átjárás F.2.":0}
 };
 // ---------------------
 const $=id=>document.getElementById(id);
@@ -268,8 +268,7 @@ $("again").onclick=()=>{
  topics.forEach(t=>{if(left(t).length===0)Q.filter(x=>x.t===t).forEach(x=>seen.delete(x.id))});
  saveSeen();show("s-setup");refresh();
 };
-$("allq").onclick=()=>{seen=new Set();saveSeen();topics.forEach(t=>cnt[t]=Q.filter(x=>x.t===t).length);refresh()};
-
+$("allq").onclick=()=>{seen=new Set();saveSeen();refresh()};
 const get=u=>fetch(u).then(r=>r.ok?r.text():Promise.reject());
 try{Object.assign(opt,JSON.parse(store("quiz:opts")||"{}"))}catch(e){}
 syncOpt();loadSeen();show("s-setup");
