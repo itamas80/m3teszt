@@ -90,9 +90,9 @@ const PRESETS={             // gombnév: {témakör neve a txt "# ..." sorából
 "É-D - F.1.":15,
 "É-D - F.2.":15,
 "É-D - V.1.":10,
-"K-Ny vonalismeret":5,
-"K-Ny - átjárás F.1.":25,
-"K-Ny - átjárás F.2.":25},
+"K-Ny vonalismeret":0,
+"K-Ny - átjárás F.1.":0,
+"K-Ny - átjárás F.2.":0},
  "Alap + K-Ny":{"Általános":24,
 "Műszaki":24,
 "81-2K":5,
@@ -102,9 +102,9 @@ const PRESETS={             // gombnév: {témakör neve a txt "# ..." sorából
 "É-D - F.1.":15,
 "É-D - F.2.":15,
 "É-D - V.1.":10,
-"K-Ny vonalismeret":0,
-"K-Ny - átjárás F.1.":0,
-"K-Ny - átjárás F.2.":0}
+"K-Ny vonalismeret":5,
+"K-Ny - átjárás F.1.":25,
+"K-Ny - átjárás F.2.":25}
 };
 // ---------------------
 const $=id=>document.getElementById(id);
@@ -257,6 +257,9 @@ function results(){
      const it=h("div","wi");
      if(x.g)it.appendChild(h("div","meta",x.t));
      it.appendChild(h("div","",x.q));
+     if(x.img){const im=h("img","wimg");im.src=imgSrc(x.img);im.onerror=()=>im.remove();it.appendChild(im)}
+     it.append(h("div","mine","Te: "+a),h("div","good","Helyes: "+x.a));
+     wl.appendChild(it);
    });
    row.appendChild(wl);
   }
