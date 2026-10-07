@@ -33,9 +33,13 @@ button{font:inherit;cursor:pointer}
 .row input{width:56px;padding:8px 2px;text-align:center;border:1px solid var(--bd);border-radius:10px;background:var(--bg);color:var(--tx);font-size:1rem}
 .chk{display:flex;align-items:center;gap:10px;margin-top:10px}
 .chk input{width:20px;height:20px}
-#pre{display:flex;gap:8px;margin-bottom:6px}#pre button{margin:0}
+#pre{display:flex;gap:8px;margin-bottom:6px;align-items:flex-end}
+.pw{display:flex;flex-direction:column;gap:4px}
+.pw.w1{flex:1;min-width:0}
+.pl{font-weight:700}
+#pre button{margin:0}
 #pre button{width:auto;flex:none;padding:12px 16px}
-#pre select{flex:1;min-width:0;padding:12px;border:1px solid var(--bd);border-radius:10px;background:var(--bg);color:var(--tx);font:inherit}
+#pre select{width:100%;padding:12px;border:1px solid var(--bd);border-radius:10px;background:var(--bg);color:var(--tx);font:inherit}
 #pre button{
  border:1px solid var(--bd);
  background:linear-gradient(var(--card),var(--bg));
@@ -107,34 +111,22 @@ const FS_INC=2;             // lépésköz (px)
 const FS_STEPS=4;           // ennyi lépés az alap fölé: 16-18-20-22-24
 const AUTO_NEXT_MS=3000;    // automata továbblépés várakozási ideje (ms)
 const PRESETS={             // gombnév: {témakör neve a txt "# ..." sorából: kérdésszám}
- "Alap":{
-"Általános":24,
-"Műszaki":24,
-"81-2K":5,
-"Ev3":5,
-"Töfi":0,
-"É-D vonalismeret":5,
-"É-D - F.1.":15,
-"É-D - F.2.":15,
-"É-D - V.1.":10,
-"K-Ny vonalismeret":0,
-"K-Ny - átjárás F.1.":0,
-"K-Ny - átjárás F.2.":0
-},
- "Alap + K-Ny":{
-"Általános":24,
-"Műszaki":24,
-"81-2K":5,
-"Ev3":5,
-"Töfi":0,
-"É-D vonalismeret":5,
-"É-D - F.1.":15,
-"É-D - F.2.":15,
-"É-D - V.1.":10,
-"K-Ny vonalismeret":5,
-"K-Ny - átjárás F.1.":20,
-"K-Ny - átjárás F.2.":20
-}
+ "Alap, 81-2K, Ev3, É-D":{"Általános":24,"Műszaki":24,"81-2K":5,"Ev3":5,"Töfi":0,
+"É-D vonalismeret":5,"É-D - F.1.":15,"É-D - F.2.":15,"É-D - V.1.":10,"K-Ny vonalismeret":0,"K-Ny - átjárás F.1.":0,"K-Ny - átjárás F.2.":0},
+ "Alap, 81-2K, Ev3, É-D, K-Ny":{"Általános":24,"Műszaki":24,"81-2K":5,"Ev3":5,"Töfi":0,
+"É-D vonalismeret":5,"É-D - F.1.":15,"É-D - F.2.":15,"É-D - V.1.":10,"K-Ny vonalismeret":5,"K-Ny - átjárás F.1.":20,"K-Ny - átjárás F.2.":20}
+ "Alap, 81-2K, Ev3, Töfi, É-D, K-Ny":{"Általános":24,"Műszaki":24,"81-2K":5,"Ev3":5,"Töfi":5,
+"É-D vonalismeret":5,"É-D - F.1.":15,"É-D - F.2.":15,"É-D - V.1.":10,"K-Ny vonalismeret":5,"K-Ny - átjárás F.1.":20,"K-Ny - átjárás F.2.":20}
+ "Alap, 81-2K, É-D":{"Általános":24,"Műszaki":24,"81-2K":5,"Ev3":0,"Töfi":0,
+"É-D vonalismeret":5,"É-D - F.1.":15,"É-D - F.2.":15,"É-D - V.1.":10,"K-Ny vonalismeret":0,"K-Ny - átjárás F.1.":0,"K-Ny - átjárás F.2.":0},
+ "81-2K, teljes":{"Általános":0,"Műszaki":0,"81-2K":65,"Ev3":0,"Töfi":0,
+"É-D vonalismeret":0,"É-D - F.1.":0,"É-D - F.2.":0,"É-D - V.1.":0,"K-Ny vonalismeret":0,"K-Ny - átjárás F.1.":0,"K-Ny - átjárás F.2.":0},
+ "É-D infra, teljes":{"Általános":0,"Műszaki":0,"81-2K":0,"Ev3":0,"Töfi":0,
+"É-D vonalismeret":0,"É-D - F.1.":120,"É-D - F.2.":103,"É-D - V.1.":20,"K-Ny vonalismeret":0,"K-Ny - átjárás F.1.":0,"K-Ny - átjárás F.2.":0},
+ "K-Ny átjárás infra, teljes":{"Általános":0,"Műszaki":0,"81-2K":0,"Ev3":0,"Töfi":0,
+"É-D vonalismeret":0,"É-D - F.1.":0,"É-D - F.2.":0,"É-D - V.1.":0,"K-Ny vonalismeret":0,"K-Ny - átjárás F.1.":91,"K-Ny - átjárás F.2.":69},
+ "Nulla":{"Általános":0,"Műszaki":0,"81-2K":0,"Ev3":0,"Töfi":0,
+"É-D vonalismeret":0,"É-D - F.1.":0,"É-D - F.2.":0,"É-D - V.1.":0,"K-Ny vonalismeret":0,"K-Ny - átjárás F.1.":0,"K-Ny - átjárás F.2.":0}
 };
 // ---------------------
 const $=id=>document.getElementById(id);
@@ -183,13 +175,13 @@ function applyPreset(){
  topics.forEach(t=>cnt[t]=P[t]||0);refresh();
 }
 psel.onchange=applyPreset;
-$("pre").appendChild(psel);
+const w1=h("div","pw w1");w1.append(h("div","pl","Modulok összeállítása"),psel);$("pre").appendChild(w1);
 // betűméret gomb
 let fsStep=parseInt(store("quiz:fs"))||0;if(!(fsStep>=0&&fsStep<=FS_STEPS))fsStep=0;
 const fsBtn=h("button","btn sec");
 function applyFs(){const px=BASE_FS+fsStep*FS_INC;document.documentElement.style.fontSize=px+"px";fsBtn.textContent="Aa "+px+"px"}
 fsBtn.onclick=()=>{fsStep=(fsStep+1)%(FS_STEPS+1);store("quiz:fs",String(fsStep));applyFs()};
-$("pre").appendChild(fsBtn);applyFs();
+const w2=h("div","pw");w2.append(h("div","pl","Betűméret"),fsBtn);$("pre").appendChild(w2);applyFs();
 
 function refresh(){
  $("tl").replaceChildren();
