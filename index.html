@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Modul</title>
+<title>Vizsgakérdések - tesztsor</title>
 <style>
 :root{--bg:#f6f7f9;--card:#fff;--tx:#1d2330;--mu:#667085;--ac:#2f6fed;--ok:#1f9d55;--no:#d93f3f;--bd:#d9dde5;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#14171d;--card:#1e222b;--tx:#e8eaf0;--mu:#9aa3b2;--ac:#6b9bff;--ok:#3ec17a;--no:#ff6b6b;--bd:#343a47}}
@@ -34,6 +34,8 @@ button{font:inherit;cursor:pointer}
 .chk{display:flex;align-items:center;gap:10px;margin-top:10px}
 .chk input{width:20px;height:20px}
 #pre{display:flex;gap:8px;margin-bottom:6px}#pre button{margin:0}
+#pre button{width:auto;flex:none;padding:12px 16px}
+#pre select{flex:1;min-width:0;padding:12px;border:1px solid var(--bd);border-radius:10px;background:var(--bg);color:var(--tx);font:inherit}
 #pre button{
  border:1px solid var(--bd);
  background:linear-gradient(var(--card),var(--bg));
@@ -119,7 +121,7 @@ const PRESETS={             // gombnév: {témakör neve a txt "# ..." sorából
 "K-Ny - átjárás F.1.":0,
 "K-Ny - átjárás F.2.":0
 },
- "Alap +\nK-Ny":{
+ "Alap + K-Ny":{
 "Általános":24,
 "Műszaki":24,
 "81-2K":5,
@@ -174,11 +176,15 @@ $("o-show").onchange=e=>{opt.show=e.target.checked;syncOpt();saveOpt()};
 $("o-auto").onchange=e=>{opt.auto=e.target.checked;saveOpt()};
 
 // előre beállított gombok
-Object.keys(PRESETS).forEach(name=>{
- const b=h("button","btn sec",name);
- b.onclick=()=>{topics.forEach(t=>cnt[t]=PRESETS[name][t]||0);refresh()};
- $("pre").appendChild(b);
-});
+const psel=h("select");psel.id="preset";
+psel.appendChild(new Option("Gyorsbeállítás…",""));
+Object.keys(PRESETS).forEach(name=>psel.appendChild(new Option(name,name)));
+psel.onchange=()=>{
+ const P=PRESETS[psel.value];if(!P)return;
+ topics.forEach(t=>cnt[t]=P[t]||0);
+ refresh();psel.value="";
+};
+$("pre").appendChild(psel);
 // betűméret gomb
 let fsStep=parseInt(store("quiz:fs"))||0;if(!(fsStep>=0&&fsStep<=FS_STEPS))fsStep=0;
 const fsBtn=h("button","btn sec");
