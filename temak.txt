@@ -4,9 +4,12 @@ muszaki.txt
 ev3.txt
 tofi.txt
 m3_vonal.txt
+[É-D infrastruktúra]
 m3_f1.txt
 m3_f2.txt
 m3_v1.txt
+
 m2_vonal.txt
+[K-Ny infrastruktúra]
 m2_atjaras_f1.txt
 m2_atjaras_f2.txt

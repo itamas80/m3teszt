@@ -103,7 +103,7 @@ function parse(txt,d){
  return out.filter(x=>x.t&&x.q&&x.a&&x.w.length);
 }
 function setQ(files){
- const p=[];files.forEach(f=>p.push(...parse(f.text,f.name)));
+ const p=[];files.forEach(f=>parse(f.text,f.name).forEach(x=>{x.g=f.g||"";p.push(x)}));
  if(!p.length)return 0;
  const c={};p.forEach(x=>{c[x.t]=(c[x.t]||0)+1;x.n=c[x.t];x.id=x.t+"#"+x.n});
  Q=p;topics=[...new Set(Q.map(x=>x.t))];cnt={};
@@ -114,6 +114,7 @@ function loadSeen(){try{seen=new Set(JSON.parse(store("quiz:seen")||"[]"))}catch
 function saveSeen(){store("quiz:seen",JSON.stringify([...seen]))}
 function shuffle(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
 function show(id){["s-setup","s-quiz","s-res"].forEach(s=>$(s).classList.toggle("hide",s!==id))}
+const unit=x=>x.g||x.t;   // értékelési egység: csoport neve, ha van, különben a témakör
 const left=t=>Q.filter(x=>x.t===t&&!seen.has(x.id));
 
 // jelölőnégyzetek
@@ -141,7 +142,7 @@ function refresh(){
   const l=left(t).length,tot=Q.filter(x=>x.t===t).length;
   cnt[t]=Math.min(cnt[t]||0,l);
   const row=h("div","row"),nm=h("div","nm",t);
-  nm.appendChild(h("small","",`${l} új / ${tot} kérdés`));
+  nm.appendChild(h("small","",`${l} / ${tot}`));
   const inp=h("input");inp.type="number";inp.min=0;inp.max=l;inp.value=cnt[t];inp.inputMode="numeric";
   const set=v=>{v=Math.max(0,Math.min(l,v||0));cnt[t]=v;inp.value=v};
   inp.onchange=()=>set(parseInt(inp.value));
@@ -159,18 +160,18 @@ $("start").onclick=()=>{
  topics.forEach(t=>{if(cnt[t]>0)qs.push(...shuffle(left(t)).slice(0,cnt[t]))});
  if(!qs.length){$("msg").textContent="Adj meg legalább egy kérdést valamelyik témakörnél.";return}
  run={qs,i:0,ans:[],sel:null,locked:false,timer:null,show:opt.show,auto:opt.auto,tt:{},tok:{},tbad:{}};
- run.qs.forEach(x=>{run.tt[x.t]=(run.tt[x.t]||0)+1;run.tok[x.t]=0;run.tbad[x.t]=0});
+ run.qs.forEach(x=>{const u=unit(x);run.tt[u]=(run.tt[u]||0)+1;run.tok[u]=0;run.tbad[u]=0});
  ask();
 };
 
 const imgSrc=p=>IMG[p]||IMG[p.split("/").pop()]||p;
 function counts(){
- const x=run.qs[run.i];let pos=0;
- for(let k=0;k<=run.i;k++)if(run.qs[k].t===x.t)pos++;
- $("f1").textContent=`${x.t}: ${pos} / ${run.tt[x.t]}`;
+ const x=run.qs[run.i],u=unit(x);let pos=0;
+ for(let k=0;k<=run.i;k++)if(unit(run.qs[k])===u)pos++;
+ $("f1").textContent=`${u}: ${pos} / ${run.tt[u]}`;
  $("f2").textContent=`Összesen: ${run.i+1} / ${run.qs.length}`;
- $("f3").textContent=run.show?`Helyes: ${run.tok[x.t]}`:"";
- $("f4").textContent=run.show?`Helytelen: ${run.tbad[x.t]}`:"";
+ $("f3").textContent=run.show?`Helyes: ${run.tok[u]}`:"";
+ $("f4").textContent=run.show?`Helytelen: ${run.tbad[u]}`:"";
 }
 function stopCd(){clearInterval(run.timer);$("cd").textContent=""}
 function startCd(){
@@ -197,7 +198,8 @@ function pick(btn,o){
  if(run.show){
   run.locked=true;
   [...$("opts").children].forEach(b=>{b.disabled=true;if(b.textContent===x.a)b.classList.add("ok")});
-  if(o===x.a)run.tok[x.t]++;else{run.tbad[x.t]++;btn.classList.add("no")}
+  const u=unit(x);
+  if(o===x.a)run.tok[u]++;else{run.tbad[u]++;btn.classList.add("no")}
   counts();
  }else{
   [...$("opts").children].forEach(b=>b.classList.toggle("sel",b===btn));
@@ -217,12 +219,12 @@ $("next").onclick=next;
 function results(){
  const g={};
  run.qs.forEach((x,i)=>{
-  const r=g[x.t]||(g[x.t]={ok:0,bad:[]});
+  const u=unit(x),r=g[u]||(g[u]={ok:0,bad:[]});
   if(run.ans[i]===x.a)r.ok++;else r.bad.push({x,a:run.ans[i]});
  });
  const box=$("rtab");box.replaceChildren();
  Object.entries(g).forEach(([t,r])=>{
-  const n=r.ok+r.bad.length,pass=r.ok/n*100>=PASS_PERCENT,hasBad=r.bad.length>0;
+  const n=r.ok+r.bad.length,pass=r.ok*100>=PASS_PERCENT*n,hasBad=r.bad.length>0;
   const row=h(hasBad?"details":"div"),head=h(hasBad?"summary":"div","hd");
   head.append(h("span","",(hasBad?"▸ ":"")+t),h("span","",r.ok),h("span","",r.bad.length),
    h("span","badge "+(pass?"ok":"no"),pass?"Megfelelt":"Nem felelt meg"));
@@ -230,9 +232,9 @@ function results(){
   if(hasBad){
    const wl=h("div","wl");
    r.bad.forEach(({x,a})=>{
-    const it=h("div","wi");it.appendChild(h("div","",x.q));
-    if(x.img){const im=h("img","wimg");im.src=imgSrc(x.img);im.onerror=()=>im.remove();it.appendChild(im)}
-    it.append(h("div","mine","Te: "+a),h("div","good","Helyes: "+x.a));wl.appendChild(it);
+     const it=h("div","wi");
+     if(x.g)it.appendChild(h("div","meta",x.t));
+     it.appendChild(h("div","",x.q));
    });
    row.appendChild(wl);
   }
@@ -250,8 +252,15 @@ const get=u=>fetch(u).then(r=>r.ok?r.text():Promise.reject());
 try{Object.assign(opt,JSON.parse(store("quiz:opts")||"{}"))}catch(e){}
 syncOpt();loadSeen();show("s-setup");
 get("temak.txt").then(t=>{
- const names=t.split(/\r?\n/).map(x=>x.trim()).filter(Boolean);
- return Promise.all(names.map(n=>get(n).then(text=>({name:n.replace(/\.txt$/i,""),text}))));
+ let grp=null;const list=[];
+ for(let l of t.split(/\r?\n/)){
+  l=l.trim();
+  if(!l){grp=null;continue}
+  const m=l.match(/^\[(.+)\]$/);
+  if(m){grp=m[1].trim();continue}
+  list.push({file:l,g:grp});
+ }
+ return Promise.all(list.map(e=>get(e.file).then(text=>({name:e.file.replace(/\.txt$/i,""),text,g:e.g}))));
 }).then(f=>{if(!setQ(f))throw 0;refresh()})
 .catch(()=>{$("msg").textContent="A kérdések nem tölthetők be: a temak.txt vagy a benne felsorolt fájlok nem érhetők el.";$("start").disabled=true});
 </script>
