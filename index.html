@@ -184,14 +184,17 @@ fsBtn.onclick=()=>{fsStep=(fsStep+1)%(FS_STEPS+1);store("quiz:fs",String(fsStep)
 const w2=h("div","pw");w2.append(h("div","pl","Betűméret"),fsBtn);$("pre").appendChild(w2);applyFs();
 
 function refresh(){
+ let ch=false;
+ topics.forEach(t=>{if(left(t).length===0){Q.filter(x=>x.t===t).forEach(x=>seen.delete(x.id));ch=true}});
+ if(ch)saveSeen();
  $("tl").replaceChildren();
  topics.forEach(t=>{
   const l=left(t).length,tot=Q.filter(x=>x.t===t).length;
-  cnt[t]=Math.min(cnt[t]||0,l);
+  cnt[t]=Math.min(cnt[t]||0,tot);
   const row=h("div","row"),nm=h("div","nm",t);
   nm.appendChild(h("small","",`${tot} / ${l}`));
-  const inp=h("input");inp.type="number";inp.min=0;inp.max=l;inp.value=cnt[t];inp.inputMode="numeric";
-  const set=v=>{v=Math.max(0,Math.min(l,v||0));cnt[t]=v;inp.value=v};
+  const inp=h("input");inp.type="number";inp.min=0;inp.max=tot;inp.value=cnt[t];inp.inputMode="numeric";
+  const set=v=>{v=Math.max(0,Math.min(tot,v||0));cnt[t]=v;inp.value=v};
   inp.onchange=()=>set(parseInt(inp.value));
   const mi=h("button","","−");mi.onclick=()=>set(cnt[t]-1);
   const pl=h("button","","+");pl.onclick=()=>set(cnt[t]+1);
@@ -204,7 +207,12 @@ function refresh(){
 
 $("start").onclick=()=>{
  let qs=[];
- topics.forEach(t=>{if(cnt[t]>0)qs.push(...shuffle(left(t)).slice(0,cnt[t]))});
+ topics.forEach(t=>{
+  const n=cnt[t];if(!(n>0))return;
+  let pk=shuffle(left(t)).slice(0,n);
+  if(pk.length<n)pk=pk.concat(shuffle(Q.filter(x=>x.t===t&&seen.has(x.id))).slice(0,n-pk.length));
+  qs.push(...shuffle(pk));
+ });
  if(!qs.length){$("msg").textContent="Adj meg legalább egy kérdést valamelyik témakörnél.";return}
  run={qs,i:0,ans:[],sel:null,locked:false,timer:null,show:opt.show,auto:opt.auto,tt:{},tok:{},tbad:{}};
  run.qs.forEach(x=>{const u=unit(x);run.tt[u]=(run.tt[u]||0)+1;run.tok[u]=0;run.tbad[u]=0});
@@ -294,7 +302,7 @@ function results(){
  show("s-res");
 }
 $("again").onclick=()=>{
- topics.forEach(t=>{if(left(t).length===0)Q.filter(x=>x.t===t).forEach(x=>seen.delete(x.id))});
+ Q.filter(x=>x.t===t).forEach(x=>seen.delete(x.id))});
  saveSeen();show("s-setup");refresh();
 };
 $("allq").onclick=()=>{seen=new Set();saveSeen();refresh()};
