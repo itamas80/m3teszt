@@ -1,6 +1,6 @@
 altalanos.txt
 muszaki.txt
-812k.txt
+812K.txt
 ev3.txt
 tofi.txt
 m3_vonal.txt
