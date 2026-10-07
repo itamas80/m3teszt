@@ -177,13 +177,12 @@ $("o-auto").onchange=e=>{opt.auto=e.target.checked;saveOpt()};
 
 // előre beállított gombok
 const psel=h("select");psel.id="preset";
-psel.appendChild(new Option("Gyorsbeállítás…",""));
 Object.keys(PRESETS).forEach(name=>psel.appendChild(new Option(name,name)));
-psel.onchange=()=>{
+function applyPreset(){
  const P=PRESETS[psel.value];if(!P)return;
- topics.forEach(t=>cnt[t]=P[t]||0);
- refresh();psel.value="";
-};
+ topics.forEach(t=>cnt[t]=P[t]||0);refresh();
+}
+psel.onchange=applyPreset;
 $("pre").appendChild(psel);
 // betűméret gomb
 let fsStep=parseInt(store("quiz:fs"))||0;if(!(fsStep>=0&&fsStep<=FS_STEPS))fsStep=0;
@@ -320,7 +319,7 @@ get("temak.txt").then(t=>{
   list.push({file:l,g:grp});
  }
  return Promise.all(list.map(e=>get(e.file).then(text=>({name:e.file.replace(/\.txt$/i,""),text,g:e.g}))));
-}).then(f=>{if(!setQ(f))throw 0;refresh()})
+}).then(f=>{if(!setQ(f))throw 0;applyPreset()})
 .catch(()=>{$("msg").textContent="A kérdések nem tölthetők be: a temak.txt vagy a benne felsorolt fájlok nem érhetők el.";$("start").disabled=true});
 </script>
 </body>
