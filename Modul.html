@@ -81,8 +81,11 @@ const BASE_FS=16;          // alap betűméret (px)
 const FS_STEPS=5;           // ennyivel növelhető 1 px-es lépésekben (16-17-18-19-20-21)
 const AUTO_NEXT_MS=3000;    // automata továbblépés várakozási ideje (ms)
 const PRESETS={             // gombnév: {témakör neve a txt "# ..." sorából: kérdésszám}
- "Alap1":{"Földrajz":3,"Történelem":1,"Informatika":0},
- "Alap2":{"Földrajz":1,"Történelem":2,"Informatika":2}
+ "Alap":{"Általános":24,"Műszaki":24,"81-2K":5,"Ev3":5,"Töfi":0,"É-D vonalismeret":5,"É-D - F.1.":15,"É-D - F.2.":15,"É-D - V.1.":10
+,"K-Ny vonalismeret":0,"K-Ny - F.1.":0,"K-Ny - F.2.":0}
+},
+ "Alap + K-Ny":{"Általános":24,"Műszaki":24,"81-2K":5,"Ev3":5,"Töfi":0,"É-D vonalismeret":5,"É-D - F.1.":15,"É-D - F.2.":15,"É-D - V.1.":10
+,"K-Ny vonalismeret":5,"K-Ny - F.1.":25,"K-Ny - F.2.":25}
 };
 // ---------------------
 const $=id=>document.getElementById(id);

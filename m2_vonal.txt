@@ -30,9 +30,9 @@
 - A vonal kezdőpontja Pillangó utca állomás. Pillangó utca állomás felől Déli pályaudvar állomás felé tekintve a jobb kéz felőli vágány a jobb vágány, a bal kéz felőli vágány a bal vágány.
 
 ? Hány állomása van a K-Ny-i metróvonalnak?
--14
-11
--10
+- 14
++ 11
+- 10
 
 ? Melyek a vágánykapcsolatos állomások a K-Ny-i vonalon?
 - Örs vezér tere, Pillangó utca, Deák tér, Déli pályaudvar
@@ -115,9 +115,9 @@
 - Keleti pályaudvar, Örs vezér tere
 
 ? A végpont felől a kezdőpont felé haladva, hányadik állomás a Puskás Ferenc Stadion?
-3
--4
--2
++ 3
+- 4
+- 2
 
 ? Hol kell szabályozni az M2/M3 összekötő vágány használatát?
 - Az összekötő vágány használatát az F.2. Forgalmi Utasításban kell szabályozni

@@ -220,9 +220,9 @@
 - Belépés a SBUCIK egység beállításának menüjébe.
 
 ? Jelölje meg a helyes választ! A vezérkontrollernek hány rögzített pozíciója van…
-4
--3
--2
++ 4
+- 3
+- 2
 
 ? Hol található a K1 és a K9-es csap?
 + A fékezőszelep alatti készülékszekrényben
