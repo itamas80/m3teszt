@@ -216,7 +216,7 @@ function setAuto(v){
  if(!v)stopCd();else if(run.sel!==null)startCd();
 }
 $("o-auto").onchange=e=>setAuto(e.target.checked);
-$("o-auto2").onchange=e=>setAuto(e.target.checked).disabled=!(run&&!run.counting);
+$("o-auto2").onchange=e=>setAuto(e.target.checked);
 
 // nagy témakör és gyorsbeállítás listák
 let ALL=[],SECS=[],cur=0;
@@ -333,7 +333,7 @@ function counts(){
  }
  cm.textContent=txt;cm.className=cls;
 }
-function updNext(){$("next").disabled=!(run&&run.sel!==null)}  // engedélyezve: megválaszolva és nem fut visszaszámlálás
+function updNext(){$("next").disabled=!(run.sel!==null)}  // engedélyezve: megválaszolva és nem fut visszaszámlálás
 function stopCd(){if(run)clearInterval(run.timer);$("cd").textContent=""}
 function startCd(){
  stopCd();let n=Math.max(1,Math.round(P_AUTO/1000));$("cd").textContent=n;
@@ -365,7 +365,7 @@ function pick(btn,o){
  }else{
   [...$("opts").children].forEach(b=>b.classList.toggle("sel",b===btn));
  }
- //if(opt.auto)startCd();else updNext();
+ if(opt.auto)startCd();else updNext();
 }
 function next(){
  stopCd();
