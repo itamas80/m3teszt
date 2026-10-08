@@ -69,6 +69,9 @@ summary.hd{cursor:pointer}summary.hd::-webkit-details-marker{display:none}
 .badge.ok{background:var(--ok)}.badge.no{background:var(--no)}
 .wl{padding:6px 0 10px}.wi{padding:10px;margin-top:8px;border:1px solid var(--bd);border-radius:10px;background:var(--bg)}
 .mine{color:var(--no)}.good{color:var(--ok)}
+#msg:empty{display:none}
+.help{font-size:.8rem;color:var(--mu);margin-top:8px}
+.row .lk{width:auto;height:auto;padding:4px 2px;border:0;border-radius:0;background:none;color:var(--ac);font:inherit;font-weight:700;text-decoration:underline}
 #msg.err{color:var(--no);font-weight:600}
 </style>
 </head>
@@ -85,6 +88,7 @@ summary.hd{cursor:pointer}summary.hd::-webkit-details-marker{display:none}
     <button class="btn" id="start">Indít</button>
   </div>
   <div class="rh"><div class="tn">Modul</div><div class="cl">Kérdésszámok</div></div>
+  <div class="help">Ö = Összes kérdés elérhető. M = Maximum kérdésszám.</div>
   <div class="meta" id="msg" style="margin-top:10px"></div>
   <div id="tl"></div>
  </div>
@@ -130,7 +134,7 @@ const AUTO_NEXT_MS=3000;    // automata továbblépés várakozási ideje (ms)
 // Belső név = a kis témakör neve a txt "# Név" sorából: kérdésszám.
 // A "*" minden olyan nagy témakörre érvényes, amelynek nincs saját bejegyzése.
 const PRESETS={
- "É-D járművezetői":{
+ "É-D":{
  "Alap, É-D":{"Általános":24,"Műszaki":24,"81-2K":5,"Ev3":5,"Töfi":0,
 "É-D vonalismeret":5,"É-D - F.1.":15,"É-D - F.2.":15,"É-D - V.1.":10,"K-Ny vonalismeret":0,"K-Ny - átjárás F.1.":0,"K-Ny - átjárás F.2.":0},
  "Alap, É-D, K-Ny":{"Általános":24,"Műszaki":24,"81-2K":5,"Ev3":5,"Töfi":0,
@@ -147,12 +151,12 @@ const PRESETS={
 "É-D vonalismeret":0,"É-D - F.1.":0,"É-D - F.2.":0,"É-D - V.1.":0,"K-Ny vonalismeret":0,"K-Ny - átjárás F.1.":91,"K-Ny - átjárás F.2.":69},
  "Nulla":{"Általános":0,"Műszaki":0,"81-2K":0,"Ev3":0,"Töfi":0,
 "É-D vonalismeret":0,"É-D - F.1.":0,"É-D - F.2.":0,"É-D - V.1.":0,"K-Ny vonalismeret":0,"K-Ny - átjárás F.1.":0,"K-Ny - átjárás F.2.":0}
-},
- "K-Ny járművezetői":{
- "Alap, K-Ny":{"Általános":24,"Műszaki":24,"AM5-M2":5,"K-Ny - F.1.":15,"K-Ny - F.2.":15,"K-Ny - V.1.":10},
- "Teljes AM5-M2":{"Általános":0,"Műszaki":0,"AM5-M2":33,"K-Ny - F.1.":0,"K-Ny - F.2.":0,"K-Ny - V.1.":0},
- "Teljes K-Ny F.1., F.2., V.1.":{"Általános":0,"Műszaki":0,"AM5-M2":0,"K-Ny - F.1.":90,"K-Ny - F.2.":100,"K-Ny - V.1.":40},
- "Nulla":{"Általános":0,"Műszaki":0,"AM5-M2":0,"K-Ny - F.1.":0,"K-Ny - F.2.":0,"K-Ny - V.1.":0}
+//},
+// "K-Ny":{
+// "Alap, K-Ny":{"Általános":24,"Műszaki":24,"AM5-M2":5,"K-Ny vonalismeret":5,"K-Ny - F.1.":15,"K-Ny - F.2.":15,"K-Ny - V.1.":10},
+// "Teljes AM5-M2":{"Általános":0,"Műszaki":0,"AM5-M2":33,"K-Ny vonalismeret":0,"K-Ny - F.1.":0,"K-Ny - F.2.":0,"K-Ny - V.1.":0},
+// "Teljes K-Ny F.1., F.2., V.1.":{"Általános":0,"Műszaki":0,"AM5-M2":0,"K-Ny vonalismeret":0,"K-Ny - F.1.":90,"K-Ny - F.2.":100,"K-Ny - V.1.":40},
+// "Nulla":{"Általános":0,"Műszaki":0,"AM5-M2":0,"K-Ny vonalismeret":0,"K-Ny - F.1.":0,"K-Ny - F.2.":0,"K-Ny - V.1.":0}
 }};
 // ============================================================================
 </script>
@@ -261,15 +265,18 @@ function refresh(){
   const l=left(t).length,tot=Q.filter(x=>x.t===t).length;
   cnt[t]=Math.min(cnt[t]||0,tot);
   const row=h("div","row"),nm=h("div","nm",t);
-  nm.appendChild(h("small","",`${tot} / ${l}`));
+  const lkO=h("button","lk","Ö"),lkM=h("button","lk","M"),sm=h("small");
+  lkO.title="Összes kérdés elérhető";lkM.title="Maximum kérdésszám";
+  sm.append(lkO,document.createTextNode(" | "),lkM,document.createTextNode(` | ${tot} / ${l}`));
+  nm.appendChild(sm);
   const inp=h("input");inp.type="number";inp.min=0;inp.max=tot;inp.value=cnt[t];inp.inputMode="numeric";
   const set=v=>{v=Math.max(0,Math.min(tot,v||0));cnt[t]=v;inp.value=v};
   inp.onchange=()=>set(parseInt(inp.value));
   const mi=h("button","","−");mi.onclick=()=>set(cnt[t]-1);
   const pl=h("button","","+");pl.onclick=()=>set(cnt[t]+1);
-  const rs=h("button","","↺");rs.title="Látott kérdések törlése";
-  rs.onclick=()=>{Q.filter(x=>x.t===t).forEach(x=>seen.delete(x.id));saveSeen();refresh()};
-  row.append(nm,mi,inp,pl,rs);$("tl").appendChild(row);
+  lkO.onclick=()=>{Q.filter(x=>x.t===t).forEach(x=>seen.delete(x.id));saveSeen();refresh()};
+  lkM.onclick=()=>set(tot);
+  row.append(nm,mi,inp,pl);$("tl").appendChild(row);
  });
  if(!$("msg").dataset.keep){$("msg").className="meta";$("msg").textContent=""}
 }
