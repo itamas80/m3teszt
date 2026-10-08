@@ -14,3 +14,7 @@ m2_vonal.txt
 [K-Ny infrastruktúra]
 m2_atjaras_f1.txt
 m2_atjaras_f2.txt
+
+== K-Ny járművezetői ==
+altalanos.txt
+muszaki.txt
