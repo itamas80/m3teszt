@@ -23,7 +23,7 @@ button{font:inherit;cursor:pointer}
 .opt.no{border-color:var(--no);background:color-mix(in srgb,var(--no) 18%,transparent)}
 .opt.sel{border-color:var(--ac);background:color-mix(in srgb,var(--ac) 16%,transparent)}
 .meta{color:var(--mu);font-size:.85rem;display:flex;justify-content:space-between;margin-bottom:8px}
-.hide{display:none}
+.hide{display:none!important}
 .rh{display:flex;align-items:center;gap:8px;padding:8px 0;border-bottom:1px solid var(--bd);font-weight:700}
 .rh .tn{flex:1}
 .rh .cl{width:188px;text-align:center}
@@ -38,8 +38,7 @@ button{font:inherit;cursor:pointer}
 .pw{display:flex;flex-direction:column;gap:4px}
 .pw.w1{flex:1;min-width:0}
 .pl{font-weight:700}
-#pre button{margin:0}
-#pre button{width:auto;flex:none;padding:12px 16px}
+#pre button{margin:0;width:auto;flex:none;padding:12px 16px}
 .pw select{width:100%;padding:12px;border:1px solid var(--bd);border-radius:10px;background:var(--bg);color:var(--tx);font:inherit}
 #pre button{
  border:1px solid var(--bd);
@@ -70,6 +69,7 @@ summary.hd{cursor:pointer}summary.hd::-webkit-details-marker{display:none}
 .badge.ok{background:var(--ok)}.badge.no{background:var(--no)}
 .wl{padding:6px 0 10px}.wi{padding:10px;margin-top:8px;border:1px solid var(--bd);border-radius:10px;background:var(--bg)}
 .mine{color:var(--no)}.good{color:var(--ok)}
+#msg.err{color:var(--no);font-weight:600}
 </style>
 </head>
 <body>
@@ -110,20 +110,60 @@ summary.hd{cursor:pointer}summary.hd::-webkit-details-marker{display:none}
 </main>
 
 <script>
-// ---- Beállítások ----
-const PASS_PERCENT=75;      // megfelelt, ha a jó válaszok aránya témakörönként legalább ennyi %
-const BASE_FS=16;           // alap betűméret (px)
-const FS_INC=2;             // lépésköz (px)
-const FS_STEPS=4;           // ennyi lépés az alap fölé: 16-18-20-22-24
-const AUTO_NEXT_MS=3000;    // automata továbblépés várakozási ideje (ms)
-const PRESETS={
- "Nagytéma 1":{"Alap1":{"Kis témakör":3,"Másik kis témakör":1},"Alap2":{"Kis témakör":1}},
- "*":{"Általános":{"Általános":10}}
-};
+// Hibajelző: ha bármelyik szkriptben hiba van, kiírja az oldalra (a "Kérdésszámok" fejléc alá).
+window.addEventListener("error",e=>{
+ const m=document.getElementById("msg");
+ if(m){m.className="meta err";m.dataset.keep="1";m.textContent="Hiba: "+e.message+" (sor: "+e.lineno+")"}
+});
+</script>
 
-// ---------------------
+<script>
+// ===================== BEÁLLÍTÁSOK (ezt szerkesztheted) =====================
+const PASS_PERCENT=75;      // megfelelt, ha a helyes válaszok aránya legalább ennyi %
+const BASE_FS=16;           // alap betűméret (px)
+const FS_INC=2;             // betűméret lépésköz (px)
+const FS_STEPS=4;           // hány lépés az alap fölé: 16-18-20-22-24
+const AUTO_NEXT_MS=3000;    // automata továbblépés várakozási ideje (ms)
+
+// Gyorsbeállítások nagy témakörönként.
+// Külső név = a temak.txt "== Név ==" sora (kis/nagybetű és ékezet nem számít).
+// Belső név = a kis témakör neve a txt "# Név" sorából: kérdésszám.
+// A "*" minden olyan nagy témakörre érvényes, amelynek nincs saját bejegyzése.
+const PRESETS={
+ "É-D járművezetői":{
+ "Alap, É-D":{"Általános":24,"Műszaki":24,"81-2K":5,"Ev3":5,"Töfi":0,
+É-D vonalismeret:5,"É-D - F.1.":15,"É-D - F.2.":15,"É-D - V.1.":10,"K-Ny vonalismeret":0,"K-Ny - átjárás F.1.":0,"K-Ny - átjárás F.2.":0},
+ "Alap, É-D, K-Ny":{"Általános":24,"Műszaki":24,"81-2K":5,"Ev3":5,"Töfi":0,
+É-D vonalismeret:5,"É-D - F.1.":15,"É-D - F.2.":15,"É-D - V.1.":10,"K-Ny vonalismeret":5,"K-Ny - átjárás F.1.":20,"K-Ny - átjárás F.2.":20},
+ "Alap, É-D, K-Ny, Töfi":{"Általános":24,"Műszaki":24,"81-2K":5,"Ev3":5,"Töfi":5,
+É-D vonalismeret:5,"É-D - F.1.":15,"É-D - F.2.":15,"É-D - V.1.":10,"K-Ny vonalismeret":5,"K-Ny - átjárás F.1.":20,"K-Ny - átjárás F.2.":20},
+ "Alap, É-D, Ev3 nélkül":{"Általános":24,"Műszaki":24,"81-2K":5,"Ev3":0,"Töfi":0,
+É-D vonalismeret:5,"É-D - F.1.":15,"É-D - F.2.":15,"É-D - V.1.":10,"K-Ny vonalismeret":0,"K-Ny - átjárás F.1.":0,"K-Ny - átjárás F.2.":0},
+ "81-2K, teljes":{"Általános":0,"Műszaki":0,"81-2K":65,"Ev3":0,"Töfi":0,
+É-D vonalismeret:0,"É-D - F.1.":0,"É-D - F.2.":0,"É-D - V.1.":0,"K-Ny vonalismeret":0,"K-Ny - átjárás F.1.":0,"K-Ny - átjárás F.2.":0},
+ "É-D infra, teljes":{"Általános":0,"Műszaki":0,"81-2K":0,"Ev3":0,"Töfi":0,
+É-D vonalismeret:0,"É-D - F.1.":120,"É-D - F.2.":103,"É-D - V.1.":20,"K-Ny vonalismeret":0,"K-Ny - átjárás F.1.":0,"K-Ny - átjárás F.2.":0},
+ "K-Ny átjárás infra, teljes":{"Általános":0,"Műszaki":0,"81-2K":0,"Ev3":0,"Töfi":0,
+É-D vonalismeret:0,"É-D - F.1.":0,"É-D - F.2.":0,"É-D - V.1.":0,"K-Ny vonalismeret":0,"K-Ny - átjárás F.1.":91,"K-Ny - átjárás F.2.":69},
+ "Nulla":{"Általános":0,"Műszaki":0,"81-2K":0,"Ev3":0,"Töfi":0,
+É-D vonalismeret:0,"É-D - F.1.":0,"É-D - F.2.":0,"É-D - V.1.":0,"K-Ny vonalismeret":0,"K-Ny - átjárás F.1.":0,"K-Ny - átjárás F.2.":0}
+}};
+
+// ============================================================================
+</script>
+
+<script>
+// Ha a beállítások blokkban szintaktikai hiba van, itt alapértékekre állunk vissza.
+const P_PASS=typeof PASS_PERCENT!=="undefined"?PASS_PERCENT:75;
+const P_BASE=typeof BASE_FS!=="undefined"?BASE_FS:16;
+const P_INC=typeof FS_INC!=="undefined"?FS_INC:2;
+const P_STEPS=typeof FS_STEPS!=="undefined"?FS_STEPS:4;
+const P_AUTO=typeof AUTO_NEXT_MS!=="undefined"?AUTO_NEXT_MS:3000;
+const P_PRESETS=typeof PRESETS!=="undefined"?PRESETS:{};
+
 const $=id=>document.getElementById(id);
 const h=(tag,cls,txt)=>{const e=document.createElement(tag);if(cls)e.className=cls;if(txt!==undefined)e.textContent=txt;return e};
+const norm=s=>String(s).normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/\s+/g," ").trim();
 let Q=[],topics=[],seen=new Set(),run=null,mem={},IMG={},cnt={},opt={show:true,auto:false};
 
 function parse(txt,d){
@@ -158,11 +198,26 @@ $("o-auto").onchange=e=>{opt.auto=e.target.checked;saveOpt()};
 let ALL=[],SECS=[],cur=0;
 const sbig=h("select");sbig.id="bigtopic";
 const psel=h("select");psel.id="preset";
-const presetsOf=()=>PRESETS[SECS[cur].name]||PRESETS["*"]||{};
-function fillPresets(){psel.replaceChildren(...Object.keys(presetsOf()).map(n=>new Option(n,n)))}
+function presetsOf(){
+ const R=P_PRESETS||{},vals=Object.values(R);
+ // régi, lapos forma ("Alap1":{"Téma":3}) is működik, nagy témakör nélkül
+ if(vals.length&&vals.every(v=>v&&Object.values(v).every(x=>typeof x==="number")))return R;
+ const n=norm(SECS[cur].name);
+ const k=Object.keys(R).find(k=>k!=="*"&&norm(k)===n)||(R["*"]?"*":null);
+ return k?R[k]:{};
+}
+function fillPresets(){
+ const names=Object.keys(presetsOf());
+ if(!names.length){
+  const o=new Option("— nincs gyorsbeállítás ehhez: \""+SECS[cur].name+"\" —","");o.disabled=true;
+  psel.replaceChildren(o);return;
+ }
+ psel.replaceChildren(...names.map(n=>new Option(n,n)));
+}
 function applyPreset(){
- const P=presetsOf()[psel.value]||{};
- topics.forEach(t=>cnt[t]=P[t]||0);refresh();
+ const P=presetsOf()[psel.value]||{},m={};
+ Object.keys(P).forEach(k=>m[norm(k)]=P[k]);
+ topics.forEach(t=>cnt[t]=m[norm(t)]||0);refresh();
 }
 function selectSec(i){
  cur=i;Q=[];
@@ -186,10 +241,10 @@ function init(d){
 }
 
 // betűméret gomb
-let fsStep=parseInt(store("quiz:fs"))||0;if(!(fsStep>=0&&fsStep<=FS_STEPS))fsStep=0;
+let fsStep=parseInt(store("quiz:fs"))||0;if(!(fsStep>=0&&fsStep<=P_STEPS))fsStep=0;
 const fsBtn=h("button","btn sec");
-function applyFs(){const px=BASE_FS+fsStep*FS_INC;document.documentElement.style.fontSize=px+"px";fsBtn.textContent="Aa "+px+"px"}
-fsBtn.onclick=()=>{fsStep=(fsStep+1)%(FS_STEPS+1);store("quiz:fs",String(fsStep));applyFs()};
+function applyFs(){const px=P_BASE+fsStep*P_INC;document.documentElement.style.fontSize=px+"px";fsBtn.textContent="Aa "+px+"px"}
+fsBtn.onclick=()=>{fsStep=(fsStep+1)%(P_STEPS+1);store("quiz:fs",String(fsStep));applyFs()};
 const w2=h("div","pw");w2.append(h("div","pl","Betűméret"),fsBtn);$("pre").appendChild(w2);applyFs();w2.style.marginLeft="auto";
 
 function refresh(){
@@ -211,7 +266,7 @@ function refresh(){
   rs.onclick=()=>{Q.filter(x=>x.t===t).forEach(x=>seen.delete(x.id));saveSeen();refresh()};
   row.append(nm,mi,inp,pl,rs);$("tl").appendChild(row);
  });
- $("msg").textContent="";
+ if(!$("msg").dataset.keep){$("msg").className="meta";$("msg").textContent=""}
 }
 
 $("start").onclick=()=>{
@@ -237,9 +292,9 @@ function counts(){
  $("f3").textContent=run.show?`Helytelen: ${run.tbad[u]}`:"";
  $("f4").textContent=`Összesen: ${run.i+1} / ${run.qs.length}`;
 }
-function stopCd(){clearInterval(run.timer);$("cd").textContent=""}
+function stopCd(){if(run)clearInterval(run.timer);$("cd").textContent=""}
 function startCd(){
- stopCd();let n=Math.round(AUTO_NEXT_MS/1000);$("cd").textContent=n;
+ stopCd();let n=Math.max(1,Math.round(P_AUTO/1000));$("cd").textContent=n;
  run.timer=setInterval(()=>{n--;if(n<=0){stopCd();next()}else $("cd").textContent=n},1000);
 }
 function ask(){
@@ -289,7 +344,7 @@ function results(){
  });
  const box=$("rtab");box.replaceChildren();
  Object.entries(g).forEach(([t,r])=>{
-  const n=r.ok+r.bad.length,pass=r.ok*100>=PASS_PERCENT*n,hasBad=r.bad.length>0;
+  const n=r.ok+r.bad.length,pass=r.ok*100>=P_PASS*n,hasBad=r.bad.length>0;
   const row=h(hasBad?"details":"div"),head=h(hasBad?"summary":"div","hd");
   head.append(h("span","",(hasBad?"▸ ":"")+t),h("span","",r.ok),h("span","",r.bad.length),
    h("span","badge "+(pass?"ok":"no"),pass?"Igen":"Nem"));
@@ -310,11 +365,13 @@ function results(){
  });
  show("s-res");
 }
-$("again").onclick=()=>{
- saveSeen();show("s-setup");refresh();
-};
+$("again").onclick=()=>{saveSeen();show("s-setup");refresh()};
 $("allq").onclick=()=>{seen=new Set();saveSeen();refresh()};
-const get=u=>fetch(u).then(r=>r.ok?r.text():Promise.reject());
+
+// fájlbetöltés: UTF-8, ha nem az, akkor Windows-1250 (ékezetes ANSI txt is működik)
+const get=u=>fetch(u).then(r=>{if(!r.ok)throw u;return r.arrayBuffer()}).then(b=>{
+ try{return new TextDecoder("utf-8",{fatal:true}).decode(b)}catch(e){return new TextDecoder("windows-1250").decode(b)}
+}).catch(e=>{throw typeof e==="string"?e:u});
 try{Object.assign(opt,JSON.parse(store("quiz:opts")||"{}"))}catch(e){}
 syncOpt();loadSeen();show("s-setup");
 get("temak.txt").then(t=>{
@@ -332,7 +389,13 @@ get("temak.txt").then(t=>{
  const files=[...new Set(secs.flatMap(sc=>sc.list.map(e=>e.file)))];
  return Promise.all(files.map(f=>get(f).then(x=>[f,x]))).then(arr=>({secs,txt:Object.fromEntries(arr)}));
 }).then(d=>{if(!init(d))throw 0})
-.catch(()=>{$("msg").textContent="A kérdések nem tölthetők be: a temak.txt vagy a benne felsorolt fájlok nem érhetők el.";$("start").disabled=true});
+.catch(e=>{
+ $("msg").className="meta err";
+ $("msg").textContent=e===0?"Nem találtam érvényes kérdést a fájlokban (ellenőrizd a ?, +, - jeleket)."
+  :typeof e==="string"?"Nem tölthető be: "+e+" (ellenőrizd a fájlnevet és a temak.txt-t)."
+  :"Hiba: "+(e&&e.message||e);
+ $("start").disabled=true;
+});
 </script>
 </body>
 </html>
