@@ -60,11 +60,11 @@ button{font:inherit;cursor:pointer}
 .sopts{font-weight:600;color:var(--tx)}
 #fl{text-align:center}
 #f1{font-weight:600;color:var(--tx)}
-#f4{font-weight:800;color:var(--tx)}
+#f4{font-weight:750;color:var(--tx)}
 #quit{padding:8px 12px;border:0;border-radius:10px;background:var(--no);color:#fff;font-weight:600;white-space:nowrap;margin-left:auto}
 #frow{display:flex;align-items:center;gap:12px;min-height:40px}
-#cmp{width:75%;text-align:center;padding:8px 12px;border-radius:10px;color:#fff;font-weight:600;background:var(--bg)}
-#cmp:empty{display:none}
+#cmp{width:75%;text-align:center;padding:8px 12px;border-radius:10px;color:#fff;font-weight:600;height:45px;background:var(--bg)}
+#cmp:empty{}
 #cmp.ok{background:var(--ok)}#cmp.no{background:var(--no)}
 .hd{display:grid;grid-template-columns:1fr 3.6em 4.6em 7em;gap:6px;align-items:center;padding:10px 0;border-bottom:1px solid var(--bd);list-style:none;cursor:default}
 summary.hd{cursor:pointer}summary.hd::-webkit-details-marker{display:none}
@@ -92,9 +92,9 @@ summary.hd{cursor:pointer}summary.hd::-webkit-details-marker{display:none}
     <label class="chk"><input type="checkbox" id="o-auto"> Automata továbblépés</label></div>
     <button class="btn" id="start">Indít</button>
   </div>
+  <div class="meta" id="msg" style="margin-top:10px"></div>
   <div class="rh"><div class="tn">Modul</div><div class="cl">Kérdésszám</div></div>
   <div class="help">Ö = Összes kérdés elérhető. M = Maximum kérdésszám.</div>
-  <div class="meta" id="msg" style="margin-top:10px"></div>
   <div id="tl"></div>
  </div>
 
@@ -103,12 +103,12 @@ summary.hd{cursor:pointer}summary.hd::-webkit-details-marker{display:none}
   <h2 id="qtext"></h2>
   <img id="qimg" class="hide" alt="">
   <div id="opts"></div>
+  <div class="sopts"><label class="chk"><input type="checkbox" id="o-auto2"> Automata továbblépés</label></div>
   <button class="btn hide" id="next">Következő</button>
   <div id="foot">
    <div id="fl"><div id="f1"></div><div id="f2" class="good"></div><div id="f3" class="mine"></div><div id="f4"></div></div>
    <div id="frow"><div id="cmp"></div><button id="quit">Kilépés</button></div>
   </div>
-  <div class="sopts"><label class="chk"><input type="checkbox" id="o-auto2"> Automata továbblépés</label></div>
  </div>
 
  <div class="card hide" id="s-res">
