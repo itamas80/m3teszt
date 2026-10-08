@@ -1,0 +1,200 @@
+﻿# K-Ny - V.1.
+? Mikor köteles a vonatszemélyzet rendkívüli felülvizsgálatot kérni (vonatcsere végállomáson)?
++ Minden olyan esetben, amikor a DDU. hibajelző állapotminősítése „vonal vége „ jelzést ad.
+- Minden olyan esetben, amikor a járművezető instruktor a járművet üzemképtelennek minősíti- ami kizárólagos joga!- és ezt a KFM-el közli.
+- Minden olyan esetben, amikor a TOD képernyőn „CBTC hiba” felirat jelenik meg.
+
+? Hogy oszlik meg a próbavonat kétfős személyzetének tevékenysége?
++ Az egyikük a próbafutás alatt a járművet ténylegesen vezeti, a másik a fülkében tartózkodik és egyben Ő a próbafutás vezetője. A próbafutás vezetője a vezetést nem veheti át.
+- Az egyikük a próbafutás alatt a járművet ténylegesen vezeti, a másik a próbavonaton tartózkodik és egyben Ő a próbafutás vezetője. A próbafutás vezetője a vezetést nem veheti át.
+- Az egyikük a próbafutás alatt a járművet ténylegesen vezeti, a másik a próbavonaton tartózkodik és egyben Ő a próbafutás vezetője. A próbafutás vezetője a vezetést bármikor átveheti.
+
+? Mekkora az engedélyezett legnagyobb sebesség álló kocsi, vagy akadály 10 méternél kisebb távolságra való megközelítésekor?
++ Legfeljebb 3 km/h
+- Legfeljebb 5 km/h
+- Legfeljebb 1-1,5 km/h
+
+? Mennyi az átvétel ideje harmadik sínes, vagy vonali tárolóhelyen?
++ 25 perc.
+- 15 perc
+- 35 perc
+
+? Hány állása van az üzemmódválasztó (MS) kapcsolónak?
++ Négy.
+- Három.
+- Öt.
+
+? A szerelvény lengőkábellel ellátott tároló helyről történő kihaladásakor, mikor veszi fel a kapcsolatot a járműtelepi forgalmi szolgálattevővel a járművezető?
++ A járművezető a szerelvény álló helyzetében köteles a járműtelepi forgalmi szolgálattevőnek jelenteni, hogy indulásra készen áll.
+- Amikor az első kocsi áramszedő saruja elérte a harmadik-sínt
+- Amikor az első kocsi vezetőfülkéje kihaladt a létesítmény kapuján.
+
+? Mi az eljárás abban az esetben, ha a jármű tűzjelző rendszerének működéspróbájakor, a füstdetektor pulton lévő vörös színű lámpája nem villan fel (a tűzjelző nem jelez)?
++ A vonat nem állítható forgalomba.
+- A hibát fel kell jegyezni a "Járműkísérő Lap"-ra, jelenteni kell a kocsiszíni diszpécsernek és a vonat forgalomba állítható legfeljebb 1 fordulóra.
+- A hibát fel kell jegyezni a "Járműkísérő Lap"-ra, jelenteni kell a járművezető instruktornak, a KFM-nek és a járműfenntartás illetékes dolgozójának . A vonat forgalomba állítható legfeljebb 1 fordulóra.
+
+? Ki jelenti a KFM-nek a segélyvonat szükségességét?
++ A járművezető.
+- A járművezető instruktor.
+- A járművezető, vagy az instruktor
+
+? Mikor tekinthető a vonalon közlekedő, vagy tárolt vonat (szerelvény) feszültségmentesnek?
++ Akkor feszültség mentes, ha az áramellátási szakterület illetékes dolgozója a KFM-n keresztül, feszültség mentesnek nyilvánította az érintett tápkörzetet.
+- Akkor feszültség mentes, ha az ismertető jegyek alapján a járművezető meggyőződött a feszültség mentességről.
+- Akkor feszültség mentes, ha a tápkörzetre vonatkozó feszültségállapot jelzőn egy folyamatos fehér fény látható.
+
+? Állomási kihaladáskor AM üzemmódban, meddig kell nyomni az „AM start” nyomógombot?
++ Folyamatosan, a TOD képernyőn az „automata indítás folyamatban” jelzés villogásának megszűnéséig.
+- Amíg az első kocsi a peron mellől ki nem haladt.
+- Az indulás pillanatáig.
+
+? Hány főből áll a próbavonat személyzete?
++ Két fő járművezetőből áll, akik megfelelő érvényes vizsgával és nagy gyakorlattal rendelkeznek.
+- ATC nélküli próbafutáskor két fő járművezetőből áll, akik megfelelő érvényes vizsgával és nagy gyakorlattal rendelkeznek, ATC üzemben egy fő járművezető is elegendő.
+- Egy fő járművezetőből és egy fő segédvezetőből áll, akik megfelelő érvényes vizsgával és nagy gyakorlattal rendelkeznek.
+
+? Üzemidőben a mindkét vonalon közlekedő szerelvény milyen feltételekkel közlekedtethető?
++ Üzemidőben a mindkét vonalon közlekedő szerelvény legfeljebb 7 kocsiból állhat, de ebben az esetben a vonat átjárhatóságát biztosítani kell.
+- Üzemidőben a mindkét vonalon közlekedő szerelvény legfeljebb 6 kocsiból állhat. A vonat átjárhatóságát lehetőség szerint biztosítani kell.
+- Üzemidőben a mindkét vonalon közlekedő szerelvény legfeljebb 8 kocsiból állhat. A vonat átjárhatóságát lehetőség szerint biztosítani kell.
+
+? Mi az eljárás, ha a vonatszemélyzet tudomást szerez arról, hogy a vonatán haláleset történt?
++ A KFM-t azonnal értesíteni kell, az utasokat a vonatból ki kell szállítani, s a vonatot a KFM által meghatározott helyre félre kell állítani.
+- A KFM-t azonnal értesíteni kell, az utasokat a vonatból ki kell szállítani, s a vonatot az első félreállító helyre félre kell állítani.
+- A KFM-t azonnal értesíteni kell, az utasokat ki kell szállítani, a vonatot a holttesttel a járműtelepre kell kiállítani..
+
+? Mikor köteles a járművezető segélyvonatot kérni?
++ Minden esetben ha a DDU. hibajelző állapot minősítése mentés (RES) jelzést ad.
+- Minden olyan esetben, amikor a járművezető instruktor a járművet üzemképtelennek minősíti- ami kizárólagos joga!- és ezt a KFM-el közli.
+- Minden olyan esetben, amikor a TOD képernyőn „CBTC hiba” felirat jelenik meg.
+
+? Mennyi az összecsatolt segélyvonat és hibás vonat maximális engedélyezett sebessége?
++ A haladás sebessége legfeljebb 15 km/h
+- A haladás sebessége, ha levegősen is össze van csatolva a két vonat, legfeljebb 25 km/h
+- Amennyiben a vezetés a menetirány szerinti első fülkéből történik, a haladás sebessége legfeljebb 40 km/h
+
+? Állomási áthaladás során, AM üzemmódban a CBTC a bejárati jelzőig nem csökkentette le a vonat sebességét 50 km/h-ra, majd a bejárati jelzőt elhagyva nem csökkenti folyamatos fékezéssel 40 km/h-ra a vonat sebességét. Mi a teendő?
++ A járművezető köteles a vészféket működtetni és ezt a KFM-nek jelenteni.
+- A járművezető köteles azonnal ATPM üzemmódra áttérni és ellenőrzött kézi vezetéssel betartani az előírt sebességhatárt.
+- A járművezető a sebességtúllépést köteles jelenteni a KFM-nek, de egyéb dolga nincs, mert a CBTC az engedélyezettnél magasabb sebességgel is vezetheti a vonatot.
+
+? Mit nevezünk „pontos helyen történő megállásnak”?
++ Az ajtónyitási engedély meglétét
+- A „Megállás helye” jelző körzetében ±3 méterrel történő megállást
+- Az ajtónyitási engedély meglét, amely a K-NY vonalon, a „Megállás helye” jelző körzetében ±3 méterrel történő megállás esetén teljesül
+
+? Mi az eljárás, ha járműátvétel során a vonatszemélyzet "IOS" hibát, vagy riasztást észlel?
++ A vonatszemélyzet a szerelvénnyel nem állhat forgalomba.
+- A hibát fel kell jegyezni a "Járműkísérő Lap"-ra, jelenteni kell a kocsiszíni diszpécsernek és a vonat forgalomba állítható legfeljebb 1 fordulóra.
+- A hibát fel kell jegyezni a "Járműkísérő Lap"-ra, jelenteni kell a járművezető instruktornak, a KFM-nek és a járműfenntartás illetékes dolgozójának . A vonat forgalomba állítható legfeljebb 1 fordulóra.
+
+? Mit kell tennie a járművezetőnek a vonat AM üzemmódban történő közlekedtetéséhez?
++ Meg kell nyomnia az AM Start gombot. Ha megvan minden feltétele a vonat indításának, automatikusan AM üzemmódra vált és beavatkozás hiányában a következő megállásig AM-ben marad.
+- A vonatot a menetvezérlő-karral kell indítania.
+- Meg kell nyomnia az AM Start gombot. Ha megvan minden feltétele a vonat indításának, automatikusan AM üzemmódra vált. A vonatot a járművezetőnek kell megállítania a következő megállási pontnál.
+
+? Milyen előírás vonatkozik az előírt felszerelési tárgyak meglétére?
++ Az előírt felszerelések nélkül forgalmi vágányon egyéb okból sem közlekedhet (próbafutás, tesztcél, rendkívüli vonat) szerelvény
+- Az előírt felszerelések nélkül forgalmi vágányon csak próbafutás és tesztfutás céljából közlekedhet a szerelvény
+- Az előírt felszerelések nélkül a szerelvény forgalomba állhat, de az instruktor köteles a hiányt azonnal pótolni
+
+? Mikor kell a vonatból az utasokat kiszállítani?
++ Valamennyi DET hibaminősítésű DDU. hibakijelzés, „azonnali karban tartó beavatkozás szükséges” jelzés esetén.
+- Minden olyan esetben, amikor a járművezető instruktor a járművet üzemképtelennek minősíti- ami kizárólagos joga!- és ezt a KFM-el közli.
+- Minden olyan esetben, amikor a TOD képernyőn „CBTC hiba” felirat jelenik meg.
+
+? Milyen előírások vonatkoznak a fékezhetetlen kocsik csatolására?
++ Fékezhetetlen kocsit csak járműtelepen szabad csatolni. Vonalon, vonaIi tárolóhelyen és összekötő vágányon fékezhetetlen kocsit lecsatolni tilos.
+- Fékezhetetlen kocsit csak járműtelepen és vonaIi tárolóhelyen szabad csatolni. Vonalon és összekötő vágányon fékezhetetlen kocsit lecsatolni tilos.
+- Fékezhetetlen kocsit csak járműtelepen és vonalon szabad csatolni. VonaIi tárolóhelyen és összekötő vágányon fékezhetetlen kocsit lecsatolni tilos.
+
+? Mi történik, ha megszakad a rendszer kommunikáció?
++ Kommunikáció megszakadása esetén a CBTC vészfékezést hajt végre.
+- Kommunikáció megszakadása esetén a CBTC automatikusan ATPR-40 üzemmódra kapcsol, a járművezető részére a TOD képernyőn „CBTC hiba” felirat jelenik meg.
+- Kommunikáció megszakadása esetén a CBTC csak hibajelzést küld a járművezető részére, a TOD képernyőn „CBTC hiba” felirat jelenik meg. A hibajelzést a járművezető köteles azonnal jelenteni a KFM-nek és egyidejűleg a járművezető instruktornak.
+
+? Mi a teendő, ha az ajtó vésznyitót (EED) működtették, és a vonat megállt?
++ Amennyiben az ajtót kinyitották vagy az ajtók visszajelentése nyitott állapotot jelez, feszültségmentesítést kell kérni. KFM engedélyre minden esetben hátra kell menni és a vésznyitót alaphelyzetbe kell állítani az ok tisztázása mellett.
+- Ezt a tényt járművezető köteles a KFM-nek jelenteni és továbbiakban az Ő utasításai szerint eljárni.
+- KFM engedélyre minden esetben hátra kell menni és a vésznyitót alaphelyzetbe kell állítani az ok tisztázása mellett.
+
+? Mikor szabad a „földelés kérés” kapcsolót működtetni?
++ KFM engedélyére, a vonat álló helyzetében feszültségmentesítés után.
+- Zárlat esetén a KFM engedélye nélkül is azonnal szabad működtetni.
+- Csak elkerülhetetlen esetben szabad működtetni.
+
+? Mit jelent az ATPR üzemmód?
++ Korlátozott kézi vonattovábbítási üzemmódot jelent. Az automatikus vonatvédelem csökkentett, vagy teljes megkerülése mellett.
+- Tolt menetet jelent.
+- Csúcsidejű névleges üzemállapot.
+
+? Mikor és kin keresztül köteles a járművezető. a műszaki mentőcsoportot kihívni?
++ A KFM-n keresztül, ha a vonaton olyan meghibásodás van, melynek elhárításához a kocsiszekrény alatti berendezések használatára van szükség
+- Az instruktoron keresztül, ha a vonatánál kisiklás történt, vagy a vonatán továbbhaladást akadályozó törés van
+- A KFM-n keresztül, ha a vonat automatikus ütköző- és vonókészülékének mechanikus csatló része szétszakadt
+
+? Ki a felelős a segélyvonat és a meghibásodott vonat helyes összecsatolásáért?
++ A segélyvonat járművezetője a felelős.
+- A hibás vonat járművezetője a felelős.
+- A menetirány szerinti első vezetőfülkében tartózkodó vonatszemélyzet a felelős
+
+? Segélyvonat közlekedésekor, az összecsatolt két vonat biztonságos továbbításáért ki a felelős?
++ A menetirány szerinti első vezetőfülkében tartózkodó járművezető a felelős.
+- A segélyvonat járművezetője a felelős.
+- A hibás vonat járművezetője a felelős.
+
+? Mi a teendő, ha a járművezetéshez szükséges kulcsok bármelyike elveszik, vagy használhatatlanná válik?
++ Jelenteni kell a KFM-nek és a továbbiakban az Ő rendelkezései szerint kell eljárni.
+- Jelenteni kell a járművezető instruktornak és a továbbiakban az Ő rendelkezései szerint kell eljárni.
+- Rádiótelefonon jelenteni kell a kocsiszíni diszpécsernek és a továbbiakban az Ő rendelkezései szerint kell eljárni.
+
+? Mit jelent az ATPM üzemmód?
++ Automatikus vonatvédelem, ellenőrzött kézi vezetéssel
+- Automatikus vonatvédelem, automatikus vonat továbbítással
+- Visszaesési 1 szint, ellenőrzött kézi vezetéssel
+
+? Hány helyzete van a mesterkulcsnak?
++ Kettő
+- Öt.
+- Három.
+
+? Mi az AM Start eszköz és funkciója?
++ AM üzemmódban a járművezető ennek lenyomásával indítja a vonatot.(nyomógomb)
+- Üzemmód választó kapcsoló, amellyel a járművezető AM üzemmódba tud kapcsolni.
+- Nyomógomb, mellyel automatikus vonattovábbítás esetén lehetséges az állomási áthaladás. Állomási áthaladáskor kezeljük.
+
+? Hogyan történik az utastájékoztatás ATC hiányában?
++ Csökkentett üzemmódban a járatot a vezetőnek kell kiválasztani és beállítani.
+- Csökkentett üzemmódban vizuális utastájékoztatás nincs, a hang információk továbbítása kizárólag a vezetőpult (DCP) kézibeszélő panelről lehetséges az utasok felé.
+- Csökkentett üzemmódban a utastájékoztató rendszer hang és vizuális információi nem érhetők el, a külső és belső kijelzők sötétek. Az utastájékoztatásról az állomási személyzet, illetve a KUD köteles gondoskodni az állomási hangosító berendezésen keresztül.
+
+? Mi a szabály, javítás alatt vagy más okból feszültség alá nem helyezhető járművekkel kapcsolatban?
++ A javítás alatt lévő, vagy más okból feszültség alá nem helyezhető járműveket, szerelvényeket erre figyelmeztető táblával a szerelvény elején és végén, meg kell jelölni!
+- A javítás alatt lévő, vagy más okból feszültség alá nem helyezhető járművekről, nyilvántartást kell vezetni a kocsiszíni diszpécsernél.
+- A javítás alatt lévő, vagy más okból feszültség alá nem helyezhető járművek vezetőfülkéjében, jól látható helyen ( pl. vezetőpult) figyelmeztető feliratot és az F.1. Jelzési Utasítás szerinti ," Nagyfeszültségre figyelmeztető jel"-et kell elhelyezni.
+
+? Mi a teendő utasszállító vonaton, tűz és füstjelzés esetén?
++ A vonat belső CCTV hálózatán azonnal meg kell nézni az utasteret és ennek függvényében intézkedni. Az utasok által adott szóbeli értesítést valós tűzjelzésként kell kezelni.
+- Jelenteni kell a KFM-nek és a járművezető instruktornak. A továbbiakban az Ő rendelkezéseik szerint kell eljárni. Az utasok által adott szóbeli értesítést feltételes tűzjelzésként kell kezelni.
+- Azonnal meg kell állni, jelenteni kell a KFM-nek és az instruktornak, a fülke elhagyásával ellenőrizni kell az utasteret és ennek függvényében intézkedni.
+
+? Mi az elsődleges teendője a járművezetőnek, ha menet közben az ajtó vésznyitót (EED) működtették?
++ Kerülni kell a vonat megállását és jelenteni a KFM-nek.
+- A működtetés tényét jelenteni kell a KFM-nek és azonnal meg kell állni.
+- A belső kameraképeken meg kell győződni a működtetés okáról és a tapasztaltakat haladéktalanul jelenteni kell a járművezető instruktornak.
+
+? Mit kell ellenőrizni forgalomba álláskor az átadó szakaszon a megállási pontnál?
++ Azt kell ellenőrizni, hogy a TOD képernyő kijelzője „CBTC elérhető” jelzést mutat.
+- Azt kell ellenőrizni, hogy a TOD képernyő kijelzője „az inicializálás megkezdhető” jelzést mutat.
+- Azt kell ellenőrizni, hogy a TOD képernyő kijelzője „az kalibrálás megkezdhető” jelzést mutat.
+
+? Utasok rendkívüli kiszállítása esetén a földelés kérés vezérlő kapcsolót hogyan kell kezelni?
++ A feszültségmentességről szóló értesítés után a földelés kérés vezérlő kapcsolót földelés állásba kell kapcsolni
+- A feszültségmentesítés kérésekor, a földelés kérés vezérlő kapcsolót földelés állásba kell kapcsolni
+- A földelés kérés vezérlő kapcsolót földelés állásba kapcsolni szigorúan tilos!
+
+? Mi az előírás a tolatást végző járművezetőkkel kapcsolatban?
++ A munkavégzés idején kötelesek fényvisszaverő mellényt viselni
+- A munkavégzés idején kötelesek a fényvisszaverő mellényt maguknál tartani.
+- A tolatás idején kötelesek a fényvisszaverő mellényt maguknál tartani és amennyiben az szükséges (pl.csatoláskor) azt viselni is.
