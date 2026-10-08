@@ -216,7 +216,7 @@ function setAuto(v){
  if(!v)stopCd();else if(run.sel!==null)startCd();
 }
 $("o-auto").onchange=e=>setAuto(e.target.checked);
-$("o-auto2").onchange=e=>setAuto(e.target.checked);
+$("o-auto2").onchange=e=>setAuto(e.target.checked).disabled=!(run&&!run.counting);
 
 // nagy témakör és gyorsbeállítás listák
 let ALL=[],SECS=[],cur=0;
