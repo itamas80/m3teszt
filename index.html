@@ -333,7 +333,7 @@ function counts(){
  }
  cm.textContent=txt;cm.className=cls;
 }
-function updNext(){$("next").disabled=!(run&&run.sel!==null&&!run.counting)}  // engedélyezve: megválaszolva és nem fut visszaszámlálás
+function updNext(){$("next").disabled=!(run&&run.sel!==null)}  // engedélyezve: megválaszolva és nem fut visszaszámlálás
 function stopCd(){if(run)clearInterval(run.timer);$("cd").textContent=""}
 function startCd(){
  stopCd();let n=Math.max(1,Math.round(P_AUTO/1000));$("cd").textContent=n;
