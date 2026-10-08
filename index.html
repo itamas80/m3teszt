@@ -347,7 +347,7 @@ function ask(){
  const im=$("qimg");
  if(x.img){im.src=imgSrc(x.img);im.classList.remove("hide")}else{im.classList.add("hide");im.removeAttribute("src")}
  im.onerror=()=>im.classList.add("hide");
- $("qtext").textContent=x.q;$("next").classList.add("hide");$("opts").innerHTML="";
+ $("qtext").textContent=x.q;$("next").textContent=run.i===run.qs.length-1?"Eredmény":"Következő";updNext();$("opts").innerHTML="";
  shuffle([x.a,...x.w]).forEach(o=>{
   const b=h("button","opt",o);b.onclick=()=>pick(b,o);$("opts").appendChild(b);
  });
@@ -365,9 +365,7 @@ function pick(btn,o){
  }else{
   [...$("opts").children].forEach(b=>b.classList.toggle("sel",b===btn));
  }
- $("next").textContent=run.i===run.qs.length-1?"Eredmény":"Következő";
- $("next").classList.remove("hide");
- if(opt.auto)startCd();
+ if(opt.auto)startCd();else updNext();
 }
 function next(){
  stopCd();
