@@ -1,0 +1,166 @@
+﻿# AM5-M2
+? AM üzemmódban melyik tartomány nem kerül kijelzésre a sebességmérőn?
++ A fékezési tartomány nem kerül kijelzésre.
+- Minden tartomány kijelzésre kerül.
+- Egyik tartomány sem kerül kijelzésre
+
+? Hol található a vonatba sorozott kocsikon a tűzoltó készülék?
++ Minden kocsi „A” végén található , a készülék számára kialakított szekrényekben
+- Csak a vezetőfülkékben található
+- A kocsik „B” végén található, ahol a biztosítókat tartalmazó szekrény is van.
+
+? Mikor gyulladnak fel a jobb vagy bal oldali nyitásválasztó nyomógombok beépített jelzőlámpái?
++ Ezek a jelzések akkor gyulladnak fel, ha az ATC ajtónyitási engedélyt ad az adott oldalra.
+- Ezek a jelzések folyamatosan világítanak.
+- Ezek a jelzések az állomásban történő megállás után minden esetben világítanak, függetlenül a vonaton alkalmazott üzemmódtól.
+
+? Mit jelent az „AGTU” rövidítés?
++ A légtermelő és kezelő egységet jelenti
+- A segédüzemi generátor egységet jelöli
+- Az akkumulátor töltő egységet jelenti
+
+? A MAL oszlop milyen üzemmódokban kerül kijelzésre?
++ Csak automatikus vonattovábbítási üzemmódokban kerül kijelzésre.
+- Valamennyi üzemmódban kijelzésre kerül.
+- Csak szabad kézi vezetés üzemmódban kerül kijelzésre.
+
+? Mikor jelenik meg a kijelzőn „korlátozott zóna a vonat előtt, a vonat korlátozott zónán.” Információ?
++ Ha rendszer (ATS) korlátozott zónát (RA) jelöl ki a vonat előtt, vagy azon halad, valamely pálya menti berendezés hibája miatt.
+- Ez a jelzés akkor jelenik meg, ha az előző vonat késése miatt, a vonatnak lassabban kell haladni.
+- Ez a jelzés akkor jelenik meg, ha egy ideiglenesen sebességkorlátozott szakasz, TSR terület van a vonat és a MAL megállási pont között.
+
+? Mi a teendője, ha a kocsiszínben az Ön részére kijelölt vonathoz érkezve, azon annak zárjelzőinek sötét voltát tapasztalja?
++ Nem kezdi meg a vonat átvételét, hanem értesíti a járműműszaki szakterület illetékesét
+- Feszültséget kér a vonatra, mert a zárjelzőknek csak ezután kell világítaniuk
+- Feléleszti a vonatot, csak ezután kell a zárjelzőnek világítania
+
+? Mikor jelenik meg a „vontatás kikapcsolása” kijelzés?
++ 3 másodperccel a harmadik sín légszakasz előtt, annak elhagyásáig.
+- A gyorsítás befejezésekor.
+- Akkor, ha a pálya feszültségmentessé válik.
+
+? Melyik nem a TOD információ csoport része?
++ A „Csúszásvédelem működés” jelzése.
+- A vonat üzemmódja
+- Állapot adatok.
+
+? Melyik kocsin került elhelyezésre az akkumulátor telepet tartalmazó szekrény?
++ Mindkét M kocsin
+- Csak az Mc kocsikon
+- Csak az Mc1 kocsin
+
+? Mit jelent a „zöld zóna” a sebességmérő tartománygyűrűn?
++ Üzemi zóna: dinamikusan változó sebesség tartomány, amelyben a vonat sebessége megengedett.
+- Fékezési zóna: dinamikusan változó sebesség tartomány, amelyben a vonatvezetőnek fékeznie kell.
+- A jelző meghaladható a vonalra engedélyezett legnagyobb sebességgel.
+
+? ATPM üzemmódban hány zóna kerül a sebességmérőn kijelzésre?
++ 4 zóna
+- 3 zóna
+- 1 zóna
+
+? Melyik berendezés nem található meg a „T” kocsin?
++ Akkumulátor szekrény
+- EPAC Lite fékberendezés
+- Kisfeszültségű szekrény
+
+? Melyik a TOD információ csoport része?
++ A vonat előtt levő akadályok és azok távolsága ( MAL )
+- Riasztás jelzések.
+- IOS hibajelzés
+
+? Mire szolgál a vezetőfülkében elhelyezett, „Mentés mód” feliratú kapcsoló?
++ Segélyvonatként közlekedés esetében a hajtási inverterek teljesítményének növelésére, figyelembe véve azok maximális terhelési határait
+- A vonat védelme érdekében a kimenő teljesítmény redukálására amennyiben segélyvonatként közlekedik
+- A homlok oldali menekítő ajtó nyitására
+
+? Milyen feszültség értékeket ismer az AM5-M2 motorvonaton? Mely berendezések szolgáltatják ezeket a feszültségértékeket?
++ A vontatási feszültség, amelyet a harmadik sínnel vezetünk a járműhöz: 750V névleges egyenáram (HV), 400V/230V 50Hz váltakozó középfeszültség (IV) amelyet a segédüzemi áramátalakító szolgáltat, illetve 110V vezérlési (LV) egyenáramú feszültség, amelyet a jármű akkumulátor telepei szolgáltatnak.
+- A vontatási feszültség amelyet a harmadik sínnel vezetünk a járműhöz 750V névleges váltakozó áram az aszinkron motorok számára, 400V egyenfeszültség amelyet a segédüzemi áramátalakító szolgáltat, illetve 110V vezérlési egyenáramú feszültség, amelyet a jármű akkumulátor telepei szolgáltatnak.
+- 750 volt névleges vontatási feszültség, amelyet a harmadik sínnel vezetünk a járműhöz , 380V középfeszültség amelyet transzformátor állít elő, és 110V vezérlési feszültség amit az akkumulátor telep szolgáltat.
+
+? Mit jelez a MAL oszlopkijelző, ha nincs a vonatnak menetengedélye?
++ A MAL oszlop teljes egészében piros és a távolságmérő „0” métert mutat.
+- A MAL oszlop teljes egészében zöld, de a távolságmérő „0” métert mutat
+- A MAL oszlop teljes egészében zöld, a távolságmérő a legközelebbi akadály távolságát mutatja.
+
+? Sárga zóna a sebességmérő tartománygyűrűn. Mi a jelentése?
++ Fékezési zóna: dinamikusan változó sebesség tartomány, amelyben a vonatvezetőnek fékeznie kell.
+- Nem jelent semmit, csak a jobb láthatóságot szolgálja.
+- A jelző meghaladható legfeljebb 50 km/ó sebességgel.
+
+? Az Mc kocsin nem található az alábbi eszköz:
++ Akkumulátor szekrény
+- AGTU
+- Input box
+
+? Amennyiben fel szeretnénk oldani a rögzítő fékeket egy kocsin, milyen teendőket kell elvégezzünk azelőtt, hogy tengelyenként az oldózsinórokat meghúznánk?
++ A főkulcsot ki kell venni, a pályát feszültségmentesíttetni kell, majd ezután el kell zárni a rögzítőfék izoláló csapját az EPAK Lite egységen
+- El kell altatni a vonatot
+- Vészfékkel be kell fékezni a vonatot
+
+? A vonat melyik végén található a teljes funkcionalitású eseményrögzítő berendezés?
++ A Déli pályaudvar felőli vezérkocsiban (Mc1)
+- Egyiken sem, az M2 kocsiban van
+- Az Örs Vezér tere felőli vezérkocsiban (Mc2)
+
+? Mit jelent az ajánlott sebességtartomány (fehér zóna)?
++ Ajánlott sebességtartomány, állandó szélességű zóna, 3 km/h –ra beállítva. A közepe jelöli a maximális sebességet, amit alkalmazni célszerű a menetrend miatt.
+- Ebben a tartományban nincs sebesség ellenőrzés
+- Nem jelent semmit, egy átmeneti terület a zónák között.
+
+? Mit jelez a MAL oszlopkijelző zöld színnel?
++ A vonat számára engedélyezett, bejárható szakaszt jelzi.
+- A berendezés üzemképességét jelzi.
+- Azt jelzi, hogy a vonat a CBTC ellenőrzése nélkül halad.
+
+? Hogyan lehet a jármű áramszedőit elemelni a harmadik síntől?
++ A vezetőfülkéből elektromosan vezérelt pneumatikus munkahengerrel, és az áramszedő emelő mechanikájának kulisszát mozgató tengelyén kiképzett négyzet keresztmetszetű tengelyvéghez csatlakoztatott, a vonat tartozékát képező eszközzel
+- Csak az áramszedő emelő mechanikájának kulisszát mozgató tengelyén kiképzett négyzet keresztmetszetű tengelyvéghez csatlakoztatott, a vonat tartozékát képező eszközzel, és kézzel megemelve.
+- Csak elektromosan vezérelt pneumatikus munkahengerrel, a vezetőfülkékből vezérelve.
+
+? A vezetőpulton elhelyezett, plombával ellátott kapcsolók sorában balról az első a…
++ Konfigurációs kapcsoló
+- Autostop áthidaló kapcsoló.
+- Akadályérzékelés áthidalása.
+
+? Hogyan jelölik az Mc kocsik elején a töltővezeték elzáró váltót?
++ TVEV.
+- TÖVEV.
+- TVEK
+
+? A vonat élesztése után, a főkulcsot el kell fordítani:
++ 60 másodpercen belül
+- 30 másodpercen belül
+- 5 másodpercen belül
+
+? A vonaton, egy üzembe helyezett vezetőfülke esetén az „éberségi nyomógomb" működtetése mindkét vezetőfülkében hatásos
++ Igaz.
+- Csak ha az ajtók zárva vannak
+- Hamis.
+
+? Az AM5-M2 jármű MC kocsijában, a fülkében melyik a TOD képernyő?
++ A jobb oldali.
+- A bal oldali
+- A középső.
+
+? Melyek a MAL kijelzőn megjelenített információk, vagy információ csoportok?
++ MAL-al kapcsolatos adatok (MAL-ig mért távolság, MAL jellege az akadály típusának meghatározásával, a vonat előtti mozgáskorlátozásig mért távolság )
+- Az ajtók nyitási engedélye, sebességmérő.
+- Az ajtók nyitási engedélye, üzemmód kijelzés, sebességmérő.
+
+? Mi a célja az TOD kijelzőn megjelenő üzemi figyelmeztetések információ csoportnak?
++ A vonatmozgás valamilyen korlátozására figyelmeztetik a járművezetőt.
+- A szolgálati főnök figyelmeztetéseit, értesítéseit, utasításait közlik.
+- A DDU. IOS. jelzésére figyelmeztetnek.
+
+? Mikor jelenik meg a kijelzőn az „ideiglenes sebesség korlátozás a vonat előtt” kijelzés?
++ Ez a jelzés akkor jelenik meg, ha egy ideiglenes en sebességkorlátozott szakasz, TSR terület van a vonat és a MAL megállási pont között.
+- Ez a jelzés csak akkor jelenik meg, ha a KFM sebességkorlátozást rendelt el és azt már a vonat forgalomba állásakor közölte, de a sebességkorlátozás nincs betáplálva a rendszerbe.
+- Ez a jelzés akkor jelenik meg, ha a KFM ideiglenes sebességkorlátozást rendelt el rádiótelefonon és az a rendszerbe nincs betáplálva.
+
+? Mit jelent a piros zóna a sebességmérő tartománygyűrűn?
++ Tiltott zóna: dinamikusan változó sebességtartomány, amelyben tilos a vonat üzemeltetése.
+- Üzemi zóna: dinamikusan változó sebesség tartomány, amelyben a vonat sebessége megengedett.
+- Fékezési zóna: dinamikusan változó sebesség tartomány, amelyben a vonatvezetőnek fékeznie kell.
+
