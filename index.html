@@ -61,10 +61,10 @@ button{font:inherit;cursor:pointer}
 #fl{text-align:center}
 #f1{font-weight:600;color:var(--tx)}
 #f4{font-weight:800;color:var(--tx)}
-#quit{padding:10px 14px;border:0;border-radius:10px;background:var(--no);color:#fff;font-weight:600;white-space:nowrap;margin-left:auto}
-#frow{display:flex;align-items:center;gap:12px;width:150px;min-height:40px;background:var(--bg)}
-#cmp{padding:8px 12px;border-radius:10px;color:#fff;font-weight:700}
-#cmp:empty{display:none}
+#quit{padding:10px 12px;border:0;border-radius:10px;background:var(--no);color:#fff;font-weight:600;white-space:nowrap;margin-left:auto}
+#frow{display:flex;align-items:center;gap:12px;min-height:40px}
+#cmp{max-width:75%;padding:8px 12px;border-radius:10px;color:#fff;font-weight:700}
+#cmp:empty{display:none;background:var(--bg)}
 #cmp.ok{background:var(--ok)}#cmp.no{background:var(--no)}
 .hd{display:grid;grid-template-columns:1fr 3.6em 4.6em 7em;gap:6px;align-items:center;padding:10px 0;border-bottom:1px solid var(--bd);list-style:none;cursor:default}
 summary.hd{cursor:pointer}summary.hd::-webkit-details-marker{display:none}
@@ -405,7 +405,7 @@ const get=u=>fetch(u).then(r=>{if(!r.ok)throw u;return r.arrayBuffer()}).then(b=
  try{return new TextDecoder("utf-8",{fatal:true}).decode(b)}catch(e){return new TextDecoder("windows-1250").decode(b)}
 }).catch(e=>{throw typeof e==="string"?e:u});
 try{Object.assign(opt,JSON.parse(store("quiz:opts")||"{}"))}catch(e){}
-syncOpt();loadSeen();show("s-quiz");
+syncOpt();loadSeen();show("s-setup");
 get("temak.txt").then(t=>{
  const secs=[];let sec=null,grp=null;
  for(let l of t.split(/\r?\n/)){
