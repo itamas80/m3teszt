@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Vizsgakérdések - tesztsor</title>
 <style>
-:root{--bg:#f6f7f9;--card:#fff;--tx:#1d2330;--mu:#667085;--ac:#2f6fed;--ok:#1f9d55;--no:#d93f3f;--bd:#d9dde5;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+:root{--bg:#f6f7f9;--card:#fff;--tx:#1d2330;--mu:#667085;--ac:#2f6fed;--ok:#00b050;--no:#d93f3f;--bd:#d9dde5;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#14171d;--card:#1e222b;--tx:#e8eaf0;--mu:#9aa3b2;--ac:#6b9bff;--ok:#3ec17a;--no:#ff6b6b;--bd:#343a47}}
 :root[data-theme="dark"]{--bg:#14171d;--card:#1e222b;--tx:#e8eaf0;--mu:#9aa3b2;--ac:#6b9bff;--ok:#3ec17a;--no:#ff6b6b;--bd:#343a47}
 *{box-sizing:border-box}
@@ -14,7 +14,7 @@ main{max-width:560px;margin:0 auto;padding:16px}
 .card{background:var(--card);border:1px solid var(--bd);border-radius:14px;padding:18px;margin-bottom:14px}
 h2{font-size:1.1rem;margin:0 0 12px}
 button{font:inherit;cursor:pointer}
-.btn{width:150px;margin-top:14px;padding:12px;border:0;border-radius:10px;background:var(--ac);color:#fff;font-weight:600}
+.btn{width:150px;margin-top:14px;padding:12px;border:0;border-radius:10px;background:var(--ok);color:#fff;font-weight:600}
 .btn.sec{width:100%;background:transparent;color:var(--ac);border:1px solid var(--bd)}
 .btn:disabled{opacity:.5}
 .opt{display:block;width:100%;text-align:left;margin-top:8px;padding:12px;border:1px solid var(--bd);border-radius:10px;background:var(--bg);color:var(--tx)}
@@ -22,7 +22,7 @@ button{font:inherit;cursor:pointer}
 .opt.ok{border-color:var(--ok);background:color-mix(in srgb,var(--ok) 18%,transparent)}
 .opt.no{border-color:var(--no);background:color-mix(in srgb,var(--no) 18%,transparent)}
 .opt.sel{border-color:var(--ac);background:color-mix(in srgb,var(--ac) 16%,transparent)}
-.meta{color:var(--mu);font-size:.85rem;display:flex;justify-content:space-between;margin-bottom:8px}
+.meta{color:var(--tx);font-size:1.1rem;display:flex;justify-content:space-between;margin-bottom:8px;font-weight:700}
 .hide{display:none!important}
 .rh{display:flex;align-items:center;gap:8px;padding:8px 0;border-bottom:1px solid var(--bd);font-weight:700}
 .rh .tn{flex:1}
@@ -60,6 +60,7 @@ button{font:inherit;cursor:pointer}
 .sopts{font-weight:600;color:var(--tx)}
 #fl{text-align:center}
 #f1{font-weight:600;color:var(--tx)}
+#f4{font-weight:800;color:var(--tx)}
 #quit{padding:10px 14px;border:0;border-radius:10px;background:var(--no);color:#fff;font-weight:600;white-space:nowrap;margin-left:auto}
 #frow{display:flex;align-items:center;gap:12px;min-height:40px}
 #cmp{padding:8px 12px;border-radius:10px;color:#fff;font-weight:700}
@@ -69,7 +70,7 @@ button{font:inherit;cursor:pointer}
 summary.hd{cursor:pointer}summary.hd::-webkit-details-marker{display:none}
 .hd span:nth-child(2),.hd span:nth-child(3){text-align:center}
 .th{color:var(--mu);font-size:.8rem}
-.badge{font-size:.8rem;font-weight:600;text-align:center;padding:4px 2px;border-radius:8px;color:#fff}
+.badge{font-weight:700;text-align:center;padding:8px 12px;border-radius:10px;color:#fff}
 .badge.ok{background:var(--ok)}.badge.no{background:var(--no)}
 .wl{padding:6px 0 10px}.wi{padding:10px;margin-top:8px;border:1px solid var(--bd);border-radius:10px;background:var(--bg)}
 .mine{color:var(--no)}.good{color:var(--ok)}
@@ -82,7 +83,7 @@ summary.hd{cursor:pointer}summary.hd::-webkit-details-marker{display:none}
 <body>
 <main>
  <div class="card" id="s-setup">
-  <h2>Vizsgakérdések - tesztsor</h2>
+  <h2>Vizsgakérdések</h2>
   <div id="pre"></div>
   <div id="pre2"></div>
   <button class="btn sec" id="allq" style="margin:10px 0 6px">Összes kérdés elérhető</button>
@@ -107,7 +108,7 @@ summary.hd{cursor:pointer}summary.hd::-webkit-details-marker{display:none}
    <div id="fl"><div id="f1"></div><div id="f2" class="good"></div><div id="f3" class="mine"></div><div id="f4"></div></div>
    <div id="frow"><div id="cmp"></div><button id="quit">Kilépés</button></div>
   </div>
-  <label class="chk"><input type="checkbox" id="o-auto2"> Automata továbblépés</label>
+  <div class="sopts"><label class="chk"><input type="checkbox" id="o-auto2"> Automata továbblépés</label></div>
  </div>
 
  <div class="card hide" id="s-res">
@@ -139,14 +140,30 @@ const AUTO_NEXT_MS=3000;    // automata továbblépés várakozási ideje (ms)
 // Belső név = a kis témakör neve a txt "# Név" sorából: kérdésszám.
 // A "*" minden olyan nagy témakörre érvényes, amelynek nincs saját bejegyzése.
 const PRESETS={
- "Nagytéma 1":{
-  "Alap1":{"Kis témakör":3,"Másik kis témakör":1},
-  "Alap2":{"Kis témakör":1}
- },
- "*":{
-  "Általános":{"Általános":10}
- }
-};
+"É-D":{
+ "Alap, É-D":{"Általános":24,"Műszaki":24,"81-2K":5,"Ev3":5,"Töfi":0,
+"É-D vonalismeret":5,"É-D - F.1.":15,"É-D - F.2.":15,"É-D - V.1.":10,"K-Ny vonalismeret":0,"K-Ny - átjárás F.1.":0,"K-Ny - átjárás F.2.":0},
+ "Alap, É-D, K-Ny":{"Általános":24,"Műszaki":24,"81-2K":5,"Ev3":5,"Töfi":0,
+"É-D vonalismeret":5,"É-D - F.1.":15,"É-D - F.2.":15,"É-D - V.1.":10,"K-Ny vonalismeret":5,"K-Ny - átjárás F.1.":20,"K-Ny - átjárás F.2.":20},
+ "Alap, É-D, K-Ny, Töfi":{"Általános":24,"Műszaki":24,"81-2K":5,"Ev3":5,"Töfi":5,
+"É-D vonalismeret":5,"É-D - F.1.":15,"É-D - F.2.":15,"É-D - V.1.":10,"K-Ny vonalismeret":5,"K-Ny - átjárás F.1.":20,"K-Ny - átjárás F.2.":20},
+ "Alap, É-D, Ev3 nélkül":{"Általános":24,"Műszaki":24,"81-2K":5,"Ev3":0,"Töfi":0,
+"É-D vonalismeret":5,"É-D - F.1.":15,"É-D - F.2.":15,"É-D - V.1.":10,"K-Ny vonalismeret":0,"K-Ny - átjárás F.1.":0,"K-Ny - átjárás F.2.":0},
+ "Teljes 81-2K":{"Általános":0,"Műszaki":0,"81-2K":65,"Ev3":0,"Töfi":0,
+"É-D vonalismeret":0,"É-D - F.1.":0,"É-D - F.2.":0,"É-D - V.1.":0,"K-Ny vonalismeret":0,"K-Ny - átjárás F.1.":0,"K-Ny - átjárás F.2.":0},
+ "Teljes É-D F.1., F.2., V.1.":{"Általános":0,"Műszaki":0,"81-2K":0,"Ev3":0,"Töfi":0,
+"É-D vonalismeret":0,"É-D - F.1.":120,"É-D - F.2.":103,"É-D - V.1.":20,"K-Ny vonalismeret":0,"K-Ny - átjárás F.1.":0,"K-Ny - átjárás F.2.":0},
+ "Teljes K-Ny átjárás F.1., F.2.":{"Általános":0,"Műszaki":0,"81-2K":0,"Ev3":0,"Töfi":0,
+"É-D vonalismeret":0,"É-D - F.1.":0,"É-D - F.2.":0,"É-D - V.1.":0,"K-Ny vonalismeret":0,"K-Ny - átjárás F.1.":91,"K-Ny - átjárás F.2.":69},
+ "Nulla":{"Általános":0,"Műszaki":0,"81-2K":0,"Ev3":0,"Töfi":0,
+"É-D vonalismeret":0,"É-D - F.1.":0,"É-D - F.2.":0,"É-D - V.1.":0,"K-Ny vonalismeret":0,"K-Ny - átjárás F.1.":0,"K-Ny - átjárás F.2.":0}
+//},
+// "K-Ny":{
+// "Alap, K-Ny":{"Általános":24,"Műszaki":24,"AM5-M2":5,"K-Ny vonalismeret":5,"K-Ny - F.1.":15,"K-Ny - F.2.":15,"K-Ny - V.1.":10},
+// "Teljes AM5-M2":{"Általános":0,"Műszaki":0,"AM5-M2":33,"K-Ny vonalismeret":0,"K-Ny - F.1.":0,"K-Ny - F.2.":0,"K-Ny - V.1.":0},
+// "Teljes K-Ny F.1., F.2., V.1.":{"Általános":0,"Műszaki":0,"AM5-M2":0,"K-Ny vonalismeret":0,"K-Ny - F.1.":90,"K-Ny - F.2.":100,"K-Ny - V.1.":40},
+// "Nulla":{"Általános":0,"Műszaki":0,"AM5-M2":0,"K-Ny vonalismeret":0,"K-Ny - F.1.":0,"K-Ny - F.2.":0,"K-Ny - V.1.":0}
+}};
 // ============================================================================
 </script>
 
@@ -388,7 +405,7 @@ const get=u=>fetch(u).then(r=>{if(!r.ok)throw u;return r.arrayBuffer()}).then(b=
  try{return new TextDecoder("utf-8",{fatal:true}).decode(b)}catch(e){return new TextDecoder("windows-1250").decode(b)}
 }).catch(e=>{throw typeof e==="string"?e:u});
 try{Object.assign(opt,JSON.parse(store("quiz:opts")||"{}"))}catch(e){}
-syncOpt();loadSeen();show("s-setup");
+syncOpt();loadSeen();show("s-quiz");
 get("temak.txt").then(t=>{
  const secs=[];let sec=null,grp=null;
  for(let l of t.split(/\r?\n/)){
