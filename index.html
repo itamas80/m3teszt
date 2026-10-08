@@ -104,7 +104,7 @@ summary.hd{cursor:pointer}summary.hd::-webkit-details-marker{display:none}
   <img id="qimg" class="hide" alt="">
   <div id="opts"></div>
   <div class="sopts"><label class="chk"><input type="checkbox" id="o-auto2"> Automata továbblépés</label></div>
-  <button class="btn" id="next">Következő</button>
+  <button class="btn" id="next" disabled>Következő</button>
   <div id="foot">
    <div id="fl"><div id="f1"></div><div id="f2" class="good"></div><div id="f3" class="mine"></div><div id="f4"></div></div>
    <div id="frow"><div id="cmp"></div><button id="quit">Kilépés</button></div>
@@ -244,10 +244,15 @@ function selectSec(i){
  cur=i;Q=[];
  SECS[i].list.forEach(e=>ALL.filter(x=>x.f===e.file).forEach(x=>{x.g=e.g||"";Q.push(x)}));
  topics=[...new Set(Q.map(x=>x.t))];cnt={};
- fillPresets();applyPreset();
+ fillPresets();
+ const sp=PS[SECS[i].name];
+ if(sp&&[...psel.options].some(o=>o.value===sp&&!o.disabled))psel.value=sp;
+ if(topics.some(t=>t in CS)){topics.forEach(t=>cnt[t]=CS[t]||0);refresh()}   // korábban beállított kérdésszámok
+ else applyPreset();
 }
 sbig.onchange=()=>{store("quiz:sec",sbig.value);selectSec(+sbig.value)};
-psel.onchange=applyPreset;
+function saveCS(){topics.forEach(t=>CS[t]=cnt[t]||0);store("quiz:cnt",JSON.stringify(CS))}
+psel.onchange=()=>{applyPreset();PS[SECS[cur].name]=psel.value;store("quiz:pre",JSON.stringify(PS))};
 const wb=h("div","pw w1");wb.append(h("div","pl","Vonal"),sbig);$("pre").appendChild(wb);
 const w3=h("div","pw");w3.append(h("div","pl","Modulok gyorsbeállítása"),psel);$("pre2").appendChild(w3);
 function init(d){
@@ -282,7 +287,7 @@ function refresh(){
   sm.append(lkO,document.createTextNode(" | "),lkM,document.createTextNode(` | ${tot} / ${l}`));
   nm.appendChild(sm);
   const inp=h("input");inp.type="number";inp.min=0;inp.max=tot;inp.value=cnt[t];inp.inputMode="numeric";
-  const set=v=>{v=Math.max(0,Math.min(tot,v||0));cnt[t]=v;inp.value=v};
+  const set=v=>{v=Math.max(0,Math.min(tot,v||0));cnt[t]=v;inp.value=v;saveCS()};
   inp.onchange=()=>set(parseInt(inp.value));
   const mi=h("button","","−");mi.onclick=()=>set(cnt[t]-1);
   const pl=h("button","","+");pl.onclick=()=>set(cnt[t]+1);
@@ -291,6 +296,7 @@ function refresh(){
   row.append(nm,mi,inp,pl);$("tl").appendChild(row);
  });
  if(!$("msg").dataset.keep){$("msg").className="meta";$("msg").textContent=""}
+ saveCS();
 }
 
 $("start").onclick=()=>{
@@ -324,6 +330,7 @@ function counts(){
  }
  cm.textContent=txt;cm.className=cls;
 }
+function updNext(){$("next").disabled=!(run&&run.sel!==null&&!run.counting)}  // engedélyezve: megválaszolva és nem fut visszaszámlálás
 function stopCd(){if(run)clearInterval(run.timer);$("cd").textContent=""}
 function startCd(){
  stopCd();let n=Math.max(1,Math.round(P_AUTO/1000));$("cd").textContent=n;
