@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Vizsgakérdések - tesztsor</title>
 <style>
-:root{--bg:#f6f7f9;--card:#fff;--tx:#1d2330;--mu:#667085;--ac:#2f6fed;--ok:#1f9d55;--no:#d93f3f;--bd:#d9dde5;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+:root{--bg:#f6f7f9;--card:#fff;--tx:#1d2330;--mu:#667085;--ac:#2f6fed;--ok:#00b050;--no:#d93f3f;--bd:#d9dde5;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#14171d;--card:#1e222b;--tx:#e8eaf0;--mu:#9aa3b2;--ac:#6b9bff;--ok:#3ec17a;--no:#ff6b6b;--bd:#343a47}}
 :root[data-theme="dark"]{--bg:#14171d;--card:#1e222b;--tx:#e8eaf0;--mu:#9aa3b2;--ac:#6b9bff;--ok:#3ec17a;--no:#ff6b6b;--bd:#343a47}
 *{box-sizing:border-box}
@@ -14,7 +14,7 @@ main{max-width:560px;margin:0 auto;padding:16px}
 .card{background:var(--card);border:1px solid var(--bd);border-radius:14px;padding:18px;margin-bottom:14px}
 h2{font-size:1.1rem;margin:0 0 12px}
 button{font:inherit;cursor:pointer}
-.btn{width:150px;margin-top:14px;padding:12px;border:0;border-radius:10px;background:var(--ac);color:#fff;font-weight:600}
+.btn{width:150px;margin-top:14px;padding:12px;border:0;border-radius:10px;background:var(--ok);color:#fff;font-weight:600}
 .btn.sec{width:100%;background:transparent;color:var(--ac);border:1px solid var(--bd)}
 .btn:disabled{opacity:.5}
 .opt{display:block;width:100%;text-align:left;margin-top:8px;padding:12px;border:1px solid var(--bd);border-radius:10px;background:var(--bg);color:var(--tx)}
@@ -97,6 +97,10 @@ summary.hd{cursor:pointer}summary.hd::-webkit-details-marker{display:none}
   <button class="btn hide" id="next">Következő</button>
   <div id="foot">
    <div id="fl"><div id="f1"></div><div id="f2" class="good"></div><div id="f3" class="mine"></div><div id="f4"></div></div>
+  </div>
+  <div class="sfoot">
+    <div class="sopts"><label class="chk"><input type="checkbox" id="o-show"> Helyes válaszok láthatóak</label>
+    <label class="chk"><input type="checkbox" id="o-auto"> Automata továbblépés</label></div>
    <button id="quit">Kilépés</button>
   </div>
  </div>
@@ -148,7 +152,10 @@ const PRESETS={
  "Nulla":{"Általános":0,"Műszaki":0,"81-2K":0,"Ev3":0,"Töfi":0,
 "É-D vonalismeret":0,"É-D - F.1.":0,"É-D - F.2.":0,"É-D - V.1.":0,"K-Ny vonalismeret":0,"K-Ny - átjárás F.1.":0,"K-Ny - átjárás F.2.":0}
 },
- "K-Ny járművezetői":{"Alap, K-Ny":{"Általános":24,"Műszaki":24}
+ "K-Ny járművezetői":{
+ "Alap, K-Ny":{"Általános":24,"Műszaki":24,"AM5-M2":5,"K-Ny - F.1.":15,"K-Ny - F.2.":15,"K-Ny - V.1.":10},
+ "Teljes AM5-M2":{"Általános":0,"Műszaki":0,"AM5-M2":33,"K-Ny - F.1.":0,"K-Ny - F.2.":0,"K-Ny - V.1.":0}
+ "Teljes K-Ny F.1., F.2., V.1.":{"Általános":0,"Műszaki":0,"AM5-M2":0,"K-Ny - F.1.":90,"K-Ny - F.2.":100,"K-Ny - V.1.":40},
 }};
 // ============================================================================
 </script>
