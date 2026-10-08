@@ -179,6 +179,9 @@ const P_PRESETS=typeof PRESETS!=="undefined"?PRESETS:{};
 const $=id=>document.getElementById(id);
 const h=(tag,cls,txt)=>{const e=document.createElement(tag);if(cls)e.className=cls;if(txt!==undefined)e.textContent=txt;return e};
 const norm=s=>String(s).normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/\s+/g," ").trim();
+let CS={},PS={};
+try{CS=JSON.parse(localStorage.getItem("quiz:cnt")||"{}")||{}}catch(e){}
+try{PS=JSON.parse(localStorage.getItem("quiz:pre")||"{}")||{}}catch(e){}
 let Q=[],topics=[],seen=new Set(),run=null,mem={},IMG={},cnt={},opt={show:true,auto:false};
 
 function parse(txt,d){
