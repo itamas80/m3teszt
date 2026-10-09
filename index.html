@@ -364,8 +364,9 @@ function pick(btn,o){
   counts();
  }else{
   [...$("opts").children].forEach(b=>b.classList.toggle("sel",b===btn));
- }
- if(opt.auto)startCd();else updNext();
+ };
+ updNext();
+ if(opt.auto)startCd();
 }
 function next(){
  stopCd();
