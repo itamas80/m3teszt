@@ -22,9 +22,9 @@ button{font:inherit;cursor:pointer}
 .btn.bck{min-width:200px;background:var(--ac);color:var(--wh);white-space:nowrap}
 .opt{display:block;width:100%;text-align:left;margin-top:8px;padding:12px;border:1px solid var(--bd);border-radius:10px;background:var(--bg);color:var(--tx)}
 .opt:disabled{opacity:1;cursor:default}
-.opt.ok{border-color:var(--ok);background:color-mix(in srgb,var(--ok) 18%,transparent)}
-.opt.no{border-color:var(--no);background:color-mix(in srgb,var(--no) 18%,transparent)}
-.opt.sel{border-color:var(--ac);background:color-mix(in srgb,var(--ac) 16%,transparent)}
+.opt.ok{border-color:var(--ok);background:var(--ok)}
+.opt.no{border-color:var(--no);background:var(--no)}
+.opt.sel{border-color:var(--ac);background:color-mix(in srgb,var(--ac) 20%,transparent)}
 .meta{color:var(--tx);font-size:1.1rem;display:flex;justify-content:space-between;margin-bottom:8px;font-weight:700}
 .hide{display:none!important}
 .rh{display:flex;align-items:center;gap:8px;padding:4px 0;border-bottom:1px solid var(--bd);font-weight:700}
@@ -58,18 +58,19 @@ button{font:inherit;cursor:pointer}
  box-shadow:0 0 0 color-mix(in srgb,var(--tx) 25%,var(--bd)),0 1px 3px rgba(0,0,0,.2);
 }
 #qimg,.wimg{max-width:100%;max-height:320px;display:block;margin:0 auto 12px;border-radius:8px}
-#cd{font-weight:700;font-size:1.1rem;color:var(--ac)}
+#cd{font-weight:700;font-size:1rem;color:var(--ac)}
 #foot{display:flex;flex-direction:column;gap:10px;margin-top:14px;color:var(--mu)}
 .sfoot{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:14px;color:var(--mu)}
 .sopts{font-weight:600;color:var(--tx)}
-.qopts{display:flex;gap:20px;align-items:center;font-weight:600;color:var(--tx)}
+.qopts{display:flex;gap:25px;margin-top:10px;align-items:center;font-weight:600;color:var(--tx)}
+.qopts .chk{margin-top:0px;}
 #fl{text-align:center}
 #f1{font-weight:600;color:var(--tx)}
 #f4{font-weight:750;color:var(--tx)}
 #quit{padding:8px 12px;border:0;border-radius:10px;background:var(--no);color:var(--wh);font-weight:600;white-space:nowrap;margin-left:auto}
 #frow{display:flex;align-items:center;gap:12px;min-height:40px}
-#res{width:75%;text-align:center;padding:8px 12px;border-radius:10px;background:var(--bg);color:var(--wh);font-weight:600}
-#res:empty{}
+#res{width:75%;text-align:center;padding:8px 12px;border-radius:10px;background:var(--bg);color:var(--wh);font-weight:600;min-height: calc(1.45em + 16px)}
+#res:empty{display:none}
 #res.ok{background:var(--ok)}#res.no{background:var(--no)}
 .hd{display:grid;grid-template-columns:1fr 3.6em 4.6em 7em;gap:6px;align-items:center;padding:10px 0;border-bottom:1px solid var(--bd);list-style:none;cursor:default}
 summary.hd{cursor:pointer}summary.hd::-webkit-details-marker{display:none}
@@ -335,7 +336,7 @@ function counts(){
  if(run.show){
   if(c*100>=P_PASS*N){txt="Megfelelt";cls="ok"}            // a hátralévőket hibásnak véve is megvan
   else if((c+r)*100<P_PASS*N){txt="Nem felelt meg";cls="no"} // a hátralévőket jónak véve sem érhető el
-  else {txt="ok"}
+ // else {txt=""}
  }
  cm.textContent=txt;cm.className=cls;
 }
