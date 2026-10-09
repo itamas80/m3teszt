@@ -24,13 +24,13 @@ button{font:inherit;cursor:pointer}
 .opt.sel{border-color:var(--ac);background:color-mix(in srgb,var(--ac) 16%,transparent)}
 .meta{color:var(--tx);font-size:1.1rem;display:flex;justify-content:space-between;margin-bottom:8px;font-weight:700}
 .hide{display:none!important}
-.rh{display:flex;align-items:center;gap:4px;padding:6px 0;border-bottom:1px solid var(--bd);font-weight:700}
+.rh{display:flex;align-items:center;gap:8px;padding:6px 0;border-bottom:1px solid var(--bd);font-weight:700}
 .rh .tn{flex:1}
 .rh .cl{width:150px;text-align:center}
-.row{display:flex;align-items:center;gap:8px;padding:10px 0;border-bottom:1px solid var(--bd)}
+.row{display:flex;align-items:center;gap:8px;padding:6px 0;border-bottom:1px solid var(--bd)}
 .row .nm{flex:1}.row small{display:block}
 .row button{width:36px;height:36px;border:1px solid var(--bd);border-radius:10px;background:var(--bg);color:var(--tx);font-size:1.2rem}
-.row input{width:56px;padding:8px 2px;text-align:center;border:1px solid var(--bd);border-radius:10px;background:var(--bg);color:var(--tx);font-size:1rem}
+.row input{width:64px;padding:6px 2px;text-align:center;border:1px solid var(--bd);border-radius:10px;background:var(--bg);color:var(--tx);font-size:1rem}
 .chk{display:flex;align-items:center;gap:10px;margin-top:10px}
 .chk input{width:20px;height:20px}
 .chk:has(input:disabled) {color: #888888;opacity: 0.6;}
@@ -334,7 +334,7 @@ function counts(){
  }
  cm.textContent=txt;cm.className=cls;
 }
-function updNext(){$("next").disabled=!(run.sel!==null)}  // engedélyezve: megválaszolva és nem fut visszaszámlálás
+function updNext(){$("next").disabled=!(run.sel!==null)}  // engedélyezve: ha megválaszolva
 function stopCd(){
  if(run)clearInterval(run.timer);$("cd").textContent="";
  if ($("o-auto2")) $("o-auto2").disabled = false;
