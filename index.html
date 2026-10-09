@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Vizsgakérdések</title>
 <style>
-:root{--bg:#f6f7f9;--card:#fff;--tx:#1d2330;--mu:#667085;--ac:#2f6fed;--ok:#00b050;--no:#d93f3f;--bd:#d9dde5;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+:root{--bg:#f6f7f9;--card:#fff;--tx:#0c0c0c;--mu:#667085;--ac:#2f6fed;--ok:#00b050;--no:#d93f3f;--bd:#d9dde5;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#14171d;--card:#1e222b;--tx:#e8eaf0;--mu:#9aa3b2;--ac:#6b9bff;--ok:#3ec17a;--no:#ff6b6b;--bd:#343a47}}
 :root[data-theme="dark"]{--bg:#14171d;--card:#1e222b;--tx:#e8eaf0;--mu:#9aa3b2;--ac:#6b9bff;--ok:#3ec17a;--no:#ff6b6b;--bd:#343a47}
 *{box-sizing:border-box}
@@ -16,7 +16,7 @@ h2{font-size:1.1rem;margin:0 0 12px}
 button{font:inherit;cursor:pointer}
 .btn{width:150px;margin-top:14px;padding:12px;border:0;border-radius:10px;background:var(--ok);color:#fff;font-weight:600}
 .btn.mke{background:transparent;color:var(--ac);border:1px solid var(--bd)}
-.btn:disabled{color:#888888;background:var(--mu);opacity:.6}
+.btn:disabled{color:#444444;background:var(--mu);opacity:.6}
 .opt{display:block;width:100%;text-align:left;margin-top:8px;padding:12px;border:1px solid var(--bd);border-radius:10px;background:var(--bg);color:var(--tx)}
 .opt:disabled{opacity:1;cursor:default}
 .opt.ok{border-color:var(--ok);background:color-mix(in srgb,var(--ok) 18%,transparent)}
@@ -334,10 +334,9 @@ function counts(){
  }
  cm.textContent=txt;cm.className=cls;
 }
-function updNext(){$("next").disabled=!(run.sel!==null);$("o-auto2").disabled=(run.sel!==null)}  // engedélyezve: ha megválaszolva
+function updNext(){$("next").disabled=!(run.sel!==null);$("o-auto2").disabled=(run.sel!==null)}  // ha megválaszolva: gomb engedélyezve, automata továbblépés tiltott
 function startCd(){
  stopCd();
- //if ($("o-auto2")) $("o-auto2").disabled = true;
  let n=Math.max(1,Math.round(P_AUTO/1000));$("cd").textContent=n;
  run.timer=setInterval(()=>{n--;if(n<=0){stopCd();next()}else $("cd").textContent=n},1000);
 }
