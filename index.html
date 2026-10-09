@@ -104,7 +104,7 @@ summary.hd{cursor:pointer}summary.hd::-webkit-details-marker{display:none}
  </div>
 
  <div class="card hide" id="s-quiz">
-  <div class="meta"><div id="qid"></div></div>
+  <div class="meta"><div id="qid"></div><div id="qidn"></div></div>
   <hq id="qtext"></hq>
   <img id="qimg" class="hide" alt="">
   <div id="opts"></div>
@@ -351,7 +351,7 @@ function stopCd(){
 function ask(){
  stopCd();const x=run.qs[run.i];run.sel=null;run.locked=false;
  seen.add(x.id);saveSeen();
- $("qid").textContent=x.t+" ";$("qid").appendChild(h("div","qn","#"+x.n));
+ $("qid").textContent=x.t+" ";$("qidn").appendChild(h("div","qn","#"+x.n));
  counts();
  const im=$("qimg");
  if(x.img){im.src=imgSrc(x.img);im.classList.remove("hide")}else{im.classList.add("hide");im.removeAttribute("src")}
