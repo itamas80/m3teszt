@@ -88,10 +88,10 @@ summary.hd{cursor:pointer}summary.hd::-webkit-details-marker{display:none}
   <h2>Beállítás</h2>
   <div id="pre"></div>
   <div id="pre2"></div>
-  <button class="btn mke" id="allq" style="margin:10px 0 6px">Összes kérdés<br>elérhető</button>
   <div class="sfoot">
     <div class="sopts"><label class="chk"><input type="checkbox" id="o-show"> Helyes válaszok láthatóak</label>
     <label class="chk"><input type="checkbox" id="o-auto"> Automata továbblépés</label></div>
+    <button class="btn mke" id="allq" style="margin:10px 0 6px">Összes kérdés<br>elérhető</button>
     <button class="btn" id="start">Indít</button>
   </div>
   <div class="meta" id="msg" style="margin-top:10px"></div>
@@ -332,7 +332,7 @@ function counts(){
  if(run.show){
   if(c*100>=P_PASS*N){txt="Megfelelt";cls="ok"}            // a hátralévőket hibásnak véve is megvan
   else if((c+r)*100<P_PASS*N){txt="Nem felelt meg";cls="no"} // a hátralévőket jónak véve sem érhető el
-  else {txt=""} 
+  else {txt="-"} 
  }
  cm.textContent=txt;cm.className=cls;
 }
