@@ -33,6 +33,11 @@ button{font:inherit;cursor:pointer}
 .row input{width:56px;padding:8px 2px;text-align:center;border:1px solid var(--bd);border-radius:10px;background:var(--bg);color:var(--tx);font-size:1rem}
 .chk{display:flex;align-items:center;gap:10px;margin-top:10px}
 .chk input{width:20px;height:20px}
+.chk:has(input:disabled) {
+    color: #888888;          /* Szürke szövegszín */
+    cursor: not-allowed;     /* Tiltó egérkurzor (opcionális) */
+    opacity: 0.6;            /* Enyhe áttetszőség a még jobb hatásért */
+}
 #pre{display:flex;gap:8px;margin-bottom:6px;align-items:flex-end}
 #pre2{margin-bottom:6px}
 .pw{display:flex;flex-direction:column;gap:4px}
