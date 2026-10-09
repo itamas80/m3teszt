@@ -14,7 +14,7 @@ main{max-width:560px;margin:0 auto;padding:16px}
 .card{background:var(--wh);border:1px solid var(--bd);border-radius:14px;padding:18px;margin-bottom:14px}
 h2{font-size:1.1rem;margin:0 0 12px}
 hq{font-size:1rem;margin:0 0 12px;font-weight:600}
-.meta.qn,span.qn{color:var(--inv)}
+.qn{color:var(--inv)}
 button{font:inherit;cursor:pointer}
 .btn{min-width:144px;margin-top:14px;padding:12px;border:0;border-radius:10px;background:var(--ok);color:var(--wh);font-weight:600}
 .btn:disabled{color:var(--bd);background:var(--mu);opacity:.6;cursor:default;}
@@ -30,7 +30,7 @@ button{font:inherit;cursor:pointer}
 .rh{display:flex;align-items:center;gap:8px;padding:4px 0;border-bottom:1px solid var(--bd);font-weight:700}
 .rh .tn{flex:1}
 .rh .cl{width:150px;text-align:center}
-.row{display:flex;align-items:center;gap:8px;padding:4px 0;border-bottom:1px solid var(--bd)}
+.row{display:flex;align-items:center;gap:8px;padding:2px 0;border-bottom:1px solid var(--bd)}
 .row .nm{flex:1}.row small{display:block}
 .row button{width:36px;height:36px;border:1px solid var(--bd);border-radius:10px;background:var(--bg);color:var(--tx);font-size:1.2rem}
 .row input{width:64px;padding:6px 2px;text-align:center;border:1px solid var(--bd);border-radius:10px;background:var(--bg);color:var(--tx);font-size:1rem}
@@ -61,7 +61,8 @@ button{font:inherit;cursor:pointer}
 #cd{font-weight:700;font-size:1.1rem;color:var(--ac)}
 #foot{display:flex;flex-direction:column;gap:10px;margin-top:14px;color:var(--mu)}
 .sfoot{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:14px;color:var(--mu)}
-.sopts{display:flex;gap:10px;font-weight:600;color:var(--tx)}
+.sopts{font-weight:600;color:var(--tx)}
+.qopts{display:flex;gap:20px;align-items:center;font-weight:600;color:var(--tx)}
 #fl{text-align:center}
 #f1{font-weight:600;color:var(--tx)}
 #f4{font-weight:750;color:var(--tx)}
@@ -103,11 +104,11 @@ summary.hd{cursor:pointer}summary.hd::-webkit-details-marker{display:none}
  </div>
 
  <div class="card hide" id="s-quiz">
-  <div class="meta"><span id="qid"></span></div>
+  <div class="meta"><div id="qid"></div></div>
   <hq id="qtext"></hq>
   <img id="qimg" class="hide" alt="">
   <div id="opts"></div>
-  <div class="sopts"><label class="chk"><input type="checkbox" id="o-auto2"> Automata továbblépés</label><span id="cd"></span></div>
+  <div class="qopts"><label class="chk"><input type="checkbox" id="o-auto2"> Automata továbblépés</label><span id="cd"></span></div>
   <button class="btn" id="next">Következő</button>
   <div id="foot">
    <div id="fl"><div id="f1"></div><div id="f2" class="good"></div><div id="f3" class="mine"></div><div id="f4"></div></div>
@@ -350,7 +351,7 @@ function stopCd(){
 function ask(){
  stopCd();const x=run.qs[run.i];run.sel=null;run.locked=false;
  seen.add(x.id);saveSeen();
- $("qid").textContent=x.t+" ";$("qid").appendChild(h("span","qn","#"+x.n));
+ $("qid").textContent=x.t+" ";$("qid").appendChild(h("div","qn","#"+x.n));
  counts();
  const im=$("qimg");
  if(x.img){im.src=imgSrc(x.img);im.classList.remove("hide")}else{im.classList.add("hide");im.removeAttribute("src")}
