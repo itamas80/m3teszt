@@ -20,7 +20,7 @@ main{max-width:560px;margin:0 auto;padding:16px}
 .pl{font-weight:700}
 h2{font-size:1.1rem;margin:0 0 12px}
 hq{font-size:1rem;margin:0 0 12px;font-weight:600}
-.qn{color:var(--inv)}
+.qn{display:flex;align-items:start;justify-content:space-between;gap:10px;color:var(--inv)}
 button{font:inherit;cursor:pointer}
 .btn{min-width:144px;margin-top:10px;padding:10px;border:0;border-radius:10px;background:var(--ok);color:var(--wh);font-weight:600}
 .btn:disabled{color:var(--bd);background:var(--mu);opacity:.6;cursor:default}
@@ -29,8 +29,8 @@ button{font:inherit;cursor:pointer}
 .btn.bck{min-width:200px;background:var(--ac);color:var(--wh);white-space:nowrap}
 .opt{display:block;width:100%;text-align:left;margin-top:8px;padding:12px;border:1px solid var(--bd);border-radius:10px;background:var(--bg);color:var(--tx)}
 .opt:disabled{opacity:1;cursor:default}
-.opt.ok{border-color:var(--ok);background:var(--ok)}
-.opt.no{border-color:var(--no);background:var(--no)}
+.opt.ok{border-color:var(--ok);background:color-mix(in srgb,var(--ok) 33%,transparent)}
+.opt.no{border-color:var(--no);background:color-mix(in srgb,var(--no) 33%,transparent)}
 .opt.sel{border-color:var(--ac);background:color-mix(in srgb,var(--ac) 20%,transparent)}
 .meta{color:var(--tx);font-size:1.1rem;display:flex;justify-content:space-between;margin-bottom:8px;font-weight:700}
 .hide{display:none!important}
@@ -72,7 +72,7 @@ button{font:inherit;cursor:pointer}
 #quit{padding:8px 12px;border:0;border-radius:10px;background:var(--no);color:var(--wh);font-weight:600;white-space:nowrap;margin-left:auto}
 #frow{display:flex;align-items:center;gap:12px;min-height:40px}
 #res{width:75%;text-align:center;padding:8px 12px;border-radius:10px;background:var(--bg);color:var(--wh);font-weight:600;min-height: calc(1.45em + 16px)}
-#res:empty{display:none}
+#res:empty{}
 #res.ok{background:var(--ok)}#res.no{background:var(--no)}
 .hd{display:grid;grid-template-columns:1fr 3.6em 4.6em 7em;gap:6px;align-items:center;padding:10px 0;border-bottom:1px solid var(--bd);list-style:none;cursor:default}
 summary.hd{cursor:pointer}summary.hd::-webkit-details-marker{display:none}
