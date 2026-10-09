@@ -28,7 +28,7 @@ button{font:inherit;cursor:pointer}
 .rh .tn{flex:1}
 .rh .cl{width:144px;text-align:center}
 .row{display:flex;align-items:center;gap:8px;padding:10px 0;border-bottom:1px solid var(--bd)}
-.row .nm{flex:1}.row small{display:block;color:var(--mu)}
+.row .nm{flex:1}.row small{display:block}
 .row button{width:36px;height:36px;border:1px solid var(--bd);border-radius:10px;background:var(--bg);color:var(--tx);font-size:1.2rem}
 .row input{width:56px;padding:8px 2px;text-align:center;border:1px solid var(--bd);border-radius:10px;background:var(--bg);color:var(--tx);font-size:1rem}
 .chk{display:flex;align-items:center;gap:10px;margin-top:10px}
@@ -64,9 +64,9 @@ button{font:inherit;cursor:pointer}
 #f4{font-weight:750;color:var(--tx)}
 #quit{padding:8px 12px;border:0;border-radius:10px;background:var(--no);color:#fff;font-weight:600;white-space:nowrap;margin-left:auto}
 #frow{display:flex;align-items:center;gap:12px;min-height:40px}
-#cmp{width:75%;text-align:center;padding:8px 12px;border:1px solid var(--bd);border-radius:10px;color:#fff;font-weight:600;height:45px;background:var(--bg)}
-#cmp:empty{}
-#cmp.ok{background:var(--ok)}#cmp.no{background:var(--no)}
+#res{width:75%;text-align:center;padding:8px 12px;border:1px solid var(--bd);border-radius:10px;color:#fff;font-weight:600;height:45px;background:var(--bg)}
+#res:empty{}
+#res.ok{background:var(--ok)}#res.no{background:var(--no)}
 .hd{display:grid;grid-template-columns:1fr 3.6em 4.6em 7em;gap:6px;align-items:center;padding:10px 0;border-bottom:1px solid var(--bd);list-style:none;cursor:default}
 summary.hd{cursor:pointer}summary.hd::-webkit-details-marker{display:none}
 .hd span:nth-child(2),.hd span:nth-child(3){text-align:center}
@@ -76,7 +76,7 @@ summary.hd{cursor:pointer}summary.hd::-webkit-details-marker{display:none}
 .wl{padding:6px 0 10px}.wi{padding:10px;margin-top:8px;border:1px solid var(--bd);border-radius:10px;background:var(--bg)}
 .mine{color:var(--no)}.good{color:var(--ok)}
 #msg:empty{display:none}
-.help{font-size:.8rem;color:var(--mu);margin-top:8px}
+.help{font-size:.7rem;color:var(--mu);margin-top:8px}
 .row .lk{width:auto;height:auto;padding:4px 2px;border:0;border-radius:0;background:none;color:var(--ac);font:inherit;font-weight:700;text-decoration:underline}
 #msg.err{color:var(--no);font-weight:600}
 </style>
@@ -108,7 +108,7 @@ summary.hd{cursor:pointer}summary.hd::-webkit-details-marker{display:none}
   <button class="btn" id="next" disabled>Következő</button>
   <div id="foot">
    <div id="fl"><div id="f1"></div><div id="f2" class="good"></div><div id="f3" class="mine"></div><div id="f4"></div></div>
-   <div id="frow"><div id="cmp"></div><button id="quit">Kilépés</button></div>
+   <div id="frow"><div id="res"></div><button id="quit">Kilépés</button></div>
   </div>
  </div>
 
@@ -326,7 +326,7 @@ function counts(){
  $("f3").textContent=run.show?`Helytelen: ${run.tbad[u]}`:"";
  $("f4").textContent=`Összesen: ${run.i+1} / ${run.qs.length}`;
  // megfelelőségi mező: csak, ha a helyes válaszok láthatók
- const c=run.tok[u],N=run.tt[u],r=N-c-run.tbad[u],cm=$("cmp");
+ const c=run.tok[u],N=run.tt[u],r=N-c-run.tbad[u],cm=$("res");
  let txt="",cls="";
  if(run.show){
   if(c*100>=P_PASS*N){txt="Megfelelt";cls="ok"}            // a hátralévőket hibásnak véve is megvan
