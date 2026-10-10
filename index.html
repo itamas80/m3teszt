@@ -54,10 +54,10 @@ button{font:inherit;cursor:pointer}
 .chk input{width:20px;height:20px}
 .chk:has(input:disabled) {color:var(--mu);opacity:0.6;}
 .meta{color:var(--tx);font-size:1.1rem;display:flex;justify-content:space-between;margin-bottom:8px;font-weight:700}
-hq{font-size:1rem;margin:0 0 12px;font-weight:600}
-.qn{display:flex;align-items:start;justify-content:space-between;gap:10px;color:var(--inv)}
+hq{font-size:1rem;margin:0 0 12px;font-weight:600} // quiz-fejléc
+.qn{display:flex;align-items:start;justify-content:space-between;gap:10px;color:var(--inv)} // quiz-fejléc-sorszám
 #qimg,.wimg{max-width:100%;max-height:320px;display:block;margin:0 auto 12px;border-radius:8px}
-#cd{font-weight:700;font-size:1rem;color:var(--ac)}
+#cd{font-weight:700;font-size:1rem;color:var(--ac)} // visszaszámláló
 #pre button{margin:0;width:auto;flex:none;padding:12px 16px}
 #pre button{
  border:1px solid var(--bd);
@@ -72,25 +72,25 @@ hq{font-size:1rem;margin:0 0 12px;font-weight:600}
  transform:translateY(4px);
  box-shadow:0 0 0 color-mix(in srgb,var(--tx) 25%,var(--bd)),0 1px 3px rgba(0,0,0,.2);
 }
-#foot{display:flex;flex-direction:column;gap:10px;margin-top:14px;color:var(--mu)}
-.sfoot{display:flex;align-items:start;justify-content:space-between;gap:10px;margin-top:14px;color:var(--mu)}
-.sopts{display:flex;flex-direction:column;gap:10px;font-weight:600;color:var(--tx)}
+.sopts{display:flex;align-items:start;justify-content:space-between;gap:10px;margin-top:14px;color:var(--mu)}
+.schks{display:flex;flex-direction:column;gap:10px;font-weight:600;color:var(--tx)}
 .sbtns{display:flex;flex-direction:column;gap:10px;font-weight:600;color:var(--tx);align-items: flex-end;}
 .qopts{display:flex;gap:25px;margin-top:10px;align-items:center;font-weight:600;color:var(--tx)}
 .qopts .chk{margin-top:0px;}
+#qfoot{display:flex;flex-direction:column;gap:10px;margin-top:14px;color:var(--mu)}
 #fl{text-align:center}
 #f1{font-weight:600;color:var(--tx)}
 #f4{font-weight:750;color:var(--tx)}
 #quit{padding:8px 12px;border:0;border-radius:10px;background:var(--no);color:var(--wh);font-weight:600;white-space:nowrap;margin-left:auto}
-#frow{display:flex;align-items:center;gap:12px;min-height:40px}
+#qres{display:flex;align-items:center;gap:12px;min-height:40px}
 #res{width:75%;text-align:center;padding:8px 12px;border-radius:10px;background:var(--bg);color:var(--wh);font-weight:600;min-height: calc(1.45em + 16px)}
 #res:empty{}
 #res.ok{background:var(--ok)}#res.no{background:var(--no)}
-.hd{display:grid;grid-template-columns:minmax(0,40fr) minmax(0,22fr) minmax(0,22fr) minmax(0,16fr);gap:4px;align-items:center;padding:10px 0;border-bottom:1px solid var(--bd);list-style:none;cursor:default}
+.hd{display:grid;grid-template-columns:minmax(0,40fr) minmax(0,20fr) minmax(0,20fr) minmax(0,20fr);gap:4px;align-items:center;padding:10px 0;border-bottom:1px solid var(--bd);list-style:none;cursor:default}
 summary.hd{cursor:pointer}summary.hd::-webkit-details-marker{display:none}
 .hd span{min-width:0;overflow-wrap:anywhere}
 .hd span:nth-child(n+2){text-align:center;overflow-wrap:normal;white-space:nowrap}
-.th{color:var(--mu);font-size:.7rem}
+.th{color:var(--mu);font-size:.7rem;font-weight:500}
 .badge{font-weight:700;text-align:center;padding:8px 4px;border-radius:10px;color:var(--wh)}
 .badge.ok{background:var(--ok)}.badge.no{background:var(--no)}
 .wl{padding:6px 0 10px}
@@ -109,8 +109,8 @@ summary.hd{cursor:pointer}summary.hd::-webkit-details-marker{display:none}
   <h2>Beállítás</h2>
   <div id="pre"></div>
   <div id="pre2"></div>
-  <div class="sfoot">
-    <div class="sopts">
+  <div class="sopts">
+    <div class="schks">
     <label class="chk"><input type="checkbox" id="o-show"> Helyes válaszok láthatóak</label>
     <label class="chk"><input type="checkbox" id="o-auto"> Automata továbblépés</label>
     </div>
@@ -132,9 +132,9 @@ summary.hd{cursor:pointer}summary.hd::-webkit-details-marker{display:none}
   <div id="opts"></div>
   <div class="qopts"><label class="chk"><input type="checkbox" id="o-auto2"> Automata továbblépés</label><div id="cd"></div></div>
   <button class="btn" id="next">Következő</button>
-  <div id="foot">
+  <div id="qfoot">
    <div id="fl"><div id="f1"></div><div id="f2" class="good"></div><div id="f3" class="wro"></div><div id="f4"></div></div>
-   <div id="frow"><div id="res"></div><button id="quit">Kilépés</button></div>
+   <div id="qres"><div id="res"></div><button id="quit">Kilépés</button></div>
   </div>
  </div>
 
@@ -284,7 +284,7 @@ sbig.onchange=()=>{store("quiz:sec",sbig.value);selectSec(+sbig.value)};
 function saveCS(){topics.forEach(t=>CS[t]=cnt[t]||0);store("quiz:cnt",JSON.stringify(CS))}
 psel.onchange=()=>{applyPreset();PS[SECS[cur].name]=psel.value;store("quiz:pre",JSON.stringify(PS))};
 const wb=h("div","pw w1");wb.append(h("div","pl","Vonal"),sbig);$("pre").appendChild(wb);
-const w3=h("div","pw");w3.append(h("div","pl","Modulok gyorsbeállítása"),psel);$("pre2").appendChild(w3);
+const w3=h("div","pw");w3.append(h("div","pl","Modulok beállítása"),psel);$("pre2").appendChild(w3);
 function init(d){
  const c={};ALL=[];
  Object.keys(d.txt).forEach(f=>parse(d.txt[f],f.replace(/\.txt$/i,"")).forEach(x=>{x.f=f;c[x.t]=(c[x.t]||0)+1;x.n=c[x.t];x.id=x.t+"#"+x.n;ALL.push(x)}));
@@ -352,14 +352,14 @@ function counts(){
  $("f3").textContent=run.show?`Helytelen: ${run.tbad[u]}`:"";
  $("f4").textContent=`Összesen: ${run.i+1} / ${run.qs.length}`;
  // megfelelőségi mező: csak, ha a helyes válaszok láthatók
- const c=run.tok[u],N=run.tt[u],r=N-c-run.tbad[u],cm=$("res");
- let txt="",cls="";
- if(run.show){
-  if(c*100>=P_PASS*N){txt="Megfelelt";cls="ok"}            // a hátralévőket hibásnak véve is megvan
-  else if((c+r)*100<P_PASS*N){txt="Nem felelt meg";cls="no"} // a hátralévőket jónak véve sem érhető el
-  else if(!$("o-show").checked){}
- }
- cm.textContent=txt;cm.className=cls;
+const c=run.tok[u],N=run.tt[u],r=N-c-run.tbad[u],cm=$("res");
+let txt="",cls="";
+if(run.show){
+ if(c*100>=P_PASS*N){txt="Megfelelt";cls="ok"}            // a hátralévőket hibásnak véve is megvan
+ else if((c+r)*100<P_PASS*N){txt="Nem felelt meg";cls="no"} // a hátralévőket jónak véve sem érhető el
+}
+cm.textContent=txt;
+cm.className=cls+(run.show?"":" hide");
 }
 function updNext(){$("next").disabled=!(run.sel!==null);$("o-auto2").disabled=(run.sel!==null)}  // ha megválaszolva: gomb engedélyezve, automata továbblépés tiltott
 function startCd(){
