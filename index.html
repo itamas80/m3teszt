@@ -19,20 +19,20 @@ main {
 /* Amikor a képernyő szélesebb, mint 1120px (itt kezd el az 50% nagyobb lenni, mint az 560px) */
 @media (min-width: 1120px) {
   main {
-    max-width: 50%;   /* Nagy monitorokon (pl. 1920-as felbontásnál) a képernyő fele lesz */
+    max-width: 60%;   /* Nagy monitorokon (pl. 1920-as felbontásnál) a képernyő 60%-a lesz */
   }
 }
-.card{background:var(--wh);border:1px solid var(--bd);border-radius:14px;padding:18px;margin-bottom:14px}
-h2{font-size:1.1rem;margin:0 0 12px}
+.card{background:var(--wh);border:1px solid var(--bd);border-radius:14px;padding:18px;margin-bottom:14px} /* kártya */
+h2{font-size:1.1rem;margin:0 0 12px} /* 2-es méret */
 #pre{display:flex;gap:8px;margin-bottom:6px;align-items:flex-end}
 #pre2{margin-bottom:6px}
 .pw select{width:100%;padding:12px;border:1px solid var(--bd);border-radius:10px;background:var(--bg);color:var(--tx);font:inherit}
 .pw{display:flex;flex-direction:column;gap:4px}
 .pw.w1{flex:1;min-width:0}
-.pl{font-weight:700}
-.plb{font-weight:700;text-align:center}
+.sha{font-weight:700} /* setup, fejléc */
+.shb{font-weight:700;text-align:center} /* setup, fejléc (betűméret szöveghez) */
 button{font:inherit;cursor:pointer}
-.btn{min-width:144px;margin-top:10px;padding:10px;border:0;border-radius:10px;background:var(--ok);color:var(--wh);font-weight:600}
+.btn{min-width:144px;margin-top:14px;padding:12px;border:0;border-radius:10px;background:var(--ok);color:var(--wh);font-weight:600}
 .btn:disabled{color:var(--bd);background:var(--mu);opacity:.6;cursor:default}
 .btn.aa{background:transparent;color:var(--ac);border:1px solid var(--bd)}
 .btn.oke{background:var(--ac);color:var(--wh);border:1px solid var(--bd);font-size:0.8rem}
@@ -43,6 +43,9 @@ button{font:inherit;cursor:pointer}
 .opt.no{border-color:var(--no);background:color-mix(in srgb,var(--no) 33%,transparent)}
 .opt.sel{border-color:var(--ac);background:color-mix(in srgb,var(--ac) 20%,transparent)}
 .hide{display:none!important}
+.sopts{display:flex;align-items:start;justify-content:space-between;gap:10px;margin-top:14px;color:var(--mu)} /* setup, kapcsolók */
+.schks{display:flex;flex-direction:column;gap:10px;font-weight:600;color:var(--tx)} /* setup, jelölők */
+.sbtns{display:flex;flex-direction:column;gap:10px;font-weight:600;color:var(--tx);align-items: flex-end;} /* setup, gombok */
 .rh{display:flex;align-items:center;gap:8px;padding:4px 0;border-bottom:1px solid var(--bd);font-weight:700}
 .rh .tn{flex:1}
 .rh .cl{width:150px;text-align:center}
@@ -54,10 +57,6 @@ button{font:inherit;cursor:pointer}
 .chk input{width:20px;height:20px}
 .chk:has(input:disabled) {color:var(--mu);opacity:0.6;}
 .meta{color:var(--tx);font-size:1.1rem;display:flex;justify-content:space-between;margin-bottom:8px;font-weight:700}
-hq{font-size:1rem;margin:0 0 12px;font-weight:600} // quiz-fejléc
-.qn{display:flex;align-items:start;justify-content:space-between;gap:10px;color:var(--inv)} // quiz-fejléc-sorszám
-#qimg,.wimg{max-width:100%;max-height:320px;display:block;margin:0 auto 12px;border-radius:8px}
-#cd{font-weight:700;font-size:1rem;color:var(--ac)} // visszaszámláló
 #pre button{margin:0;width:auto;flex:none;padding:12px 16px}
 #pre button{
  border:1px solid var(--bd);
@@ -72,12 +71,13 @@ hq{font-size:1rem;margin:0 0 12px;font-weight:600} // quiz-fejléc
  transform:translateY(4px);
  box-shadow:0 0 0 color-mix(in srgb,var(--tx) 25%,var(--bd)),0 1px 3px rgba(0,0,0,.2);
 }
-.sopts{display:flex;align-items:start;justify-content:space-between;gap:10px;margin-top:14px;color:var(--mu)}
-.schks{display:flex;flex-direction:column;gap:10px;font-weight:600;color:var(--tx)}
-.sbtns{display:flex;flex-direction:column;gap:10px;font-weight:600;color:var(--tx);align-items: flex-end;}
-.qopts{display:flex;gap:25px;margin-top:10px;align-items:center;font-weight:600;color:var(--tx)}
-.qopts .chk{margin-top:0px;}
-#qfoot{display:flex;flex-direction:column;gap:10px;margin-top:14px;color:var(--mu)}
+hq{font-size:1rem;margin:0 0 12px;font-weight:600} /* quiz, fejléc */
+.qn{display:flex;align-items:start;justify-content:space-between;gap:10px;color:var(--inv)} /* quiz, kérdés sorszám */
+#qimg,.wimg{max-width:100%;max-height:320px;display:block;margin:0 auto 12px;border-radius:8px} /* kép */
+.qopts{display:flex;gap:25px;margin-top:10px;align-items:center;font-weight:600;color:var(--tx)} /* quiz, kapcsolók */
+.qopts .chk{margin-top:0px;} /* quiz, automata továbblépés gomb */
+#cd{font-weight:700;font-size:1rem;color:var(--ac)} /* quiz, visszaszámláló */
+#qfoot{display:flex;flex-direction:column;gap:10px;margin-top:14px;color:var(--mu)} /* quiz, lábléc */
 #fl{text-align:center}
 #f1{font-weight:600;color:var(--tx)}
 #f4{font-weight:750;color:var(--tx)}
@@ -90,7 +90,7 @@ hq{font-size:1rem;margin:0 0 12px;font-weight:600} // quiz-fejléc
 summary.hd{cursor:pointer}summary.hd::-webkit-details-marker{display:none}
 .hd span{min-width:0;overflow-wrap:anywhere}
 .hd span:nth-child(n+2){text-align:center;overflow-wrap:normal;white-space:nowrap}
-.th{color:var(--mu);font-size:.7rem;font-weight:500}
+.th{color:var(--tx);font-size:.7rem;font-weight:500}
 .badge{font-weight:700;text-align:center;padding:8px 4px;border-radius:10px;color:var(--wh)}
 .badge.ok{background:var(--ok)}.badge.no{background:var(--no)}
 .wl{padding:6px 0 10px}
@@ -283,8 +283,8 @@ function selectSec(i){
 sbig.onchange=()=>{store("quiz:sec",sbig.value);selectSec(+sbig.value)};
 function saveCS(){topics.forEach(t=>CS[t]=cnt[t]||0);store("quiz:cnt",JSON.stringify(CS))}
 psel.onchange=()=>{applyPreset();PS[SECS[cur].name]=psel.value;store("quiz:pre",JSON.stringify(PS))};
-const wb=h("div","pw w1");wb.append(h("div","pl","Vonal"),sbig);$("pre").appendChild(wb);
-const w3=h("div","pw");w3.append(h("div","pl","Modulok beállítása"),psel);$("pre2").appendChild(w3);
+const wb=h("div","pw w1");wb.append(h("div","sha","Vonal"),sbig);$("pre").appendChild(wb);
+const w3=h("div","pw");w3.append(h("div","sha","Modulok beállítása"),psel);$("pre2").appendChild(w3);
 function init(d){
  const c={};ALL=[];
  Object.keys(d.txt).forEach(f=>parse(d.txt[f],f.replace(/\.txt$/i,"")).forEach(x=>{x.f=f;c[x.t]=(c[x.t]||0)+1;x.n=c[x.t];x.id=x.t+"#"+x.n;ALL.push(x)}));
@@ -301,7 +301,7 @@ let fsStep=parseInt(store("quiz:fs"))||0;if(!(fsStep>=0&&fsStep<=P_STEPS))fsStep
 const fsBtn=h("button","btn aa");
 function applyFs(){const px=P_BASE+fsStep*P_INC;document.documentElement.style.fontSize=px+"px";fsBtn.textContent="Aa "+px+"px"}
 fsBtn.onclick=()=>{fsStep=(fsStep+1)%(P_STEPS+1);store("quiz:fs",String(fsStep));applyFs()};
-const w2=h("div","pw");w2.append(h("div","plb","Betűméret"),fsBtn);$("pre").appendChild(w2);applyFs();w2.style.marginLeft="auto";
+const w2=h("div","pw");w2.append(h("div","shb","Betűméret"),fsBtn);$("pre").appendChild(w2);applyFs();w2.style.marginLeft="auto";
 
 function refresh(){
  let ch=false;
