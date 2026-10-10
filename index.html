@@ -370,9 +370,9 @@ cm.className=cls+(run.show?"":" hide");
 }
 function updNext(){$("next").disabled=!(run.sel!==null);$("o-auto2").disabled=(run.sel!==null)}  // ha megválaszolva: gomb engedélyezve, automata továbblépés tiltott
 function startCd(){
- if (!o-show.checked){P_AUTO = 1000}
  stopCd();
- let n=Math.max(1,Math.round(P_AUTO/1000));$("cd").textContent=n;
+ const ms=run.show?P_AUTO:1000;   // ha a helyes válaszok nincsenek bekapcsolva, 1 mp a várakozás
+ let n=Math.max(1,Math.round(ms/1000));$("cd").textContent=n;
  run.timer=setInterval(()=>{n--;if(n<=0){stopCd();next()}else $("cd").textContent=n},1000);
 }
 function stopCd(){
