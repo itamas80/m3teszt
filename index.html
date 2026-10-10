@@ -86,11 +86,11 @@ hq{font-size:1rem;margin:0 0 12px;font-weight:600}
 #res{width:75%;text-align:center;padding:8px 12px;border-radius:10px;background:var(--bg);color:var(--wh);font-weight:600;min-height: calc(1.45em + 16px)}
 #res:empty{}
 #res.ok{background:var(--ok)}#res.no{background:var(--no)}
-.hd{display:grid;grid-template-columns:minmax(0,50fr) minmax(0,15fr) minmax(0,15fr) minmax(0,20fr);gap:4px;align-items:center;padding:10px 0;border-bottom:1px solid var(--bd);list-style:none;cursor:default}
+.hd{display:grid;grid-template-columns:minmax(0,40fr) minmax(0,22fr) minmax(0,22fr) minmax(0,16fr);gap:4px;align-items:center;padding:10px 0;border-bottom:1px solid var(--bd);list-style:none;cursor:default}
 summary.hd{cursor:pointer}summary.hd::-webkit-details-marker{display:none}
 .hd span{min-width:0;overflow-wrap:anywhere}
 .hd span:nth-child(n+2){text-align:center;overflow-wrap:normal;white-space:nowrap}
-.th{color:var(--mu);font-size:.64rem}
+.th{color:var(--mu);font-size:.7rem}
 .badge{font-weight:700;text-align:center;padding:8px 4px;border-radius:10px;color:var(--wh)}
 .badge.ok{background:var(--ok)}.badge.no{background:var(--no)}
 .wl{padding:6px 0 10px}
@@ -126,7 +126,7 @@ summary.hd{cursor:pointer}summary.hd::-webkit-details-marker{display:none}
  </div>
 
  <div class="card hide" id="s-quiz">
-  <div class="meta"><span id="qid"></span></div>
+  <div class="meta"><span id="qid"></span><span id="qnum" class="qn"></span></div>
   <hq id="qtext"></hq>
   <img id="qimg" class="hide" alt="">
   <div id="opts"></div>
@@ -373,7 +373,7 @@ function stopCd(){
 function ask(){
  stopCd();const x=run.qs[run.i];run.sel=null;run.locked=false;
  seen.add(x.id);saveSeen();
- $("qid").textContent=x.t+" ";$("qid").appendChild(h("span","qn","#"+x.n));
+ $("qid").textContent=x.t;$("qnum").textContent="#"+x.n;
  counts();
  const im=$("qimg");
  if(x.img){im.src=imgSrc(x.img);im.classList.remove("hide")}else{im.classList.add("hide");im.removeAttribute("src")}
@@ -383,6 +383,7 @@ function ask(){
   const b=h("button","opt",o);b.onclick=()=>pick(b,o);$("opts").appendChild(b);
  });
  show("s-quiz");
+ window.scrollTo(0,0);
 }
 function pick(btn,o){
  if(run.locked)return;
