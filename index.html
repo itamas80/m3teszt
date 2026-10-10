@@ -6,7 +6,7 @@
 <title>Vizsgakérdések</title>
 <style>
 :root{--bg:#f6f7f9;--wh:#fff;--tx:#0c0c0c;--mu:#667085;--ac:#2f6fed;--ok:#00b050;--no:#d93f3f;--bd:#d9dde5;--inv:#fff;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#14171d;--wh:#1e222b;--tx:#e8eaf0;--mu:#9aa3b2;--ac:#6b9bff;--ok:#3ec17a;--no:#ff6b6b;--bd:#343a47;--inv:#181818}}
+@media (prefers-color-scheme:dark){--bg:#14171d;--wh:#1e222b;--tx:#e8eaf0;--mu:#9aa3b2;--ac:#6b9bff;--ok:#3ec17a;--no:#ff6b6b;--bd:#343a47;--inv:#181818}
 :root[data-theme="dark"]{--bg:#14171d;--wh:#1e222b;--tx:#e8eaf0;--mu:#9aa3b2;--ac:#6b9bff;--ok:#3ec17a;--no:#ff6b6b;--bd:#343a47;--inv:#181818}
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--tx);font:1rem/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
@@ -92,11 +92,11 @@ hq{font-size:1rem;margin:0 0 12px;font-weight:600} /* quiz, fejléc */
 #res{width:75%;text-align:center;padding:8px 12px;border-radius:10px;background:var(--bg);color:var(--wh);font-weight:600;min-height: calc(1.45em + 16px)}
 #res:empty{}
 #res.ok{background:var(--ok)}#res.no{background:var(--no)}
-.hd{display:grid;grid-template-columns:minmax(0,40fr) minmax(0,15fr) minmax(0,15fr) minmax(0,30fr);gap:4px;align-items:center;padding:10px 0;border-bottom:1px solid var(--bd);list-style:none;cursor:default}
+.hd{display:grid;grid-template-columns:minmax(0,40fr) minmax(0,15fr) minmax(0,15fr) minmax(0,30fr);font-size:.9rem;gap:4px;align-items:center;padding:10px 0;border-bottom:1px solid var(--bd);list-style:none;cursor:default}
 summary.hd{cursor:pointer}summary.hd::-webkit-details-marker{display:none}
 .hd span{min-width:0;overflow-wrap:anywhere}
 .hd span:nth-child(n+2){text-align:center;overflow-wrap:normal;white-space:nowrap}
-.th{color:var(--tx);font-size:min(.9rem,20px);font-weight:600}
+.th{color:var(--tx);font-size:min(.9rem,18px);font-weight:600}
 .badge{font-weight:700;text-align:center;padding:8px 4px;border-radius:10px;color:var(--wh)}
 .badge.ok{background:var(--ok)}.badge.no{background:var(--no)}
 .wl{padding:6px 0 10px}
@@ -106,6 +106,12 @@ summary.hd{cursor:pointer}summary.hd::-webkit-details-marker{display:none}
 #msg:empty{display:none}
 .help{font-size:.7rem;color:var(--mu);margin-top:8px}
 .row .lk{width:auto;height:auto;padding:4px 2px;border:0;border-radius:0;background:none;color:var(--ac);font:inherit;font-weight:700;text-decoration:underline}
+#dlg{position:fixed;inset:0;background:rgba(0,0,0,.5);display:flex;align-items:center;justify-content:center;padding:16px;z-index:100}
+.card.dcard{width:100%;max-width:360px;margin:0}
+.dcard p{margin:0 0 16px}
+.dbtns{display:flex;gap:10px;justify-content:flex-end}
+.dbtns .btn{margin-top:0;min-width:110px}
+.btn.red{background:var(--no)}
 #msg.err{color:var(--no);font-weight:600}
 </style>
 </head>
@@ -150,6 +156,17 @@ summary.hd{cursor:pointer}summary.hd::-webkit-details-marker{display:none}
   <div id="rtab"></div>
   <button class="btn bck" id="again">Vissza a beállításokra</button>
  </div>
+
+<div id="dlg" class="hide" role="dialog" aria-modal="true" aria-labelledby="dlgt">
+ <div class="card dcard">
+  <h2 id="dlgt">Kilépés a tesztből</h2>
+  <p>Biztosan kilépsz? A teszt eredménye elvész.</p>
+  <div class="dbtns">
+   <button class="btn aa" id="dlg-no">Mégsem</button>
+   <button class="btn red" id="dlg-yes">Kilépés</button>
+  </div>
+ </div>
+</div>
 </main>
 
 <script>
@@ -416,7 +433,26 @@ function next(){
  results();
 }
 $("next").onclick=next;
-$("quit").onclick=()=>{if(!confirm("Biztosan kilépsz? A teszt eredménye elvész."))return;stopCd();show("s-setup");refresh()};
+// kilépés megerősítő kártya
+let dlgResume=false;
+const dlgOpen=()=>!$("dlg").classList.contains("hide");
+function dlgNo(){
+ $("dlg").classList.add("hide");
+ if(dlgResume&&opt.auto&&run&&run.sel!==null)startCd();   // a megszakított visszaszámlálás újraindul
+ dlgResume=false;
+}
+$("quit").onclick=()=>{
+ dlgResume=$("cd").textContent!=="";   // futott-e a visszaszámlálás
+ stopCd();                             // amíg a kártya nyitva van, ne léptessen
+ $("dlg").classList.remove("hide");$("dlg-no").focus();
+};
+$("dlg-no").onclick=dlgNo;
+$("dlg-yes").onclick=()=>{dlgResume=false;$("dlg").classList.add("hide");stopCd();show("s-setup");refresh()};
+$("dlg").addEventListener("click",e=>{if(e.target===$("dlg"))dlgNo()});   // a sötét háttérre kattintva is bezárul
+$("dlg").addEventListener("keydown",e=>{
+ if(e.key==="Escape"){e.preventDefault();dlgNo()}
+ else if(e.key==="Tab"){e.preventDefault();const b=[$("dlg-no"),$("dlg-yes")],i=b.indexOf(document.activeElement);b[(i+(e.shiftKey?-1:1)+2)%2].focus()}
+});
 
 function results(){
  const g={};
@@ -489,7 +525,7 @@ function openSel(s){if(s.offsetParent===null)return;s.focus();try{s.showPicker()
 sbig.addEventListener("change",()=>sbig.blur());
 psel.addEventListener("change",()=>psel.blur());
 document.addEventListener("keydown",e=>{
- if(e.ctrlKey||e.metaKey||e.altKey||e.repeat)return;
+ if(dlgOpen()||e.ctrlKey||e.metaKey||e.altKey||e.repeat)return;   // nyitott kártyánál nincs gyorsbillentyű
  const el=e.target,tag=el&&el.tagName,c=e.code;
  if(tag==="TEXTAREA"||(tag==="SELECT"&&c!=="Enter"&&c!=="NumpadEnter"))return;
  const typing=tag==="INPUT"&&el.type!=="checkbox"&&el.type!=="number";   // szöveges mezőben ne
