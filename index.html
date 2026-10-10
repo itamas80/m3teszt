@@ -86,11 +86,12 @@ hq{font-size:1rem;margin:0 0 12px;font-weight:600}
 #res{width:75%;text-align:center;padding:8px 12px;border-radius:10px;background:var(--bg);color:var(--wh);font-weight:600;min-height: calc(1.45em + 16px)}
 #res:empty{}
 #res.ok{background:var(--ok)}#res.no{background:var(--no)}
-.hd{display:grid;grid-template-columns:1fr 3.6em 4.6em 7em;gap:6px;align-items:center;padding:10px 0;border-bottom:1px solid var(--bd);list-style:none;cursor:default}
+.hd{display:grid;grid-template-columns:minmax(0,50fr) minmax(0,15fr) minmax(0,15fr) minmax(0,20fr);gap:4px;align-items:center;padding:10px 0;border-bottom:1px solid var(--bd);list-style:none;cursor:default}
 summary.hd{cursor:pointer}summary.hd::-webkit-details-marker{display:none}
-.hd span:nth-child(2),.hd span:nth-child(3){text-align:center}
-.th{color:var(--mu);font-size:.8rem}
-.badge{font-weight:700;text-align:center;padding:8px 12px;border-radius:10px;color:var(--wh)}
+.hd span{min-width:0;overflow-wrap:anywhere}
+.hd span:nth-child(n+2){text-align:center;overflow-wrap:normal;white-space:nowrap}
+.th{color:var(--mu);font-size:.64rem}
+.badge{font-weight:700;text-align:center;padding:8px 4px;border-radius:10px;color:var(--wh)}
 .badge.ok{background:var(--ok)}.badge.no{background:var(--no)}
 .wl{padding:6px 0 10px}
 .wi{padding:10px;margin-top:8px;border:1px solid var(--bd);border-radius:10px;background:var(--bg)}
@@ -139,7 +140,7 @@ summary.hd{cursor:pointer}summary.hd::-webkit-details-marker{display:none}
 
  <div class="card hide" id="s-res">
   <h2>Értékelés</h2>
-  <div class="hd th"><span>Témakör</span><span>Helyes</span><span>Helytelen</span><span>Eredmény</span></div>
+  <div class="hd th"><span>Témakör</span><span>Helyes</span><span>Helytelen</span><span>Megfelelt?</span></div>
   <div id="rtab"></div>
   <button class="btn bck" id="again">Vissza a beállításokra</button>
  </div>
