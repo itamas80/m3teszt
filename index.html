@@ -36,6 +36,12 @@ button{font:inherit;cursor:pointer}
 .btn:disabled{color:var(--bd);background:var(--mu);opacity:.6;cursor:default} /* zárolt gomb */
 .btn.aa{background:transparent;color:var(--ac);border:1px solid var(--bd)} /* setup, betűméret gomb */
 .btn.oke{background:var(--ac);color:var(--wh);border:1px solid var(--bd);font-size:0.8rem} /* setup, összes kérdés gomb */
+.btn.start{} /* setup, indít gomb */
+@media (min-width:800px){
+ .btn.oke{width:300px;font-size:1rem}
+ .btn.oke .nb{display:none}
+ .btn.start{width:300px;font-size:1rem}
+}
 .btn.bck{min-width:200px;background:var(--ac);color:var(--wh);white-space:nowrap} /* értékelés, vissza gomb */
 .opt{display:block;width:100%;text-align:left;margin-top:8px;padding:12px;border:1px solid var(--bd);border-radius:10px;background:var(--bg);color:var(--tx)}
 .opt:disabled{opacity:1;cursor:default}
@@ -44,7 +50,7 @@ button{font:inherit;cursor:pointer}
 .opt.sel{border-color:var(--ac);background:color-mix(in srgb,var(--ac) 20%,transparent)}
 .hide{display:none!important}
 .sopts{display:flex;align-items:start;justify-content:space-between;gap:10px;margin-top:14px;color:var(--mu)} /* setup, kapcsolók */
-.schks{display:flex;flex-direction:column;gap:10px;font-weight:600;color:var(--tx)} /* setup, jelölők */
+.schks{display:flex;flex-direction:column;gap:12px;font-weight:600;color:var(--tx)} /* setup, jelölők */
 .sbtns{display:flex;flex-direction:column;gap:10px;font-weight:600;color:var(--tx);align-items: flex-end;} /* setup, gombok */
 .rh{display:flex;align-items:center;gap:8px;padding:4px 0;border-bottom:1px solid var(--bd);font-weight:700}
 .rh .tn{flex:1}
@@ -53,7 +59,7 @@ button{font:inherit;cursor:pointer}
 .row .nm{flex:1}.row small{display:block}
 .row button{width:36px;height:36px;border:1px solid var(--bd);border-radius:10px;background:var(--bg);color:var(--tx);font-size:1.2rem}
 .row input{width:64px;padding:6px 2px;text-align:center;border:1px solid var(--bd);border-radius:10px;background:var(--bg);color:var(--tx);font-size:1rem}
-.chk{display:flex;align-items:center;gap:10px}
+.chk{display:flex;align-items:center;gap:10px;margin-top:8px}
 .chk input{width:20px;height:20px}
 .chk:has(input:disabled) {color:var(--mu);opacity:0.6;}
 .meta{color:var(--tx);font-size:1.1rem;display:flex;justify-content:space-between;margin-bottom:8px;font-weight:700}
@@ -86,7 +92,7 @@ hq{font-size:1rem;margin:0 0 12px;font-weight:600} /* quiz, fejléc */
 #res{width:75%;text-align:center;padding:8px 12px;border-radius:10px;background:var(--bg);color:var(--wh);font-weight:600;min-height: calc(1.45em + 16px)}
 #res:empty{}
 #res.ok{background:var(--ok)}#res.no{background:var(--no)}
-.hd{display:grid;grid-template-columns:minmax(0,40fr) minmax(0,20fr) minmax(0,20fr) minmax(0,20fr);gap:4px;align-items:center;padding:10px 0;border-bottom:1px solid var(--bd);list-style:none;cursor:default}
+.hd{display:grid;grid-template-columns:minmax(0,45fr) minmax(0,15fr) minmax(0,15fr) minmax(0,25fr);gap:4px;align-items:center;padding:10px 0;border-bottom:1px solid var(--bd);list-style:none;cursor:default}
 summary.hd{cursor:pointer}summary.hd::-webkit-details-marker{display:none}
 .hd span{min-width:0;overflow-wrap:anywhere}
 .hd span:nth-child(n+2){text-align:center;overflow-wrap:normal;white-space:nowrap}
@@ -115,8 +121,8 @@ summary.hd{cursor:pointer}summary.hd::-webkit-details-marker{display:none}
     <label class="chk"><input type="checkbox" id="o-auto"> Automata továbblépés</label>
     </div>
     <div class="sbtns">
-    <button class="btn oke" id="allq" style="margin-top:0px">Összes kérdés<br>elérhető</button>
-    <button class="btn" id="start" style="margin-top:0px">Indít</button>
+    <button class="btn oke" id="allq" style="margin-top:0px">Összes kérdés <br class="nb">elérhető</button>
+    <button class="btn start" id="start" style="margin-top:0px">Indít</button>
     </div>
   </div>
   <div class="meta" id="msg" style="margin-top:10px"></div>
@@ -140,7 +146,7 @@ summary.hd{cursor:pointer}summary.hd::-webkit-details-marker{display:none}
 
  <div class="card hide" id="s-res">
   <h2>Értékelés</h2>
-  <div class="hd th"><span>Modul</span><span>Jó</span><span>Hibás</span><span>Megfelelt?</span></div>
+  <div class="hd th"><span>Modul</span><span>Jó</span><span>Hibás</span><span>Eredmény</span></div>
   <div id="rtab"></div>
   <button class="btn bck" id="again">Vissza a beállításokra</button>
  </div>
