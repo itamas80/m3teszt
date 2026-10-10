@@ -90,7 +90,7 @@ hq{font-size:1rem;margin:0 0 12px;font-weight:600} /* quiz, fejléc */
 summary.hd{cursor:pointer}summary.hd::-webkit-details-marker{display:none}
 .hd span{min-width:0;overflow-wrap:anywhere}
 .hd span:nth-child(n+2){text-align:center;overflow-wrap:normal;white-space:nowrap}
-.th{color:var(--tx);font-size:.7rem;font-weight:500}
+.th{color:var(--tx);font-size:.75rem;font-weight:600}
 .badge{font-weight:700;text-align:center;padding:8px 4px;border-radius:10px;color:var(--wh)}
 .badge.ok{background:var(--ok)}.badge.no{background:var(--no)}
 .wl{padding:6px 0 10px}
@@ -140,7 +140,7 @@ summary.hd{cursor:pointer}summary.hd::-webkit-details-marker{display:none}
 
  <div class="card hide" id="s-res">
   <h2>Értékelés</h2>
-  <div class="hd th"><span>Témakör</span><span>Helyes</span><span>Helytelen</span><span>Megfelelt?</span></div>
+  <div class="hd th"><span>Modul</span><span>Helyes</span><span>Helytelen</span><span>Megfelelt?</span></div>
   <div id="rtab"></div>
   <button class="btn bck" id="again">Vissza a beállításokra</button>
  </div>
@@ -337,7 +337,7 @@ $("start").onclick=()=>{
   if(pk.length<n)pk=pk.concat(shuffle(Q.filter(x=>x.t===t&&seen.has(x.id))).slice(0,n-pk.length));
   qs.push(...shuffle(pk));
  });
- if(!qs.length){$("msg").textContent="Adj meg legalább egy kérdést valamelyik témakörnél.";return}
+ if(!qs.length){$("msg").textContent="Adj meg legalább egy kérdést valamelyik modulnál.";return}
  run={qs,i:0,ans:[],sel:null,locked:false,timer:null,show:opt.show,tt:{},tok:{},tbad:{}};
  run.qs.forEach(x=>{const u=unit(x);run.tt[u]=(run.tt[u]||0)+1;run.tok[u]=0;run.tbad[u]=0});
  ask();
@@ -469,6 +469,34 @@ get("temak.txt").then(t=>{
   :typeof e==="string"?"Nem tölthető be: "+e+" (ellenőrizd a fájlnevet és a temak.txt-t)."
   :"Hiba: "+(e&&e.message||e);
  $("start").disabled=true;
+});
+
+// billentyűparancsok
+function openSel(s){if(s.offsetParent===null)return;s.focus();try{s.showPicker()}catch(err){}}   // lista kinyitása (ha a böngésző nem tudja, csak kijelöli)
+sbig.addEventListener("change",()=>sbig.blur());
+psel.addEventListener("change",()=>psel.blur());
+document.addEventListener("keydown",e=>{
+ if(e.ctrlKey||e.metaKey||e.altKey||e.repeat)return;
+ const el=e.target,tag=el&&el.tagName,c=e.code;
+ if(tag==="TEXTAREA"||(tag==="SELECT"&&c!=="Enter"&&c!=="NumpadEnter"))return;
+ const typing=tag==="INPUT"&&el.type!=="checkbox"&&el.type!=="number";   // szöveges mezőben ne
+ const vis=id=>!$(id).classList.contains("hide");
+ if(c==="Enter"||c==="NumpadEnter"){
+  if(vis("s-setup")&&!$("start").disabled){e.preventDefault();$("start").click()}
+  return;
+ }
+ if(typing)return;
+ if(c==="KeyE"){e.preventDefault();fsBtn.click();return}
+ if(vis("s-setup")){
+  if(c==="KeyS"){e.preventDefault();$("o-show").click()}
+  else if(c==="KeyA"){e.preventDefault();$("o-auto").click()}
+  else if(c==="KeyV"){e.preventDefault();openSel(sbig)}
+  else if(c==="KeyB"){e.preventDefault();openSel(psel)}
+ }else if(vis("s-quiz")){
+  if(c==="KeyA"){e.preventDefault();if(!$("o-auto2").disabled)$("o-auto2").click()}
+  else if(c==="KeyQ")$("next").click();
+  else{const m=c.match(/^(?:Digit|Numpad)([1-9])$/);if(m){const b=$("opts").children[+m[1]-1];if(b)b.click()}}
+ }
 });
 </script>
 </body>
