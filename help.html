@@ -5,60 +5,68 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Leírás</title>
 </head>
+<style>
+:root{--tx:#0c0c0c}
+body{margin:0;background:var(--bg);color:var(--tx);font:1rem/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.hlpa{font-size:1.1rem;font-weight:750;color:var(--tx)}
+.hlpa.bd{border-top:1px solid var(--tx);margin-top:10px;color:var(--tx)}
+.hlpb{font-size:0.95rem;font-weight:700;color:var(--tx)}
+.hlptx{font-size:0.95rem;color:var(--tx)}
+ul {list-style: disc;list-style-position: inside;padding: 0;margin-top: 0;text-align:left}
+</style>
 <body>
 <div class="hlpa">Beállítás</div>
 <div class="hlpb">Vonal</div>
-Válassz egy vonalat. A vonal kiválasztása után a vonalhoz kapcsolódó legjellemzőbb modulok jelennek meg.
+<div class="hlptx">Válassz egy vonalat. A vonal kiválasztása után a vonalhoz kapcsolódó legjellemzőbb modulok jelennek meg.</div>
 <div class="hlpb">Modulok beállítása</div>
-Az adott vonalhoz kapcsolódó gyorsbeállításokkal előre meghatározott kérdésszámokat lehet beállítani.
+<div class="hlptx">Az adott vonalhoz kapcsolódó gyorsbeállításokkal előre meghatározott kérdésszámokat lehet beállítani.
   <!--Alap = Általános + műszaki<br>
   É-D = 81-2K + Ev3 + É-D vonalismeret + É-D - F.1. + É-D - F.2. + É-D - V.1.<br>
-  K-Ny = K-Ny átjárás - F.1. + K-Ny átjárás - F.2.-->
+  K-Ny = K-Ny átjárás - F.1. + K-Ny átjárás - F.2.--></div>
 <div class="hlpb">'Betűméret' gomb</div>
-A betű méretét változtatja 16px és 24px között, 2 pixelenként.
+<div class="hlptx">A betű méretét változtatja 16px és 24px között, 2 pixelenként.</div>
 <div class="hlpb">'Jó válaszok láthatóak' jelölő</div>
-Bejelölt állapotban a teszt kitöltése közben látszik a megadott válasz, a jó válasz. A lap alján látszik a jó és hibás válaszok száma.
+<div class="hlptx">Bejelölt állapotban a teszt kitöltése közben látszik a megadott válasz, a jó válasz. A lap alján látszik a jó és hibás válaszok száma.</div>
 <div class="hlpb">'Automata továbblépés' jelölő</div>
-Bejelölt állapotban a teszt kitöltése közben egy megadott válasz után automatikusan továbblép a következő kérdésre. Ha a 'Jó válaszok láthatóak" be van jelölve, akkor a továbblépés előtt 3 másodpercig, ha nincs bejelölve, akkor 1 másodpercig látható a megválaszolt kérdés. A visszaszámláló a teszt kitöltése során a 'Következő' gomb mellett megjelenik.
+<div class="hlptx">Bejelölt állapotban a teszt kitöltése közben egy megadott válasz után automatikusan továbblép a következő kérdésre. Ha a 'Jó válaszok láthatóak" be van jelölve, akkor a továbblépés előtt 3 másodpercig, ha nincs bejelölve, akkor 1 másodpercig látható a megválaszolt kérdés. A visszaszámláló a teszt kitöltése során a 'Következő' gomb mellett megjelenik.</div>
 <div class="hlpb">'Összes kérdés elérhető' gomb</div>
-A teszt kitöltése során a böngésző megjegyzi a megjelent kérdéseket. A következő kérdéssor összeállításakor a korábban megjelent kérdés csak akkor jelenik meg újra, ha az összes kérdés megjelent. Ezzel a funkcióval az összes modulra vonatkozóan törölhető a megjelent kérdések listája és a következő kérdéssor összeállításakor az összes kérdés elérhetővé válik.
+<div class="hlptx">A teszt kitöltése során a böngésző megjegyzi a megjelent kérdéseket. A következő kérdéssor összeállításakor a korábban megjelent kérdés csak akkor jelenik meg újra, ha az összes kérdés megjelent. Ezzel a funkcióval az összes modulra vonatkozóan törölhető a megjelent kérdések listája és a következő kérdéssor összeállításakor az összes kérdés elérhetővé válik.</div>
 <div class="hlpb">'Indít' gomb</div>
-A teszt indítása.
+<div class="hlptx">A teszt indítása.</div>
 <div class="hlpb">24 / 10 (példa)</div>
-Az adott modulra vonatkozóan a maximum kérdésszám és a még meg nem jelent kérdések száma.
+<div class="hlptx">Az adott modulra vonatkozóan a maximum kérdésszám és a még meg nem jelent kérdések száma.</div>
 <div class="hlpb">'Ö' link</div>
-Az adott modulra vonatkozóan törli a megjelent kérdések listáját. A következő kérdéssor összeállításakor az összes kérdés elérhetővé válik.
+<div class="hlptx">Az adott modulra vonatkozóan törli a megjelent kérdések listáját. A következő kérdéssor összeállításakor az összes kérdés elérhetővé válik.</div>
 <div class="hlpb">'M' link</div>
-Az adott modulra vonatkozóan a maximum kérdésszámot állítja be.
+<div class="hlptx">Az adott modulra vonatkozóan a maximum kérdésszámot állítja be.</div>
 <div class="hlpb">Kérdésszám mező és a - / + gombok</div>
-Az adott modulra vonatkozóan a - és + gombokkal egyesével lehet módosítani a kérdésszámot. A kérdésszám mezőbe be is lehet gépelni egy számot. A maximum értéknél nagyobb szám esetén a maximum érték kerül beállításra.
+<div class="hlptx">Az adott modulra vonatkozóan a - és + gombokkal egyesével lehet módosítani a kérdésszámot. A kérdésszám mezőbe be is lehet gépelni egy számot. A maximum értéknél nagyobb szám esetén a maximum érték kerül beállításra.</div>
 <div class="hlpa bd">A teszt kitöltése</div>
-A modulok sorrendje a 'Beállítás' lapon szerintiek. A kérdéssor összeállítása véletlenszerű. A válaszok helye is véletlenszerű. A válaszolás után, ha a 'Jó válaszok láthatóak' be volt jelölve és a kérdésre adott válasz jó, akkor csak zöld színű válasz látható. Ha a válasz rossz, akkor a saját válaszunk piros, a jó válasz zölddel látszik. A választ nem lehet módosítani. Ha a 'Jó válaszok láthatóak' nem volt bejelölve, akkor a válaszunk kékkel látszik. Ebben az esetben a válasz módosítható.
+<div class="hlptx">A modulok sorrendje a 'Beállítás' lapon szerintiek. A kérdéssor összeállítása véletlenszerű. A válaszok helye is véletlenszerű. A válaszolás után, ha a 'Jó válaszok láthatóak' be volt jelölve és a kérdésre adott válasz jó, akkor csak zöld színű válasz látható. Ha a válasz rossz, akkor a saját válaszunk piros, a jó válasz zölddel látszik. A választ nem lehet módosítani. Ha a 'Jó válaszok láthatóak' nem volt bejelölve, akkor a válaszunk kékkel látszik. Ebben az esetben a válasz módosítható.
 <br>
-Az 'F.1.', 'F.2.', 'V.1.' modulokat összevontan értékeljük, de a kérdésszámok külön állíthatóak.
+Az 'F.1.', 'F.2.', 'V.1.' modulokat összevontan értékeljük, de a kérdésszámok külön állíthatóak.</div>
 <div class="hlpb">'Automata továbblépés' jelölő</div>
-Bejelölt állapotban a teszt kitöltése közben egy megadott válasz után automatikusan továbblép a következő kérdésre. Ha a kérdést megválaszoltuk, akkor inaktívvá válik a következő kérdés megjelenéséig. Ha a 'Jó válaszok láthatóak" be volt jelölve, akkor a továbblépés előtt 3 másodpercig, ha nem volt bejelölve, akkor 1 másodpercig látható a megválaszolt kérdés. A visszaszámláló a 'Következő' gomb mellett megjelenik.
+<div class="hlptx">Bejelölt állapotban a teszt kitöltése közben egy megadott válasz után automatikusan továbblép a következő kérdésre. Ha a kérdést megválaszoltuk, akkor inaktívvá válik a következő kérdés megjelenéséig. Ha a 'Jó válaszok láthatóak" be volt jelölve, akkor a továbblépés előtt 3 másodpercig, ha nem volt bejelölve, akkor 1 másodpercig látható a megválaszolt kérdés. A visszaszámláló a 'Következő' gomb mellett megjelenik.</div>
 <div class="hlpb">'Következő' gomb</div>
-Csak akkor aktív, ha megválaszoltuk a kérdést. A megnyomására a következő kérdésre ugrik. Az utolsó kérdésnél a gomb felirata: 'Eredmény'.
+<div class="hlptx">Csak akkor aktív, ha megválaszoltuk a kérdést. A megnyomására a következő kérdésre ugrik. Az utolsó kérdésnél a gomb felirata: 'Eredmény'.</div>
 <div class="hlpb">'Kilépés' gomb</div>
-A tesztből való kilépésre szolgál. Egy ablak jelenik meg, ahol meg kell erősíteni a kilépési szándékot. Kilépés esetén a 'Beállítások' lapra térünk vissza.
+<div class="hlptx">A tesztből való kilépésre szolgál. Egy ablak jelenik meg, ahol meg kell erősíteni a kilépési szándékot. Kilépés esetén a 'Beállítások' lapra térünk vissza.</div>
 <div class="hlpb">Statisztika</div>
-A lap alján sorrendben a következő adatok találhatók:
+<div class="hlptx">A lap alján sorrendben a következő adatok találhatók:
 <ul>
 <li>az adott modul megválaszolt / összes kérdésének száma</li>
 <li>jó válaszok száma az adott modulban (ha a 'Jó válaszok láthatóak' be volt jelölve)</li>
 <li>hibás válaszok száma az adott modulban (ha a 'Jó válaszok láthatóak' be volt jelölve)</li>
 <li>az egész kérdéssor megválaszolt / összes kérdésének száma</li>
 </ul>
-Ha a 'Jó válaszok láthatóak' be volt jelölve, akkor alul egy mező található az értékelésre. Az értékelés zöld színnel 'Megfelelt', ha a hátralévő kérdéseket is hibásnak tekintve az eredmény elérné a megfelelési szintet. Az értékelés piros színnel 'Nem felelt meg', ha a hátralévő kérdéseket is jónak tekintve az eredmény nem érné el a megfelelési szintet. Ha a 'Jó válaszok láthatóak' nem volt bejelölve, akkor ez a mező nem látszik.
-
+Ha a 'Jó válaszok láthatóak' be volt jelölve, akkor alul egy mező található az értékelésre. Az értékelés zöld színnel 'Megfelelt', ha a hátralévő kérdéseket is hibásnak tekintve az eredmény elérné a megfelelési szintet. Az értékelés piros színnel 'Nem felelt meg', ha a hátralévő kérdéseket is jónak tekintve az eredmény nem érné el a megfelelési szintet. Ha a 'Jó válaszok láthatóak' nem volt bejelölve, akkor ez a mező nem látszik.</div>
 <div class="hlpa bd">Értékelés</div>
 <div class="hlpb">'Vissza' gomb</div>
-Visszalép a 'Beállítások' oldalra.
+<div class="hlptx">Visszalép a 'Beállítások' oldalra.</div>
 <div class="hlpb">Adatok</div>
-A teszt kitöltése után listázára kerülnek a modulok, a jó és hibás válaszok száma és az értékelés, százalékban. A megfelelési szint 75%. Az értékelés megfelelt állapot esetén zöld színű, nem felelt meg állapot esetén piros színű.<br>
-Ha egy modulban hibás válasz volt, akkor a modul neve mellett bal oldalt egy '▸' jel jelenik meg. A modul sorára kattintva egy lista jelenik meg, amely a hibás válaszokhoz tartozó kérdést és a saját válaszunkat is mutatja.
-<div class="hlpa bd">Billentyűparancsok</div>
+<div class="hlptx">A teszt kitöltése után listázára kerülnek a modulok, a jó és hibás válaszok száma és az értékelés, százalékban. A megfelelési szint 75%. Az értékelés megfelelt állapot esetén zöld színű, nem felelt meg állapot esetén piros színű.<br>
+Ha egy modulban hibás válasz volt, akkor a modul neve mellett bal oldalt egy '▸' jel jelenik meg. A modul sorára kattintva egy lista jelenik meg, amely a hibás válaszokhoz tartozó kérdést és a saját válaszunkat is mutatja.</div>
+<div class="hlpa bd">Billentyűparancsok</div><div class="hlptx">
 <ul>
 <li><span class="hlpb">Tab: </span>elemek közötti váltás</li>
 <li><span class="hlpb">V: </span>'Vonal' listájának kinyitása</li>
@@ -71,6 +79,6 @@ Ha egy modulban hibás válasz volt, akkor a modul neve mellett bal oldalt egy '
 <li><span class="hlpb">1: </span>A teszt során az 1. válasz megjelölése</li>
 <li><span class="hlpb">2: </span>A teszt során a 2. válasz megjelölése</li>
 <li><span class="hlpb">3: </span>A teszt során a 3. válasz megjelölése</li>
-</ul>
+</ul></div>
 </body>
 </html>
