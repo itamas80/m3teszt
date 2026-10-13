@@ -6,7 +6,7 @@
 
 ? Mit jelent a járművezető számára az alábbi ikon megjelenése a vezetői képernyőn? Jelölje meg a helyes választ!
 ! 812K/812K_02.png
-# no
+@ no
 + Pneumatikus fék bekapcsolva
 - Vészhelyzeti fék bekapcsolva
 - Rögzítőfék bekapcsolva
@@ -24,7 +24,7 @@
 
 ? Mit jelent a járművezető számára az alábbi ikon megjelenése a vezetői képernyőn? Jelölje meg a helyes választ!
 ! 812K/812K_05.png
-# no
+@ no
 - Tartalék fék bekapcsolva
 + Rögzítőfék bekapcsolva
 - Pneumatikus fék bekapcsolva
