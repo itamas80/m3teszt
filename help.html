@@ -17,9 +17,9 @@ ul {list-style: disc;list-style-position: inside;padding: 0;margin-top: 0;text-a
 <body>
 <div class="hlpa">Beállítás</div>
 <div class="hlpb">Vonal</div>
-<div class="hlptx">A vonal kiválasztásával a vonalhoz kapcsolódó legjellemzőbb modulok jelennek meg.</div>
+<div class="hlptx">A vonalhoz kapcsolódó legjellemzőbb modulok jelennek meg.</div>
 <div class="hlpb">Modulok</div>
-<div class="hlptx">Az adott vonalhoz kapcsolódó gyorsbeállításokkal előre meghatározott kérdésszámokat lehet beállítani.
+<div class="hlptx">Az adott vonalhoz tartozó modulokhoz előre meghatározott kérdésszámokat lehet beállítani.
   <!--Alap = Általános + műszaki<br>
   É-D = 81-2K + Ev3 + É-D vonalismeret + É-D - F.1. + É-D - F.2. + É-D - V.1.<br>
   K-Ny = K-Ny átjárás - F.1. + K-Ny átjárás - F.2.--></div>
@@ -28,9 +28,9 @@ ul {list-style: disc;list-style-position: inside;padding: 0;margin-top: 0;text-a
 <div class="hlpb">'Jó válaszok láthatóak' jelölő</div>
 <div class="hlptx">Bejelölt állapotban a teszt kitöltése közben a válaszadás után látszik a megadott válasz és a jó válasz is. A lap alján látszik a jó és hibás válaszok száma.</div>
 <div class="hlpb">'Automata továbblépés' jelölő</div>
-<div class="hlptx">Bejelölt állapotban a teszt kitöltése közben egy megadott válasz után automatikusan továbblép a következő kérdésre. Ha a 'Jó válaszok láthatóak" be van jelölve, akkor a továbblépés előtt 3 másodpercig, ha nincs bejelölve, akkor 1 másodpercig látható a megválaszolt kérdés. A visszaszámláló a teszt kitöltése során a 'Következő' gomb mellett megjelenik.</div>
+<div class="hlptx">Bejelölt állapotban a teszt kitöltése közben egy megadott válasz után automatikusan továbblép a következő kérdésre. Ha a 'Jó válaszok láthatóak" be van jelölve, akkor a továbblépés előtt 2 másodpercig, ha nincs bejelölve, akkor 1 másodpercig látható a megválaszolt kérdés. A visszaszámláló a teszt kitöltése során a 'Következő' gomb mellett megjelenik.</div>
 <div class="hlpb">'Összes kérdés elérhető' gomb</div>
-<div class="hlptx">A teszt kitöltése során a böngésző megjegyzi a megjelent kérdéseket. A következő kérdéssor összeállításakor a korábban megjelent kérdés csak akkor jelenik meg újra, ha az összes kérdés megjelent. Ezzel a funkcióval az összes modulra vonatkozóan törölhető a megjelent kérdések listája és a következő kérdéssor összeállításakor az összes kérdés elérhetővé válik.</div>
+<div class="hlptx">A teszt kitöltése során a böngésző megjegyzi a megjelent kérdéseket. A következő kérdéssor indításakor a korábban megjelent kérdés csak akkor jelenik meg újra, ha az összes kérdés megjelent. Ezzel a funkcióval az összes modulra vonatkozóan törölhető a megjelent kérdések listája és a következő kérdéssor indításakor az összes kérdés elérhetővé válik.</div>
 <div class="hlpb">'Indít' gomb</div>
 <div class="hlptx">A teszt indítása.</div>
 <div class="hlpb">24 / 10 (példa)</div>
@@ -46,11 +46,11 @@ ul {list-style: disc;list-style-position: inside;padding: 0;margin-top: 0;text-a
 <br>
 Az 'F.1.', 'F.2.', 'V.1.' témakat összevontan értékeli, de a kérdésszámok külön állíthatóak.</div>
 <div class="hlpb">'Automata továbblépés' jelölő</div>
-<div class="hlptx">Bejelölt állapotban a teszt kitöltése közben egy megadott válasz után automatikusan továbblép a következő kérdésre. Ha a kérdést megválaszoltuk, akkor inaktívvá válik a következő kérdés megjelenéséig. Ha a 'Jó válaszok láthatóak" be volt jelölve, akkor a továbblépés előtt 3 másodpercig, ha nem volt bejelölve, akkor 1 másodpercig látható a megválaszolt kérdés. A visszaszámláló a 'Következő' gomb mellett megjelenik.</div>
+<div class="hlptx">Bejelölt állapotban a teszt kitöltése közben egy megadott válasz után automatikusan továbblép a következő kérdésre. Ha a kérdést megválaszoltuk, akkor inaktívvá válik a következő kérdés megjelenéséig. Ha a 'Jó válaszok láthatóak" be volt jelölve, akkor a továbblépés előtt 2 másodpercig, ha nem volt bejelölve, akkor 1 másodpercig látható a megválaszolt kérdés. A visszaszámláló a 'Következő' gomb mellett megjelenik.</div>
 <div class="hlpb">'Következő' gomb</div>
 <div class="hlptx">Csak akkor aktív, ha megválaszoltuk a kérdést. A megnyomására a következő kérdésre ugrik. Az utolsó kérdésnél a gomb felirata: 'Eredmény'.</div>
 <div class="hlpb">'Kilépés' gomb</div>
-<div class="hlptx">A tesztből való kilépésre szolgál. Egy ablak jelenik meg, ahol meg kell erősíteni a kilépési szándékot. Kilépés esetén a 'Beállítások' lapra térünk vissza.</div>
+<div class="hlptx">A tesztből való kilépésre szolgál. Egy ablak jelenik meg, ahol meg kell erősíteni a kilépési szándékot. Kilépés esetén a 'Beállítások' lapra tér vissza.</div>
 <div class="hlpb">Statisztika</div>
 <div class="hlptx">A lap alján sorrendben a következő adatok találhatók:
 <ul>
@@ -65,7 +65,7 @@ Ha a 'Jó válaszok láthatóak' be volt jelölve, akkor alul egy mező találha
 <div class="hlptx">Visszalép a 'Beállítások' oldalra.</div>
 <div class="hlpb">Adatok</div>
 <div class="hlptx">A teszt kitöltése után listázára kerülnek a modulok, a jó és hibás válaszok száma és az értékelés, százalékban. A megfelelési szint 75%. Az értékelés megfelelt állapot esetén zöld színű, nem felelt meg állapot esetén piros színű.<br>
-Ha egy modulban hibás válasz volt, akkor a modul neve mellett bal oldalt egy '▸' jel jelenik meg. A modul sorára kattintva egy lista jelenik meg, amely a hibás válaszokhoz tartozó kérdést és a saját válaszunkat is mutatja.</div>
+Ha egy modulban hibás válasz volt, akkor a modul neve mellett bal oldalt egy '▸' jel jelenik meg. A modul sorára kattintva egy lista jelenik meg, amely a hibás válaszokhoz tartozó kérdést, a jó választ és a saját választ is írja.</div>
 <div class="hlpa bd">Billentyűparancsok</div><div class="hlptx">
 <ul>
 <li><span class="hlpb">Tab: </span>elemek közötti váltás</li>
