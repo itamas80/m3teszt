@@ -14,3 +14,11 @@ m2_vonal.txt
 [K-Ny infrastruktúra]
 m2_atjaras_f1.txt
 m2_atjaras_f2.txt
+== K-Ny ==
+altalanos.txt
+muszaki.txt
+m2_vonal.txt
+[K-Ny infrastruktúra]
+m2_f1.txt
+m2_f2.txt
+m2_v1.txt
